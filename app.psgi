@@ -37,12 +37,13 @@ return qq{
 		<title>brain prayer</title>
 		<style type="text/css">
 		* {
-			text-size: 8px;
+			font-size: 10px;
+			font-family: courier;
 		}
 		#content
 		{
 			clear:both;
-			width:60%;
+			width:80%;
 		}
 		.player_control
 		{
@@ -102,7 +103,7 @@ return qq{
     #main{
 
       float:right;
-      width:80%;
+      width:90%;
     }
     #skyscraper {
       float:left;
@@ -149,7 +150,7 @@ return qq{
 				var data = t[1];
 				if (data == undefined) continue;
 				var ij = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><span onclick="seekto(' + data["from"] + ')">' + ij + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</span></div>';
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ij + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 			}
 		}
@@ -388,7 +389,7 @@ return qq{
 			</div>
 		<div id="content" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
 			<br />
-			<div id="tracklist">
+			<div id="tracklist" style="width: 700px">
 			</div>
 		</div>
 	    </div>

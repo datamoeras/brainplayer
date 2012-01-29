@@ -65,7 +65,9 @@ sub parsesong {
 	);
 	if ($txt =~ s/^(.*?)-//) {
 		$data{artist} = $1;
+		$data{artist} =~ s/<br ?\/?>//g;
 	}
+	$txt =~ s/<br ?\/?>//g;
 	$data{title} = $txt;
 	return \%data;
 }
