@@ -40,6 +40,8 @@ return qq{
 			font-size: 10px;
 			font-family: courier;
 		}
+		a:link {color:#000000;} 
+		a:visited {color:#000000;}
 		#content
 		{
 			clear:both;
@@ -149,7 +151,7 @@ return qq{
 				var tm = t[0];
 				var data = t[1];
 				if (data == undefined) continue;
-				var ij = parseInt(y) + 1;
+				var ij = parseInt(y) - 1;
 				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ij + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 			}
@@ -208,12 +210,12 @@ return qq{
 			if (dv != undefined) dv.style.background = "white";
 			for (o in ctl) {
 				var dt = ctl[o];
-				var dv = document.getElementById("tt" + dt[1]);
+				var dv = document.getElementById("tt" + (parseInt(dt[1])-1));
 				if (dv != undefined) dv.style.background = "white";
 			}
 			var data = db[ci];
 			if (data == undefined) return;
-			var track = data["list"][i-1];
+			var track = data["list"][i+1];
 			if (track == undefined) return;
 			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
@@ -237,7 +239,7 @@ return qq{
 			for (i in ctl) {
 				var dt = ctl[i];
 				if (dt[0] <= tm) {
-					last = parseInt(dt[1]) + 1;
+					last = parseInt(dt[1]) - 1;
 				}
 			}	
 			return last;
@@ -383,11 +385,11 @@ return qq{
 		<div id="current" style="position: fixed; top: 90px;left: 400px;">
 			<div id="msg" style="font-family: courier;height: 2em;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
+			<div id="cttl" style="font-family: courier;height: 40px; width: 550px; color: yellow; background: black; font-decoration: italic; font-weight: 900; font-size: 16px;"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-		<div id="content" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
+			<div id="content" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic;font-weight: 900; font-size: 13px;"></div>
 			<br />
 			<div id="tracklist" style="width: 700px">
 			</div>
