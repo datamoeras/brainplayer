@@ -35,8 +35,10 @@ return qq{
 <html>
 	<head>
 		<title>brain prayer</title>
-		<base href="http://www.jezra.net"> 
 		<style type="text/css">
+		* {
+			text-size: 8px;
+		}
 		#content
 		{
 			clear:both;
@@ -73,20 +75,24 @@ return qq{
 			background-color:#aca;
 			position:absolute;	
 		}
-		#duration
+		#duration,#t_duration
 		{
 			width:400px;
 			height:15px;
 			border: 2px solid #50b;
 		}
-		#duration_background
+		#duration_background, #t_duration_background
 		{
 			width:400px;
 			height:15px;
 			background-color:#ddd;
 
 		}
-		#duration_bar
+		#t_duration_background
+		{
+			width:550px;
+		}
+		#duration_bar, #t_duration_bar
 		{
 			width:0px;
 			height:15px;
@@ -107,6 +113,8 @@ return qq{
 		<script type="text/javascript">
 		var db = $json;
 		var ctl = [];
+		var ci;
+		var cti;
 		function focus_track(i) {
 			var div = document.getElementById("track" + i);
 			var msg = document.getElementById("cttl");
@@ -122,6 +130,10 @@ return qq{
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
 			draw_tracklist(tracklist, i, data["list"]);
 			playClicked();
+			audio_player = document.getElementById("aplayer");
+			audio_duration = audio_player.duration;
+			track_duration = 900;
+			ci = i;
 		}
 		function seekto(s) {
 			document.getElementById("aplayer").currentTime=s; 
@@ -153,20 +165,18 @@ return qq{
 		</script>
 		<script type="text/javascript">
 		var audio_duration;
+		var track_duration;
 		var audio_player; 
 		var volume_button; 
 		var volume_control;
 		function pageLoaded()
 		{
 			show_db_listing();
-			audio_player = document.getElementById("aplayer");
 			volume_button = document.getElementById('volume_button');
+			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
-			//get the duration
-			audio_duration = audio_player.duration;
-			//set the volume
 			set_volume(0.7);
-			focus_track(69);
+			focus_track(66);
 		}
 		function set_volume(new_volume)
 		{
@@ -199,11 +209,24 @@ return qq{
 				var dv = document.getElementById("tt" + dt[1]);
 				if (dv != undefined) dv.style.background = "white";
 			}
+			var data = db[ci];
+			var track = data["list"][i-1];
+			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
-			if (dv != undefined) { 
-				document.getElementById("content").innerHTML = dv.innerHTML;
+			if (dv != undefined && tdata != undefined) { 
+				document.getElementById("content").innerHTML = tdata["title"];
 				dv.style.background = "red";
 			}
+		}
+		function toffset_current(tm) {
+			var off = 0;
+			for (i in ctl) {
+				var dt = ctl[i];
+				if (dt[0] <= tm) {
+					off = tm - dt[0];
+				}
+			}	
+			return off;
 		}
 		function now_playing(tm) {
 			var last = 0;
@@ -221,17 +244,24 @@ return qq{
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
+			cti = cur;
 			var min = (time - ( time % 60 ) ) / 60;
 			var sec = parseInt(time - (min*60));
 			var ssec = sec;
 			if (ssec < 10) { ssec = "0" + ssec; }
 			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + cur;
 			highlight_current(cur, time);
-			fraction = time/dur;
-			percent = (fraction*100);
-			wrapper = document.getElementById("duration_background");
-			new_width = wrapper.offsetWidth*fraction;
+			var toff = toffset_current(time);
+			document.getElementById("msg").innerHTML += " (offset " + toff  + ")";
+			tdur = 600;
+			var fraction = time/dur;
+			var tfraction = toff/tdur;
+			var wrapper = document.getElementById("duration_background");
+			var twrapper = document.getElementById("t_duration_background");
+			var new_width = wrapper.offsetWidth*fraction;
+			var tnew_width = twrapper.offsetWidth*tfraction;
 			document.getElementById("duration_bar").style.width=new_width+"px";
+			document.getElementById("t_duration_bar").style.width=tnew_width+"px";
 
 		}
 		function playClicked()
@@ -280,6 +310,16 @@ return qq{
 			update_volume_bar();
 		}
 		
+		function t_durationClicked(event)
+		{
+			//get the position of the event
+			clientX = event.clientX;
+			left = event.currentTarget.offsetLeft;
+			clickoffset = clientX - left;
+			percent = clickoffset/event.currentTarget.offsetWidth;
+			duration_seek = percent*track_duration;
+			// document.getElementById("aplayer").currentTime=duration_seek; 
+		}
 		function durationClicked(event)
 		{
 			//get the position of the event
@@ -288,13 +328,12 @@ return qq{
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
 			duration_seek = percent*audio_duration;
-			document.getElementById("aplayer").currentTime=duration_seek; 
+			// document.getElementById("aplayer").currentTime=duration_seek; 
 		}
 		</script>
 	</head>
-
-		<body onLoad="pageLoaded();">
-    <div id='main'>
+	<body onLoad="pageLoaded();">
+		<div id='main'>
 		<div id='player' style="position:fixed;left: 200px;top: 0px;">
 			<input id="playButton" class='player_control' type="button" onClick="playClicked(this);" value=">">
 				<div id="duration" class='player_control' >
@@ -311,17 +350,20 @@ return qq{
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
 		<div id="current" style="position: fixed; top: 90px;left: 400px;">
-			<div id="msg" style="font-family: fixed;" class='output'></div>
+			<div id="msg" style="font-family: courier;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: fixed;height: 80px; width: 500px; color: yellow; background: black; font-decoration: italic"></div>
-			<div id="content" style="font-family: fixed;height: 80px; width: 500px; color: yellow; background: black; font-decoration: italic"></div>
+			<div id="cttl" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
+			<div id="t_duration_background"  onClick="t_durationClicked(event);">
+				<div id="t_duration_bar" class="duration_bar"></div>
+			</div>
+		<div id="content" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
 			<br />
 			<div id="tracklist">
 			</div>
 		</div>
-    </div>
-		<div style="position: absolute; font-family: fixed;left: 0px;top: 90px;" id="playlist">
-		</div>
+	    </div>
+	<div style="position: absolute; font-family: courier;left: 0px;top: 90px;" id="playlist">
+	</div>
 </body>
 </html>
 };
