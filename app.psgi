@@ -121,7 +121,8 @@ return qq{
 		var audio_player; 
 		var volume_button; 
 		var volume_control;
-		function focus_track(i) {
+		function focus_track(i, os) {
+			if (os == undefined) os = 120;
 			var div = document.getElementById("track" + i);
 			var msg = document.getElementById("cttl");
 			var aplayer = document.getElementById("aplayer");
@@ -138,7 +139,7 @@ return qq{
 			playClicked();
 			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
-			window.setTimeout(function(){ seekto(120); }, 500);
+			window.setTimeout(function(){ seekto(os); }, 200);
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -357,6 +358,8 @@ return qq{
 		}
 		function search_db(txt) {
 			var res = [];
+			var re = new RegExp(txt, 'i');
+			var cnt = 0;
 			for (dbi in db) {
 				var brain = db[dbi];
 				for (tri in brain["list"]) {
@@ -364,7 +367,11 @@ return qq{
 					if (song != undefined && song[1] != undefined) {
 						var str = song[1]["artist"];
 						str += " " + song[1]["title"];
-						res.push([brain, song]);
+						if (str.match(re)) {
+							res.push([brain, song, dbi, tri]);
+							cnt++;
+							if (cnt > 50) return res;
+						}
 					}
 				}
 			}
@@ -375,7 +382,15 @@ return qq{
 			div.innerHTML = "<b>search(" + txt + ")</b><br/><br/>";
 			var res = search_db(txt);
 			for (i in res) {
-				div.innerHTML += res[i][0] + res[i][1];
+				var ths = res[i];
+				var brain = ths[0];
+				var song = ths[1];
+				var bri = ths[2];
+				var tri = ths[3];
+				var trn = parseInt(ths[3]) + 1;
+				var ttl = song[1]["artist"] + " " + song[1]["title"];
+				ttl = ttl.replace(txt, '<font color="red">' + txt + '</font>');
+				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + song[1]["from"] + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
 		</script>
