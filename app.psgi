@@ -118,6 +118,9 @@ return qq{
 		var cti;
 		var audio_duration;
 		var track_duration;
+		var audio_player; 
+		var volume_button; 
+		var volume_control;
 		function focus_track(i) {
 			var div = document.getElementById("track" + i);
 			var msg = document.getElementById("cttl");
@@ -166,9 +169,6 @@ return qq{
 		}
 		</script>
 		<script type="text/javascript">
-		var audio_player; 
-		var volume_button; 
-		var volume_control;
 		function pageLoaded()
 		{
 			show_db_listing();
@@ -250,16 +250,14 @@ return qq{
 		}
 		function ctrack_dur(i) {
 			if (i < 1) return 0;
-			var c = ctl[i-1];
-			var n = ctl[i];
+			var c = ctl[i];
+			var n = ctl[i+1];
 			if (n == undefined) return 0;
 			var cf = c[0];
 			var nf = n[0];
 			return nf - cf;
 		}
-		function update()
-		{
-			//get the duration of the player
+		function update() {
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
@@ -288,18 +286,14 @@ return qq{
 			document.getElementById("t_duration_bar").style.width=tnew_width+"px";
 
 		}
-		function playClicked()
-		{
-			//get the state of the player
+		function playClicked() {
 			element = document.getElementById("playButton");
 			if (element == undefined) {
-				alert("geen play knop?");
 				return;
 			}
-			if(! audio_player.playing)
-			{
+			if(audio_player.paused || element.value == ">") {
 				audio_player.play();
-				newdisplay = "| |";
+				newdisplay = "||";
 			}else{
 				audio_player.pause();
 				newdisplay = ">";
@@ -361,12 +355,35 @@ return qq{
 			duration_seek = percent*audio_duration;
 			document.getElementById("aplayer").currentTime=duration_seek; 
 		}
+		function search_db(txt) {
+			var res = [];
+			for (dbi in db) {
+				var brain = db[dbi];
+				for (tri in brain["list"]) {
+					var song = brain["list"][tri];
+					if (song != undefined && song[1] != undefined) {
+						var str = song[1]["artist"];
+						str += " " + song[1]["title"];
+						res.push([brain, song]);
+					}
+				}
+			}
+			return res;
+		}
+		function search_txt(txt) {
+			var div = document.getElementById("searchres");
+			div.innerHTML = "<b>search(" + txt + ")</b><br/><br/>";
+			var res = search_db(txt);
+			for (i in res) {
+				div.innerHTML += res[i][0] + res[i][1];
+			}
+		}	
 		</script>
 	</head>
 	<body onLoad="pageLoaded();">
 		<div id='main'>
-		<div id='player' style="position:fixed;left: 200px;top: 0px;">
-			<input id="playButton" class='player_control' type="button" onClick="playClicked(this);" value=">">
+		<div id='player' style="position:fixed;left: 100px;width: 550px;top: 0px;">
+			<input id="playButton" class='player_control' type="button" onClick="playClicked(this);" value="&gt;">
 				<div id="duration" class='player_control' >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
@@ -380,7 +397,12 @@ return qq{
 				<input type="button" class='player_control'  id='volume_button' onClick="volumeClicked();" value="Vol">
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
-		<div id="current" style="position: fixed; top: 90px;left: 400px;">
+		<div id='searchframe' style="position:fixed;left: 100px;left: 650px;top: 0px;">
+			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
+			<div id="searchres">
+			</div>
+		</div>
+		<div id="current" style="position: fixed; top: 90px;left: 100px;">
 			<div id="msg" style="font-family: courier;height: 2em;" class='output'></div>
 			<br />
 			<div id="cttl" style="font-family: courier;height: 40px; width: 550px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;"></div>
