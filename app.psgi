@@ -40,8 +40,6 @@ return qq{
 			font-size: 10px;
 			font-family: courier;
 		}
-		a:link {color:#000000;} 
-		a:visited {color:#000000;}
 		#content
 		{
 			clear:both;
@@ -136,8 +134,8 @@ return qq{
 			draw_tracklist(tracklist, i, data["list"]);
 			playClicked();
 			audio_duration = document.getElementById("aplayer").duration;
-			// seekto(ctrack_off(1));
 			ci = i;
+			window.setTimeout(function(){ seekto(120); }, 500);
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -312,7 +310,7 @@ return qq{
 		{
 			document.getElementById("playButton").value=">";
 			var nxt = parseInt(ci)+1;
-			alert("eind van " + ci + ", skip naar " + nxt);
+			// alert("eind van " + ci + ", skip naar " + nxt);
 			focus_track(nxt);
 		}
 		function volumeClicked(event)
@@ -385,11 +383,11 @@ return qq{
 		<div id="current" style="position: fixed; top: 90px;left: 400px;">
 			<div id="msg" style="font-family: courier;height: 2em;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: courier;height: 40px; width: 550px; color: yellow; background: black; font-decoration: italic; font-weight: 900; font-size: 16px;"></div>
+			<div id="cttl" style="font-family: courier;height: 40px; width: 550px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-			<div id="content" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic;font-weight: 900; font-size: 13px;"></div>
+			<div id="content" style="font-family: courier;height: 80px; width: 550px; color: black; font-decoration: italic;font-weight: 900; font-size: 13px;"></div>
 			<br />
 			<div id="tracklist" style="width: 700px">
 			</div>
