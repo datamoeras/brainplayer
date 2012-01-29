@@ -115,6 +115,8 @@ return qq{
 		var ctl = [];
 		var ci;
 		var cti;
+		var audio_duration;
+		var track_duration;
 		function focus_track(i) {
 			var div = document.getElementById("track" + i);
 			var msg = document.getElementById("cttl");
@@ -124,19 +126,19 @@ return qq{
 			if (data == undefined) return;
 			if (aplayer == undefined) return;
 			if (msg != undefined) 
-				msg.innerHTML = "<center>track " + i + " " + data["title"] + "<br />" + data["src"] + "</center>";
+				msg.innerHTML = "<center>" + data["title"] + "</center>";
 			aplayer.setAttribute("src", data["src"]);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
 			draw_tracklist(tracklist, i, data["list"]);
 			playClicked();
-			audio_player = document.getElementById("aplayer");
-			audio_duration = audio_player.duration;
-			track_duration = 900;
+			audio_duration = document.getElementById("aplayer").duration;
+			// seekto(ctrack_off(1));
 			ci = i;
 		}
 		function seekto(s) {
-			document.getElementById("aplayer").currentTime=s; 
+			var pl = document.getElementById("aplayer");
+			if (pl != null) pl.currentTime=s; 
 		}
 		function draw_tracklist(div, i, list) {
 			div.innerHTML = "";
@@ -147,10 +149,9 @@ return qq{
 				var data = t[1];
 				if (data == undefined) continue;
 				var ij = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><span onclick="seekto(' + data["from"] + ')">[&gt;]</span>' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '</div>';
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><span onclick="seekto(' + data["from"] + ')">' + ij + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</span></div>';
 				ctl.push([data["from"], y]);
 			}
-			
 		}
 		function show_db_listing() {
 			var div = document.getElementById("playlist");
@@ -164,8 +165,6 @@ return qq{
 		}
 		</script>
 		<script type="text/javascript">
-		var audio_duration;
-		var track_duration;
 		var audio_player; 
 		var volume_button; 
 		var volume_control;
@@ -204,13 +203,17 @@ return qq{
 		
 		function highlight_current(i, curt) {
 			document.getElementById("content").innerHTML = "";
+			var dv = document.getElementById("tt" + ctl.length);
+			if (dv != undefined) dv.style.background = "white";
 			for (o in ctl) {
 				var dt = ctl[o];
 				var dv = document.getElementById("tt" + dt[1]);
 				if (dv != undefined) dv.style.background = "white";
 			}
 			var data = db[ci];
+			if (data == undefined) return;
 			var track = data["list"][i-1];
+			if (track == undefined) return;
 			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
 			if (dv != undefined && tdata != undefined) { 
@@ -238,6 +241,21 @@ return qq{
 			}	
 			return last;
 		}
+		function ctrack_off(i) {
+			if (c < 1) return 0;
+			var c = ctl[i-1];
+			var cf = c[0];
+			return cf;
+		}
+		function ctrack_dur(i) {
+			if (i < 1) return 0;
+			var c = ctl[i-1];
+			var n = ctl[i];
+			if (n == undefined) return 0;
+			var cf = c[0];
+			var nf = n[0];
+			return nf - cf;
+		}
 		function update()
 		{
 			//get the duration of the player
@@ -245,14 +263,19 @@ return qq{
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
 			cti = cur;
+			track_duration = ctrack_dur(cur);
 			var min = (time - ( time % 60 ) ) / 60;
 			var sec = parseInt(time - (min*60));
 			var ssec = sec;
 			if (ssec < 10) { ssec = "0" + ssec; }
-			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + cur;
+			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + cur + "/" + track_duration;
 			highlight_current(cur, time);
 			var toff = toffset_current(time);
-			document.getElementById("msg").innerHTML += " (offset " + toff  + ")";
+			var tmin = (toff - ( toff % 60 ) ) / 60;
+			var tsec = parseInt(toff - (tmin*60));
+			var tssec = tsec;
+			if (tssec < 10) { tssec = "0" + tssec; }
+			document.getElementById("msg").innerHTML += " " + tmin + ":" + tssec;
 			tdur = 600;
 			var fraction = time/dur;
 			var tfraction = toff/tdur;
@@ -272,7 +295,7 @@ return qq{
 				alert("geen play knop?");
 				return;
 			}
-			if(audio_player.paused)
+			if(! audio_player.playing)
 			{
 				audio_player.play();
 				newdisplay = "| |";
@@ -284,8 +307,10 @@ return qq{
 		}
 		function trackEnded()
 		{
-			//reset the playControl to 'play'
 			document.getElementById("playButton").value=">";
+			var nxt = parseInt(ci)+1;
+			alert("eind van " + ci + ", skip naar " + nxt);
+			focus_track(nxt);
 		}
 		function volumeClicked(event)
 		{
@@ -314,21 +339,26 @@ return qq{
 		{
 			//get the position of the event
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft;
+			left = event.currentTarget.offsetLeft + 200;
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
 			duration_seek = percent*track_duration;
-			// document.getElementById("aplayer").currentTime=duration_seek; 
+			var coff = ctrack_off(cti);
+			// alert(coff + " + ( " + percent + " * " + track_duration + " )");
+			// alert("seek to toff " + duration_seek);
+			document.getElementById("aplayer").currentTime=parseInt(duration_seek); 
 		}
 		function durationClicked(event)
 		{
 			//get the position of the event
 			clientX = event.clientX;
 			left = event.currentTarget.offsetLeft;
+			// 	alert("clientX=" + clientX + ", offsetLeft=" + left);
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
+			//	alert("percent=" + percent);
 			duration_seek = percent*audio_duration;
-			// document.getElementById("aplayer").currentTime=duration_seek; 
+			document.getElementById("aplayer").currentTime=duration_seek; 
 		}
 		</script>
 	</head>
@@ -350,7 +380,7 @@ return qq{
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
 		<div id="current" style="position: fixed; top: 90px;left: 400px;">
-			<div id="msg" style="font-family: courier;" class='output'></div>
+			<div id="msg" style="font-family: courier;height: 2em;" class='output'></div>
 			<br />
 			<div id="cttl" style="font-family: courier;height: 80px; width: 550px; color: yellow; background: black; font-decoration: italic"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
