@@ -1,18 +1,18 @@
-1	00:46	artist=quot; 	title= <a href="http://www.stereolab.co.uk/news/">STEREOLAB</a> 
-2	04:51	artist=quot; 	title= <a href="http://www.myspace.com/mesukasumai">MESU KASUMAI</a> 
-3	09:22	artist=quot; 	title= THE ROCK STEADY CREW 
-4	12:56	artist=quot; 	title= <a href="http://www.myspace.com/groupgriserror">GROUPGRIS</a> 
-5	15:50	artist=quot; 	title= <a href="http://www.monsterzoku.com">MONSTER ZOKU ONSOMB</a> 
-6	19:54	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
-7	21:54	artist=quot; 	title= <a href="http://www.myspace.com/leilaarab">LEILA</a> 
-8	25:13	artist=quot; 	title= <a href="http://www.no
-9	29:00	artist=quot; 	title= TEDDYBEARS 
-10	31:56	artist=quot; 	title= <a href="http://www.myspace.com/walterschultz">KARL MARX STADT</a> 
-11	35:20	artist=quot; 	title= <a href="http://www.messerchups.ru">MESSERCHUPS</a> 
-12	38:26	artist=quot; 	title= <a href="http://www.disasteradio.org">DISASTERADIO</a> 
-13	41:24	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
-14	46:19	artist=quot; 	title= <a href="http://www.dmxkrew.com">DMX KREW </a>
-15	49:39	artist=quot; 	title= <a href="http://www.auxraus.com">AUX RAUS</a> 
-16	53:02	artist=quot; 	title= <a href="http://polyphonicsize.free.fr">POLYPHONIC SIZE</a> 
-17	56:60	artist=quot; 	title= <a href="http://www.felixkubin.com">FELIX KUBIN</a> 
-18	59:25	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+1	00:46	from=46	artist=STEREOLAB	title=Interlock	href="http://www.toopure.com"	label="Too Pure"
+2	04:51	from=291	artist=MESU KASUMAI	title=I 75	href="http://www.8bitpeoples.com"	label="8bitpeoples"
+3	09:22	from=562	artist=THE ROCK STEADY CREW	title=Hey you !	href=""	label="Virgin"
+4	12:56	from=776	artist=GROUPGRIS	title=Galerio	href="http://pagesperso-orange.fr/w.w./"	label="Wwilko"
+5	15:50	from=950	artist=MONSTER ZOKU ONSOMB	title=Earth eaters	href="http://www.solnzerecords.com"	label="Solnze Records"
+6	19:54	from=1194	artist=STEREOTOTAL	title=Plus Minus Null	href="http://www.diskob.com"	label="Disko B"
+7	21:54	from=1314	artist=LEILA	title=Little acorns	href="http://www.warprecords.com"	label="Warp"
+8	25:13	from=1513	artist=A CLASS	title=Nightmare at the discotheque	href="http://www.dokidoki.fr"	label="Dokidoki"
+9	29:00	from=1740	artist=TEDDYBEARS	title=Cobra style	href=""	label="Big beat"
+10	31:56	from=1916	artist=KARL MARX STADT	title=Johnnys disco organ	href="http://www.myspace.com/walterschultz"	label="Unreleased"
+11	35:20	from=2120	artist=MESSERCHUPS	title=The Model	href="http://www.solnzerecords.com"	label="Solnze Records"
+12	38:26	from=2306	artist=DISASTERADIO	title=Hot line	href="http://www.disasteradio.org"	label="Mp3 autoproduced"
+13	41:24	from=2484	artist=DAT POLITICS	title=Step back remix	href="http://www.datpolitics.com"	label="Unrealised"
+14	46:19	from=2779	artist=DMX KREW	title=Drums &amp; trumpets	href="http://www.dmxkrew.com"	label="Breaking Records"
+15	49:39	from=2979	artist=AUX RAUS	title=Fall	href="http://www.rushhour.nl"	label="Angst records"
+16	53:02	from=3182	artist=POLYPHONIC SIZE	title=Mothers Little Helper	href="http://polyphonicsize.free.fr"	label="New Rose"
+17	56:60	from=3420	artist=FELIX KUBIN	title=Hollywood	href="http://www.dekorder.com"	label="Dekorder"
+18	59:25	from=3565	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

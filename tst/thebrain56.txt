@@ -1,26 +1,26 @@
-1	00:45	artist=DESI ARNAZ &amp; HIS ORCHESTRA 	title= Tabu 
-2	03:52	artist=<a href="http://www.megapeng.net">RAUBERHÖLLE</a> 	title= Aimnot r2r 
-3	07:17	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Je compte mes amis sur le plâtre de mon bras cassé 
-4	08:06	artist=<a href="http://www.mulatta.org/DaveSoldierHomePage.html">SOLDIER records</a> 	title=
-5	10:02	artist=NASENBLUTEN 	title= Holly Arse 
-6	12:21	artist=<a href="http://www.beingabeing.com">ORIGINAL HAMSTER</a> 	title= Vinnie &amp; the beats 
-7	14:05	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; saucisses 	title= Autoproduced 
-8	14:23	artist=THE THREE FUNKYS 	title= Summer means fun (pitched) 
-9	15:40	artist=<a href="http://www.system	title=online.tk">SYSTEM</a> 
-10	18:54	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= L’idéalisme en question 
-11	22:34	artist=DOLORES VARGAS 	title= Solamente con los oros 
-12	25:08	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= Olpoq 
-13	28:28	artist=<a href="http://hubert.marecaille.free.fr">MONSIEUR HUBERT</a> 	title= L’amour de la vérité 
-14	29:58	artist=<a href="http://www.mulatta.org/DaveSoldierHome">SOLDIER records</a> 	title=
-15	32:17	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; pompe 	title= Autoproduced 
-16	32:44	artist=<a href="http://perso.wanadoo.fr/w.w.">KHIMA FRANCE</a> 	title= Puta Song 
-17	35:00	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= Ah les électrodes ! 
-18	36:56	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Les caïds 
-19	39:05	artist=<a href="http://www.dmxkrew.dircon.co.uk">DMX KREW</a> 	title= Maximillian 
-20	41:45	artist=ALEPH 	title= Tocatta 
-21	44:10	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= Un en Jesus
-22	45:59	artist=<a href="http://www.lsr1.com">LESSER</a> VS <a href="http://www.vsnares.com">VENETIAN 6</a> 	title=
-23	49:50	artist=NANCY SINATRA 	title= Lies 
-24	52:26	artist=<a href="http://co.mikmusik.org">CO</a> 	title= Corazon 
-25	57:10	artist=<a href="http://www.so	title=healthy
-26	58:41	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 
+1	00:45	from=45	artist=DESI ARNAZ &amp; HIS ORCHESTRA	title=Tabu	href=""	label="RCA"
+2	03:52	from=232	artist=RAUBERHÖLLE	title=Aimnot r2r	href="http://www.audiolith.net"	label="Audiolith"
+3	07:17	from=437	artist=OOMIAQ	title=Je compte mes amis sur le plâtre de mon bras cassé	href="http://oomiak.oomiaq.free.fr"	label="Autoproduced"
+4	08:06	from=486	artist=SOLDIER records	title=	href="http://www.mulatta.org/DaveSoldierHomePage.html"	label=""
+5	10:02	from=602	artist=NASENBLUTEN	title=Holly Arse	href="http://www.strike-records.com"	label="Strike records"
+6	12:21	from=741	artist=ORIGINAL HAMSTER	title=Vinnie &amp; the beats	href="http://www.tigerbeat6.com"	label="Tigerbeat 6"
+7	14:05	from=845	artist=SIR EDMÜND &amp; saucisses	title=Autoproduced	href="http://raredmi.free.fr"	label=""
+8	14:23	from=863	artist=THE THREE FUNKYS	title=Summer means fun (pitched)	href=""	label="Toshiba"
+9	15:40	from=940	artist=SYSTEM	title=	href="http://www.system-online.tk"	label=""
+10	18:54	from=1134	artist=SIR EDMÜND &amp; LAUTRE	title=L’idéalisme en question	href="http://raredmi.free.fr"	label="Autoproduced"
+11	22:34	from=1354	artist=DOLORES VARGAS	title=Solamente con los oros	href=""	label="Belter"
+12	25:08	from=1508	artist=GELBART	title=Olpoq	href="http://www.gelbartmusic.com"	label="Unreleased"
+13	28:28	from=1708	artist=MONSIEUR HUBERT	title=L’amour de la vérité	href="http://hubert.marecaille.free.fr"	label="Unreleased"
+14	29:58	from=1798	artist=SOLDIER records	title=	href="http://www.mulatta.org/DaveSoldierHome"	label=""
+15	32:17	from=1937	artist=SIR EDMÜND &amp; pompe	title=Autoproduced	href="http://raredmi.free.fr"	label=""
+16	32:44	from=1964	artist=KHIMA FRANCE	title=Puta Song	href="http://perso.wanadoo.fr/w.w."	label="Wwilko"
+17	35:00	from=2100	artist=SIR EDMÜND &amp; LAUTRE	title=Ah les électrodes !	href="http://raredmi.free.fr"	label="Autoproduced"
+18	36:56	from=2216	artist=FRANCOIS DE ROUBAIX	title=Les caïds	href="http://www.francoisderoubaix.com"	label="Barclay"
+19	39:05	from=2345	artist=DMX KREW	title=Maximillian	href="http://www.rephlex.com"	label="Rephlex"
+20	41:45	from=2505	artist=ALEPH	title=Tocatta	href=""	label="Disc AZ"
+21	44:10	from=2650	artist=SIR EDMÜND &amp; LAUTRE	title=Un en Jesus	href="http://raredmi.free.fr"	label="Christ"
+22	45:59	from=2759	artist=LESSER VS VENETIAN 6	title=	href="http://www.vsnares.com"	label=""
+23	49:50	from=2990	artist=NANCY SINATRA	title=Lies	href=""	label="Reprise"
+24	52:26	from=3146	artist=CO	title=Corazon	href="http://www.mikmusik.org"	label="Mik Musik"
+25	57:10	from=3430	artist=AJUJATRONIK	title=Halv kapott	href="http://www.so-healthy-music.com"	label="So Healthy Music"
+26	58:41	from=3521	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 2.0	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

@@ -1,23 +1,23 @@
-1	01:20	artist=<a href="http://www.waikiki	title=islanders.pwp.blueyonder.co.uk">BASIL ENRIQUES</a> 
-2	03:14	artist=<a href="http://www.dmxkrew.dircon.co.uk">EDMX &amp; record</a>s 	title=
-3	06:03	artist=<a href="http://perso.wanadoo.fr/doowop">JUICY PANIC</a> 	title=
-4	09:48	artist=VICNET 	title= 01102002 
-5	13:26	artist=<a href="http://www.monopause.net">MONO PAUSE</a> 	title= Tui tui tui 
-6	17:15	artist=<a href="http://www.nunulaxnulan.biz">SATANICPORNOCULTSHOP</a> 	title= Dred mosque 
-7	21:16	artist=LEM 	title= Mehr licht 
-8	25:14	artist=BASSHOLES feat APRIL MARCH 	title= Moody 
-9	27:19	artist=GASMAN 	title= Fantasia 
-10	28:36	artist=PERFORMANCE 	title= Pilotes 
-11	30:48	artist=<a href="http://www.panatomic.de/panatomicf.html">CLOTHILDE</a> 	title= La queue du chat 
-12	33:59	artist=<a href="http://www.rapbitches.com">GRAVY TRAIN</a> 	title=
-13	36:11	artist=<a href="http://www.schlammpeitziger.com">SCHLAMMPEITZIGER</a> 	title= Starter für argwöhnische Anhangsel <a href="http://www.a
-14	39:27	artist=LES MUPPETS 	title= C’est bizarre 
-15	40:22	artist=<a href="http://www.jonnimogul.com">JONNI MOGUL</a> 	title=
-16	42:52	artist=PARIJUMPPA 	title= Pidä Kii 
-17	44:31	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Papa 
-18	46:45	artist=MINIMAL COMPACT 	title= When I go 
-19	49:55	artist=TULIP 	title= Chevalier 
-20	52:32	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Zufriedensein 
-21	54:47	artist=LALALA 	title= Il neige 
-22	56:53	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> Records</a> 	title=
-23	59:24	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 
+1	01:20	from=80	artist=BASIL ENRIQUES	title=Can’t take my eyes off you	href="http://www.waikiki-islanders.pwp.blueyonder.co.uk"	label="Emi"
+2	03:14	from=194	artist=EDMX &amp; records	title=	href="http://www.dmxkrew.dircon.co.uk"	label=""
+3	06:03	from=363	artist=JUICY PANIC	title=	href="http://perso.wanadoo.fr/doowop"	label=""
+4	09:48	from=588	artist=VICNET	title=01102002	href="http://www.w-deco.com"	label="Deco"
+5	13:26	from=806	artist=MONO PAUSE	title=Tui tui tui	href="http://www.monopause.net"	label="Abduction"
+6	17:15	from=1035	artist=SATANICPORNOCULTSHOP	title=Dred mosque	href="http://www.sonore.com"	label="Sonore"
+7	21:16	from=1276	artist=LEM	title=Mehr licht	href="http://www.pneu.ht.st"	label="Pneu"
+8	25:14	from=1514	artist=BASSHOLES feat APRIL MARCH	title=Moody	href="http://www.sympathyrecords.com"	label="Sympathy for the record industry"
+9	27:19	from=1639	artist=GASMAN	title=Fantasia	href="http://www.ayriders.prv.pl"	label="Ay Riders (Net)"
+10	28:36	from=1716	artist=PERFORMANCE	title=Pilotes	href=""	label="Celluloid"
+11	30:48	from=1848	artist=CLOTHILDE	title=La queue du chat	href="http://www.panatomic.de/panatomicf.html"	label="Vogue"
+12	33:59	from=2039	artist=GRAVY TRAIN	title=	href="http://www.rapbitches.com"	label=""
+13	36:11	from=2171	artist=SCHLAMMPEITZIGER	title=Starter für argwöhnische Anhangsel A	href="http://www.sonig.com"	label="Musik/Sonig"
+14	39:27	from=2367	artist=LES MUPPETS	title=C’est bizarre	href=""	label="Panatomic Music"
+15	40:22	from=2422	artist=JONNI MOGUL	title=	href="http://www.jonnimogul.com"	label=""
+16	42:52	from=2572	artist=PARIJUMPPA	title=Pidä Kii	href=""	label="Musiikki laiho oy"
+17	44:31	from=2671	artist=YVAN&amp;LENDL	title=Papa	href="http://www.yvanlendl.ch"	label="Unreleased"
+18	46:45	from=2805	artist=MINIMAL COMPACT	title=When I go	href="http://www.crammed.be"	label="Crammed discs"
+19	49:55	from=2995	artist=TULIP	title=Chevalier	href=""	label="Normal records"
+20	52:32	from=3152	artist=FREDERIK SCHIKOWSKI	title=Zufriedensein	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="To be released"
+21	54:47	from=3287	artist=LALALA	title=Il neige	href=""	label="Autoproduced"
+22	56:53	from=3413	artist=OLEG KOSTROW Records	title=	href="http://www.kostrow.com"	label=""
+23	59:24	from=3564	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

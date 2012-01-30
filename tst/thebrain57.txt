@@ -1,24 +1,24 @@
-1	00:50	artist=<a href="http://www.enniomorricone.it">ENNIO MORRICONE</a> 	title= Le Casse 
-2	04:15	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE 
-3	07:40	artist=ANSELL COLINS 	title= Stalag 17 
-4	09:54	artist=<a href="http://www.aircoiris.com">AIRCOIRIS</a> 	title= Chandler 
-5	11:45	artist=<a href="http://www.mrpacman.com">MR PACMAN</a> 	title= Luxury car 
-6	14:12	artist=LOS CANGACEIROS 	title= Strange tango 
-7	16:36	artist=DEBMASTER 	title= La boum des gros enfants 
-8	19:04	artist=JEANETTE 	title= Soy rebelde 
-9	22:00	artist=WOODY ALLEN 	title= Stardust memories 
-10	23:35	artist=? 	title= Kure Kure Takura Theme song 
-11	25:44	artist=BURKA BAND 	title= Burka blue 
-12	28:48	artist=JACQUES HENDRIX 	title= Snowcup 
-13	31:19	artist=<a href="http://www.plemo.com">PLEMO</a> 	title= Introduction 
-14	33:43	artist=COLETTE DEREAL 	title= Telstar 
-15	35:54	artist=DIZZEE RASCAL VS TTC 	title= Jusaclub 
-16	38:52	artist=FOCUS 	title= Black beauty 
-17	42:03	artist=<a href="http://www.asahi	title=net.or.jp/%7Ezr3a
-18	43:47	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Frühling (für NB) 
-19	47:29	artist=THE ROCKING BERRIES 	title= Flashback 
-20	49:40	artist=<a href="http://www.neoangin.com">NEOANGIN</a> 	title= The boy who can’t relax 
-21	52:01	artist=<a href="http://www.stereototal.de">STEREO TOTAL</a> 	title= Do the Bambi 
-22	55:20	artist=THE BRAIN 	title= Walenusamsong 
-23	56:06	artist=<a href="http://www.jemappellemads.dk">JE M’APELLE music</a> 	title=
-24	59:50	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 
+1	00:50	from=50	artist=ENNIO MORRICONE	title=Le Casse	href="http://www.enniomorricone.it"	label="Bell records"
+2	04:15	from=255	artist=CANDIE	title=	href="http://www.galerie-transition.de/candiehank/index.html"	label=""
+3	07:40	from=460	artist=ANSELL COLINS	title=Stalag 17	href=""	label="Epic"
+4	09:54	from=594	artist=AIRCOIRIS	title=Chandler	href="http://www.oddpop.nl"	label="Oddpop"
+5	11:45	from=705	artist=MR PACMAN	title=Luxury car	href="http://www.mrpacman.com"	label="Autoproduced"
+6	14:12	from=852	artist=LOS CANGACEIROS	title=Strange tango	href=""	label="President"
+7	16:36	from=996	artist=DEBMASTER	title=La boum des gros enfants	href=""	label="Unreleased"
+8	19:04	from=1144	artist=JEANETTE	title=Soy rebelde	href=""	label="Hispavox"
+9	22:00	from=1320	artist=WOODY ALLEN	title=Stardust memories	href=""	label="”Movie extract“"
+10	23:35	from=1415	artist=?	title=Kure Kure Takura Theme song	href=""	label="?"
+11	25:44	from=1544	artist=BURKA BAND	title=Burka blue	href="http://www.atatak.com"	label="Atatak"
+12	28:48	from=1728	artist=JACQUES HENDRIX	title=Snowcup	href=""	label="Columbia"
+13	31:19	from=1879	artist=PLEMO	title=Introduction	href="http://www.plemo.com"	label="Audiolith"
+14	33:43	from=2023	artist=COLETTE DEREAL	title=Telstar	href=""	label="Polydor"
+15	35:54	from=2154	artist=DIZZEE RASCAL VS TTC	title=Jusaclub	href=""	label="Bootleg"
+16	38:52	from=2332	artist=FOCUS	title=Black beauty	href=""	label="Sire"
+17	42:03	from=2523	artist=CDR	title=	href="http://www.asahi-net.or.jp/%7Ezr3a-tnmt/"	label=""
+18	43:47	from=2627	artist=FREDERIK SCHIKOWSKI	title=Frühling (für NB)	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"
+19	47:29	from=2849	artist=THE ROCKING BERRIES	title=Flashback	href=""	label="PYE Records"
+20	49:40	from=2980	artist=NEOANGIN	title=The boy who can’t relax	href="http://www.neoangin.com"	label="Autoproduced"
+21	52:01	from=3121	artist=STEREO TOTAL	title=Do the Bambi	href="http://www.diskob.com"	label="Disko B"
+22	55:20	from=3320	artist=THE BRAIN	title=Walenusamsong	href=""	label="Unreleased"
+23	56:06	from=3366	artist=JE M’APELLE music	title=	href="http://www.jemappellemads.dk"	label=""
+24	59:50	from=3590	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 2.0	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

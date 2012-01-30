@@ -1,22 +1,22 @@
-1	00:49	artist=<a href="http://www.diewelttraumforscher.ch">DIE WELTTRAUMFORSCHER</a> 	title= Die Wirklichkeit ist die schönste Sprache 
-2	02:48	artist=<a href="http://www.ski	title=pp.com/pressgoodie.html">MAINPAL INV</a>. 
-3	05:40	artist=THE FIVE BLOBS 	title= The blob 
-4	08:09	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
-5	10:20	artist=VERNON &amp; BURNS 	title= The Picadilly weepers 
-6	12:58	artist=<a href="http://www.astralanarchy.com/nazisfrommars.htm">THE Rock Records</a> 	title=
-7	15:44	artist=NINO ROTA 	title= Toby Damit Les clowns 
-8	18:34	artist=<a href="http://www.weviestonder.com">WEEVIE STONDER</a> 	title=
-9	21:16	artist=<a href="http://www.motormark.net">MOTORMARK</a> 	title= 
-10	24:52	artist=<a href="http://www.19	title=t.com/shex">SHEX</a> 
-11	26:46	artist=JEANETTE 	title= Escucha 
-12	30:12	artist=<a href="http://www.mikmusik.org/musik/artists.php?artist_id=31&amp;lang=1">THE Musik</a> 	title=
-13	34:06	artist=TINY TIM 	title= Tip
-14	35:53	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title=
-15	42:03	artist=LES CALAMITES 	title= Toutes les nuits 
-16	44:40	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Wunder, wunder, immer wieder 
-17	46:48	artist=HUGH CORNWELL/ROBERT WILLIAMS 	title= White room 
-18	50:14	artist=<a href="http://www.nathanmichel.com">NATHAN MICHEL</a> 	title= Planet 
-19	53:45	artist=JEAN CLAUDE PETIT 	title= Syncopes around 
-20	56:08	artist=<a href="http://home.planet.nl/%7Egnatz002/">LISTENTOMERJIN</a> 	title= Mono 
-21	57:10	artist=JEFF AND JANE HUDSON 	title= The girl from Ipanema 
-22	59:26	artist=<a href="http://thebrain.lautre.net/index/schikows">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:49	from=49	artist=DIE WELTTRAUMFORSCHER	title=Die Wirklichkeit ist die schönste Sprache	href="http://www.staubgold.com"	label="Staubgold"
+2	02:48	from=168	artist=MAINPAL INV.	title=Chupa chups	href="http://www.ski-pp.com"	label="Skipp"
+3	05:40	from=340	artist=THE FIVE BLOBS	title=The blob	href=""	label="Columbia"
+4	08:09	from=489	artist=DAT POLITICS	title=Oily holo	href="http://www.amorfon.com"	label="Amorfon"
+5	10:20	from=620	artist=VERNON &amp; BURNS	title=The Picadilly weepers	href="http://www.gagarinrecords.com"	label="Gagarin records"
+6	12:58	from=778	artist=THE Rock Records	title=	href="http://www.astralanarchy.com/nazisfrommars.htm"	label=""
+7	15:44	from=944	artist=NINO ROTA	title=Toby Damit Les clowns	href=""	label="Polydor"
+8	18:34	from=1114	artist=WEEVIE STONDER	title=	href="http://www.weviestonder.com"	label=""
+9	21:16	from=1276	artist=MOTORMARK	title=	href="http://www.motormark.net"	label=""
+10	24:52	from=1492	artist=SHEX	title=Timpo	href="http://www.19-t.com/shex"	label="Unreleased"
+11	26:46	from=1606	artist=JEANETTE	title=Escucha	href=""	label="Disky"
+12	30:12	from=1812	artist=THE Musik	title=	href="http://www.mikmusik.org/musik/artists.php?artist_id=31&amp;lang=1"	label=""
+13	34:06	from=2046	artist=TINY TIM	title=Tip	href=""	label="Toe thru’ the tulips with me"
+14	35:53	from=2153	artist=FELIX KUBIN	title=	href="http://www.felixkubin.com"	label=""
+15	42:03	from=2523	artist=LES CALAMITES	title=Toutes les nuits	href=""	label="New Rose"
+16	44:40	from=2680	artist=FREDERIK SCHIKOWSKI	title=Wunder, wunder, immer wieder	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"
+17	46:48	from=2808	artist=HUGH CORNWELL/ROBERT WILLIAMS	title=White room	href=""	label="UA"
+18	50:14	from=3014	artist=NATHAN MICHEL	title=Planet	href="http://www.ski-pp.com"	label="Skipp"
+19	53:45	from=3225	artist=JEAN CLAUDE PETIT	title=Syncopes around	href=""	label="Chapell"
+20	56:08	from=3368	artist=LISTENTOMERJIN	title=Mono	href="http://home.planet.nl/%7Egnatz002/"	label="Unreleased"
+21	57:10	from=3430	artist=JEFF AND JANE HUDSON	title=The girl from Ipanema	href=""	label="Lust/Unlust music"
+22	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikows"	label="Unreleased"

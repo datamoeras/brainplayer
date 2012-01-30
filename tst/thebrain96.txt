@@ -1,19 +1,19 @@
-1	01:05	artist=<a href="http://www.projectpimento.com">PROJECT: PIMENTO</a> 	title= You only live twice 
-2	04:23	artist=<a href="http://www.myspace.com/xenoandoaklander">XENO &amp; OAKLANDER</a> 	title= Sentinelle 
-3	07:34	artist=<a href="http://mausspace.com">JOHN MAUS</a> 	title= Bennington 
-4	10:24	artist=THE EXPLORER 	title= Mr Bach meets Batman 
-5	13:30	artist=<a href="http://www.myspace.com/playsoundz">PLAYSOUNDZ</a> 	title= Mr Hyde and seek 
-6	15:13	artist=GEORGES VAN DUSEN 	title= The yodelling Chinaman 
-7	18:05	artist=EXPERIMENTAL PRODUCTS 	title= Modern living 
-8	23:44	artist=<a href="http://www.myspace.com/finesserunway">FINESSE &amp; RUNWAY</a> 	title= Disco rash 
-9	26:26	artist=CHRIS 	title= Crazy crazy 
-10	29:07	artist=<a href="http://www.stereototal.de/home/solo_brezel.html">BREZEL GOERING</a> 	title= Chez le dentiste 
-11	31:26	artist=<a href="http://www.humppa.com">ELAKELAISET</a> 	title= Das model 
-12	34:42	artist=KURUKI 	title= A crocodile tears 
-13	37:53	artist=<a href="http://www.niwouinwouin.com">NIWOUIWOUIN</a> 	title= Catastrophe 
-14	42:10	artist=ATARI 	title= Missil command 
-15	45:57	artist=<a href="http://www.vic	title=net.com">VICNET</a> 
-16	50:01	artist=SUGALO 	title= Leben ins Plastikleben 
-17	52:01	artist=<a href="http://www.myspace.com/eatrabbit">EAT RABBIT</a> 	title= Bouncing tale 
-18	55:36	artist=THE SPACE LADY 	title= Major Tom 
-19	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	01:05	from=65	artist=PROJECT: PIMENTO	title=You only live twice	href="http://www.projectpimento.com/html/contact_trublulu.htm"	label="Tru blu lu records"
+2	04:23	from=263	artist=XENO &amp; OAKLANDER	title=Sentinelle	href="http://wierdrecords.com"	label="Wierd records"
+3	07:34	from=454	artist=JOHN MAUS	title=Bennington	href="http://www.beaterblocker.com"	label="Beaterblocker"
+4	10:24	from=624	artist=THE EXPLORER	title=Mr Bach meets Batman	href=""	label="Rocky Mount Instruments, Inc."
+5	13:30	from=810	artist=PLAYSOUNDZ	title=Mr Hyde and seek	href="http://www.laollaexpress.com"	label="La Olla Express"
+6	15:13	from=913	artist=GEORGES VAN DUSEN	title=The yodelling Chinaman	href=""	label="Crystalate Gramophone"
+7	18:05	from=1085	artist=EXPERIMENTAL PRODUCTS	title=Modern living	href=""	label="Short Circuit Records"
+8	23:44	from=1424	artist=FINESSE &amp; RUNWAY	title=Disco rash	href="http://www.schematic.net"	label="Schematic"
+9	26:26	from=1586	artist=CHRIS	title=Crazy crazy	href=""	label="Vanity pressing"
+10	29:07	from=1747	artist=BREZEL GOERING	title=Chez le dentiste	href="http://www.gagarinrecords.com"	label="Gagarin Records"
+11	31:26	from=1886	artist=ELAKELAISET	title=Das model	href="http://www.stupido.fi/"	label="Stupido records"
+12	34:42	from=2082	artist=KURUKI	title=A crocodile tears	href=""	label="Payola Records"
+13	37:53	from=2273	artist=NIWOUIWOUIN	title=Catastrophe	href="http://www.egotwister.com"	label="Ego Twister"
+14	42:10	from=2530	artist=ATARI	title=Missil command	href=""	label="Kid Stuff Records"
+15	45:57	from=2757	artist=VICNET	title=Mr Hadopi	href="http://www.daheardit-records.net"	label="Da ! Heard it Records"
+16	50:01	from=3001	artist=SUGALO	title=Leben ins Plastikleben	href=""	label="?"
+17	52:01	from=3121	artist=EAT RABBIT	title=Bouncing tale	href="http://www.daheardit-records.net"	label="Da ! Heard it Records"
+18	55:36	from=3336	artist=THE SPACE LADY	title=Major Tom	href=""	label="Autoproduced"
+19	59:25	from=3565	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

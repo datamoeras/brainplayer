@@ -1,23 +1,23 @@
-1	00:11	artist=THE BRAIN 	title= Générique 2010 
-2	00:50	artist=<a href="http://fr.wikipedia.org/wiki/Liberace">LIBERACE</a> 	title= Moon river 
-3	04:29	artist=<a href="http://www.youtube.com/watch?v=MGpPgwOgB_U">Unknown 	title= Unknown 
-4	05:45	artist=<a href="http://www.yello.com">YELLO</a> 	title= The Roxy cut 
-5	10:03	artist=<a href="http://www.johnotway.com">OTWAY</a> AND <a href="http://www.musiczoo.co.uk">BARETT</a> 	title= DK 50 80 
-6	12:33	artist=<a href="http://www.barbaramorgenstern.de">BARBARA MORGENSTERN</a> 	title= Fixpunkt 
-7	14:50	artist=<a href="http://amplivesworld.com">AMP LIVE</a> 	title= Gary is a robot 
-8	17:47	artist=<a href="http://www.ymo.org">HARUOMI HOSONO</a> 	title= Cosmic Surfin 
-9	22:46	artist=<a href="http://www.aprilmarch.com/">APRIL MARCH</a> 	title= Mon ange gardien 
-10	24:54	artist=<a href="http://www.dadapogrom.com/">DADA POGROM</a> 	title= Happy happy happy 
-11	28:21	artist=<a href="http://cheveunet.free.fr">CHEVEU</a> 	title= No birds 
-12	31:03	artist=<a href="http://www.retrojeunesse60.com/ria.bartok.html">RIA BARTOK</a> 	title= Tu as perdu La tête 
-13	33:15	artist=<a href="http://www.stereolab.co.uk">STEREOLAB</a> 	title= Sun Demon 
-14	36:28	artist=<a href="http://klaus.nomi.pagesperso	title=orange.fr">KLAUS NOMI</a> 
-15	39:28	artist=<a href="http://knifefightingjesus.com/?p=962">IKE REIKO</a> 	title= Sasurai No Guitar 
-16	42:01	artist=<a href="http://www.francegall.net">FRANCE GALL</a> 	title= Les petits ballons 
-17	43:57	artist=<a href="http://www.richardhaxton.com/funwithanimals.html">FUN WITH ANIMALS</a> 	title= Test of Love and Sex 
-18	46:33	artist=<a href="http://www.myspace.com/dayoneprobablyart">DAY ONE</a> 	title= Im doing fine 
-19	50:54	artist=<a href="http://www.myspace.com/peripheriqueest">PERIPHERIQUE EST</a> 	title= Le rock dici 
-20	53:11	artist=MANUEL FERRERO 	title= Fela 
-21	55:32	artist=<a href="http://www.infinitybells.com">SLEIGH BELLS</a> 	title= Riot Rhythm 
-22	58:09	artist=<a href="http://gbjazz.free.fr/galerie/msolal.html">MARTIAL SOLAL</a> 	title= New york herald tribune 
-23	59:32	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:11	from=11	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+2	00:50	from=50	artist=LIBERACE	title=Moon river	href="http://fr.wikipedia.org/wiki/Liberace"	label="Oral"
+3	04:29	from=269	artist=Unknown	title=Unknown	href="http://www.youtube.com/watch?v=MGpPgwOgB_U"	label="?"
+4	05:45	from=345	artist=YELLO	title=The Roxy cut	href="http://www.yello.com"	label="EMI"
+5	10:03	from=603	artist=OTWAY AND BARETT	title=DK 50 80	href="http://www.musiczoo.co.uk"	label="The music corporation"
+6	12:33	from=753	artist=BARBARA MORGENSTERN	title=Fixpunkt	href="http://www.m-enterprise.de"	label="Monika Enterprise"
+7	14:50	from=890	artist=AMP LIVE	title=Gary is a robot	href="http://www.google.fr/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBgQFjAA&amp;url=http%3A//www.om-records.com/&amp;rct=j&amp;q=Om Records"	label="Om Records"
+8	17:47	from=1067	artist=HARUOMI HOSONO	title=Cosmic Surfin	href="http://www.ymo.org"	label="A&amp;M"
+9	22:46	from=1366	artist=APRIL MARCH	title=Mon ange gardien	href="http://www.google.fr/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBsQFjAA&amp;url=http%3A//www.tricatel.com/&amp;rct=j&amp;q=tricatel&amp;ei=8arrTNX2F8q6hAez8_Vv&amp;usg=AFQjCNG8jnCUS5_YjeO7KD7eWd5dFHjx-w&amp;cad=rja"	label="Tricatel"
+10	24:54	from=1494	artist=DADA POGROM	title=Happy happy happy	href="http://www.beatkamp.com"	label="Beatkamp"
+11	28:21	from=1701	artist=CHEVEU	title=No birds	href="http://www.myspace.com/bornbadrecords"	label="Born bad records"
+12	31:03	from=1863	artist=RIA BARTOK	title=Tu as perdu La tête	href="http://www.retrojeunesse60.com/ria.bartok.html"	label="Columbia"
+13	33:15	from=1995	artist=STEREOLAB	title=Sun Demon	href="http://www.duophonic.com"	label="Duophonic"
+14	36:28	from=2188	artist=KLAUS NOMI	title=Cre spoda	href="http://klaus.nomi.pagesperso-orange.fr"	label="Heliocentric"
+15	39:28	from=2368	artist=IKE REIKO	title=Sasurai No Guitar	href="http://knifefightingjesus.com/?p=962"	label="Tiliqua records"
+16	42:01	from=2521	artist=FRANCE GALL	title=Les petits ballons	href="http://www.francegall.net"	label="Pathé Marconi"
+17	43:57	from=2637	artist=FUN WITH ANIMALS	title=Test of Love and Sex	href="http://www.richardhaxton.com/funwithanimals.html"	label="A&amp;M"
+18	46:33	from=2793	artist=DAY ONE	title=Im doing fine	href="http://www.myspace.com/dayoneprobablyart"	label="Les Disques Motors"
+19	50:54	from=3054	artist=PERIPHERIQUE EST	title=Le rock dici	href="http://www.closeupprod.fr"	label="Close up"
+20	53:11	from=3191	artist=MANUEL FERRERO	title=Fela	href=""	label="RTBF Liège"
+21	55:32	from=3332	artist=SLEIGH BELLS	title=Riot Rhythm	href="http://www.momandpoprecords.com"	label="MOM+POP"
+22	58:09	from=3489	artist=MARTIAL SOLAL	title=New york herald tribune	href="http://gbjazz.free.fr/galerie/msolal.html"	label="EmArcy"
+23	59:32	from=3572	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

@@ -1,28 +1,28 @@
-1	00:00	artist=LITTLE CINDY 	title= Happy birthday Jesus 
-2	01:21	artist=<a href="http://www.metaxu.it">OKAPI</a> 	title=
-3	00:04	artist=43” 	title= <a href="http://www.echokrank.net">ECHOKRANK</a> 
-4	06:21	artist=EDITH NYLON 	title= Etre automatique 
-5	08:37	artist=MR BLOE 	title= Sinful 
-6	11:18	artist=JOHNNY CASH 	title= An empty chair 
-7	12:24	artist=UNKNOWN 	title= I like to move it 
-8	13:59	artist=<a href="http://www.megapeng.net/engindex.html">RÄUBERHÖLE</a> 	title=
-9	16:58	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS 	title=
-10	19:57	artist=<a href="http://perso.wanadoo.fr/w.w.">KHIMA FRANCE</a> 	title= Tkitki 
-11	21:52	artist=<a href="http://www.stora.de">NOVA HUTA</a> 	title= Moch duj moch dom 
-12	23:57	artist=<a href="http://www.archigramophone.com/numbers.htm">NUMBERS</a> 	title=
-13	26:20	artist=PAULINA &amp; SALAMON 	title= Fara 
-14	27:04	artist=<a href="http://www.guillaumelegare.com">LEG</a> 	title= 
-15	29:18	artist=<a href="http://www.galerie	title=transition.de/pc/index.html">PATRIC CATANI</a> 
-16	32:09	artist=Dialogue 	title= Extract of movie “Polar” 
-17	32:44	artist=CHUY REYES &amp; HIS ORCH 	title= Oink oink mambo 
-18	35:50	artist=CHRISTOPHER JUST 	title= Jeans &amp; electronic 
-19	40:13	artist=<a href="http://www.cobra	title=killer.org">GINA V. D’ORIO</a> plover</a> 
-20	42:56	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Dämmerung 
-21	46:15	artist=<a href="http://www.fujiiya.com/the5678s">THE 5.6.7.8’s</a> 	title= Whoo hoo 
-22	48:10	artist=<a href="http://www.hawnaytroof.com">HAWNAYTROOF</a> arm</a> 	title=
-23	48:56	artist=THE BRAIN 	title= This is the C 
-24	49:17	artist=<a href="http://www.egotwister.com">EDMUND PRINZ</a> 	title= Baby I’ll rock you at the supermarket 
-25	51:19	artist=THE FREE CATS 	title= Folk resurection 
-26	54:15	artist=<a href="http://www.artskool.biz/jem/hh.html">HARUOMI HOSONO</a> 	title= Gaplus 
-27	57:17	artist=BURT BACHARACH 	title= Knowing when to leave 
-28	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 
+1	00:00	from=0	artist=LITTLE CINDY	title=Happy birthday Jesus	href="http://www.otisfodder.com"	label="http://www.otisfodder.com"
+2	01:21	from=81	artist=OKAPI	title=	href="http://www.metaxu.it"	label=""
+3	00:04	from=4	artist=43”	title=ECHOKRANK	href="http://www.klangkrieg.de"	label="West Currency"
+4	06:21	from=381	artist=EDITH NYLON	title=Etre automatique	href=""	label="CBS"
+5	08:37	from=517	artist=MR BLOE	title=Sinful	href=""	label="DJM Records"
+6	11:18	from=678	artist=JOHNNY CASH	title=An empty chair	href=""	label="Extract"
+7	12:24	from=744	artist=UNKNOWN	title=I like to move it	href=""	label="“Midi”"
+8	13:59	from=839	artist=RÄUBERHÖLE	title=	href="http://www.megapeng.net/engindex.html"	label=""
+9	16:58	from=1018	artist=FRANCOIS	title=	href="http://www.francoisderoubaix.com"	label=""
+10	19:57	from=1197	artist=KHIMA FRANCE	title=Tkitki	href="http://www.dokidoki.fr"	label="Dokidoki"
+11	21:52	from=1312	artist=NOVA HUTA	title=Moch duj moch dom	href="http://www.stora.de"	label="Variz"
+12	23:57	from=1437	artist=NUMBERS	title=	href="http://www.archigramophone.com/numbers.htm"	label=""
+13	26:20	from=1580	artist=PAULINA &amp; SALAMON	title=Fara	href=""	label="Tahiti records"
+14	27:04	from=1624	artist=LEG	title=	href="http://www.guillaumelegare.com"	label=""
+15	29:18	from=1758	artist=PATRIC CATANI	title=Candie poppin’s	href="http://www.galerie-transition.de/pc/index.html"	label="Audiochocolate"
+16	32:09	from=1929	artist=Dialogue	title=Extract of movie “Polar”	href=""	label=""
+17	32:44	from=1964	artist=CHUY REYES &amp; HIS ORCH	title=Oink oink mambo	href=""	label="Capitol"
+18	35:50	from=2150	artist=CHRISTOPHER JUST	title=Jeans &amp; electronic	href="http://www.combination-rec.de"	label="Combination records"
+19	40:13	from=2413	artist=GINA V. D’ORIO plover	title=	href="http://www.cobra-killer.org"	label=""
+20	42:56	from=2576	artist=FREDERIK SCHIKOWSKI	title=Dämmerung	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="To be released"
+21	46:15	from=2775	artist=THE 5.6.7.8’s	title=Whoo hoo	href="http://www.fujiiya.com/the5678s"	label="Sympathy"
+22	48:10	from=2890	artist=HAWNAYTROOF arm	title=	href="http://www.hawnaytroof.com"	label=""
+23	48:56	from=2936	artist=THE BRAIN	title=This is the C	href=""	label="Unreleased"
+24	49:17	from=2957	artist=EDMUND PRINZ	title=Baby I’ll rock you at the supermarket	href="http://www.egotwister.com"	label="Ego Twister Records"
+25	51:19	from=3079	artist=THE FREE CATS	title=Folk resurection	href=""	label="Charles Talar Records"
+26	54:15	from=3255	artist=HARUOMI HOSONO	title=Gaplus	href="http://www.artskool.biz/jem/hh.html"	label="Pick up Records"
+27	57:17	from=3437	artist=BURT BACHARACH	title=Knowing when to leave	href=""	label="A &amp; M"
+28	59:25	from=3565	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="To be released"

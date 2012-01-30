@@ -1,23 +1,23 @@
-1	00:50	artist=STANLEY BLACK HIS ORCHESTRA AND CHORUS 	title= <i>Babalu 
-2	03:50	artist=MICHEL MAGNE 	title= <i>Petrol pop 
-3	06:14	artist=NOVA HUTA 	title= <i>Killing an error 
-4	10:29	artist=ANNIE PHILIPPE 	title= <i>Pour la gloire 
-5	11:16	artist=CLUB LE BOMB 	title= <i>Kebabtraume 
-6	14:25	artist=SF 	title= <i>Télé table 
-7	16:45	artist=VAROUGEAN HAWAIIANS 	title= <i>Oe
-8	18:40	artist=FELIX KUBIN 	title= <i>Qualität des staates 
-9	21:55	artist=ADOLF NOISE 	title= <i>Five N 
-10	24:33	artist=FACTOR 6 	title= <i>Beetle 
-11	27:08	artist=THE ELECTRIC INDIAN 	title= <i>Keem
-12	29:11	artist=FREDERIK SCHIKOWSKI 	title=
-13	31:57	artist=SATANICPORNOCULTSHOP 	title= <i>I’m so green 
-14	35:30	artist=BILLY FRANCE 	title= <i>Secte 
-15	37:29	artist=NEOANGIN 	title= <i>Plastic Passion 
-16	39:36	artist=PIPPILINA 	title= <i>Cornish Pretzel Lad 
-17	43:30	artist=FIELING &amp; FABRICIUS 	title=
-18	45:52	artist=STEREOTOTAL 	title= <i>Je rêve encore de toi 
-19	48:41	artist=RAFI &amp; ASHA 	title= <i>I want to hold your hand 
-20	51:30	artist=XERAK 	title= <i>Pixels monsters 
-21	55:00	artist=TEAT SCENE 	title= <i>Flying monkey fist 
-22	56:58	artist=YVAN &amp; LENDL 	title= <i>Toy oo1
-23	59:24	artist=FREDERIK SCHIKOWSKI 	title= <i>Indicatif The Brain 
+1	00:50	from=50	artist=STANLEY BLACK HIS ORCHESTRA AND CHORUS	title=<i>Babalu	href="http://www.rfsoc.freeserve.co.uk/legends/sblack.htm"	label="Decca"
+2	03:50	from=230	artist=MICHEL MAGNE	title=<i>Petrol pop	href="http://perso.club-internet.fr/fernould/magne.html"	label="Big cheese records"
+3	06:14	from=374	artist=NOVA HUTA	title=<i>Killing an error	href="http://www.stora.de/"	label="Autoproduced"
+4	10:29	from=629	artist=ANNIE PHILIPPE	title=<i>Pour la gloire	href="http://perso.club-internet.fr/andrefer/Divers/Aphilippe.htm"	label="Phillips"
+5	11:16	from=676	artist=CLUB LE BOMB	title=<i>Kebabtraume	href="http://www.erkrankung.net/"	label="Erkrankung durch musique"
+6	14:25	from=865	artist=SF	title=<i>Télé table	href="http://www.tsunami-addiction.com/axe07.html"	label="9/9"
+7	16:45	from=1005	artist=VAROUGEAN HAWAIIANS	title=<i>Oe	href="http://www.studio-nibble.com/lists/exotica.html"	label="Oe"
+8	18:40	from=1120	artist=FELIX KUBIN	title=<i>Qualität des staates	href="http://www.ski-pp.com/"	label="Skipp"
+9	21:55	from=1315	artist=ADOLF NOISE	title=<i>Five N	href="http://www.monika-enterprise.de/"	label="Monika"
+10	24:33	from=1473	artist=FACTOR 6	title=<i>Beetle	href="http://www.ayriders.prv.pl/"	label="Unreleased"
+11	27:08	from=1628	artist=THE ELECTRIC INDIAN	title=<i>Keem	href="http://funky16corners.tripod.com/8_philly.htm"	label="O"
+12	29:11	from=1751	artist=FREDERIK SCHIKOWSKI	title=	href="http://www.luxnigra.de/menu.html"	label=""
+13	31:57	from=1917	artist=SATANICPORNOCULTSHOP	title=<i>I’m so green	href="http://www5b.biglobe.ne.jp/%7Esynchro/satanicpornocultshop.html"	label="Nu Nulax Nulan"
+14	35:30	from=2130	artist=BILLY FRANCE	title=<i>Secte	href=""	label="Unreleased"
+15	37:29	from=2249	artist=NEOANGIN	title=<i>Plastic Passion	href="http://www.neoangin.com/"	label="Autoproduced"
+16	39:36	from=2376	artist=PIPPILINA	title=<i>Cornish Pretzel Lad	href="http://www.pippilina.com/"	label="Unreleased"
+17	43:30	from=2610	artist=FIELING &amp; FABRICIUS	title=	href=""	label=""
+18	45:52	from=2752	artist=STEREOTOTAL	title=<i>Je rêve encore de toi	href="http://www.norbertbayer.de/"	label="Mister Ministeck"
+19	48:41	from=2921	artist=RAFI &amp; ASHA	title=<i>I want to hold your hand	href="http://www.exoticarecords.co.uk/"	label="Exotica"
+20	51:30	from=3090	artist=XERAK	title=<i>Pixels monsters	href="http://xerak.free.fr/"	label="Unreleased"
+21	55:00	from=3300	artist=TEAT SCENE	title=<i>Flying monkey fist	href="http://www.asphodel.com/doc/news.whatsnew.html"	label="Asphodel"
+22	56:58	from=3418	artist=YVAN &amp; LENDL	title=<i>Toy oo1	href="http://www.yvanlendl.ch/"	label="Unreleased"
+23	59:24	from=3564	artist=FREDERIK SCHIKOWSKI	title=<i>Indicatif The Brain	href="http://www.luxnigra.de/menu.html"	label="Unreleased"

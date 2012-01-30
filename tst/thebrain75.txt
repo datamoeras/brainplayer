@@ -1,21 +1,21 @@
-1	00:58	artist=<a href="http://www.myspace.com/djchienloup">DJ CHIENLOUP</a> 	title= Blouse société secrète 
-2	04:26	artist=<a href="http://www.angiereed.com">ANGIE REED</a> 	title= Corner romance (Candie Hank remix) <a href="http://www.chicksonspeed
-3	06:53	artist=<a href="http://www.datpolitics.com">DAT POLITICS</a> 	title= Space kitchen companion 
-4	09:21	artist=<a href="http://www.myspace.com/kapbambino">KAP BAMBINO</a> 	title= Save 
-5	12:28	artist=<a href="http://www.monsterzoku.com">MONSTER ZOKU ONSOMB</a> 	title= Eat brains 
-6	15:44	artist=<a href="http://perso.wanadoo.es/ljmenendez/">HUMBERT HUMBERT</a> 	title= Soul weasel 
-7	20:06	artist=<a href="http://www.boxcodax.com">BOX CODAX</a> 	title= Pollockshields Girls 
-8	22:18	artist=<a href="http://this.is/kirakira/">KIRA KIRA &amp; LJONI</a> 	title= Dyri 
-9	24:19	artist=<a href="http://istari.sozialistischer	title=plattenbau.org">ERROR 23</a> 
-10	26:47	artist=<a href="http://www.atombusentransporte.de">ITTY MINCHESTA</a> 	title= Checking for U RMX 
-11	30:16	artist=<a href="http://www.egotwister.com/guyom/index/">[guÿôm]</a> 	title= Heureux qui comme Elvis 
-12	33:15	artist=<a href="http://www.jimavignon.com">NEOANGIN</a> 	title= Letâ€™s go where the action is 
-13	35:11	artist=ASHA BHOSLE 	title= Mera naam kabhi shabnam 
-14	39:58	artist=<a href="http://nicotep.free.fr/">TEP</a> 	title= Plunder bugger 
-15	43:10	artist=LOTHAR &amp; THE HAND PEOPLE 	title= Machines 
-16	45:42	artist=<a href="http://www.felixkubin.com/+">FELIX KUBIN</a> 	title= Orphée Méchanique 
-17	48:17	artist=<a href="http://www.echokrank.net">ECHOKRANK</a> 	title= Glitterkids 
-18	50:04	artist=VLADIMIR SZAINKIJ 	title= Cheburashka 
-19	52:36	artist=<a href="http://www.latinsizer.com">LATINSIZER</a> 	title= Libelula (Lucrecia remix) 
-20	56:04	artist=<a href="http://www.mitch	title=and
-21	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:58	from=58	artist=DJ CHIENLOUP	title=Blouse société secrète	href="http://www.beaubrun.net"	label="Beau Brun"
+2	04:26	from=266	artist=ANGIE REED	title=Corner romance (Candie Hank remix) Chicks on speed records	href="http://www.chicksonspeed-records.com"	label=""
+3	06:53	from=413	artist=DAT POLITICS	title=Space kitchen companion	href="http://www.tigerbeat6.com"	label="Tigerbeat 6"
+4	09:21	from=561	artist=KAP BAMBINO	title=Save	href="http://perso.orange.fr/w.w./"	label="Wwilko"
+5	12:28	from=748	artist=MONSTER ZOKU ONSOMB	title=Eat brains	href="http://www.monsterzoku.com"	label="Rats milk records"
+6	15:44	from=944	artist=HUMBERT HUMBERT	title=Soul weasel	href="http://www.hundertzwei.de"	label="Hundertzwei"
+7	20:06	from=1206	artist=BOX CODAX	title=Pollockshields Girls	href="http://www.gomma.de"	label="Gomma"
+8	22:18	from=1338	artist=KIRA KIRA &amp; LJONI	title=Dyri	href="http://www.hundertzwei.de"	label="Hundertzwei"
+9	24:19	from=1459	artist=ERROR 23	title=Bytes donâ€™t cry	href="http://www.alphacutrecords.com"	label="Alphacute"
+10	26:47	from=1607	artist=ITTY MINCHESTA	title=Checking for U RMX	href="http://www.sozialistischer-plattenbau.org"	label="Sozialistischer plattenbau"
+11	30:16	from=1816	artist=[guÿôm]	title=Heureux qui comme Elvis	href="http://www.egotwister.com"	label="Ego Twister"
+12	33:15	from=1995	artist=NEOANGIN	title=Letâ€™s go where the action is	href="http://www.lieblingslied-records.de"	label="Lieblingslied Records"
+13	35:11	from=2111	artist=ASHA BHOSLE	title=Mera naam kabhi shabnam	href=""	label="?"
+14	39:58	from=2398	artist=TEP	title=Plunder bugger	href="http://www.invitrorecords.com"	label="In vitro records"
+15	43:10	from=2590	artist=LOTHAR &amp; THE HAND PEOPLE	title=Machines	href=""	label="Razor and tie"
+16	45:42	from=2742	artist=FELIX KUBIN	title=Orphée Méchanique	href="http://www.felixkubin.com/+"	label="Unreleased"
+17	48:17	from=2897	artist=ECHOKRANK	title=Glitterkids	href="http://www.echokrank.net"	label="Unreleased"
+18	50:04	from=3004	artist=VLADIMIR SZAINKIJ	title=Cheburashka	href=""	label="Sojuzfilm"
+19	52:36	from=3156	artist=LATINSIZER	title=Libelula (Lucrecia remix)	href="http://www.hundertzwei.de"	label="Hundertzwei"
+20	56:04	from=3364	artist=MICH &amp; MITCH	title=Wendekreis Des Krebses	href="http://www.ladoabc.com"	label="Lado ABC"
+21	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

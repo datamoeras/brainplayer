@@ -1,21 +1,21 @@
-1	00:46	artist=quot; 	title= ANONYMOUS JAPANESE BAND 
-2	04:02	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
-3	07:37	artist=quot; 	title= <a href="http://david.chazam.free.fr/">CHAZAM</a> 
-4	11:25	artist=quot; 	title= <a href="http://www.myspace.com/messerfurfraumuller">MESSER FUR FRAU MUELLER</a> 
-5	13:53	artist=quot; 	title= COMIX 
-6	16:58	artist=quot; 	title= <a href="http://www.dandeacon.com">DAN DEACON</a> 
-7	21:06	artist=quot; 	title= <a href="http://www.jessieevans.net">JESSIE EVANS</a> 
-8	24:01	artist=quot; 	title= <a href="http://www.baddudes.net">BAD DUDES</a> 
-9	27:44	artist=quot; 	title= <a href="http://www.myspace.com/benbutlerandmousepad">BEN BUTLER &amp; HIS MOUSEPAD</a> 
-10	30:52	artist=quot; 	title= <a href="http://www.gotainer.com">GOTAINER</a> 
-11	31:11	artist=quot; 	title= <a href="http://www.myspace.com/nerosdayatdisneland">NEROS DAY AT DISNEYLAND</a> 
-12	33:29	artist=quot; 	title= <a href="http://www.myspace.com/totallyradd">TOTALLY RADD</a> 
-13	36:49	artist=quot; 	title= <a href="http://www.okapi.it">OKAPI</a> 
-14	38:12	artist=quot; 	title= <a href="http://www.myspace.com/johnmaus">JOHN MAUS</a> 
-15	40:32	artist=quot; 	title= <a href="http://wearewolves.net/blog/">WE ARE WOLVES</a> 
-16	44:20	artist=quot; 	title= <a href="http://www.myspace.com/monoblockb">MONOBLOCK B</a> 
-17	48:15	artist=quot; 	title= <a href="http://www.myspace.com/solitaireneffekten">SOLITAIREN EFFEKTEN</a> 
-18	50:35	artist=quot; 	title= <a href="http://www.myspace.com/jihadsoundsystem">JIHAD SOUND SYSTEM</a> 
-19	54:10	artist=quot; 	title= <a href="http://www.myspace.com/diegesunden">DIE GESUNDEN</a> 
-20	57:15	artist=quot; 	title= <a href="http://www.okapi.it">OKAPI</a> 
-21	59:15	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+1	00:46	from=46	artist=ANONYMOUS JAPANESE BAND	title=Written in japanese	href=""	label="Teichiku Stereo"
+2	04:02	from=242	artist=DAT POLITICS	title=Magnetic attraction.	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
+3	07:37	from=457	artist=CHAZAM	title=Vivre sobrevivir	href="http://david.chazam.free.fr/"	label="Unreleased"
+4	11:25	from=685	artist=MESSER FUR FRAU MUELLER	title=Zubi Zubi Zundella	href="http://www.solnzerecords.com"	label="Solnze"
+5	13:53	from=833	artist=COMIX	title=Touche ps mon sexe	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
+6	16:58	from=1018	artist=DAN DEACON	title=Snake mistakes.	href="http://www.carparkrecords.com"	label="Carpark records"
+7	21:06	from=1266	artist=JESSIE EVANS	title=Ninos del espacio	href="http://www.myspace.com/fantometterecords"	label="Fantomette"
+8	24:01	from=1441	artist=BAD DUDES	title=Better than nature	href="http://retarddisco.com"	label="Retard Disco"
+9	27:44	from=1664	artist=BEN BUTLER &amp; HIS MOUSEPAD	title=Other islands	href="http://www.myspace.com/benbutlerandmousepad"	label="Unreleased"
+10	30:52	from=1852	artist=GOTAINER	title=Houba Bouba	href="http://www.gotainer.com"	label="Gatkess"
+11	31:11	from=1871	artist=NEROS DAY AT DISNEYLAND	title=Civilizing people	href="http://www.cockrockdisco.com"	label="Cock Rock Disco"
+12	33:29	from=2009	artist=TOTALLY RADD	title=Master of diagrams	href="http://retarddisco.com"	label="Retard Disco"
+13	36:49	from=2209	artist=OKAPI	title=... the next !	href="http://belligeranza.c8.com"	label="Sonic Belligeranza"
+14	38:12	from=2292	artist=JOHN MAUS	title=This IS the beat	href="http://www.myspace.com/johnmaus"	label="Misletone"
+15	40:32	from=2432	artist=WE ARE WOLVES	title=Moi, Rythme Magique (Fade To Grey Remix) Unreleased	href="http://www.fadetogreymusic.com"	label=""
+16	44:20	from=2660	artist=MONOBLOCK B	title=Digital man	href="http://www.7b.to"	label="7 b records"
+17	48:15	from=2895	artist=SOLITAIREN EFFEKTEN	title=Kleines Austronautenmädchen	href="http://www.enfant-terrible.nl"	label="Enfant Terrible"
+18	50:35	from=3035	artist=JIHAD SOUND SYSTEM	title=Goolf hairy tounsi	href="http://www.myspace.com/jihadsoundsystem"	label="Unreleased ?"
+19	54:10	from=3250	artist=DIE GESUNDEN	title=Der Weg Zum Erfolg	href="http://www.myspace.com/diegesunden"	label="Innovative Communication"
+20	57:15	from=3435	artist=OKAPI	title=Pignottimi daprosi	href="http://belligeranza.c8.com"	label="Sonic Belligeranza"
+21	59:15	from=3555	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

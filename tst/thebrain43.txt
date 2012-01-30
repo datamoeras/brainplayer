@@ -1,20 +1,20 @@
-1	00:56	artist=RAYMOND LEFEVRE 	title= Diamant 
-2	02:57	artist=MINIPLI 550 	title= You preach the teaches of peaches 
-3	06:26	artist=RETRO*SEX*GALAXY 	title= How does a microscope magnify 
-4	09:19	artist=ANDRE BRASSEUR 	title= Studio 17 
-5	11:12	artist=MOON BUGGY 	title= Tropica 
-6	13:36	artist=HENRY SALVADOR 	title= Le martien 
-7	18:41	artist=LEONARD DE LEONARD 	title= Crack it 
-8	22:25	artist=THE NIRVANA SITAR &amp; STRING GROUP 	title= The letter 
-9	23:06	artist=KAP BAMBINO 	title= Interbootslipstick 
-10	28:41	artist=ORCHESTER FRANK VALDOR 	title= Black market 
-11	31:24	artist=MERRICKS 	title= Dumm sein gar nicht dumm 
-12	35:00	artist=ROSCAMPZINSKY 	title= La raie à gauche 
-13	37:24	artist=PRINTED CIRCUIT 	title= Binary jockeys 
-14	40:59	artist=EDDIE DRIVER 	title= Pop music 
-15	43:23	artist=WEVIE DE CREPON 	title= Ton wah 
-16	46:14	artist=JACK AREL &amp; PIERRE DUTOUR 	title= Follow me 
-17	48:30	artist=FIGURINE 	title= IMpossible 
-18	52:33	artist=ADULT 	title= Glue your eye lids together 
-19	56:24	artist=MIKI MIKRON 	title= Hey konsumisten 
-20	59:28	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 
+1	00:56	from=56	artist=RAYMOND LEFEVRE	title=Diamant	href="http://www.spaceagepop.com/lefevre.htm"	label="Riviera"
+2	02:57	from=177	artist=MINIPLI 550	title=You preach the teaches of peaches	href="http://www.polygame-entertainment.org/"	label="Polygame entertainment"
+3	06:26	from=386	artist=RETRO*SEX*GALAXY	title=How does a microscope magnify	href="http://www.mozg.art.pl/retrosexgalaxy/"	label="Gagarin records"
+4	09:19	from=559	artist=ANDRE BRASSEUR	title=Studio 17	href="http://home.wanadoo.nl/tulner/andrebrasseur.html"	label="Palette"
+5	11:12	from=672	artist=MOON BUGGY	title=Tropica	href="http://www.doxa.de/"	label="Doxa"
+6	13:36	from=816	artist=HENRY SALVADOR	title=Le martien	href="http://perso.wanadoo.fr/joo/"	label="Disques Salvador"
+7	18:41	from=1121	artist=LEONARD DE LEONARD	title=Crack it	href="http://www.deleonard.com/"	label="Free complex"
+8	22:25	from=1345	artist=THE NIRVANA SITAR &amp; STRING GROUP	title=The letter	href="http://www.asphodel.com/"	label="Asphodel"
+9	23:06	from=1386	artist=KAP BAMBINO	title=Interbootslipstick	href="http://perso.wanadoo.fr/w.w./"	label="Wwilko"
+10	28:41	from=1721	artist=ORCHESTER FRANK VALDOR	title=Black market	href="http://www.diggler.de/"	label="Diggler"
+11	31:24	from=1884	artist=MERRICKS	title=Dumm sein gar nicht dumm	href="http://www.merricks.de/"	label="Small records"
+12	35:00	from=2100	artist=ROSCAMPZINSKY	title=La raie à gauche	href="http://perso.wanadoo.fr/mag2000/his/arc44.htm"	label="Unreleased"
+13	37:24	from=2244	artist=PRINTED CIRCUIT	title=Binary jockeys	href="http://www.printed-circuit.net/"	label="Catmobile"
+14	40:59	from=2459	artist=EDDIE DRIVER	title=Pop music	href=""	label="Les tréteaux"
+15	43:23	from=2603	artist=WEVIE DE CREPON	title=Ton wah	href="http://www.sonig.com/"	label="Sonig"
+16	46:14	from=2774	artist=JACK AREL &amp; PIERRE DUTOUR	title=Follow me	href="http://www.diggler.de/"	label="Diggler"
+17	48:30	from=2910	artist=FIGURINE	title=IMpossible	href="http://www.monika-enterprise.de/"	label="Monika"
+18	52:33	from=3153	artist=ADULT	title=Glue your eye lids together	href="http://www.ersatzaudio.com/"	label="Erzatz audio"
+19	56:24	from=3384	artist=MIKI MIKRON	title=Hey konsumisten	href="http://www.polygame-entertainment.org/"	label="Polygame entertainment"
+20	59:28	from=3568	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href="http://www.irritantrecords.com/"	label="Unreleased"

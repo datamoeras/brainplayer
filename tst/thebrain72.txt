@@ -1,26 +1,26 @@
-1	00:40	artist=quot; 	title= <a href="http://www.misslebomb.net">MISS LE BOMB</a> 
-2	02:02	artist=quot; 	title= J. MATIUSZKIEWITCZ 
-3	03:12	artist=quot; 	title= DER ANFALL 
-4	06:12	artist=quot; 	title= <a href="http://www.saal2.com">SAAL 2</a> 
-5	09:10	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
-6	12:32	artist=quot; 	title= <a href="http://www.senor
-7	15:52	artist=quot; 	title= MESDAMES TRAUM 
-8	17:29	artist=quot; 	title= <a href="http://www.felixkubin.com">FELIX KUBIN</a> 
-9	19:20	artist=quot; 	title= <a href="http://www.cursorminer.com">CURSOR MINER</a> 
-10	21:29	artist=quot; 	title= ROYAL BLUE 
-11	23:40	artist=quot; 	title= DE LA SOUL 
-12	27:40	artist=quot; 	title= K. KOMEDA 
-13	28:50	artist=quot; 	title= FRANCE GALL 
-14	31:14	artist=quot; 	title= <a href="http://www.egoexpress.com">EGOEXPRESS</a> 
-15	34:20	artist=quot; 	title= <a href="http://www.holgerhiller.net">HOLGER HILLER</a> &amp; THOMAS FEHLMANN 
-16	35:08	artist=quot; 	title= TAXI GIRL 
-17	39:50	artist=quot; 	title= <a href="http://www.tietchens.de">HEMATIC SUNSETS</a> 
-18	41:26	artist=quot; 	title= COLDCUT 
-19	42:40	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
-20	46:10	artist=quot; 	title= HARVEY ANDERSON 
-21	48:24	artist=quot; 	title= PLANINGTOROCK 
-22	51:30	artist=quot; 	title= WRITTEN IN JEWISH 
-23	51:30	artist=quot; 	title= <a href="http://www.saal2.com">SAAL 2</a> 
-24	53:36	artist=quot; 	title= LOUISE KENNEDY 
-25	57:30	artist=quot; 	title= FRANK COMSTOCK 
-26	59:32	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+1	00:40	from=40	artist=MISS LE BOMB	title=Intro song	href="http://www.misslebomb.net"	label="Unreleased"
+2	02:02	from=122	artist=J. MATIUSZKIEWITCZ	title=Stawka wieksza niz zycie	href=""	label="Pomaton"
+3	03:12	from=192	artist=DER ANFALL	title=Three wishes	href="http://www.rockcity.de"	label="Rockcity"
+4	06:12	from=372	artist=SAAL 2	title=Petra &amp; Gabi	href="http://www.vinyl-on-demand.com"	label="Vinyl on demand"
+5	09:10	from=550	artist=DAT POLITICS	title=My Toshiba is alive	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
+6	12:32	from=752	artist=SENOR COCONUT	title=Behind the mask	href="http://www.essayrecordings.com"	label="Essay recordings"
+7	15:52	from=952	artist=MESDAMES TRAUM	title=Ding Dong	href="http://www.rockcity.de"	label="Rockcity"
+8	17:29	from=1049	artist=FELIX KUBIN	title=Matki Wandalki	href="http://www.a-musik.com"	label="A"
+9	19:20	from=1160	artist=CURSOR MINER	title=Library	href="http://www.lorecordings.com"	label="Lo Recordings"
+10	21:29	from=1289	artist=ROYAL BLUE	title=Dizzy	href=""	label="Les Disques Cosmogol"
+11	23:40	from=1420	artist=DE LA SOUL	title=Eye know	href=""	label="Tommy Boy"
+12	27:40	from=1660	artist=K. KOMEDA	title=Perty i Dukati	href=""	label="Pomaton"
+13	28:50	from=1730	artist=FRANCE GALL	title=Attends ou va ten	href=""	label="Phillips"
+14	31:14	from=1874	artist=EGOEXPRESS	title=The fool of the new city	href="http://www.egoexpress.com"	label="Discograph"
+15	34:20	from=2060	artist=HOLGER HILLER &amp; THOMAS FEHLMANN	title=Baum musik	href="http://www.gagarinrecords.com"	label="Gagarin Records"
+16	35:08	from=2108	artist=TAXI GIRL	title=Les armées de la nuit	href=""	label="Virgin"
+17	39:50	from=2390	artist=HEMATIC SUNSETS	title=Aufgeregheiten	href="http://www.tietchens.de"	label="Klang der Festung"
+18	41:26	from=2486	artist=COLDCUT	title=More beats &amp; pieces	href=""	label="Ninja Tune"
+19	42:40	from=2560	artist=STEREOTOTAL	title=Mars rendez	href="http://www.diskob.com"	label="vous"
+20	46:10	from=2770	artist=HARVEY ANDERSON	title=Jivaro	href=""	label="Senor Charro Records"
+21	48:24	from=2904	artist=PLANINGTOROCK	title=Local foreigner	href=""	label="Chicks on speed records"
+22	51:30	from=3090	artist=WRITTEN IN JEWISH	title=Written in jewish	href=""	label="CBS"
+23	51:30	from=3090	artist=SAAL 2	title=Die internationale	href="http://www.vinyl-on-demand.com"	label="Vinyl on demand"
+24	53:36	from=3216	artist=LOUISE KENNEDY	title=Poo yai lee	href=""	label="Subliminal sounds"
+25	57:30	from=3450	artist=FRANK COMSTOCK	title=On The Dark Side Of The Moon	href=""	label="Rhino"
+26	59:32	from=3572	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

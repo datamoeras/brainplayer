@@ -1,21 +1,21 @@
-1	01:10	artist=quot; 	title= PEPE JARAMILLO 
-2	03:13	artist=quot; 	title= <a href="http://www.polysics.com">POLYSICS</a> 
-3	06:28	artist=quot; 	title= <a href="http://scarlattigoeselectro.free.fr">DELASOUCHAVE</a> 
-4	10:50	artist=quot; 	title= <a href="http://www.myspace.com/agaskodoteliverek">AGASKODO TELIVEREK</a> 
-5	13:13	artist=quot; 	title= VANILLA / 8 
-6	16:22	artist=quot; 	title= POP TARTS 
-7	18:22	artist=quot; 	title= <a href="http://kumisolo.com">KUMI SOLO</a> 
-8	20:52	artist=quot; 	title= <a href="http://www.myspace.com/tijuanasoundmachine">BOSTICH &amp; FUSSIBLE</a> 
-9	23:28	artist=quot; 	title= <a href="http://www.twistedcharm.f2s.com">TWISTED CHARM</a> 
-10	27:04	artist=quot; 	title= THE BRASS CHOIR 
-11	29:28	artist=quot; 	title= <a href="http://www.pixiesmusic.com">THE PIXIES</a> 
-12	32:54	artist=quot; 	title= <a href="http://www.myspace.com/virginmegawhore">VMW</a> 
-13	35:37	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
-14	38:49	artist=quot; 	title= <a href="http://magnetix.club.fr">MAGNETIX</a> 
-15	41:18	artist=quot; 	title= <a href="http://www.markallencam.com/theflyinglizards.html">FLYING LIZZARDS</a> 
-16	43:14	artist=quot; 	title= <a href="http://www.myspace.com/_frustration">FRUSTRATION</a> 
-17	44:52	artist=quot; 	title= <a href="http://www.mashgordon.com">MASH GORDON</a> 
-18	47:05	artist=quot; 	title= BERA MAOR 
-19	52:23	artist=quot; 	title= ONO WITH BLOW UP 
-20	56:20	artist=quot; 	title= <a href="http://clubdevo.com">DEVO</a> 
-21	59:26	artist=quot; 	title= <a href="FREDERIK SCHIKOWSKI">FREDERIK SCHIKOWSKI </a>
+1	01:10	from=70	artist=PEPE JARAMILLO	title=Maria	href=""	label="Capitol"
+2	03:13	from=193	artist=POLYSICS	title=My Sharona	href="http://www.kioon.com"	label="Ki/oon Records"
+3	06:28	from=388	artist=DELASOUCHAVE	title=You know it master	href="http://www.larmeedesbonbons.org"	label="Larmée des bonbons"
+4	10:50	from=650	artist=AGASKODO TELIVEREK	title=Blood Club	href="http://www.adaadat.com"	label="Adaadat"
+5	13:13	from=793	artist=VANILLA / 8	title=Alien in my room	href=""	label="Victor invitation"
+6	16:22	from=982	artist=POP TARTS	title=Girlie Pop	href="http://www.bungalow.de"	label="Bungalow"
+7	18:22	from=1102	artist=KUMI SOLO	title=Cheap Pop Song	href="http://www.dokidoki.fr"	label="Dokidoki"
+8	20:52	from=1252	artist=BOSTICH &amp; FUSSIBLE	title=The Clap	href="http://www.nacionalrecords.com"	label="Nacional Records"
+9	23:28	from=1408	artist=TWISTED CHARM	title=London Scene	href="http://www.because.tv"	label="Because"
+10	27:04	from=1624	artist=THE BRASS CHOIR	title=Eleanor Rigby	href=""	label="Command Records"
+11	29:28	from=1768	artist=THE PIXIES	title=Into the white	href="http://www.4ad.com"	label="4AD"
+12	32:54	from=1974	artist=VMW	title=Post	href="http://www.coalition-records.com"	label="Perversion"
+13	35:37	from=2137	artist=STEREOTOTAL	title=Miss rébellion des hormones	href="http://www.diskob.com"	label="Disko B"
+14	38:49	from=2329	artist=MAGNETIX	title=Time after time	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
+15	41:18	from=2478	artist=FLYING LIZZARDS	title=Great balls of fire	href="http://www.markallencam.com/theflyinglizards.html"	label="Statik Records"
+16	43:14	from=2594	artist=FRUSTRATION	title=We have some...	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
+17	44:52	from=2692	artist=MASH GORDON	title=German Boy	href="http://www.mashgordon.com"	label="Tipsy Poodl Records"
+18	47:05	from=2825	artist=BERA MAOR	title=Männer	href=""	label="Ink Records"
+19	52:23	from=3143	artist=ONO WITH BLOW UP	title=Every Man Every Woman	href=""	label="Parlophone"
+20	56:20	from=3380	artist=DEVO	title=Girluwant	href="http://clubdevo.com"	label="Virgin"
+21	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="FREDERIK SCHIKOWSKI"	label="Unreleased"

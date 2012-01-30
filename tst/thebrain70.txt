@@ -1,21 +1,21 @@
-1	07:16	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title=
-2	06:06	artist=26 	title=
-3	05:12	artist=17 	title= THE SANDPIPERS 
-4	14:53	artist=<a href="http://www.djurandmir.se/smk/smk">SLAGSMALSKLUBBEN</a> 	title= Kesta Son 
-5	20:13	artist=THIGHMASTER 	title= Fatty 
-6	21:44	artist=<a href="http://www.djscotchegg.com">DJ SCOTCH EGG</a> 	title= Scotch Forrest 
-7	22:52	artist=<a href="http://www.hotroddy.com">HOT RODDY</a> 	title= Skeleton emotion 
-8	23:26	artist=MR LANGLEY 	title= Escape from too 
-9	23:49	artist=<a href="http://www.myspace.com/groupgriserror">GROUPGRIS</a> 	title=
-10	27:22	artist=<a href="http://www.myspace.com/paulineeasy">PAULINE EASY</a> 	title= Come on Eileen 
-11	28:52	artist=<a href="http://www.rostronrecords.net">PLANINGTOROCK</a> 	title= Speed Records</a> 
-12	32:28	artist=<a href="http://www.nokay.net/candiehank">CANDIE HANK</a> 	title= The Bootybank 
-13	33:56	artist=AMBROSE AND HIS ORCHESTRA 	title= Soft lights and sweet music 
-14	36:59	artist=<a href="http://www.isawthem.com">THEY CAME FROM THE STARS I SAW THEM</a> 	title= An angels help 
-15	42:12	artist=<a href="http://www.ski	title=pp.com/">DAT POLITICS</a> 
-16	43:57	artist=PETER SELLERS 	title= Goodness gracious me 
-17	48:35	artist=<a href="http://www.danielson.info">DANIELSON FAMILY</a> 	title= canadian</a> 
-18	51:20	artist=DANI 	title= La fille à la moto 
-19	53:38	artist=<a href="http://www.moneymark.com">MONEYMARK</a> 	title=
-20	05:57	artist=36 	title= MICHEL MAGNE 
-21	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	07:16	from=436	artist=STEREOTOTAL	title=	href="http://www.stereototal.de"	label=""
+2	06:06	from=366	artist=26	title=	href="http://www.k4.dion.ne.jp/%7Edoddodo/"	label=""
+3	05:12	from=312	artist=17	title=THE SANDPIPERS	href=""	label="What makes you dream pretty girl"
+4	14:53	from=893	artist=SLAGSMALSKLUBBEN	title=Kesta Son	href="http://www.djurandmir.se/smk/smk"	label="Unreleased"
+5	20:13	from=1213	artist=THIGHMASTER	title=Fatty	href="http://www.wrongmusic.com"	label="Wrong music"
+6	21:44	from=1304	artist=DJ SCOTCH EGG	title=Scotch Forrest	href="http://www.wrongmusic.com"	label="Wrong music"
+7	22:52	from=1372	artist=HOT RODDY	title=Skeleton emotion	href="http://www.wrongmusic.com"	label="Wrong music"
+8	23:26	from=1406	artist=MR LANGLEY	title=Escape from too	href="http://www.wrongmusic.com"	label="Wrong music"
+9	23:49	from=1429	artist=GROUPGRIS	title=	href="http://www.myspace.com/groupgriserror"	label=""
+10	27:22	from=1642	artist=PAULINE EASY	title=Come on Eileen	href="http://www.myspace.com/paulineeasy"	label="Unreleased"
+11	28:52	from=1732	artist=PLANINGTOROCK	title=Speed Records	href="http://www.rostronrecords.net"	label=""
+12	32:28	from=1948	artist=CANDIE HANK	title=The Bootybank	href="http://www.sonig.com"	label="Sonig"
+13	33:56	from=2036	artist=AMBROSE AND HIS ORCHESTRA	title=Soft lights and sweet music	href=""	label="Emi"
+14	36:59	from=2219	artist=THEY CAME FROM THE STARS I SAW THEM	title=An angels help	href="http://www.isawthem.com"	label="Unreleased"
+15	42:12	from=2532	artist=DAT POLITICS	title=Amazing Dan	href="http://www.ljud.dk"	label="LJUD"
+16	43:57	from=2637	artist=PETER SELLERS	title=Goodness gracious me	href=""	label="Parlophone"
+17	48:35	from=2915	artist=DANIELSON FAMILY	title=canadian	href="http://www.danielson.info"	label=""
+18	51:20	from=3080	artist=DANI	title=La fille à la moto	href=""	label="Ducretet Thompson"
+19	53:38	from=3218	artist=MONEYMARK	title=	href="http://www.moneymark.com"	label=""
+20	05:57	from=357	artist=36	title=MICHEL MAGNE	href=""	label="Ma chère Hélène"
+21	59:35	from=3575	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

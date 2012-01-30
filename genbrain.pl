@@ -18,7 +18,8 @@ if ($ARGV[0] && $ARGV[0] =~ /^-j$/) {
 	$opt{json}++;
 }
 if ($ARGV[0]) {
-	print Dumper(genbrain::readbrain($ARGV[0]));
+	my $b = genbrain::readbrain($ARGV[0]);
+	tstbrn($b, 1);
 } else {
 	my $data = genbrain::readall();
 	if ($opt{json}) {
@@ -39,15 +40,22 @@ sub testoutput {
 
 sub tstbrn {
 	my $data = shift;
+	my $stdout = shift;
 	my $title = $data->{title};
-	open(my $fh, '>', "$path/tst/$title.txt");
+	my $fh;
+	if ($stdout) {
+		$fh = *STDOUT{IO};
+	} else {
+		open($fh, '>', "$path/tst/$title.txt");
+	}
 	my $i = 0;
 	no warnings;
 	for my $track (@{ $data->{list}}) {
 		my $tm = $track->[0];
 		my $info = $track->[1];
 		$i++;
-		print $fh join("\t", $i, "$tm->[0]:$tm->[1]", "artist=$info->{artist}", "title=$info->{title}"), "\n";
+		my $str = join("\t", $i, "$tm->[0]:$tm->[1]", qq|from=$info->{from}|, "artist=$info->{artist}", "title=$info->{title}", qq|href="$info->{href}"|, qq|label="$info->{label}"|). "\n";
+		print $fh $str;
 	}
 	close($fh);
 }

@@ -1,23 +1,23 @@
-1	00:58	artist=MICHEL MAGNE 	title= Hymne à l argent 
-2	02:18	artist=<a href="http://perso.orange.fr/w.w.">KAP BAMBINO</a> 	title= Hey ! 
-3	04:23	artist=<a href="http://www.boingo.org">OINGO BOINGO</a> 	title= Journey through the intestines 
-4	05:11	artist=<a href="http://amigo	title=records.com/artists/turkish_delight/turkish_delight.htm">TURKISH DELIGHT</a> 
-5	07:34	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Cavité buccale 
-6	08:15	artist=SHUNSUKE KIKUCHI 	title= &quot;Kure Kure Takora&quot; 
-7	11:18	artist=<a href="http://roddroid.free.fr">ROD DROïD</a> 	title= Le Père Noël vampire 
-8	15:13	artist=<a href="http://www.jimavignon.com">NEOANGIN</a> 	title= Hello Juke Box 
-9	17:31	artist=<a href="http://computertruck.parishq.net/">COMPUTER TRUCK</a> 	title= Euritmix sux my dix 
-10	20:25	artist=<a href="http://www.tetsuo.no">TETSUO &amp; MISS REBEL</a> 	title= Lowest of the lofi 
-11	23:01	artist=THE REMAINS 	title= Say youre sorry 
-12	24:52	artist=<a href="http://www.hawnaytroof.com">HAWNAY TROOF</a> 	title= Bad news from the stars 
-13	27:02	artist=<a href="http://www.client	title=online.net">CLIENT</a> 
-14	30:01	artist=<a href="http://www.harrymerry.com">HARRY MERRY</a> 	title= St. Benedictus school 
-15	34:43	artist=MICHEL MAGNE 	title= Pékin
-16	37:26	artist=<a href="http://www.catani	title=music.de/CANDIEHANK/CandieHank_Home.html">CANDIE HANK</a> 
-17	41:08	artist=<a href="http://www.mitch	title=and
-18	44:52	artist=PUSHCLICK 	title= Anreizfaktor 
-19	48:28	artist=<a href="http://www.mashgordon.com+">MASH GORDON</a> 	title= Brain explode 
-20	51:42	artist=NICOLLE MEYER 	title= Nowhere by mir 
-21	55:07	artist=<a href="http://www.stereototal.de">FRANCOISE CACTUS</a> 	title= You cant put your arms around a memory 
-22	56:59	artist=EDDIE VARTAN 	title= Le cri du cormoran le soir au dessus des jonques 
-23	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:58	from=58	artist=MICHEL MAGNE	title=Hymne à l argent	href=""	label="Universal"
+2	02:18	from=138	artist=KAP BAMBINO	title=Hey !	href="http://perso.orange.fr/w.w."	label="Wwilko"
+3	04:23	from=263	artist=OINGO BOINGO	title=Journey through the intestines	href="http://www.boingo.org"	label="Soundtrack"
+4	05:11	from=311	artist=TURKISH DELIGHT	title=Neit, Cabruhsma Ha Samahoi	href="http://www.hundertzwei.de"	label="Hundertzwei"
+5	07:34	from=454	artist=YVAN&amp;LENDL	title=Cavité buccale	href="http://www.yvanlendl.ch"	label="Unreleased"
+6	08:15	from=495	artist=SHUNSUKE KIKUCHI	title=Kure Kure Takora	href=""	label="?"
+7	11:18	from=678	artist=ROD DROïD	title=Le Père Noël vampire	href="http://www.kernkrach.de+"	label="Kernkrach"
+8	15:13	from=913	artist=NEOANGIN	title=Hello Juke Box	href="http://www.lieblingslied-records.de"	label="Lieblingslied Records"
+9	17:31	from=1051	artist=COMPUTER TRUCK	title=Euritmix sux my dix	href="http://www.daheardit-records.net"	label="Da ! Heard it Records"
+10	20:25	from=1225	artist=TETSUO &amp; MISS REBEL	title=Lowest of the lofi	href="http://www.hundertzwei.de"	label="Hundertzwei"
+11	23:01	from=1381	artist=THE REMAINS	title=Say youre sorry	href=""	label="Sundaze"
+12	24:52	from=1492	artist=HAWNAY TROOF	title=Bad news from the stars	href="http://www.retarddisco.com"	label="Retard Disco"
+13	27:02	from=1622	artist=CLIENT	title=Down to the underground	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
+14	30:01	from=1801	artist=HARRY MERRY	title=St. Benedictus school	href="http://www.hundertzwei.de"	label="Hundertzwei"
+15	34:43	from=2083	artist=MICHEL MAGNE	title=Pékin	href=""	label="Buenos Aires"
+16	37:26	from=2246	artist=CANDIE HANK	title=Formen von sex (Remixing Attvenger)	href="http://www.trikont.de"	label="Trikont"
+17	41:08	from=2468	artist=MITCH AND MITCH	title=Pizzaman	href="http://www.ladoabc.com"	label="Lado ABC"
+18	44:52	from=2692	artist=PUSHCLICK	title=Anreizfaktor	href="http://www.digitalkranky.de"	label="Kraeka"
+19	48:28	from=2908	artist=MASH GORDON	title=Brain explode	href="http://www.mashgordon.com+"	label="Tipsy poodle records"
+20	51:42	from=3102	artist=NICOLLE MEYER	title=Nowhere by mir	href="http://www.crippled.com+"	label="Crippled"
+21	55:07	from=3307	artist=FRANCOISE CACTUS	title=You cant put your arms around a memory	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
+22	56:59	from=3419	artist=EDDIE VARTAN	title=Le cri du cormoran le soir au dessus des jonques	href=""	label="Crippled"
+23	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

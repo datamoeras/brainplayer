@@ -1,21 +1,21 @@
-1	00:33	artist=THE BRAIN 	title= Générique 2010 
-2	01:12	artist=MIKE VICKERS 	title= Break through 
-3	03:15	artist=<a href="http://www.majorlazer.com">MAJOR LAZER</a> 	title= Jump 
-4	06:56	artist=THE SHARADES 	title= Dumb head 
-5	08:52	artist=MARC DROUIN 	title= Autopsychanalyse 
-6	13:16	artist=<a href="http://www.myspace.com/sandietrash">SANDIE TRASH</a> 	title= Fière de ne rien faire 
-7	15:30	artist=<a href="http://www.myspace.com/metronomy">METRONOMY</a> 	title= You could easily have me 
-8	18:35	artist=<a href="http://www.myspace.com/dizzeerascal">DIZEE RASCAL</a> 	title= Donkers 
-9	21:27	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title= Du Bist Gut Zu Vögeln 
-10	27:14	artist=MARECAGE 	title= 7th Street Down 
-11	29:30	artist=GUY SKORNIK 	title= Des arbres de fer 
-12	31:43	artist=<a href="http://www.myspace.com/goldbloodband">GOLD BLOOD</a> 	title= Hair 
-13	35:48	artist=NOT MEAN THEMSELVES 	title= Frozen 
-14	38:56	artist=NICOLET 	title= Ma voiturette 
-15	41:18	artist=<a href="http://www.myspace.com/agglomerat">DEUX</a> 	title= Game and performance 
-16	44:49	artist=UNDER TWO FLAGS 	title= Lest we forget 
-17	47:56	artist=DOG POLICE 	title= Dog police 
-18	50:35	artist=DOMINIQUE WEBB 	title= Hypnose 
-19	54:00	artist=<a href="http://www.bierbeben.de">DAS BIERBEBEN</a> 	title= Behind the green door 
-20	58:08	artist=POP CONCERTO ORCHESTRA 	title= O Kalender 
-21	59:24	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:33	from=33	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+2	01:12	from=72	artist=MIKE VICKERS	title=Break through	href=""	label="KPMl"
+3	03:15	from=195	artist=MAJOR LAZER	title=Jump	href="http://www.maddecent.com/"	label="Mad decent"
+4	06:56	from=416	artist=THE SHARADES	title=Dumb head	href=""	label="Decca"
+5	08:52	from=532	artist=MARC DROUIN	title=Autopsychanalyse	href=""	label="Laser"
+6	13:16	from=796	artist=SANDIE TRASH	title=Fière de ne rien faire	href="http://www.naive.fr"	label="Naïve"
+7	15:30	from=930	artist=METRONOMY	title=You could easily have me	href="http://www.myspace.com/metronomy"	label="Holiphonic"
+8	18:35	from=1115	artist=DIZEE RASCAL	title=Donkers	href="http://www.dirteestank.co.uk"	label="Dirtee Stank Recordings"
+9	21:27	from=1287	artist=STEREOTOTAL	title=Du Bist Gut Zu Vögeln	href="http://www.diskob.com"	label="Disko B"
+10	27:14	from=1634	artist=MARECAGE	title=7th Street Down	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
+11	29:30	from=1770	artist=GUY SKORNIK	title=Des arbres de fer	href=""	label="Pathé Marconi"
+12	31:43	from=1903	artist=GOLD BLOOD	title=Hair	href="http://www.myspace.com/humanshieldrecordco"	label="Human Shield Record Company"
+13	35:48	from=2148	artist=NOT MEAN THEMSELVES	title=Frozen	href=""	label="Überblick"
+14	38:56	from=2336	artist=NICOLET	title=Ma voiturette	href=""	label="RTBF Liège"
+15	41:18	from=2478	artist=DEUX	title=Game and performance	href="http://www.agglomerat.com"	label="Agglomérat"
+16	44:49	from=2689	artist=UNDER TWO FLAGS	title=Lest we forget	href=""	label="Situation 2"
+17	47:56	from=2876	artist=DOG POLICE	title=Dog police	href=""	label="Music Masters"
+18	50:35	from=3035	artist=DOMINIQUE WEBB	title=Hypnose	href=""	label="Les Disques Motors"
+19	54:00	from=3240	artist=DAS BIERBEBEN	title=Behind the green door	href="http://www.shitkatapult.com"	label="Shitkatapult"
+20	58:08	from=3488	artist=POP CONCERTO ORCHESTRA	title=O Kalender	href=""	label="Disc AZ"
+21	59:24	from=3564	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

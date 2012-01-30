@@ -1,21 +1,21 @@
-1	00:41	artist=SANDY NELSON 	title= Chop Chop 
-2	02:55	artist=PETER RAP 	title= Behind the mask remix 
-3	06:58	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title= Ich bin der Stricherjunge 
-4	09:03	artist=<a href="http://www.myspace.com/novahuta">NOVA HUTA</a> 	title= Titohilfe 
-5	11:29	artist=<a href="http://veroniquehubert.free.fr">UTOPIA</a> 	title= Toccupper de tout 
-6	12:10	artist=<a href="http://www.johanagebjorn.info/sally.html">SALLY SHAPIRO</a> 	title= I know 
-7	18:19	artist=<a href="http://www.clubdevo.com/">DEVO</a> 	title= The day my baby gave me a surprise 
-8	20:47	artist=CHAILAI CHAYATA &amp; SAWANEE PATANA 	title= Kwuan Tai Duew Luk Puen 
-9	24:15	artist=VICKY POLLARD 	title= Yeahbutnobutyeahbutno 
-10	26:22	artist=<a href="http://www.felixkubin.com">FELIX KUBIN &amp; PIA BURNETTE</a> 	title= Antitank 
-11	30:52	artist=MOONBEARS 	title= We are bi bi ba ba boumboum 
-12	33:45	artist=<a href="http://www.killforyou.de">KILL FOR YOU</a> 	title= Mr Foukov 
-13	36:39	artist=<a href="http://www.theviolets.co.uk">THE VIOLETS</a> 	title= Descend 
-14	38:14	artist=<a href="http://www.klement.fr">KLEMENT</a> 	title= Check the this is 
-15	42:59	artist=<a href="http://www.barbaramorgenstern.de">BARBARA MORGENSTERN</a> 	title= The operator 
-16	46:20	artist=<a href="http://veroniquehubert.free.fr">SIMSILLY FEAT UTOPIA</a> 	title= Jungle bonus 
-17	49:59	artist=NENA 	title= Nur geträumt 
-18	53:30	artist=<a href="http://www.klement.fr">ALINE FEAT KLEMENT</a> 	title= Soeurette 
-19	55:22	artist=<a href="http://www.coolhaven.nl">COOLHAVEN</a> 	title= Kind von traurigkeit 
-20	56:05	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= Torpedo girls 
-21	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:41	from=41	artist=SANDY NELSON	title=Chop Chop	href=""	label="Skinupski"
+2	02:55	from=175	artist=PETER RAP	title=Behind the mask remix	href="http://www.essayrecordings.com"	label="Essay Recordings"
+3	06:58	from=418	artist=STEREOTOTAL	title=Ich bin der Stricherjunge	href="http://www.diskob.com"	label="Disko B"
+4	09:03	from=543	artist=NOVA HUTA	title=Titohilfe	href="http://www.myspace.com/novahuta"	label="Unreleased"
+5	11:29	from=689	artist=UTOPIA	title=Toccupper de tout	href="http://veroniquehubert.free.fr"	label="Station Mir"
+6	12:10	from=730	artist=SALLY SHAPIRO	title=I know	href="http://www.diskokaine.com"	label="Diskokaine"
+7	18:19	from=1099	artist=DEVO	title=The day my baby gave me a surprise	href="http://www.clubdevo.com/"	label="Virgin"
+8	20:47	from=1247	artist=CHAILAI CHAYATA &amp; SAWANEE PATANA	title=Kwuan Tai Duew Luk Puen	href="http://www.sublimefrequencies.com"	label="Sublime Frequencies"
+9	24:15	from=1455	artist=VICKY POLLARD	title=Yeahbutnobutyeahbutno	href=""	label="Unreleased"
+10	26:22	from=1582	artist=FELIX KUBIN &amp; PIA BURNETTE	title=Antitank	href="http://gagarinrecords.com"	label="Gagarin Records"
+11	30:52	from=1852	artist=MOONBEARS	title=We are bi bi ba ba boumboum	href=""	label="Barclay"
+12	33:45	from=2025	artist=KILL FOR YOU	title=Mr Foukov	href="http://www.killforyou.de"	label="Unreleased"
+13	36:39	from=2199	artist=THE VIOLETS	title=Descend	href="http://www.arc018.com"	label="Angular"
+14	38:14	from=2294	artist=KLEMENT	title=Check the this is	href="http://www.contrecoeur.eu"	label="Contrecoeur"
+15	42:59	from=2579	artist=BARBARA MORGENSTERN	title=The operator	href="http://www.monika-enterprise.de"	label="Monika"
+16	46:20	from=2780	artist=SIMSILLY FEAT UTOPIA	title=Jungle bonus	href="http://veroniquehubert.free.fr"	label="Station Mir"
+17	49:59	from=2999	artist=NENA	title=Nur geträumt	href=""	label="CBS"
+18	53:30	from=3210	artist=ALINE FEAT KLEMENT	title=Soeurette	href="http://www.contrecoeur.eu"	label="Contrecoeur"
+19	55:22	from=3322	artist=COOLHAVEN	title=Kind von traurigkeit	href="http://www.coolhaven.nl"	label="Taple"
+20	56:05	from=3365	artist=AAVIKKO	title=Torpedo girls	href="http://www.spinefarm.fi"	label="Spinefarm records"
+21	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

@@ -1,21 +1,21 @@
-1	00:35	artist=<a href="http://www.francoisderoubaix.com">FRANÇOIS DE ROUBAIX</a> 	title= Acrobaties aériennes 
-2	02:27	artist=<a href="http://www.pocketmaster.ch">POCKETMASTER</a> 	title= Dr. Sleepgood 2 
-3	05:31	artist=<a href="http://www.myspace.com/blacksheep">BLACK SHEEP</a> 	title= The choice is yours 
-4	09:29	artist=BEACH BOYS 	title= Girls On The Beach (Black Lights Remix) 
-5	12:02	artist=THE MURMAIDS 	title= Popsicles and Icicles 
-6	14:32	artist=<a href="http://divag.parishq.net">DIVAG</a> 	title= Medieval 
-7	17:48	artist=ELECTRIC LIGHT ORCHESTRA 	title= Yours truly 2095 
-8	20:58	artist=<a href="http://www.metamatic.com">JOHN FOXX</a> 	title= Underpass 
-9	24:31	artist=<a href="http://www.myspace.com/gidropony">GIDROPONY</a> 	title= Group sex of rabbits 
-10	26:18	artist=LES ROCHE MARTIN 	title= Les mains dans les poches 
-11	29:03	artist=SUDENTEN CRECHE 	title= Are Kisses Out of Fashion 
-12	32:18	artist=<a href="http://www.myspace.com/edithnylonfrance">EDITH NYLON</a> 	title= Mariage dernier délai 
-13	36:19	artist=<a href="http://www.myspace.com/hotbip">HOT BIP</a> 	title= 150220102035 
-14	39:00	artist=<a href="http://futurecrayon.blogspot.com">BROADCAST</a> 	title= Come on lets go 
-15	42:06	artist=DOF 	title= Arafat 
-16	45:29	artist=<a href="http://www.myspace.com/doctorscientistband">DOCTOR SCIENTIST</a> 	title= Detonate the Spacebomb 
-17	46:42	artist=<a href="http://www.mediengruppe	title=telekommander.de">MEDIENGRUPPE TELEKOMMANDER</a> 
-18	50:25	artist=<a href="http://www.arno.be">ARNO</a> 	title= Knowing me knowing you 
-19	54:39	artist=<a href="http://www.myspace.com/_frustration">FRUSTRATION </a>	title= Holocaust (Plaid at 45 rpm) 
-20	56:57	artist=THE BRASS RING 	title= The Dis
-21	59:15	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>	title= Indicatif The Brain 1.3 
+1	00:35	from=35	artist=FRANÇOIS DE ROUBAIX	title=Acrobaties aériennes	href="http://www.francoisderoubaix.com"	label="Universal"
+2	02:27	from=147	artist=POCKETMASTER	title=Dr. Sleepgood 2	href="http://www.daheardit-records.net/"	label="Da ! Heard it Records"
+3	05:31	from=331	artist=BLACK SHEEP	title=The choice is yours	href="http://www.myspace.com/blacksheep"	label="Mercury"
+4	09:29	from=569	artist=BEACH BOYS	title=Girls On The Beach (Black Lights Remix)	href=""	label="Online release"
+5	12:02	from=722	artist=THE MURMAIDS	title=Popsicles and Icicles	href=""	label="Stateside"
+6	14:32	from=872	artist=DIVAG	title=Medieval	href="http://www.dataglitch.org"	label="Dataglitch"
+7	17:48	from=1068	artist=ELECTRIC LIGHT ORCHESTRA	title=Yours truly 2095	href=""	label="Jet Records"
+8	20:58	from=1258	artist=JOHN FOXX	title=Underpass	href="http://www.metamatic.com"	label="Polydor"
+9	24:31	from=1471	artist=GIDROPONY	title=Group sex of rabbits	href="http://www.qulture.ru"	label="Qulture production"
+10	26:18	from=1578	artist=LES ROCHE MARTIN	title=Les mains dans les poches	href=""	label="Odéon"
+11	29:03	from=1743	artist=SUDENTEN CRECHE	title=Are Kisses Out of Fashion	href=""	label="Phonograph"
+12	32:18	from=1938	artist=EDITH NYLON	title=Mariage dernier délai	href="http://www.myspace.com/edithnylonfrance"	label="CBS"
+13	36:19	from=2179	artist=HOT BIP	title=150220102035	href="http://www.myspace.com/hotbip"	label="Fraction Studio"
+14	39:00	from=2340	artist=BROADCAST	title=Come on lets go	href="http://warp.net"	label="Warp"
+15	42:06	from=2526	artist=DOF	title=Arafat	href=""	label="Gig Records"
+16	45:29	from=2729	artist=DOCTOR SCIENTIST	title=Detonate the Spacebomb	href="http://www.fdhmusic.com"	label="FDH"
+17	46:42	from=2802	artist=MEDIENGRUPPE TELEKOMMANDER	title=Dunkelziffer	href="http://www.mediengruppe-telekommander.de"	label="Staatzak"
+18	50:25	from=3025	artist=ARNO	title=Knowing me knowing you	href="http://www.arno.be"	label="EMI"
+19	54:39	from=3279	artist=FRUSTRATION	title=Holocaust (Plaid at 45 rpm)	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
+20	56:57	from=3417	artist=THE BRASS RING	title=The Dis	href=""	label="Advantages of You"
+21	59:15	from=3555	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

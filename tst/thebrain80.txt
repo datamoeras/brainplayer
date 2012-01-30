@@ -1,20 +1,20 @@
-1	00:45	artist=quot; 	title= KLAUS WUNDERLICH 
-2	03:44	artist=quot; 	title= VANILLA / 8 
-3	07:16	artist=quot; 	title= <a href="http://www.myspace.com/peredodudaboum">PERE DODU DABOUM</a> 
-4	10:26	artist=quot; 	title= <a href="http://www.myspace.com/normannorman">NORMAN BAMBI</a> 
-5	14:42	artist=quot; 	title= CONRAD SCHNITZLER 
-6	18:12	artist=quot; 	title= <a href="http://gangpol.free.fr/">GANGPOL &amp; MIT</a> et KHIMA FRANCE 
-7	21:25	artist=quot; 	title= <a href="http://www.kaniatieffer.com/">KANIA TIEFFER</a> 
-8	22:58	artist=quot; 	title= <a href="http://www.trashpalace.net">TRASH PALACE</a> 
-9	25:07	artist=quot; 	title= DOLLY RAMBO 
-10	27:47	artist=quot; 	title= <a href="http://www.metronomy.co.uk">METRONOMY</a> 
-11	32:14	artist=quot; 	title= STANLEY BLACK 
-12	34:30	artist=quot; 	title= DESMOND DEKKER 
-13	37:04	artist=quot; 	title= <a href="http://www.myspace.com/chrisclubclub">CHRIS CLUB </a>
-14	40:29	artist=quot; 	title= <a href="NICOLE WILLIS">NICOLE WILLIS</a> 
-15	43:56	artist=quot; 	title= <a href="http://www.lamonjaenana.com">LA MONJA ENANA</a> 
-16	45:30	artist=quot; 	title= <a href="http://www.twistedcharm.f2s.com/">TWISTED CHARM</a> 
-17	48:39	artist=quot; 	title= CHALERMPON MALAKUM 
-18	51:11	artist=quot; 	title= <a href="http://alonetogether.xxxxxxxx.jp/">ALONE TOGETHER</a> 
-19	57:06	artist=quot; 	title= <a href="http://www.aavikko.net/">AAVIKKO</a> 
-20	59:26	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+1	00:45	from=45	artist=KLAUS WUNDERLICH	title=Illusion	href=""	label="EMI"
+2	03:44	from=224	artist=VANILLA / 8	title=Eden no 87 sunday	href=""	label="Victor invitation"
+3	07:16	from=436	artist=PERE DODU DABOUM	title=Fille de joie	href="http://www.myspace.com/peredodudaboum"	label="Unreleased"
+4	10:26	from=626	artist=NORMAN BAMBI	title=Roger Browns Morning Haze	href="http://pagesperso-orange.fr/doowop"	label="Ponpoko"
+5	14:42	from=882	artist=CONRAD SCHNITZLER	title=Tanze in regen	href=""	label="Sky"
+6	18:12	from=1092	artist=GANGPOL &amp; MIT et KHIMA FRANCE	title=Gangpol &amp; Mit	href="http://pagesperso-orange.fr/w.w./index.htm"	label="Wwilko"
+7	21:25	from=1285	artist=KANIA TIEFFER	title=Rotterdam	href="http://pagesperso-orange.fr/w.w./index.htm"	label="Wwilko"
+8	22:58	from=1378	artist=TRASH PALACE	title=Sex on the beach	href="http://www.discograph.com"	label="Discograph"
+9	25:07	from=1507	artist=DOLLY RAMBO	title=Lambada	href=""	label="?"
+10	27:47	from=1667	artist=METRONOMY	title=Black Eye / Burnt Thumb	href="http://www.holiphonic.com"	label="Holiphonic"
+11	32:14	from=1934	artist=STANLEY BLACK	title=Jungle drums	href=""	label="Decca"
+12	34:30	from=2070	artist=DESMOND DEKKER	title=Israelites	href=""	label="Trojan"
+13	37:04	from=2224	artist=CHRIS CLUB	title=La piste étoilée	href="www.dokidoki.fr"	label="Dokidoki"
+14	40:29	from=2429	artist=NICOLE WILLIS	title=Feeling free	href="http://www.timmion.com"	label="Timmion"
+15	43:56	from=2636	artist=LA MONJA ENANA	title=Estrella fugaz	href="http://jscp3.free.fr/LaBulleSonore"	label="La bulle sonore"
+16	45:30	from=2730	artist=TWISTED CHARM	title=Never grow older	href="http://www.because.tv"	label="Because"
+17	48:39	from=2919	artist=CHALERMPON MALAKUM	title=Peng Show	href=""	label="Sublime Frequencies"
+18	51:11	from=3071	artist=ALONE TOGETHER	title=Human beings	href="http://alonetogether.xxxxxxxx.jp/"	label="Unreleased"
+19	57:06	from=3426	artist=AAVIKKO	title=Laser theme	href="http://www.aavikko.net/"	label="Hawai Records"
+20	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

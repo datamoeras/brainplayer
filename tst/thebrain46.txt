@@ -1,24 +1,24 @@
-1	00:58	artist=<a href="http://www.spaceagepop.com/mancini.htm">HENRI MANCINI</a> 	title= Moon river cha cha 
-2	03:30	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> 	title=
-3	06:01	artist=ECHOKRANK 	title= Inhuman fly 
-4	08:27	artist=<a href="http://www.crosslink.net/%7Ebigmack9/slimcrk.htm">YODELIN’ SLIM CLARK</a> 	title= Rocky mountain yodeler 
-5	10:11	artist=N.O.I.A. 	title= Atomkraft 
-6	12:34	artist=<a href="http://www.hipsurgerymusic.com/Chipmunks/">CHIPMUNK MANIA</a> 	title= All my loving 
-7	14:49	artist=<a href="http://www.aavikko.net/">AAVIKKO</a> 	title= Samojeden keskuudessa 
-8	17:11	artist=<a href="http://www.panchamonline.com/">RD BURMAN</a> 	title= Tum kya jaano 
-9	21:04	artist=<a href="http://moscowa.mine.nu/triotetris/new.htm">TRIO TETRIS</a> 	title= Bingo worms 
-10	26:03	artist=<a href="../index/schikowski/frederikschikowski.html">FREDERIK Records</a> 	title=
-11	27:46	artist=<a href="http://www.evolution	title=control.com">EVOLUTION 
-12	31:31	artist=THE BRAIN 	title= White is black, black is white 
-13	31:51	artist=<a href="http://www.smpj.tk">SISTA MANNEN PA JORDEN</a> 	title= Hur lång tid kan det ta 
-14	36:07	artist=ROSCAMPZINSKI 	title= Eros dans la lune 
-15	38:22	artist=<a href="http://www.gagarinrecords.com">FELIX KUBIN</a> 	title=
-16	41:56	artist=<a href="http://www.spaceagepop.com/light.htm">ENOCH LIGHT</a> 	title= The jerk 
-17	44:48	artist=<a href="http://www.pffr.net">PFFR</a> 	title= Our concern 
-18	45:41	artist=TOPOLINOS 	title= Mustafa 
-19	48:43	artist=<a href="http://www.retrojeunesse60.com/revoltes.html">LES REVOLTES</a> 	title= Elle va pleurer 
-20	50:21	artist=KORO OSANAGO 	title= Original 84 Mini click mix 
-21	52:33	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE records</a> 
-22	55:42	artist=<a href="http://www.angelfire.com/super/neonhunk/">NEON HUNK</a> 	title= Good tooblies 
-23	56:54	artist=<a href="http://personal.inet.fi/taide/junttila/desert/engani/index.htm">DESERT 	title=
-24	59:24	artist=<a href="../index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 
+1	00:58	from=58	artist=HENRI MANCINI	title=Moon river cha cha	href="http://www.spaceagepop.com/mancini.htm"	label="RCA"
+2	03:30	from=210	artist=OLEG KOSTROW	title=	href="http://www.kostrow.com"	label=""
+3	06:01	from=361	artist=ECHOKRANK	title=Inhuman fly	href="http://www.klangkrieg-produktionen.de"	label="Klangkrieg"
+4	08:27	from=507	artist=YODELIN’ SLIM CLARK	title=Rocky mountain yodeler	href="http://www.crosslink.net/%7Ebigmack9/slimcrk.htm"	label="Universal"
+5	10:11	from=611	artist=N.O.I.A.	title=Atomkraft	href="http://www.ersatzaudio.com"	label="Erzatz Audio"
+6	12:34	from=754	artist=CHIPMUNK MANIA	title=All my loving	href="http://www.hipsurgerymusic.com/Chipmunks/"	label="Capitol"
+7	14:49	from=889	artist=AAVIKKO	title=Samojeden keskuudessa	href="http://www.solnzerecords.com"	label="Solnze"
+8	17:11	from=1031	artist=RD BURMAN	title=Tum kya jaano	href="http://www.panchamonline.com/"	label="EMI"
+9	21:04	from=1264	artist=TRIO TETRIS	title=Bingo worms	href="http://moscowa.mine.nu/triotetris/new.htm"	label="Arju"
+10	26:03	from=1563	artist=FREDERIK Records	title=	href="../index/schikowski/frederikschikowski.html"	label=""
+11	27:46	from=1666	artist=EVOLUTION	title=	href="http://www.evolution-control.com"	label=""
+12	31:31	from=1891	artist=THE BRAIN	title=White is black, black is white	href=""	label="Unrealised"
+13	31:51	from=1911	artist=SISTA MANNEN PA JORDEN	title=Hur lång tid kan det ta	href="http://www.smpj.tk"	label="Subspace"
+14	36:07	from=2167	artist=ROSCAMPZINSKI	title=Eros dans la lune	href=""	label="Unrealised"
+15	38:22	from=2302	artist=FELIX KUBIN	title=	href="http://www.gagarinrecords.com"	label=""
+16	41:56	from=2516	artist=ENOCH LIGHT	title=The jerk	href="http://www.spaceagepop.com/light.htm"	label="Command"
+17	44:48	from=2688	artist=PFFR	title=Our concern	href="http://www.invasionplanete.com"	label="Invasion planete"
+18	45:41	from=2741	artist=TOPOLINOS	title=Mustafa	href=""	label="Ink Records"
+19	48:43	from=2923	artist=LES REVOLTES	title=Elle va pleurer	href="http://www.retrojeunesse60.com/revoltes.html"	label="Echo 67"
+20	50:21	from=3021	artist=KORO OSANAGO	title=Original 84 Mini click mix	href="http://www.relaxbeat.com"	label="Relaxbeat"
+21	52:33	from=3153	artist=CANDIE records	title=	href="http://www.galerie-transition.de/candiehank/index.html"	label=""
+22	55:42	from=3342	artist=NEON HUNK	title=Good tooblies	href="http://www.angelfire.com/super/neonhunk/"	label="Load records"
+23	56:54	from=3414	artist=DESERT	title=	href="http://personal.inet.fi/taide/junttila/desert/engani/index.htm"	label=""
+24	59:24	from=3564	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href="../index/schikowski/frederikschikowski.html"	label="Unrealised"

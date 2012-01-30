@@ -1,22 +1,22 @@
-1	00:20	artist=THE BRAIN 	title= Générique 2010 
-2	00:50	artist=RUBIN STEINER 	title= Death to music 
-3	03:13	artist=ILLAIYARAAJA 	title= Vikram vikram 
-4	07:21	artist=THE DEATH SET 	title= Slap Slap Slap Pound Up Down Snap 
-5	09:16	artist=DOLINA 	title= Sun backwards 
-6	12:44	artist=RAINBOW ARABIA 	title= Let Them Dance (Brenmar Remix) 
-7	16:09	artist=EL ORIGINAL 	title=Taka boom (La ametralladora) 
-8	18:46	artist=CHRISTINE PILZER 	title= Champs Elysées 
-9	20:54	artist=HENAUER GUGGER 	title= Désenchantée 
-10	24:25	artist=RAUBERHOLE 	title= Im not part of the shit 
-11	27:22	artist=VAN DER GRAAF GENERATOR 	title= Theme One 
-12	30:22	artist=JAAKKO EINO KALEVI 	title= Flexible Heart 
-13	34:21	artist=THE MOLE 	title= Zombie Dance Mind Programme 
-14	37:00	artist=HEIDI MORTENSON 	title= Girl since I met you 
-15	40:46	artist=OPPENHEIMER ANALYSIS 	title= The Devils Dancers 
-16	44:19	artist=TOXIC LIPSTICK	title= Ruff Bass 
-17	45:54	artist=MICHEL POLNAREFF 	title= Tout pour ma cherie (PP edit) 
-18	48:55	artist=KEVIN BLECHDOM AND AD HAWK 	title= Frankenstein 
-19	51:48	artist=JENNY ROCK 	title= Mal 
-20	54:19	artist=HARVEY FUQUA 	title= (Dance) Any Way You Wanta 
-21	56:56	artist=ENNIO MORICONE 	title= Il Grande Silenzio 
-22	59:20	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 1.3 
+1	00:20	from=20	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+2	00:50	from=50	artist=RUBIN STEINER	title=Death to music	href=""	label="Unreleased"
+3	03:13	from=193	artist=ILLAIYARAAJA	title=Vikram vikram	href=""	label="Cartilage Records"
+4	07:21	from=441	artist=THE DEATH SET	title=Slap Slap Slap Pound Up Down Snap	href=""	label="Ninjatune"
+5	09:16	from=556	artist=DOLINA	title=Sun backwards	href=""	label="Treue um Treue"
+6	12:44	from=764	artist=RAINBOW ARABIA	title=Let Them Dance (Brenmar Remix)	href=""	label="Manimal Vinyl Records"
+7	16:09	from=969	artist=EL ORIGINAL	title=Taka boom (La ametralladora)	href=""	label="Barca Discos"
+8	18:46	from=1126	artist=CHRISTINE PILZER	title=Champs Elysées	href=""	label="Vogue"
+9	20:54	from=1254	artist=HENAUER GUGGER	title=Désenchantée	href=""	label="Unreleased"
+10	24:25	from=1465	artist=RAUBERHOLE	title=Im not part of the shit	href=""	label="Online released"
+11	27:22	from=1642	artist=VAN DER GRAAF GENERATOR	title=Theme One	href=""	label="Charisma"
+12	30:22	from=1822	artist=JAAKKO EINO KALEVI	title=Flexible Heart	href=""	label="Helmi Levyt"
+13	34:21	from=2061	artist=THE MOLE	title=Zombie Dance Mind Programme	href=""	label="Daly City Records"
+14	37:00	from=2220	artist=HEIDI MORTENSON	title=Girl since I met you	href=""	label="Wired Records"
+15	40:46	from=2446	artist=OPPENHEIMER ANALYSIS	title=The Devils Dancers	href=""	label="Minimal Wave"
+16	44:19	from=2659	artist=TOXIC LIPSTICK	title=Ruff Bass	href=""	label="Dual Plover"
+17	45:54	from=2754	artist=MICHEL POLNAREFF	title=Tout pour ma cherie (PP edit)	href=""	label="Polydor"
+18	48:55	from=2935	artist=KEVIN BLECHDOM AND AD HAWK	title=Frankenstein	href=""	label="Tigerbeat 6"
+19	51:48	from=3108	artist=JENNY ROCK	title=Mal	href=""	label="Action"
+20	54:19	from=3259	artist=HARVEY FUQUA	title=(Dance) Any Way You Wanta	href=""	label="Tri"
+21	56:56	from=3416	artist=ENNIO MORICONE	title=Il Grande Silenzio	href=""	label="Beat records company"
+22	59:20	from=3560	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href=""	label="Unreleased"

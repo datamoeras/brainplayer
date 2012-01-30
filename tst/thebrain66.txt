@@ -1,21 +1,21 @@
-1	01:06	artist=EDMUNDO ROS 	title= Patricia 
-2	03:12	artist=<a href="http://www.myspace.com/gazormass">GAZORMASS</a> 	title=
-3	05:24	artist=BURT BACHARACH 	title= Something big 
-4	08:36	artist=<a href="http://www.secretmommy.com">SECRET MOMMY</a> 	title=
-5	13:12	artist=<a href="http://www.umbusiness.co.uk">UM</a> 	title= A Last Blast 
-6	15:36	artist=HOT BUTTER 	title= Tequila 
-7	17:12	artist=<a href="http://www.maxtundra.com">MAX TUNDRA</a> (Remixing Missy Elliot) 	title= The rain 
-8	22:03	artist=CHRISTOPHER JOHN &amp; son orch. 	title= Egyptian reggae 
-9	24:46	artist=AAAAA 	title= Unknown track 
-10	28:26	artist=<a href="http://www.lutherblissett.net">LUTHER BLISSET</a> 	title= Psychick A.T.A.C. 
-11	29:38	artist=<a href="http://www.lutherblissett.net">LUTHER BLISSET</a> 	title= My work is dangerous. 
-12	31:08	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Hissi Hissi 
-13	42:59	artist=<a href="http://www.geocities.com/playsoundz">PLAYSOUNDZ</a> 	title= Mumbrellas 
-14	44:05	artist=<a href="http://pureenoire.free.fr/princesse	title=rotative">PRINCESSE Noire</a> 
-15	47:52	artist=JACKY MARTIN ET SON ORCH. 	title= Les filles du bord de mer 
-16	49:59	artist=<a href="http://users.skynet.be/kaniatieffer/">KANIA TIEFFER</a> 	title= The Toast 
-17	53:22	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title= Vive le week
-18	56:09	artist=<a href="http://gangpol.free.fr">GANGPOL UND MIT</a> 	title= Mais dabourd nous écoutons que des hommes disent  online 
-19	56:55	artist=<a href="http://thebrain.lautre.net">THE BRAIN</a> 	title= La souris 
-20	57:37	artist=MISHA 	title= U tchornavo Moria 
-21	59:34	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	01:06	from=66	artist=EDMUNDO ROS	title=Patricia	href=""	label="The Decca Record company"
+2	03:12	from=192	artist=GAZORMASS	title=	href="http://www.myspace.com/gazormass"	label=""
+3	05:24	from=324	artist=BURT BACHARACH	title=Something big	href=""	label="A &amp; M"
+4	08:36	from=516	artist=SECRET MOMMY	title=	href="http://www.secretmommy.com"	label=""
+5	13:12	from=792	artist=UM	title=A Last Blast	href="http://www.umbusiness.co.uk"	label="Autoproduced"
+6	15:36	from=936	artist=HOT BUTTER	title=Tequila	href=""	label="Castle Music"
+7	17:12	from=1032	artist=MAX TUNDRA (Remixing Missy Elliot)	title=The rain	href="http://www.maxtundra.com"	label="Autoproduced"
+8	22:03	from=1323	artist=CHRISTOPHER JOHN &amp; son orch.	title=Egyptian reggae	href=""	label="MFP"
+9	24:46	from=1486	artist=AAAAA	title=Unknown track	href=""	label="Unreleased ?"
+10	28:26	from=1706	artist=LUTHER BLISSET	title=Psychick A.T.A.C.	href="http://www.wot4.net"	label="WOT"
+11	29:38	from=1778	artist=LUTHER BLISSET	title=My work is dangerous.	href="http://www.wot4.net"	label="WOT"
+12	31:08	from=1868	artist=FELIX KUBIN	title=Hissi Hissi	href="http://www.a-musik.com"	label="A"
+13	42:59	from=2579	artist=PLAYSOUNDZ	title=Mumbrellas	href="http://www.geocities.com/playsoundz"	label="Unreleased"
+14	44:05	from=2645	artist=PRINCESSE Noire	title=	href="http://pureenoire.free.fr/princesse-rotative"	label=""
+15	47:52	from=2872	artist=JACKY MARTIN ET SON ORCH.	title=Les filles du bord de mer	href=""	label="Phillips"
+16	49:59	from=2999	artist=KANIA TIEFFER	title=The Toast	href="http://users.skynet.be/kaniatieffer/"	label="Autoproduced"
+17	53:22	from=3202	artist=STEREOTOTAL	title=Vive le week	href="http://www.diskob.com"	label="end"
+18	56:09	from=3369	artist=GANGPOL UND MIT	title=Mais dabourd nous écoutons que des hommes disent  online	href="http://gangpol.free.fr"	label=""
+19	56:55	from=3415	artist=THE BRAIN	title=La souris	href="http://thebrain.lautre.net"	label="Unreleased"
+20	57:37	from=3457	artist=MISHA	title=U tchornavo Moria	href=""	label="Hed"
+21	59:34	from=3574	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

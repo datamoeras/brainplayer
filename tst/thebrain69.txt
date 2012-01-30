@@ -1,24 +1,24 @@
-1	00:57	artist=FRANCIS LAY 	title= Vivre pour vivre 
-2	03:22	artist=<a href="http://www.babydayliner.com">BABY DAYLINER</a> 	title=
-3	04:24	artist=<a href="http://www.ergophizmiz.com">ERGO PHIZMIZ</a> my foot</a> 	title=
-4	08:20	artist=	title=
-5	11:47	artist=<a href="http://www.gunter	title=adler.de">GUNTER ADLER</a> 
-6	15:07	artist=<a href="http://www.manfromuranus.com">MAN FROM URANUS</a> Records</a> 	title=
-7	18:15	artist=<a href="http://www.kevyb.com">KEVIN BLECHDOM</a> 	title=
-8	20:07	artist=KLAUS WUNDERLICH 	title= Swing Again 
-9	22:33	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
-10	25:40	artist=EDMUNDO ROS 	title= Tropical Merengue 
-11	28:10	artist=<a href="http://www.rostronrecords.net">PLANINGTOROCK</a> 	title=
-12	31:44	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Un mot de notre président 
-13	32:17	artist=<a href="http://www.puppetmastaz.com">PUPPETMASTAZ</a> 	title= El paso remix 
-14	35:27	artist=DENIS FARNONS 	title= In a chinese bar 
-15	36:54	artist=<a href="http://www.killrockstars.com/bands/factsheets/deerhoof/">DEERHOOF</a> Rock Stars</a> 	title=
-16	40:24	artist=TOY 	title= Rabbit pushing mower 
-17	43:46	artist=VMW 	title= Suck it and see 
-18	48:18	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Des terrains 
-19	48:51	artist=JEANETTE (PIC NIC) 	title= Me olvidaras 
-20	50:55	artist=NAUGHTYBOY 	title= TR 7 
-21	53:46	artist=JEAN CLAUDE PELLETIER 	title= Bourbon connection 
-22	56:03	artist=<a href="http://www.myspace.com/florencisalesas">FLORENCI Olla Express</a> 	title=
-23	57:25	artist=TONY HILLER ORCHESTRA 	title= Where the rainbow ends 
-24	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:57	from=57	artist=FRANCIS LAY	title=Vivre pour vivre	href=""	label="Disc AZ"
+2	03:22	from=202	artist=BABY DAYLINER	title=	href="http://www.babydayliner.com"	label=""
+3	04:24	from=264	artist=ERGO PHIZMIZ my foot	title=	href="http://www.ergophizmiz.com"	label=""
+4	08:20	from=500	artist=	title=	href="http://www.felixkubin.com"	label=""
+5	11:47	from=707	artist=GUNTER ADLER	title=	href="http://www.gunter-adler.de"	label=""
+6	15:07	from=907	artist=MAN FROM URANUS Records	title=	href="http://www.manfromuranus.com"	label=""
+7	18:15	from=1095	artist=KEVIN BLECHDOM	title=	href="http://www.kevyb.com"	label=""
+8	20:07	from=1207	artist=KLAUS WUNDERLICH	title=Swing Again	href=""	label="EMI"
+9	22:33	from=1353	artist=DAT POLITICS	title=records	href="http://www.ski-pp.com"	label=""
+10	25:40	from=1540	artist=EDMUNDO ROS	title=Tropical Merengue	href=""	label="Decca records"
+11	28:10	from=1690	artist=PLANINGTOROCK	title=	href="http://www.rostronrecords.net"	label=""
+12	31:44	from=1904	artist=OOMIAQ	title=Un mot de notre président	href="http://oomiak.oomiaq.free.fr"	label="Unreleased"
+13	32:17	from=1937	artist=PUPPETMASTAZ	title=El paso remix	href="http://www.puppetmastaz.com"	label="Pias"
+14	35:27	from=2127	artist=DENIS FARNONS	title=In a chinese bar	href=""	label="Conroy"
+15	36:54	from=2214	artist=DEERHOOF Rock Stars	title=	href="http://www.killrockstars.com/bands/factsheets/deerhoof/"	label=""
+16	40:24	from=2424	artist=TOY	title=Rabbit pushing mower	href="http://www.smalltownsupersound.com"	label="Smalltownsupersound"
+17	43:46	from=2626	artist=VMW	title=Suck it and see	href="http://www.coalition-records.com"	label="Coalition Records"
+18	48:18	from=2898	artist=OOMIAQ	title=Des terrains	href="http://oomiak.oomiaq.free.fr"	label="Unreleased"
+19	48:51	from=2931	artist=JEANETTE (PIC NIC)	title=Me olvidaras	href=""	label="Hispavox"
+20	50:55	from=3055	artist=NAUGHTYBOY	title=TR 7	href="http://www.wormweb.nl"	label="Worm"
+21	53:46	from=3226	artist=JEAN CLAUDE PELLETIER	title=Bourbon connection	href=""	label="Mode"
+22	56:03	from=3363	artist=FLORENCI Olla Express	title=	href="http://www.myspace.com/florencisalesas"	label=""
+23	57:25	from=3445	artist=TONY HILLER ORCHESTRA	title=Where the rainbow ends	href=""	label="Disc AZ"
+24	59:35	from=3575	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

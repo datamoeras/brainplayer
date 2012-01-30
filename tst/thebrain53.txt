@@ -1,22 +1,22 @@
-1	00:55	artist=<a href="http://www.jazzateria.com/roots/jsmith.html">JIMMY SMITH</a> 	title= La métamorphose des cloportes 
-2	02:55	artist=<a href="http://www.dmxkrew.dircon.co.uk">DMX KREW</a> 	title= Metronome 
-3	05:33	artist=<a href="http://www.pas.org/About/HOF/manne.cfm">SHELLY MANNE</a> 	title= Clarence 
-4	07:47	artist=<a href="http://underground.sound.no">BINAERPILOT</a> 	title= Gesouble (Gesucht) 
-5	11:15	artist=<a href="http://www.aureliofierro.it">AURELIO FERRO</a> 	title= Pulecenella Twist 
-6	14:49	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
-7	17:44	artist=<a href="http://www.teresa	title=teng.org.tw/index
-8	20:47	artist=<a href="http://www.egotwister.com/redken/">AMNESIE</a> 	title= Ult02 
-9	24:07	artist=<a href="http://alainbashung.artistes.universalmusic.fr/">BASHUNG</a> 	title= What’s in a bird ? 
-10	28:41	artist=LES SPACE TRAVELLERS 	title= 93 000 000 miles 
-11	30:59	artist=<a href="http://www.mochipet.com">MOCHIPET</a> 	title= The 
-12	35:38	artist=<a href="http://www.derplan.com">DER PLAN</a> 	title= Milka
-13	37:31	artist=<a href="http://www.elrin.com/galactica">GALACTICA</a> 	title=
-14	41:00	artist=<a href="http://www.imdb.com/name/nm0006022/">HOYT S. CURTIN</a> 	title= La chanson de 7 zark 7 
-15	42:15	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= “Untitled” 
-16	45:22	artist=<a href="http://www.beingabeing.com">ORIGINAL HAMSTER</a> 	title=
-17	48:56	artist=<a href="http://www.vif.com/users/disqcine/Delerue.html">GEORGES DELERUE</a> 	title= Camille 
-18	51:48	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Untitled 
-19	52:15	artist=<a href="http://www.dropthelime.com">DROP THE LIME</a> 6</a> 	title=
-20	54:58	artist=<a href="http://houbi.com/belpop/groups/brasseur.htm">ANDRE BRASSEUR</a> 	title= Early bird 
-21	57:10	artist=WILLIAM KEHAOLA and his orchestra 	title= Hula Aluh 
-22	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 
+1	00:55	from=55	artist=JIMMY SMITH	title=La métamorphose des cloportes	href="http://www.jazzateria.com/roots/jsmith.html"	label="Universal"
+2	02:55	from=175	artist=DMX KREW	title=Metronome	href="http://www.rephlex.com"	label="Rephlex"
+3	05:33	from=333	artist=SHELLY MANNE	title=Clarence	href="http://www.pas.org/About/HOF/manne.cfm"	label="Atlantic"
+4	07:47	from=467	artist=BINAERPILOT	title=Gesouble (Gesucht)	href="http://underground.sound.no"	label="To be released"
+5	11:15	from=675	artist=AURELIO FERRO	title=Pulecenella Twist	href="http://www.aureliofierro.it"	label="?"
+6	14:49	from=889	artist=DAT POLITICS	title=	href="http://www.ski-pp.com"	label=""
+7	17:44	from=1064	artist=TERESA TENG	title=Ni Zen Me Shuo	href="http://www.teresa-teng.org.tw/index-e.htm"	label="?"
+8	20:47	from=1247	artist=AMNESIE	title=Ult02	href="http://www.egotwister.com"	label="Ego Twister"
+9	24:07	from=1447	artist=BASHUNG	title=What’s in a bird ?	href="http://alainbashung.artistes.universalmusic.fr/"	label="Barclay"
+10	28:41	from=1721	artist=LES SPACE TRAVELLERS	title=93 000 000 miles	href=""	label="CBS"
+11	30:59	from=1859	artist=MOCHIPET	title=The	href="http://www.mochipet.com"	label=""
+12	35:38	from=2138	artist=DER PLAN	title=Milka	href="http://marina.com"	label="Kalb"
+13	37:31	from=2251	artist=GALACTICA	title=	href="http://www.elrin.com/galactica"	label=""
+14	41:00	from=2460	artist=HOYT S. CURTIN	title=La chanson de 7 zark 7	href="http://www.imdb.com/name/nm0006022/"	label="Disques Ades"
+15	42:15	from=2535	artist=FREDERIK SCHIKOWSKI	title=“Untitled”	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"
+16	45:22	from=2722	artist=ORIGINAL HAMSTER	title=	href="http://www.beingabeing.com"	label=""
+17	48:56	from=2936	artist=GEORGES DELERUE	title=Camille	href="http://www.vif.com/users/disqcine/Delerue.html"	label="Universal"
+18	51:48	from=3108	artist=YVAN&amp;LENDL	title=Untitled	href="http://www.yvanlendl.ch"	label="Unreleased"
+19	52:15	from=3135	artist=DROP THE LIME 6	title=	href="http://www.dropthelime.com"	label=""
+20	54:58	from=3298	artist=ANDRE BRASSEUR	title=Early bird	href="http://houbi.com/belpop/groups/brasseur.htm"	label="MFP"
+21	57:10	from=3430	artist=WILLIAM KEHAOLA and his orchestra	title=Hula Aluh	href=""	label="Disques Vogue"
+22	59:35	from=3575	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 2.0	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

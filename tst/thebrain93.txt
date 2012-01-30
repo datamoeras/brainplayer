@@ -1,21 +1,21 @@
-1	01:07	artist=quot; 	title= ENNIO MORICONE 
-2	05:17	artist=quot; 	title= <a href="http://www.myspace.com/rockfortsolo">ROCKFORT</a> 
-3	06:36	artist=quot; 	title= <a href="http://www.ceephax.co.uk/">CEEPHAX</a> 
-4	07:56	artist=quot; 	title= TOYTONE 
-5	12:48	artist=quot; 	title= <a href="http://www.mausspace.com">JOHN MAUS</a> 
-6	16:15	artist=quot; 	title= TAKESHI TERAUCHI &amp; THE BUNNYS 
-7	18:08	artist=quot; 	title= <a href="http://puyopuyo.lautre.net">PUYO PUYO</a> 
-8	20:11	artist=quot; 	title= <a href="http://www.myspace.com/echokrank">ECHOKRANK</a> 
-9	23:27	artist=quot; 	title= CHROME 
-10	25:44	artist=quot; 	title= <a href="http://tsarpoloz.com">TSAR POLOZ</a> 
-11	29:14	artist=quot; 	title= <a href="http://www.myspace.com/wearethefonts">THE FONTS</a> 
-12	32:24	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>
-13	34:38	artist=quot; 	title= <a href="http://bodenstandig.de/2000/">BIOBERN</a> 
-14	38:25	artist=quot; 	title= <a href="http://www.throttleclark.com/">CLARK</a> 
-15	42:30	artist=quot; 	title= <a href="http://www.myspace.com/kapbambino">KAP BAMBINO </a>
-16	45:19	artist=quot; 	title= <a href="http://www.sidabitball.com/">SIDABITBALL</a> 
-17	47:23	artist=quot; 	title= CHRISTINE DELAROCHE 
-18	50:20	artist=quot; 	title= <a href="http://centrala.lublin.pl/slepcy/">SLEPCY</a> 
-19	53:22	artist=quot; 	title= THE SONICS 
-20	55:25	artist=quot; 	title= MOOG COOK BOOK 
-21	59:16	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+1	01:07	from=67	artist=ENNIO MORICONE	title=Il était une fois la révolution	href=""	label="Disques Festival"
+2	05:17	from=317	artist=ROCKFORT	title=Gött rettet die Konigin	href="http://www.myspace.com/rockfortsolo"	label="Unreleased"
+3	06:36	from=396	artist=CEEPHAX	title=Hip hop A new Language for the World	href="http://www.ceephax.co.uk/"	label="Mp3 autoproduced"
+4	07:56	from=476	artist=TOYTONE	title=Popcorn	href="http://www.hexawe.net"	label="Hexawe"
+5	12:48	from=768	artist=JOHN MAUS	title=Maniac	href="http://www.upsettherhythm.co.uk/"	label="Upset the rythm"
+6	16:15	from=975	artist=TAKESHI TERAUCHI &amp; THE BUNNYS	title=Mamurogawa Ondo	href=""	label="King Stereo"
+7	18:08	from=1088	artist=PUYO PUYO	title=I fall	href="http://www.daheardit-records.net/"	label="Da ! Heard it Records"
+8	20:11	from=1211	artist=ECHOKRANK	title=Marian	href="http://gagarinrecords.com"	label="Gagarin Records"
+9	23:27	from=1407	artist=CHROME	title=Static Gravity (WrongSpeed edit)	href=""	label="WEA"
+10	25:44	from=1544	artist=TSAR POLOZ	title=Nasty Poets	href="http://tsarpoloz.com"	label="Autoproduced"
+11	29:14	from=1754	artist=THE FONTS	title=Poupée flash	href="http://www.myspace.com/wearethefonts"	label="Unreleased"
+12	32:24	from=1944	artist=FREDERIK SCHIKOWSKI	title=Huftwackler	href="http://www.madewithhate.com"	label="Esel"
+13	34:38	from=2078	artist=BIOBERN	title=Schoene Die Du Mein Leben Radiomix	href="http://bodenstandig.de/2000/"	label="Mp3 Autoproduced"
+14	38:25	from=2305	artist=CLARK	title=Rainbow Voodoo	href="http://warp.net"	label="WARP"
+15	42:30	from=2550	artist=KAP BAMBINO	title=Lezard	href="http://www.myspace.com/kapbambino"	label="Because"
+16	45:19	from=2719	artist=SIDABITBALL	title=Wanabee	href="http://www.sidabitball.com/"	label="MP3 Autoproduced"
+17	47:23	from=2843	artist=CHRISTINE DELAROCHE	title=la fille du soleil	href=""	label="Vogue"
+18	50:20	from=3020	artist=SLEPCY	title=Super t	href="http://www.alphacutrecords.com"	label="Alphacut Records"
+19	53:22	from=3202	artist=THE SONICS	title=Strychnine	href=""	label="Norton Records"
+20	55:25	from=3325	artist=MOOG COOK BOOK	title=More than a feeling	href=""	label="Restless Records"
+21	59:16	from=3556	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

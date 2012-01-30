@@ -1,20 +1,20 @@
-1	00:20	artist=THE BRAIN 	title= Générique 2010 
-2	00:59	artist=MICHELE RICHARD 	title= Dou Da Dou 
-3	02:47	artist=BEN BUTLER &amp; MOUSE PAD	title= Teenage Portal 
-4	07:11	artist=LA FEMME 	title= Sur la planche 
-5	10:48	artist=HIKASHU 	title= Yochu No Kiki 
-6	15:22	artist=BARBARA MORGENSTERN 	title= Das Wort 
-7	18:39	artist=RYAN ELDER 	title= Planet unicorn theme with intro 
-8	19:09	artist=GAY ROBOT LOVERS 	title= Words 
-9	22:09	artist=IN NAMEN DES VOLKES 	title= Raumkrank 
-10	24:46	artist=CHARLES DE GOAL 	title= Modem 
-11	29:06	artist=PIXIES 	title= Alec Eiffel 
-12	31:45	artist=FELIX KUBIN 	title= Bandits one five 
-13	34:50	artist=ZOMS ZOMS 	title= Nightmare Stampede 
-14	38:05	artist=KLATEN 	title= Kloink street 
-15	41:44	artist=SPARKS 	title= All you ever think about is sex 
-16	45:12	artist=STEREOLAB 	title= everybodys weird except me 
-17	48:40	artist=DISZ/PLAY 	title= Jean
-18	52:05	artist=SOPHIE MAKHNO &amp; COLIN VERDIER 	title= Obsessions 68 
-19	54:52	artist=STAATSEINDE 	title= Ruimtevaart vooruit (remix by Rude 66) 
-20	59:45	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 1.3 
+1	00:20	from=20	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+2	00:59	from=59	artist=MICHELE RICHARD	title=Dou Da Dou	href=""	label="Trans Canada"
+3	02:47	from=167	artist=BEN BUTLER &amp; MOUSE PAD	title=Teenage Portal	href=""	label="LOAF"
+4	07:11	from=431	artist=LA FEMME	title=Sur la planche	href=""	label="Autoproduced"
+5	10:48	from=648	artist=HIKASHU	title=Yochu No Kiki	href=""	label="Angelika Köhlermann"
+6	15:22	from=922	artist=BARBARA MORGENSTERN	title=Das Wort	href=""	label="Monika"
+7	18:39	from=1119	artist=RYAN ELDER	title=Planet unicorn theme with intro	href=""	label="TV serie theme"
+8	19:09	from=1149	artist=GAY ROBOT LOVERS	title=Words	href=""	label="Wired Records"
+9	22:09	from=1329	artist=IN NAMEN DES VOLKES	title=Raumkrank	href=""	label="Konnekschen"
+10	24:46	from=1486	artist=CHARLES DE GOAL	title=Modem	href=""	label="New Rose"
+11	29:06	from=1746	artist=PIXIES	title=Alec Eiffel	href=""	label="4AD"
+12	31:45	from=1905	artist=FELIX KUBIN	title=Bandits one five	href=""	label="WFMU"
+13	34:50	from=2090	artist=ZOMS ZOMS	title=Nightmare Stampede	href=""	label="Business Deal Records"
+14	38:05	from=2285	artist=KLATEN	title=Kloink street	href=""	label="Darling Dada"
+15	41:44	from=2504	artist=SPARKS	title=All you ever think about is sex	href=""	label="Atlantic"
+16	45:12	from=2712	artist=STEREOLAB	title=everybodys weird except me	href=""	label="Duophonic"
+17	48:40	from=2920	artist=DISZ/PLAY	title=Jean	href=""	label="Michel"
+18	52:05	from=3125	artist=SOPHIE MAKHNO &amp; COLIN VERDIER	title=Obsessions 68	href=""	label="CBS"
+19	54:52	from=3292	artist=STAATSEINDE	title=Ruimtevaart vooruit (remix by Rude 66)	href=""	label="Enfant terrible"
+20	59:45	from=3585	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href=""	label="Unreleased"

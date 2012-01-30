@@ -1,25 +1,25 @@
-1	01:14	artist=<a href="http://www.directpopmusic.com/Yma_Sumac_Fuego_del_Ande_B000002TWU.html">YMA SUMAC &amp; MOISES VIVANCO</a> 	title= Cumbe 
-2	04:00	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE HANK</a> 
-3	06:50	artist=<a href="http://www.echokrank.net">ECHOKRANK</a> 	title= Runter Allee 
-4	08:57	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> 	title= #6 
-5	10:32	artist=<a href="http://www.romzrecord.com">COM.A.</a> 	title= Make my day 
-6	15:00	artist=SEBOR 	title= Marseillaise 
-7	16:49	artist=<a href="http://www.thierry	title=muller.com">RUTH</a> 
-8	20:06	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
-9	24:00	artist=<a href="http://www.ensembleraye.ch">L’ENSEMBLE 	title=
-10	26:18	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Bénédicte 
-11	27:46	artist=ISNASAKENAI DOUJI 	title= Sticklebrick 
-12	30:31	artist=<a href="http://www.pffr.net">PFFR</a> 	title= Sparse party 
-13	31:58	artist=<a href="http://www.otisfodder.com/365days/archive/202.html">THREE GUYS FROM HOLLYWOOD</a> 	title= Frozen Embryos 
-14	33:20	artist=<a href="http://www.galerie	title=transition.de/pc/index.html">FLEX 
-15	35:19	artist=<a href="http://www.rotfront.com">ROT FRONT</a> 	title= Roboty 
-16	38:02	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Sofaschleper 
-17	39:13	artist=<a href="http://www.spaceagepop.com/mancini.htm">HENRI MANCINI</a> 	title= Something for cat 
-18	42:18	artist=<a href="http://www.stereototal.de">STEREO TOTAL</a> 	title= Schön von unten (Andreas Dorau remix) 
-19	46:52	artist=CLAUDE DUPRAS 	title= Someyou win, some you loose 
-20	49:22	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= My Yamaha 
-21	52:28	artist=JACK AREL &amp; PIERRE DUTOUR 	title= Following you 
-22	54:44	artist=<a href="http://www.datanom.com/mainpal">MAINPAL INV</a>. 	title=
-23	57:15	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= (Four tracks improvisations) #11 
-24	58:09	artist=<a href="%3Cfont%20color=%22#FFFFFF%22%20face=%22Arial,%20Helvetica,%20sans	title=serif%22%20size=%222%22%3EVLADIMIR%20COSMA%3C/font%3E">VLADIMIR COSMA</a> 
-25	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 
+1	01:14	from=74	artist=YMA SUMAC &amp; MOISES VIVANCO	title=Cumbe	href="http://www.directpopmusic.com/Yma_Sumac_Fuego_del_Ande_B000002TWU.html"	label="Maita"
+2	04:00	from=240	artist=CANDIE HANK	title=Booty Bank	href="http://www.galerie-transition.de/candiehank/index.html"	label="CDr"
+3	06:50	from=410	artist=ECHOKRANK	title=Runter Allee	href="http://www.klangkrieg.de"	label="Klangkrieg"
+4	08:57	from=537	artist=OLEG KOSTROW	title=#6	href="http://www.solnzerecords.com"	label="Solnze"
+5	10:32	from=632	artist=COM.A.	title=Make my day	href="http://www.romzrecord.com"	label="Romz Records"
+6	15:00	from=900	artist=SEBOR	title=Marseillaise	href=""	label="Unreleased"
+7	16:49	from=1009	artist=RUTH	title=	href="http://www.thierry-muller.com"	label=""
+8	20:06	from=1206	artist=DAT POLITICS	title=	href="http://www.ski-pp.com"	label=""
+9	24:00	from=1440	artist=L’ENSEMBLE	title=	href="http://www.ensembleraye.ch"	label=""
+10	26:18	from=1578	artist=FRANCOIS DE ROUBAIX	title=Bénédicte	href="http://www.francoisderoubaix.com"	label="Barclay"
+11	27:46	from=1666	artist=ISNASAKENAI DOUJI	title=Sticklebrick	href="http://www.brainwashed.com/vvm/"	label="VVM"
+12	30:31	from=1831	artist=PFFR	title=Sparse party	href="http://www.invasionplanete.com"	label="Invasion planete"
+13	31:58	from=1918	artist=THREE GUYS FROM HOLLYWOOD	title=Frozen Embryos	href="http://www.otisfodder.com/365days/archive/202.html"	label="Unr."
+14	33:20	from=2000	artist=FLEX	title=	href="http://www.galerie-transition.de/pc/index.html"	label=""
+15	35:19	from=2119	artist=ROT FRONT	title=Roboty	href="http://www.trikont.com"	label="Trikont"
+16	38:02	from=2282	artist=FREDERIK SCHIKOWSKI	title=Sofaschleper	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="To be released"
+17	39:13	from=2353	artist=HENRI MANCINI	title=Something for cat	href="http://www.spaceagepop.com/mancini.htm"	label="RCA"
+18	42:18	from=2538	artist=STEREO TOTAL	title=Schön von unten (Andreas Dorau remix)	href="http://www.stereototal.de"	label="?"
+19	46:52	from=2812	artist=CLAUDE DUPRAS	title=Someyou win, some you loose	href=""	label="Yamaha"
+20	49:22	from=2962	artist=AAVIKKO	title=My Yamaha	href="http://www.aavikko.net"	label="Muysic For People"
+21	52:28	from=3148	artist=JACK AREL &amp; PIERRE DUTOUR	title=Following you	href="http://www.diggler.de"	label="Diggler"
+22	54:44	from=3284	artist=MAINPAL INV.	title=	href="http://www.datanom.com/mainpal"	label=""
+23	57:15	from=3435	artist=GELBART	title=(Four tracks improvisations) #11	href="http://www.gelbartmusic.com"	label="Defekt records"
+24	58:09	from=3489	artist=VLADIMIR COSMA	title=Petit chèque, gros chèque	href="%3Cfont%20color=%22#FFFFFF%22%20face=%22Arial,%20Helvetica,%20sans-serif%22%20size=%222%22%3EVLADIMIR%20COSMA%3C/font%3E"	label="Pomme Music"
+25	59:25	from=3565	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unrealised"

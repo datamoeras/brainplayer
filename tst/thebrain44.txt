@@ -1,21 +1,21 @@
-1	01:02	artist=DAN BAU ViIETNAM 	title= chinese song 
-2	02:50	artist=THE CAPRICORNS 	title= New sound 
-3	05:57	artist=DABRYE 	title= Smoking the edge 
-4	08:56	artist=FELIX KUBIN + ANGIE REED 	title= Hit parade Russki Beat 
-5	13:24	artist=ROGER ROGER 	title= Adieu ShangaÏ 
-6	15:48	artist=FREDERIK SCHIKOWSKI 	title= Fouquet 
-7	18:49	artist=GRETHE AGATZ 	title= Ekkoleg 
-8	22:45	artist=SAAL 2 	title= Angst vorm tanzen 
-9	25:29	artist=AUGUSTO GARINCHA 	title= Delirio 
-10	27:54	artist=CHRISTIANE F. / CHRISTIANA 	title= Wunderbar 
-11	30:58	artist=PALMINGER / KUBIN 	title= Sabàta 
-12	35:42	artist=ROSCAMPZINSKY 	title= Elle nierait où 
-13	38:01	artist=ADI GELBART 	title= Living in magazines 
-14	42:05	artist=MARGARETA PISLARU 	title= Sint osancà bine
-15	43:00	artist=DER TANTE RENATE 	title= Sommer 
-16	46:16	artist=STANLEY BLACK, HIS ORCHESTRA &amp; CHORUS 	title= Temptation 
-17	49:17	artist=YVAN&amp;LENDL 	title= Dance mit Draculina 
-18	52:23	artist=THE REMAINS 	title= Why do I cry 
-19	55:07	artist=ORIGINAL HAMSTER remixing NUMBERS 	title= Human replace 
-20	58:13	artist=MAINPAL INV. 	title= Chupa chups 
-21	59:25	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 
+1	01:02	from=62	artist=DAN BAU ViIETNAM	title=chinese song	href="http://www.trikont.com%20"	label="Trikont"
+2	02:50	from=170	artist=THE CAPRICORNS	title=New sound	href="http://www.thecapricorns.com%20"	label="Paroxysm records"
+3	05:57	from=357	artist=DABRYE	title=Smoking the edge	href="http://www.ghostly.com"	label="Ghostly international"
+4	08:56	from=536	artist=FELIX KUBIN + ANGIE REED	title=Hit parade Russki Beat	href="http://www.felixkubin.de"	label="Unrealised"
+5	13:24	from=804	artist=ROGER ROGER	title=Adieu ShangaÏ	href="http://www.spaceagepop.com/roger.htm"	label="Pacific Stereo"
+6	15:48	from=948	artist=FREDERIK SCHIKOWSKI	title=Fouquet	href="http://www.hundertzwei.de/%20"	label="Hundertzwei"
+7	18:49	from=1129	artist=GRETHE AGATZ	title=Ekkoleg	href="http://www.boernemusik.dk/maanedens_kunstner/grete_agatz/grethe_agatz.htm"	label="Barclay"
+8	22:45	from=1365	artist=SAAL 2	title=Angst vorm tanzen	href="http://www.bb.wakwak.com/%7Ebuggle/zickzack.html"	label="Zick Zack"
+9	25:29	from=1529	artist=AUGUSTO GARINCHA	title=Delirio	href="http://bjbear71.com/Jobim/tom.html"	label="Ducretet Thomson"
+10	27:54	from=1674	artist=CHRISTIANE F. / CHRISTIANA	title=Wunderbar	href="http://www.mad-net.de/playhouse"	label="Playhouse"
+11	30:58	from=1858	artist=PALMINGER / KUBIN	title=Sabàta	href="http://gagarinrecords.com"	label="Gagarin records"
+12	35:42	from=2142	artist=ROSCAMPZINSKY	title=Elle nierait où	href="http://a.camenisch.free.fr/sand/these.htm"	label="Unrealised"
+13	38:01	from=2281	artist=ADI GELBART	title=Living in magazines	href="http://www.gelbartmusic.com"	label="Fact records"
+14	42:05	from=2525	artist=MARGARETA PISLARU	title=Sint osancà bine	href="http://margareta.com"	label="mi pare"
+15	43:00	from=2580	artist=DER TANTE RENATE	title=Sommer	href="http://www.asteroid-rec.org"	label="Polygame recordings"
+16	46:16	from=2776	artist=STANLEY BLACK, HIS ORCHESTRA &amp; CHORUS	title=Temptation	href="http://www.spaceagepop.com/black.htm"	label="Decca"
+17	49:17	from=2957	artist=YVAN&amp;LENDL	title=Dance mit Draculina	href="http://www.yvanlendl.ch"	label="Unrealised"
+18	52:23	from=3143	artist=THE REMAINS	title=Why do I cry	href="http://www.theremains.com"	label="Epic"
+19	55:07	from=3307	artist=ORIGINAL HAMSTER remixing NUMBERS	title=Human replace	href="http://www.beingabeing.com/"	label="Tigerbeat 6"
+20	58:13	from=3493	artist=MAINPAL INV.	title=Chupa chups	href="http://www.ski-pp.com"	label="Skipp"
+21	59:25	from=3565	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain	href=""	label="Unrealised"

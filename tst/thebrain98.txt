@@ -1,21 +1,21 @@
-1	00:44	artist=JACK AREL 	title= Dreamy party 
-2	02:45	artist=<a href="http://www.myspace.com/petitfantome">PETIT FANTOME</a> 	title= Jealous guy 
-3	05:15	artist=<a href="http://www.myspace.com/robotiband">ROBOTI</a> 	title= Robot sintezator 
-4	08:00	artist=STEPH ARG &amp; DAVE TV 	title= Copie 
-5	10:47	artist=<a href="http://www.myspace.com/normannorman">NORMAN BAMBI</a> 	title= Where we going 
-6	13:39	artist=TWIGGY 	title= Over and over 
-7	15:57	artist=<a href="http://www.myspace.com/amph1">AMPH</a> 	title= Mambo mind 
-8	18:25	artist=<a href="http://www.stereototal.de">STEREO TOTAL</a> 	title= Hallo Damenklo 
-9	20:38	artist=<a href="http://www.myspace.com/agaskodoteliverek">AGASKODO TELIVEREK</a> 	title= The girl with the wax ball 
-10	23:50	artist=<a href="http://www.myspace.com/themagnetix">MAGNETIX</a> 	title= Azimut 
-11	26:14	artist=HYPNOSIS 	title= Blade runner 
-12	29:40	artist=<a href="http://www.psilodump.com">PSILODUMP</a> 	title= The somnambulist (Din Stalker Remix) 
-13	33:11	artist=&quot;BELLS&quot; 	title= The Model 
-14	37:43	artist=<a href="http://maxtundra.com">MAX TUNDRA</a> 	title= Will Get Fooled Again 
-15	40:53	artist=<a href="http://www.myspace.com/klement666">KLEMENT</a> 	title= Sirene 
-16	44:41	artist=NEW PRODUCTION GOES TO MUNICH 	title= Tippen ein 
-17	47:50	artist=FELIX DA HOUSECAT 	title= Sweetfrosti Extended 
-18	51:11	artist=<a href="http://www.polysics.com">POLYSICS</a> 	title= I my me mine 
-19	54:15	artist=<a href="http://clumsybeats.free.fr">NUDIST WITH LAPTOP</a> 	title= Waving Goodbye 
-20	55:11	artist=<a href="http://www.atom	title=heart.com">CMYK</a> 
-21	59:43	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+1	00:44	from=44	artist=JACK AREL	title=Dreamy party	href=""	label="Silva America"
+2	02:45	from=165	artist=PETIT FANTOME	title=Jealous guy	href="http://www.myspace.com/petitfantome"	label="Corner"
+3	05:15	from=315	artist=ROBOTI	title=Robot sintezator	href="http://www.kernkrach.de"	label="Hertz"
+4	08:00	from=480	artist=STEPH ARG &amp; DAVE TV	title=Copie	href=""	label="9/9"
+5	10:47	from=647	artist=NORMAN BAMBI	title=Where we going	href="http://www.myspace.com/cartilagerecords"	label="Cartilage"
+6	13:39	from=819	artist=TWIGGY	title=Over and over	href=""	label="Tempel"
+7	15:57	from=957	artist=AMPH	title=Mambo mind	href="http://peaceoff.c8.com"	label="Mutant Sniper"
+8	18:25	from=1105	artist=STEREO TOTAL	title=Hallo Damenklo	href="http://www.diskob.com"	label="Disko B"
+9	20:38	from=1238	artist=AGASKODO TELIVEREK	title=The girl with the wax ball	href="http://www.adaadat.com"	label="Adaadat"
+10	23:50	from=1430	artist=MAGNETIX	title=Azimut	href="http://www.myspace.com/bornbadrecords"	label="Born bad"
+11	26:14	from=1574	artist=HYPNOSIS	title=Blade runner	href=""	label="Vintage records"
+12	29:40	from=1780	artist=PSILODUMP	title=The somnambulist (Din Stalker Remix)	href="http://www.psilodump.com"	label="Digital Online"
+13	33:11	from=1991	artist=BELLS	title=The Model	href=""	label="?"
+14	37:43	from=2263	artist=MAX TUNDRA	title=Will Get Fooled Again	href="http://www.dominorecordco.com"	label="Domino"
+15	40:53	from=2453	artist=KLEMENT	title=Sirene	href="http://www.myspace.com/contrecoeur"	label="Contre Coeur"
+16	44:41	from=2681	artist=NEW PRODUCTION GOES TO MUNICH	title=Tippen ein	href=""	label="Jupiter records"
+17	47:50	from=2870	artist=FELIX DA HOUSECAT	title=Sweetfrosti Extended	href=""	label="PIAS"
+18	51:11	from=3071	artist=POLYSICS	title=I my me mine	href="http://www.polysics.com"	label="Tired and lonesome"
+19	54:15	from=3255	artist=NUDIST WITH LAPTOP	title=Waving Goodbye	href="http://www.wrongmusic.com"	label="Wrong music"
+20	55:11	from=3311	artist=CMYK	title=Do you really want to hurt me	href="http://www.rather-interesting.com"	label="Rather Interesting"
+21	59:43	from=3583	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html"	label="Unreleased"

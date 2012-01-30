@@ -31,9 +31,9 @@ sub parselist {
 	my $i = shift;
 	my $list = shift;
 	my @data = ();
-	$list =~ s/&#39;//g;
+	$list =~ s/(&#39;|&quot;)//g;
 	my $magic1 = chr(146);
-	my $tre = qr![\s\t\n]*\d{2}\D[\s\n\t]*(?:'|"|&#146;|#&148;|$magic1)*?\s*!;
+	my $tre = qr![\s\t\n]*\d{2}\D[\s\n\t]*(?:'|"|&#146;|#&148;|&quot;|$magic1)*?\s*!;
 	# while ($list =~ s/^(?:.*?)($tre$tre)(.*?(?:.\d{4})?.*?)($tre|$)/$3/m) {
 	# while ($list =~ s/^(?:.|\n)*?($tre$tre)(.*?)($tre|$)/$3$4/m) { # generique:
 
@@ -73,15 +73,25 @@ sub parsesong {
 	my %data = (
 	);
 	$txt =~ s/<br ?\/?>//g;
-	$txt =~ s/<\/ ??i>//g;
+	$txt =~ s/<\/ ?i>//g;
+	while ($txt =~ s/<a href="([^"]*)">//) {
+		$data{href} = $1;
+		$txt =~ s{</ ?a ?>}{}g;
+	}
 	if ($txt =~ s/^(.*?)-//) {
 		$data{artist} = $1;
-		$data{artist} =~ s/<br ?\/?>//g;
 	}
 	if ($txt =~ s/^(.*?)-//) {
 		$data{title} = $1;
-		$data{title} =~ s/<br ?\/?>//g;
 	}
+	if ($txt =~ s/^(.*?)-//) {
+		$data{label} = $1;
+	}
+	if ($txt =~ s/^(.*?)-//) {
+		$data{year} = $1;
+	}
+	$data{$_} =~ s/^(\s|&nbsp;)*//g for keys %data;
+	$data{$_} =~ s/(\s|&nbsp;)*$//g for keys %data;
 	$data{rest} = $txt;
 	return \%data;
 }
