@@ -147,7 +147,7 @@ return qq{
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</nobr></div>';
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + ' ' + data["title"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 			}
 		}
