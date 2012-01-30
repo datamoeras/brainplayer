@@ -37,9 +37,9 @@ return qq{
 	<head>
 		<title>brain prayer</title>
 		<style type="text/css">
-		* {
-			font-size: 10px;
-			font-family: courier;
+		*,span,div,i,center,strong {
+			font-size: 11px;
+			font-family: verdana;
 		}
 		#content
 		{
@@ -149,6 +149,13 @@ return qq{
 				var ei = parseInt(y) + 1;
 				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + ' ' + data["title"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
+				/*
+				div.innerHTML += '<div style="" froms="' + data["from"] + '" id="tt' + ij + '" onclick="seekto(' + data["from"] + ')">';
+				div.innerHTML +=     '' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;';
+				div.innerHTML +=     '' + data["artist"] + '&nbsp;';
+				div.innerHTML +=     '' + data["title"] + '';
+				div.innerHTML += '</div>';
+				*/
 			}
 		}
 		function show_db_listing() {
@@ -226,7 +233,9 @@ return qq{
 			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
 			if (dv != undefined && tdata != undefined) { 
-				document.getElementById("content").innerHTML = tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + "<span>";
+				var bt = '';
+				bt += '<span style="float:right">[love][share]</span>';
+				document.getElementById("content").innerHTML = bt + tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + "</span>";
 				dv.style.background = "red";
 				dv.style.fontWeight = 900;
 			}
@@ -441,19 +450,19 @@ return qq{
 			</div>
 		</div>
 		<div id="current" style="position: fixed; top: 90px;left: 100px;">
-			<div id="msg" style="font-family: courier;height: 1.2em;" class='output'></div>
+			<div id="msg" style="height: 1.2em;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: courier;height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;text-align:center;"></div>
+			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-			<div id="content" style="font-family: courier;height: 3.4em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 16px;"></div>
+			<div id="content" style="height: 3.4em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
 		</div>
 	    </div>
-	<div style="position: absolute; font-family: courier;left: 0px;top: 50px;" id="playlist">
+	<div style="position: absolute; left: 0px;top: 50px;" id="playlist">
 	</div>
 </body>
 </html>
