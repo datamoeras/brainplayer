@@ -285,7 +285,7 @@ return qq{
 			var tssec = tsec;
 			if (tssec < 10) { tssec = "0" + tssec; }
 			document.getElementById("msg").innerHTML += " " + tmin + ":" + tssec;
-			tdur = 600;
+			tdur = track_duration;
 			var fraction = time/dur;
 			var tfraction = toff/tdur;
 			var wrapper = document.getElementById("duration_background");
