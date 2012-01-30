@@ -132,7 +132,7 @@ return qq{
 			if (data == undefined) return;
 			if (aplayer == undefined) return;
 			if (msg != undefined) 
-				msg.innerHTML = "<center>" + data["title"] + "</center>";
+				msg.innerHTML = data["title"];
 			aplayer.setAttribute("src", data["src"]);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
@@ -406,14 +406,14 @@ return qq{
 	</head>
 	<body onLoad="pageLoaded();">
 		<div id='main'>
-		<div id='player' style="position:fixed;left: 100px;width: 550px;top: 0px;">
+		<div id='player' style="position:fixed;left: 100px;width: 550px;top: 36px;">
 			<input id="playButton" class='player_control' type="button" onClick="playClicked(this);" value="&gt;">
 				<div id="duration" class='player_control' >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
 					</div>
 				</div>
-				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);">
+				<div id="volume_control" class='player_control' style="display: top: 36px;" onClick="volumeChangeClicked(event);">
 					<div id="volume_background"  >
 						<div id="volume_bar"></div>
 					</div>
@@ -421,25 +421,25 @@ return qq{
 				<input type="button" class='player_control'  id='volume_button' onClick="volumeClicked();" value="Vol">
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
-		<div id='searchframe' style="position:fixed;left: 100px;left: 650px;top: 0px;">
+		<div id='searchframe' style="position:fixed;left: 100px;left: 650px;top: 36px;">
 			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
 			<div id="searchres">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 90px;left: 100px;">
-			<div id="msg" style="font-family: courier;height: 2em;" class='output'></div>
+		<div id="current" style="position: fixed; top: 60px;left: 100px;">
+			<div id="msg" style="font-family: courier;height: 1.2em;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: courier;height: 40px; width: 550px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;"></div>
+			<div id="cttl" style="font-family: courier;height: 1.2em; width: 550px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;text-align:center;"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-			<div id="content" style="font-family: courier;height: 80px; width: 550px; color: black; font-decoration: italic;font-weight: 900; font-size: 13px;"></div>
+			<div id="content" style="font-family: courier;height: 2.4em; width: 550px; color: black; font-decoration: italic;font-weight: 900; font-size: 16px;"></div>
 			<br />
 			<div id="tracklist" style="width: 700px">
 			</div>
 		</div>
 	    </div>
-	<div style="position: absolute; font-family: courier;left: 0px;top: 90px;" id="playlist">
+	<div style="position: absolute; font-family: courier;left: 0px;top: 40px;" id="playlist">
 	</div>
 </body>
 </html>
