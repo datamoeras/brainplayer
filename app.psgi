@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use Plack::Builder;
+use List::Util qw/shuffle/;
 use CGI::PSGI;
 use Cwd qw/getcwd/;
 use Data::Dumper;
@@ -49,11 +50,12 @@ sub search_cloud {
 		delete $group{$art} if $group{ $art } && @{ $group{ $art } } > 20;
 	}
 	my $h = '';
-	for my $art (keys %group) {
+	for my $art (shuffle keys %group) {
 		my $c = scalar @{ $group{ $art } };
 		$c *= 10;
 		if ($c  > 20) { $c /= 4 }
 		if ($c  > 10) { $c /= 2 }
+		if ($art =~ /ogosam/i) { $c *= 3 }
 		$art =~ s/['"]//g;
 		$h .= qq|<a href="#" style="font-size: ${c}px;" onclick="search_txt('$art');return false;">$art</a>&nbsp;|;
 	}
@@ -470,7 +472,7 @@ return qq{
 				var tri = ths[3];
 				var trn = parseInt(ths[3]) + 1;
 				var ttl = song[1]["artist"] + " " + song[1]["title"];
-				ttl = ttl.replace(txt, '<font style="font-weight:900;color:red">' + txt + '</font>');
+				ttl = ttl.replace(txt, '<font style="font-weight:900;color:#f0f">' + txt + '</font>');
 				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
