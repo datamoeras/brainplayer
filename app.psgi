@@ -254,7 +254,7 @@ return qq{
 		}
 		function ctrack_off(i) {
 			if (c < 1) return 0;
-			var c = ctl[i-1];
+			var c = ctl[i+1];
 			var cf = c[0];
 			return cf;
 		}
@@ -272,12 +272,12 @@ return qq{
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
 			cti = cur;
-			track_duration = ctrack_dur(cur);
+			track_duration = ctrack_dur(cur+1);
 			var min = (time - ( time % 60 ) ) / 60;
 			var sec = parseInt(time - (min*60));
 			var ssec = sec;
 			if (ssec < 10) { ssec = "0" + ssec; }
-			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + cur + "/" + track_duration;
+			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + (cur+2) + "/" + track_duration;
 			highlight_current(cur, time);
 			var toff = toffset_current(time);
 			var tmin = (toff - ( toff % 60 ) ) / 60;
@@ -344,26 +344,32 @@ return qq{
 		{
 			//get the position of the event
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 200;
+			left = event.currentTarget.offsetLeft + 100;
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
-			duration_seek = percent*track_duration;
+			// alert("track_duration=" + track_duration);
 			var coff = ctrack_off(cti);
-			// alert(coff + " + ( " + percent + " * " + track_duration + " )");
-			// alert("seek to toff " + duration_seek);
-			document.getElementById("aplayer").currentTime=parseInt(duration_seek); 
+			duration_seek = percent*track_duration;
+			var tot = coff + duration_seek;
+			// alert(" seek to " + coff + " + ( " + percent + " * " + track_duration + " ) => " + tot);
+			if (tot > 0 && tot < dur) {
+				document.getElementById("aplayer").currentTime=tot;
+			}
 		}
 		function durationClicked(event)
 		{
 			//get the position of the event
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft;
-			// 	alert("clientX=" + clientX + ", offsetLeft=" + left);
+			left = event.currentTarget.offsetLeft + 100;
 			clickoffset = clientX - left;
+			// alert("clientX=" + clientX + " - offsetLeft=" + left + " => " + clickoffset);
 			percent = clickoffset/event.currentTarget.offsetWidth;
-			//	alert("percent=" + percent);
-			duration_seek = percent*audio_duration;
-			document.getElementById("aplayer").currentTime=duration_seek; 
+			dur = audio_player.duration;
+			duration_seek = percent*dur;
+			// alert("percent=" + percent + " * dur=" + dur + " => " + duration_seek);
+			if (duration_seek > 0 && duration_seek < dur) {
+				audio_player.currentTime=duration_seek; 
+			}
 		}
 		function search_db(txt) {
 			var res = [];
