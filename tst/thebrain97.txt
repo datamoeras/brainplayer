@@ -9,7 +9,7 @@
 9	22:37	from=1357	artist=LEON LAI	title=Sugar in the marmelade	href=""	label="2000"
 10	26:29	from=1589	artist=HAPPY MONSTERS	title=Clap your tentacles	href=""	label="Happy House Records"
 11	29:10	from=1750	artist=OMAR SOULEYMAN	title=Arabic Dabke	href="http://www.sublimefrequencies.com/"	label="Sublime frequencies"
-12	32:16	from=1936	artist=M.A. NUMMINEM	title=Yes Sir, Jag är boogie	href="http://www.ma-numminen.net/_fi/"	label="Ellipsikujan Levy"
+12	32:16	from=1936	artist=M.A. NUMMINEM	title=Yes Sir, Jag ar boogie	href="http://www.ma-numminen.net/_fi/"	label="Ellipsikujan Levy"
 13	36:03	from=2163	artist=STAY ALI	title=Dywt	href="http://www.superbutton.net"	label="Superbutton"
 14	39:03	from=2343	artist=ROTFLOL	title=Dannys revenge	href="http://www.autumnrecords.net"	label="Autumn records"
 15	42:15	from=2535	artist=BAKERSFIELD BOOGIE BOYS	title=Okie from Muskogee	href=""	label="Rhino"

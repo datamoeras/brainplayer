@@ -14,7 +14,7 @@
 14	33:33	from=2013	artist=MOER DRAMMAZ	title=Pies Pod Wlos	href="http://www.baaba.org"	label="Baaba"
 15	37:02	from=2222	artist=BREZEL GOERING	title=Ich bin so sichtig	href="http://www.stereototal.de/home/solo_brezel.html"	label="Autoproduced"
 16	40:07	from=2407	artist=KAP BAMBINO	title=2003	href="http://perso.wanadoo.fr/w.w./"	label=""
-17	43:42	from=2622	artist=KANIA TIEFFER	title=Parc à Thèmes	href="http://constant.all2all.org/%7Epneu/site/rubrique.php3?id_rubrique=8"	label="Pneu"
+17	43:42	from=2622	artist=KANIA TIEFFER	title=Parc a Themes	href="http://constant.all2all.org/%7Epneu/site/rubrique.php3?id_rubrique=8"	label="Pneu"
 18	46:29	from=2789	artist=NINO NARDINI	title=Soft bossa	href=""	label="Lo Recordings"
 19	46:54	from=2814	artist=EDITH NYLON	title=Electromenager	href=""	label="CBS"
 20	50:18	from=3018	artist=LOS MICROWAVES	title=Home alone	href=""	label="Celluloid"

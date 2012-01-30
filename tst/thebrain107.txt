@@ -2,7 +2,7 @@
 2	00:59	from=59	artist=MICHELE RICHARD	title=Dou Da Dou	href=""	label="Trans Canada"
 3	02:47	from=167	artist=BEN BUTLER &amp; MOUSE PAD	title=Teenage Portal	href=""	label="LOAF"
 4	07:11	from=431	artist=LA FEMME	title=Sur la planche	href=""	label="Autoproduced"
-5	10:48	from=648	artist=HIKASHU	title=Yochu No Kiki	href=""	label="Angelika Köhlermann"
+5	10:48	from=648	artist=HIKASHU	title=Yochu No Kiki	href=""	label="Angelika Kohlermann"
 6	15:22	from=922	artist=BARBARA MORGENSTERN	title=Das Wort	href=""	label="Monika"
 7	18:39	from=1119	artist=RYAN ELDER	title=Planet unicorn theme with intro	href=""	label="TV serie theme"
 8	19:09	from=1149	artist=GAY ROBOT LOVERS	title=Words	href=""	label="Wired Records"

@@ -1,7 +1,7 @@
 1	00:41	from=41	artist=JAN TURKENBURG	title=In my spaceship	href="http://www.comfortstand.com"	label="Comfortstand"
 2	05:30	from=330	artist=FELIX KUBIN &amp; COOLHAVEN	title=Notbremse	href="http://www.extrapool.nl/brom.html"	label="Brombron"
 3	09:07	from=547	artist=MITCH &amp; MITCH	title=Mambo 63	href="http://www.ladoabc.com"	label="Lado Abc"
-4	13:24	from=804	artist=CANDIE HANK	title=Disko des Aussätzigen	href="http://www.sonig.com"	label="Sonig"
+4	13:24	from=804	artist=CANDIE HANK	title=Disko des Aussatzigen	href="http://www.sonig.com"	label="Sonig"
 5	16:18	from=978	artist=J. MATUSZKIEWICZ	title=Janosik	href=""	label="Pomaton"
 6	19:16	from=1156	artist=MONSTER ZOKU ONSOMB	title=Pleasure cramps	href="http://www.monsterzoku.com/"	label="Rats milk records"
 7	22:30	from=1350	artist=BUGGLES	title=The plastic age	href=""	label="Island"

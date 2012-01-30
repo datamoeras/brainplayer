@@ -15,7 +15,7 @@
 15	41:18	from=2478	artist=FLYING LIZZARDS	title=Great balls of fire	href="http://www.markallencam.com/theflyinglizards.html"	label="Statik Records"
 16	43:14	from=2594	artist=FRUSTRATION	title=We have some...	href="http://www.myspace.com/bornbadrecords"	label="Born Bad Records"
 17	44:52	from=2692	artist=MASH GORDON	title=German Boy	href="http://www.mashgordon.com"	label="Tipsy Poodl Records"
-18	47:05	from=2825	artist=BERA MAOR	title=Männer	href=""	label="Ink Records"
+18	47:05	from=2825	artist=BERA MAOR	title=Manner	href=""	label="Ink Records"
 19	52:23	from=3143	artist=ONO WITH BLOW UP	title=Every Man Every Woman	href=""	label="Parlophone"
 20	56:20	from=3380	artist=DEVO	title=Girluwant	href="http://clubdevo.com"	label="Virgin"
 21	59:26	from=3566	artist=FREDERIK SCHIKOWSKI	title=Indicatif The Brain 1.3	href="FREDERIK SCHIKOWSKI"	label="Unreleased"

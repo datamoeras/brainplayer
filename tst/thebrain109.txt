@@ -20,5 +20,5 @@
 20	47:30	from=2850	artist=ALLEGRA	title=Chunky monkey	href=""	label=""
 21	50:10	from=3010	artist=DISASTERADIO	title=You win	href=""	label=""
 22	53:29	from=3209	artist=DRINKING ELECTRICITY	title=Discord Dance	href=""	label=""
-23	56:50	from=3410	artist=PHILIPPE ARTHUYS	title=Boite à musique	href=""	label=""
+23	56:50	from=3410	artist=PHILIPPE ARTHUYS	title=Boite a musique	href=""	label=""
 24	58:29	from=3509	artist=	title=	href=""	label=""

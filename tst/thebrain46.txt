@@ -1,7 +1,7 @@
 1	00:58	from=58	artist=HENRI MANCINI	title=Moon river cha cha	href="http://www.spaceagepop.com/mancini.htm"	label="RCA"
 2	03:30	from=210	artist=OLEG KOSTROW	title=2003	href="http://www.kostrow.com"	label=""
 3	06:01	from=361	artist=ECHOKRANK	title=Inhuman fly	href="http://www.klangkrieg-produktionen.de"	label="Klangkrieg"
-4	08:27	from=507	artist=YODELIN’ SLIM CLARK	title=Rocky mountain yodeler	href="http://www.crosslink.net/%7Ebigmack9/slimcrk.htm"	label="Universal"
+4	08:27	from=507	artist=YODELIN	title=SLIM CLARK	href="http://www.crosslink.net/%7Ebigmack9/slimcrk.htm"	label="Rocky mountain yodeler"
 5	10:11	from=611	artist=N.O.I.A.	title=Atomkraft	href="http://www.ersatzaudio.com"	label="Erzatz Audio"
 6	12:34	from=754	artist=CHIPMUNK MANIA	title=All my loving	href="http://www.hipsurgerymusic.com/Chipmunks/"	label="Capitol"
 7	14:49	from=889	artist=AAVIKKO	title=Samojeden keskuudessa	href="http://www.solnzerecords.com"	label="Solnze"

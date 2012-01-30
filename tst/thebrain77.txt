@@ -14,7 +14,7 @@
 14	38:14	from=2294	artist=KLEMENT	title=Check the this is	href="http://www.contrecoeur.eu"	label="Contrecoeur"
 15	42:59	from=2579	artist=BARBARA MORGENSTERN	title=The operator	href="http://www.monika-enterprise.de"	label="Monika"
 16	46:20	from=2780	artist=SIMSILLY FEAT UTOPIA	title=Jungle bonus	href="http://veroniquehubert.free.fr"	label="Station Mir"
-17	49:59	from=2999	artist=NENA	title=Nur geträumt	href=""	label="CBS"
+17	49:59	from=2999	artist=NENA	title=Nur getraumt	href=""	label="CBS"
 18	53:30	from=3210	artist=ALINE FEAT KLEMENT	title=Soeurette	href="http://www.contrecoeur.eu"	label="Contrecoeur"
 19	55:22	from=3322	artist=COOLHAVEN	title=Kind von traurigkeit	href="http://www.coolhaven.nl"	label="Taple"
 20	56:05	from=3365	artist=AAVIKKO	title=Torpedo girls	href="http://www.spinefarm.fi"	label="Spinefarm records"

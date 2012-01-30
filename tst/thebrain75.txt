@@ -1,4 +1,4 @@
-1	00:58	from=58	artist=DJ CHIENLOUP	title=Blouse societe secrète	href="http://www.beaubrun.net"	label="Beau Brun"
+1	00:58	from=58	artist=DJ CHIENLOUP	title=Blouse societe secrete	href="http://www.beaubrun.net"	label="Beau Brun"
 2	04:26	from=266	artist=ANGIE REED	title=Corner romance (Candie Hank remix) Chicks on speed records	href="http://www.chicksonspeed-records.com"	label=""
 3	06:53	from=413	artist=DAT POLITICS	title=Space kitchen companion	href="http://www.tigerbeat6.com"	label="Tigerbeat 6"
 4	09:21	from=561	artist=KAP BAMBINO	title=Save	href="http://perso.orange.fr/w.w./"	label="Wwilko"

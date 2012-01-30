@@ -1,5 +1,5 @@
 1	01:38	from=98	artist=NOVA HUTA	title=Ahnengalerie	href="http://www.myspace.com/novahuta"	label="So hat es die natur gewolt"
-2	02:49	from=169	artist=X RAY POP	title=La machine ‡ rÍêver	href=""	label="MB5"
+2	02:49	from=169	artist=X RAY POP	title=La machine a reêver	href=""	label="MB5"
 3	05:06	from=306	artist=TIM GANE &amp; SEAN OHAGAN	title=Metro, Boulot, Hippo (alterante mix)	href="http://www.toopure.com"	label="Too pure"
 4	06:38	from=398	artist=SENOR COCONUT	title=Dreams are my reality	href="http://www.essayrecordings.com"	label="Essay recordings"
 5	10:17	from=617	artist=DE!NIAL	title=Tokyo dance school	href="http://www.uhhrecords.com"	label="Uhh records"

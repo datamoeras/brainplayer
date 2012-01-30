@@ -12,7 +12,7 @@
 12	26:49	from=1609	artist=LYS GAUTY	title=Le chaland qui passe	href=""	label="Pathe Marconi"
 13	29:57	from=1797	artist=FETUS DEATH SQUAD	title=Television	href="http://www.purevolume.com/FETUSDEATHSQUAD"	label="Unreleased"
 14	32:10	from=1930	artist=ELECTRIC KETTLE	title=	href="http://www.electric-kettle.tk"	label=""
-15	05:36	from=336	artist=00”	title=RITA CHAO	href=""	label="Shake, Shake, Shake"
+15	05:36	from=336	artist=00	title=	href=""	label="RITA CHAO"
 16	38:07	from=2287	artist=FELIX KUBIN	title=2005	href="http://www.felixkubin.com"	label=""
 17	39:27	from=2367	artist=FREDERIK SCHIKOWSKI	title=Malve	href="http://www.ak-duck.com"	label="AK Duck"
 18	40:50	from=2450	artist=ULRICH	title=Message pirate	href=""	label="Bagatelle"

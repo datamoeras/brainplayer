@@ -14,7 +14,7 @@
 14	34:25	from=2065	artist=MATMOS	title=Polychords	href="http://www.matadorrecords.com"	label="Matador"
 15	37:28	from=2248	artist=BETON CRISE	title=Je voudrais partir	href=""	label="Unreleased"
 16	39:30	from=2370	artist=JOHNNY LOCATION	title=Italo gabber	href="http://ikioma.info/labelable"	label="Labelable"
-17	41:52	from=2512	artist=PERE DODUDABOUM	title=Recette secrËète	href="http://www.myspace.com/peredodudaboum"	label="Autoproduit"
+17	41:52	from=2512	artist=PERE DODUDABOUM	title=Recette secreète	href="http://www.myspace.com/peredodudaboum"	label="Autoproduit"
 18	46:18	from=2778	artist=LINDY LANE	title=Low grades and high fever	href=""	label="?"
 19	48:18	from=2898	artist=BUFFALO DAUGHTER	title=Cold Summer	href="http://www.buffalodaughter.com"	label="Grand Royal"
 20	51:47	from=3107	artist=VOICE FARM	title=Elevate	href=""	label="Les Virus"
