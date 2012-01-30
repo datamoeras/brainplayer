@@ -94,9 +94,8 @@ return qq{
 		}
 		.player_control
 		{
-			float:left;
+			// float:left;
 			margin-right:5px;
-			
 		}
 		#player
 		{
@@ -141,15 +140,10 @@ return qq{
 			background-color:#bbd;
 
 		}
-    #main{
-      float:right;
-    }
-    #skyscraper {
-      float:left;
-      border:1px solid black;
-      padding:5px;
-    }
-		</style>
+	    #main{
+	      float:right;
+	    }
+	</style>
 		<script type="text/javascript">
 		var db = $json;
 		var ctl = [];
@@ -178,11 +172,16 @@ return qq{
 			playClicked();
 			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
-			window.setTimeout(function(){ seekto(os); }, 800);
+			window.setTimeout(function(){ seekto(os); }, 200);
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
-			if (pl != null) pl.currentTime=s; 
+			if (pl == null) return;
+			try {
+				pl.currentTime=s; 
+			} catch (e) {
+				window.setTimeout(function(){ seekto(s); }, 300);
+			};
 		}
 		function draw_tracklist(div, i, list) {
 			div.innerHTML = "";
@@ -282,12 +281,20 @@ return qq{
 			var dv = document.getElementById("tt" + i);
 			if (dv != undefined && tdata != undefined) { 
 				var bt = '';
-				bt += '<span style="float:right">[love][share]</span>';
 				var lnk = '';
 				if (tdata["href"] != '' && tdata["href"] != undefined) {
-					lnk = '<br /><a href="' + tdata["href"] + '">' + tdata["href"] + '</a>';
+					var hr = tdata["href"];
+					if (hr.length > 42) { hr = hr.substring(0, 42); }
+					lnk = '<br /><a href="' + tdata["href"] + '">' + hr + '</a>';
 				}
-				document.getElementById("content").innerHTML = bt + tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
+				var art = tdata["artist"];
+				art = art.replace("'", 'g');
+				art = art.replace('"', 'g');
+				document.getElementById("content").innerHTML = bt +
+					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
+					tdata["artist"]+"<br/>"+
+					'<input id="button_love" class="player_control" type="button" onClick="click_love();" style="" value="&hearts;" ></input>'+ 
+					tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
 				dv.style.background = "yellow";
 				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
@@ -338,7 +345,7 @@ return qq{
 			var sec = parseInt(time - (min*60));
 			var ssec = sec;
 			if (ssec < 10) { ssec = "0" + ssec; }
-			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + (cur+2) + "/" + track_duration;
+			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + (cur+2);
 			highlight_current(cur, time);
 			var toff = toffset_current(time);
 			var tmin = (toff - ( toff % 60 ) ) / 60;
@@ -476,6 +483,21 @@ return qq{
 				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
+		function click_random() {
+			focus_track(Math.floor(Math.random()*db.length));
+		}
+		function click_prev() {
+			focus_track(ci-1);
+		}
+		function click_share() {
+			alert("share it");
+		}
+		function click_love() {
+			// alert("love it");
+		}
+		function click_next() {
+			focus_track(ci+1);
+		}
 		</script>
 		<base target="_blank">
 	</head>
@@ -489,6 +511,9 @@ return qq{
 					</div>
 				</div>
 				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&gt;" ></input>
+				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
+				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&lt;&lt;" ></input>
+				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&gt;&gt;" ></input>
 				<!--
 				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >

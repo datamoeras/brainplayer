@@ -27,9 +27,9 @@ sub readbrain {
 	my $input = join('', <$fh>);
 	$input =~ s/&iuml;/i/gi;
 	$input =~ s/&euml;/e/gi;
-	$input =~ s/&auml;/a/gi;
+	$input =~ s/&(agrave|auml);/a/gi;
 	$input =~ s/&ouml;/o/gi;
-	$input =~ s/&(egrave|eacute);/e/gi;
+	$input =~ s/&(ecirc|egrave|eacute);/e/gi;
 	$input =~ s/&#146;/-/gi;
 	$input =~ s/&#148;/-/gi;
 	my $dom = Mojo::DOM->new($input);
@@ -50,7 +50,7 @@ sub parselist {
 
 		my $t0 = $1;
 		my $txt = $2;
-		print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /indic/i;
+		# print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /indic/i;
 		if ($list =~ s/^(.*)($tre$tre)/$2/m) {
 			$txt .= $1;
 		} else {
