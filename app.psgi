@@ -166,8 +166,9 @@ return qq{
 			if (msg != undefined) 
 				msg.innerHTML = data["title"];
 			var src = data["src"];
-			if (navigator.userAgent.indexOf("Firefox")!=-1)
-				src = src.replace('ogg\$', 'mp3');
+			if (navigator.userAgent.indexOf("Firefox")==-1 || navigator.platform.indexOf("Mac")!=-1) {
+				src = src.replace(new RegExp('ogg\$', 'i'), 'mp3');
+			}
 			aplayer.setAttribute("src", src);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
