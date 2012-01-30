@@ -55,7 +55,7 @@ sub search_cloud {
 		$c *= 10;
 		if ($c  > 20) { $c /= 4 }
 		if ($c  > 10) { $c /= 2 }
-		if ($art =~ /ogosam/i) { $c *= 3 }
+		if ($art =~ /ogosam/i) { $c *= 2 }
 		$art =~ s/['"]//g;
 		$h .= qq|<a href="#" style="font-size: ${c}px;" onclick="search_txt('$art');return false;">$art</a>&nbsp;|;
 	}
@@ -165,7 +165,10 @@ return qq{
 			if (aplayer == undefined) return;
 			if (msg != undefined) 
 				msg.innerHTML = data["title"];
-			aplayer.setAttribute("src", data["src"]);
+			var src = data["src"];
+			if (navigator.userAgent.indexOf("Firefox")!=-1)
+				src = src.replace('ogg\$', 'mp3');
+			aplayer.setAttribute("src", src);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
 			draw_tracklist(tracklist, i, data["list"]);
