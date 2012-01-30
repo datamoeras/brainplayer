@@ -186,6 +186,10 @@ return qq{
 			audio_player.volume = new_volume;
 			update_volume_bar();
 			volume_button.value = "Volume: "+parseInt(new_volume*100);
+			var control = document.getElementById('volume_control');
+			var but = document.getElementById('volume_control');
+			control.style.display='none';
+			but.style.display='inline';
 			
 		}
 		function update_volume_bar()
@@ -319,13 +323,16 @@ return qq{
 		}
 		function volumeClicked(event)
 		{
-			control = document.getElementById('volume_control');
+			var control = document.getElementById('volume_control');
+			var but = document.getElementById('volume_button');
 			
 			if(control.style.display=="block")
 			{
 				control.style.display="None";
+				but.style.display='';
 			}else{
 				control.style.display="Block";
+				but.style.display='none';
 				update_volume_bar();
 			}
 		}
@@ -333,9 +340,10 @@ return qq{
 		function volumeChangeClicked(event)
 		{
 			//get the position of the event
-			clientY = event.clientY;
-			offset =  event.currentTarget.offsetTop + event.currentTarget.offsetHeight  - clientY;
+			offset =  event.currentTarget.offsetHeight - event.clientY;
+			// alert("clientY=" + clientY + ",offsetTop=" + event.currentTarget.offsetTop + " => " + offset);
 			volume = offset/event.currentTarget.offsetHeight;
+			// alert("vol=" + volume);
 			set_volume(volume);
 			update_volume_bar();
 		}
@@ -419,7 +427,7 @@ return qq{
 						<div id="duration_bar" class="duration_bar"></div>
 					</div>
 				</div>
-				<div id="volume_control" class='player_control' style="display: top: 36px;" onClick="volumeChangeClicked(event);">
+				<div id="volume_control" class='player_control' style="display: top: 36px;" onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
 						<div id="volume_bar"></div>
 					</div>
