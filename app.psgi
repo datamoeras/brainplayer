@@ -248,7 +248,11 @@ return qq{
 			if (dv != undefined && tdata != undefined) { 
 				var bt = '';
 				bt += '<span style="float:right">[love][share]</span>';
-				document.getElementById("content").innerHTML = bt + tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + "</span>";
+				var lnk = '';
+				if (tdata["href"] != '' && tdata["href"] != undefined) {
+					lnk = '<br /><a href="' + tdata["href"] + '">' + tdata["href"] + '</a>';
+				}
+				document.getElementById("content").innerHTML = bt + tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
 				dv.style.background = "yellow";
 				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
@@ -438,9 +442,11 @@ return qq{
 			}
 		}	
 		</script>
+		<base target="_blank">
 	</head>
 	<body onLoad="pageLoaded();">
 		<div id='main'>
+		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank"> MUSIQUES INCONGRUES</a></h3><br />
 		<div id='player' style="position:fixed;left: 100px;width: 400px;top: 36px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
@@ -470,13 +476,13 @@ return qq{
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-			<div id="content" style="height: 3.4em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
+			<div id="content" style="height: 4.8em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
 		</div>
 	    </div>
-	<div style="position: absolute; left: 0px;top: 50px;" id="playlist">
+	<div style="position: absolute; left: 0px;top: 70px;" id="playlist">
 	</div>
 </body>
 </html>
