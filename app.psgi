@@ -326,7 +326,7 @@ return qq{
 			var control = document.getElementById('volume_control');
 			var but = document.getElementById('volume_button');
 			
-			if(control.style.display=="block")
+			if(control.style.display!="none")
 			{
 				control.style.display="None";
 				but.style.display='';
@@ -339,13 +339,14 @@ return qq{
 		
 		function volumeChangeClicked(event)
 		{
-			//get the position of the event
+			var but = document.getElementById('volume_button');
 			offset =  event.currentTarget.offsetHeight - event.clientY;
 			// alert("clientY=" + clientY + ",offsetTop=" + event.currentTarget.offsetTop + " => " + offset);
 			volume = offset/event.currentTarget.offsetHeight;
 			// alert("vol=" + volume);
 			set_volume(volume);
 			update_volume_bar();
+			volumeClicked();
 		}
 		
 		function t_durationClicked(event)
