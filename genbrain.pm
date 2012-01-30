@@ -111,7 +111,9 @@ sub parsesong {
 sub parsebrain {
 	my $i = shift;
 	my $dom = shift;
-	my $data = { title => "thebrain$i", src => 'http://doscii.nl/dm/thebrain/thebrain' . $i . '.ogg' };
+	my $pre = 'thebrain';
+	if ($i =~ /\D/) { $pre = '' }
+	my $data = { title => $i =~ /\D/ ? $i : "thebrain$i", src => 'http://doscii.nl/dm/thebrain/'.$pre . $i . '.ogg' };
 	$dom->find('td')->each(sub {
 		my $e = shift;
 		my $html = "$e";
@@ -137,7 +139,7 @@ sub parsebrain {
 }
 sub kgi {
 	my $s = shift->{title};
-	$s =~ s/^thebrain//;
+	$s =~ s/^\D+//g;
 	return $s;
 }
 sub readall {
@@ -146,9 +148,11 @@ sub readall {
 	opendir(my $dh, $bdr);
 	my @ls;
 	for my $f (grep -f "$bdr/$_" => readdir($dh)) {
-		next unless $f =~ /^(\d+)\.html$/;
-		push @ls, $1;
+		next unless $f =~ /^(.*?\d+)\.html$/;
+		my $fn = $1;
+		push @ls, $fn;
 	}
+	no warnings;
 	return [ sort { kgi($a) <=> kgi($b) } grep { $_ && $_->{list} && @{$_->{list}} > 6 } map eval{readbrain($_)} => @ls ];
 }
 
