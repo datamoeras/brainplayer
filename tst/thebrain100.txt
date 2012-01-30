@@ -1,4 +1,4 @@
-1	00:36	from=36	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+1	00:36	from=36	artist=THE BRAIN	title=Generique 2010	href=""	label="Unreleased"
 2	01:16	from=76	artist=GUY BOYER ET SON ORCHESTRE	title=La balade de Polly Magoo	href=""	label="Cocert Hall"
 3	04:32	from=272	artist=SILICON TEENS	title=TV Playtime	href=""	label="Mute"
 4	07:09	from=429	artist=ADULT	title=Contagious	href="http://www.ersatzaudio.com"	label="Ersatz Audio"

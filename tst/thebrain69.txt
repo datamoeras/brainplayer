@@ -9,7 +9,7 @@
 9	22:33	from=1353	artist=DAT POLITICS	title=Fake friend	href="http://chicksonspeed-records.com"	label="Chicks on speed records"
 10	25:40	from=1540	artist=EDMUNDO ROS	title=Tropical Merengue	href=""	label="Decca records"
 11	28:10	from=1690	artist=PLANINGTOROCK	title=2005	href="http://www.rostronrecords.net"	label=""
-12	31:44	from=1904	artist=OOMIAQ	title=Un mot de notre président	href="http://oomiak.oomiaq.free.fr"	label="Unreleased"
+12	31:44	from=1904	artist=OOMIAQ	title=Un mot de notre president	href="http://oomiak.oomiaq.free.fr"	label="Unreleased"
 13	32:17	from=1937	artist=PUPPETMASTAZ	title=El paso remix	href="http://www.puppetmastaz.com"	label="Pias"
 14	35:27	from=2127	artist=DENIS FARNONS	title=In a chinese bar	href=""	label="Conroy"
 15	36:54	from=2214	artist=DEERHOOF	title=This magnificent bird will rise	href="http://www.killrockstars.com"	label="Kill Rock Stars"

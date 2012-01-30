@@ -20,4 +20,4 @@
 20	56:40	from=3400	artist=Peggy Lee	title=The Siamese Cat Song	href=""	label="Decca"
 21	58:51	from=3531	artist=Cosmic Analog Ensemble	title=Intro (Side A)	href=""	label="Upitup"
 22	59:27	from=3567	artist=Frederik Schikowski	title=Générique The Brain 1.3	href=""	label=""
-23	60:00	from=3600	artist=Extrait de Cest arrivé près de chez vous</strong></p> </td>	title=	href=""	label=""
+23	60:00	from=3600	artist=Extrait de Cest arrivé près de chez vous</p> </td>	title=	href=""	label=""

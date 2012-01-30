@@ -29,8 +29,41 @@ var brain = [
 ];
 
 =cut
+sub search_cloud {
+	my $data = shift;
+	my %group;
+	my $i = 0;
+	for my $b (@{ $data }) {
+		my $o = 0;
+		for my $t (@{ $b->{list} }) {
+			my $art = $t->[1]{artist};
+			if ($art) {
+				push @{ $group{$art} }, [$i, $o];
+			}
+			$o++;
+		}
+		$i++;
+	}
+	for my $art (keys %group) {
+		delete $group{$art} if @{ $group{ $art } } < 4 && $art !~ /ogosam/i;
+		delete $group{$art} if $group{ $art } && @{ $group{ $art } } > 20;
+	}
+	my $h = '';
+	for my $art (keys %group) {
+		my $c = scalar @{ $group{ $art } };
+		$c *= 10;
+		if ($c  > 20) { $c /= 4 }
+		if ($c  > 10) { $c /= 2 }
+		$art =~ s/['"]//g;
+		$h .= qq|<a href="#" style="font-size: ${c}px;" onclick="search_txt('$art');return false;">$art</a>&nbsp;|;
+	}
+	return $h;
+}
+
 my $page = sub {
-	my $json = encode('latin1', JSON->new->encode(encode_entities(genbrain::readall())));
+	my $data = genbrain::readall();
+	my $json = encode('latin1', JSON->new->encode($data));
+	my $cloud = encode('latin1', search_cloud($data));
 return qq{
 <!DOCTYPE html>
 <html>
@@ -480,6 +513,7 @@ return qq{
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
+			<div id="scloud" style="width: 450px; overflow: auto;z-index: 0;">$cloud</div>
 		</div>
 	    </div>
 	<div style="position: absolute; left: 0px;top: 70px;" id="playlist">

@@ -3,7 +3,7 @@
 3	05:02	from=302	artist=SERGE GAINSBOURG	title=Chatterton	href=""	label="Philips"
 4	07:05	from=425	artist=METRONOMY	title=Radio Ladio	href="http://www.because.tv"	label="Because"
 5	10:27	from=627	artist=JEANETTE UND DAS LAND Z	title=Raumpatrouille	href=""	label="Phonogram"
-6	12:31	from=751	artist=EDITH NYLON	title=Cinémascope	href=""	label="CBS"
+6	12:31	from=751	artist=EDITH NYLON	title=Cinemascope	href=""	label="CBS"
 7	15:09	from=909	artist=GRABBA GRABBA TAPE	title=Looking through	href="http://www.simplesocialgraces.com"	label="Simple Social Graces"
 8	16:31	from=991	artist=RATATAT	title=Mirando	href="http://www.xlrecordings.com"	label="XL Recordings"
 9	20:15	from=1215	artist=STINA NORDENSTAM	title=Winter killing	href="http://se.v2music.com/site"	label="V2"

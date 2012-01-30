@@ -9,7 +9,7 @@
 9	22:56	from=1376	artist=SARA LUNDEN	title=This is not desire	href="http://www.lobotomrecords.com"	label="Lobotom records"
 10	26:00	from=1560	artist=GIORGIO MARAUDER	title=You only live once	href="http://www.c10cl12.com"	label="Mirex"
 11	29:24	from=1764	artist=DIE WELTTRAUMFORSCHER	title=Katakina	href="http://www.staubgold.de"	label="Staubgold"
-12	32:04	from=1924	artist=LALO SCHIFRIN	title=Les félins	href=""	label="Universal"
+12	32:04	from=1924	artist=LALO SCHIFRIN	title=Les felins	href=""	label="Universal"
 13	33:53	from=2033	artist=HUGH CORNWELL &amp; ROBERT WILLIAMS	title=Rythmic itch	href=""	label="UA"
 14	35:51	from=2151	artist=VERY IMPOSSIBLE PERSON	title=Startyadaywithabang	href="http://www.j-u-n-k.com"	label="Junk"
 15	38:05	from=2285	artist=GEORGES TEPERINO	title=Cleopatra	href="http://www.lorecordings.com"	label="Lo Recordings"

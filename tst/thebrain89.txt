@@ -8,7 +8,7 @@
 8	24:50	from=1490	artist=DIE RADIERER	title=Angriff auf schlaraffenland	href=""	label="ZickZack"
 9	28:20	from=1700	artist=EAT RABITT	title=Save me flipper	href="http://www.daheardit-records.net"	label="Da ! Heard it Records"
 10	30:03	from=1803	artist=NEOANGIN	title=Wait till we come home	href="http://www.badtaste.ru"	label="Bad Taste"
-11	32:00	from=1920	artist=THE NAMES	title=My life by the sea	href=""	label="Les Disques du Crépuscule"
+11	32:00	from=1920	artist=THE NAMES	title=My life by the sea	href=""	label="Les Disques du Crepuscule"
 12	36:38	from=2198	artist=SYNDROME WPW	title=Cinecitta	href="http://www.midinetterecords.net"	label="Midinette records"
 13	41:13	from=2473	artist=LOGOSAMPHIA	title=Confused organs making off grandfinalle explode	href="http://www.myspace.com/logosamphia"	label="Unreleased"
 14	44:16	from=2656	artist=MIKROWELLE	title=Pop Corn A Gogo	href="http://www.kamikazerecords.de"	label="Kamikaze Records"

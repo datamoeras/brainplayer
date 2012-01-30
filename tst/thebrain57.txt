@@ -1,5 +1,5 @@
 1	00:50	from=50	artist=ENNIO MORRICONE	title=Le Casse	href="http://www.enniomorricone.it"	label="Bell records"
-2	04:15	from=255	artist=CANDIE HANK	title=Le désastre	href="http://perso.wanadoo.fr/w.w."	label="Wwilko"
+2	04:15	from=255	artist=CANDIE HANK	title=Le desastre	href="http://perso.wanadoo.fr/w.w."	label="Wwilko"
 3	07:40	from=460	artist=ANSELL COLINS	title=Stalag 17	href=""	label="Epic"
 4	09:54	from=594	artist=AIRCOIRIS	title=Chandler	href="http://www.oddpop.nl"	label="Oddpop"
 5	11:45	from=705	artist=MR PACMAN	title=Luxury car	href="http://www.mrpacman.com"	label="Autoproduced"

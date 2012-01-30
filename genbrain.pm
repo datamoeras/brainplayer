@@ -24,7 +24,15 @@ sub readbrain {
 	my $path = basedir();
 	my $fn = $path . "brains/$i.html";
 	open(my $fh, '<', $fn);
-	my $dom = Mojo::DOM->new(join('', <$fh>));
+	my $input = join('', <$fh>);
+	$input =~ s/&iuml;/i/gi;
+	$input =~ s/&euml;/e/gi;
+	$input =~ s/&auml;/a/gi;
+	$input =~ s/&ouml;/o/gi;
+	$input =~ s/&(egrave|eacute);/e/gi;
+	$input =~ s/&#146;/-/gi;
+	$input =~ s/&#148;/-/gi;
+	my $dom = Mojo::DOM->new($input);
 	return parsebrain($i, $dom);
 }
 sub parselist {
@@ -33,7 +41,7 @@ sub parselist {
 	my @data = ();
 	$list =~ s/(&#39;|&quot;)//g;
 	my $magic1 = chr(146);
-	my $tre = qr![\s\t\n]*\d{2}\D[\s\n\t]*(?:'|"|&#146;|#&148;|&quot;|$magic1)*?\s*!;
+	my $tre = qr![\s\t\n]*\d{2}\D[\s\n\t]*(?:'|"|&#146;|#&148;|&[a-z0-9]+;|$magic1)*?\s*!i;
 	# while ($list =~ s/^(?:.*?)($tre$tre)(.*?(?:.\d{4})?.*?)($tre|$)/$3/m) {
 	# while ($list =~ s/^(?:.|\n)*?($tre$tre)(.*?)($tre|$)/$3$4/m) { # generique:
 
@@ -42,7 +50,7 @@ sub parselist {
 
 		my $t0 = $1;
 		my $txt = $2;
-		# print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /LIA/;
+		print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /indic/i;
 		if ($list =~ s/^(.*)($tre$tre)/$2/m) {
 			$txt .= $1;
 		} else {
@@ -111,6 +119,7 @@ sub parsebrain {
 		$html =~ s/^.*?<td[^>]+>//m;
 		$html =~ s/^.*?<strong[^>]+>//m;
 		$html =~ s/<\/font\s*>.*?$//;
+		$html =~ s/<\/strong\s*>\s*//;
 		# $html =~ s/&#39;/:/g;
 		# $html =~ s/&#146;/'/g;
 		# $html =~ s/&#148;/"/g;

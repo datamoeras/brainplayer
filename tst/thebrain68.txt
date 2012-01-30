@@ -16,7 +16,7 @@
 16	40:07	from=2407	artist=KAP BAMBINO	title=2003	href="http://perso.wanadoo.fr/w.w./"	label=""
 17	43:42	from=2622	artist=KANIA TIEFFER	title=Parc à Thèmes	href="http://constant.all2all.org/%7Epneu/site/rubrique.php3?id_rubrique=8"	label="Pneu"
 18	46:29	from=2789	artist=NINO NARDINI	title=Soft bossa	href=""	label="Lo Recordings"
-19	46:54	from=2814	artist=EDITH NYLON	title=Electroménager	href=""	label="CBS"
+19	46:54	from=2814	artist=EDITH NYLON	title=Electromenager	href=""	label="CBS"
 20	50:18	from=3018	artist=LOS MICROWAVES	title=Home alone	href=""	label="Celluloid"
 21	52:05	from=3125	artist=JEANETTE	title=pourquoi tu vis	href=""	label="Hispavox"
 22	55:47	from=3347	artist=PUPI CAMPO	title=Joe and Paul	href=""	label="Tropical"

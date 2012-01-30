@@ -1,4 +1,4 @@
-1	00:20	from=20	artist=THE BRAIN	title=Générique 2010	href=""	label="Unreleased"
+1	00:20	from=20	artist=THE BRAIN	title=Generique 2010	href=""	label="Unreleased"
 2	00:59	from=59	artist=MICHELE RICHARD	title=Dou Da Dou	href=""	label="Trans Canada"
 3	02:47	from=167	artist=BEN BUTLER &amp; MOUSE PAD	title=Teenage Portal	href=""	label="LOAF"
 4	07:11	from=431	artist=LA FEMME	title=Sur la planche	href=""	label="Autoproduced"

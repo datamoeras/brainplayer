@@ -13,7 +13,7 @@
 13	28:50	from=1730	artist=FRANCE GALL	title=Attends ou va ten	href=""	label="Phillips"
 14	31:14	from=1874	artist=EGOEXPRESS	title=The fool of the new city	href="http://www.egoexpress.com"	label="Discograph"
 15	34:20	from=2060	artist=HOLGER HILLER &amp; THOMAS FEHLMANN	title=Baum musik	href="http://www.gagarinrecords.com"	label="Gagarin Records"
-16	35:08	from=2108	artist=TAXI GIRL	title=Les armées de la nuit	href=""	label="Virgin"
+16	35:08	from=2108	artist=TAXI GIRL	title=Les armees de la nuit	href=""	label="Virgin"
 17	39:50	from=2390	artist=HEMATIC SUNSETS	title=Aufgeregheiten	href="http://www.tietchens.de"	label="Klang der Festung"
 18	41:26	from=2486	artist=COLDCUT	title=More beats &amp; pieces	href=""	label="Ninja Tune"
 19	42:40	from=2560	artist=STEREOTOTAL	title=Mars rendez	href="http://www.diskob.com"	label="vous"

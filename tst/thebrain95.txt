@@ -1,5 +1,5 @@
-1	00:00	from=0	artist=DYLAN	title=Cora Noël	href=""	label="Unreleased"
-2	00:38	from=38	artist=THE BRAIN	title=Générique The Brain 2009	href=""	label="Unreleased"
+1	00:00	from=0	artist=DYLAN	title=Cora Noel	href=""	label="Unreleased"
+2	00:38	from=38	artist=THE BRAIN	title=Generique The Brain 2009	href=""	label="Unreleased"
 3	01:11	from=71	artist=KORLA PANDIT	title=The way you look tonight	href="http://www.korlapandit.com/"	label="Sympathy for the record industry"
 4	03:11	from=191	artist=STARTER	title=Part of you	href=""	label="Gomma"
 5	06:51	from=411	artist=BIRD &amp; THE BEE	title=Again and again	href="http://www.bluenote.com"	label="Blue Note"

@@ -3,7 +3,7 @@
 3	07:10	from=430	artist=FELIX KUBIN	title=Die kulturelle Revolution	href="http://www.gagarinrecords.com"	label="A"
 4	10:42	from=642	artist=THE CHEESE BAND	title=I like cheese	href="http://www.otisfodder.com/365days.html"	label="Unrealised"
 5	11:44	from=704	artist=WEEN	title=Cheese	href="http://www.ween.com"	label="Unrealised"
-6	12:12	from=732	artist=METROPAKT	title=Neuen strassen	href=""	label="Hawaï"
+6	12:12	from=732	artist=METROPAKT	title=Neuen strassen	href=""	label="Hawai"
 7	14:51	from=891	artist=CHA CHA BOYS	title=Esmeralda	href="http://www.salsacrazy.com/salsaroots"	label="Trianon"
 8	17:34	from=1054	artist=ORIGINAL HAMSTER	title=Hamsta my dear	href="http://www.tigerbeat6.com"	label="Tigerbeat 6"
 9	20:26	from=1226	artist=JEANNETTE	title=Amanecer	href="http://www.oldiesdisco.ch"	label="Polydor"

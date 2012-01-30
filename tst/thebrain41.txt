@@ -3,7 +3,7 @@
 3	06:14	from=374	artist=NOVA HUTA	title=<i>Killing an error	href="http://www.stora.de/"	label="Autoproduced"
 4	10:29	from=629	artist=ANNIE PHILIPPE	title=<i>Pour la gloire	href="http://perso.club-internet.fr/andrefer/Divers/Aphilippe.htm"	label="Phillips"
 5	11:16	from=676	artist=CLUB LE BOMB	title=<i>Kebabtraume	href="http://www.erkrankung.net/"	label="Erkrankung durch musique"
-6	14:25	from=865	artist=SF	title=<i>Télé table	href="http://www.tsunami-addiction.com/axe07.html"	label="9/9"
+6	14:25	from=865	artist=SF	title=<i>Tele table	href="http://www.tsunami-addiction.com/axe07.html"	label="9/9"
 7	16:45	from=1005	artist=VAROUGEAN HAWAIIANS	title=<i>Oe	href="http://www.studio-nibble.com/lists/exotica.html"	label="Oe"
 8	18:40	from=1120	artist=FELIX KUBIN	title=<i>Qualität des staates	href="http://www.ski-pp.com/"	label="Skipp"
 9	21:55	from=1315	artist=ADOLF NOISE	title=<i>Five N	href="http://www.monika-enterprise.de/"	label="Monika"

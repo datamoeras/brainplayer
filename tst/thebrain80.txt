@@ -10,7 +10,7 @@
 10	27:47	from=1667	artist=METRONOMY	title=Black Eye / Burnt Thumb	href="http://www.holiphonic.com"	label="Holiphonic"
 11	32:14	from=1934	artist=STANLEY BLACK	title=Jungle drums	href=""	label="Decca"
 12	34:30	from=2070	artist=DESMOND DEKKER	title=Israelites	href=""	label="Trojan"
-13	37:04	from=2224	artist=CHRIS CLUB	title=La piste étoilée	href="www.dokidoki.fr"	label="Dokidoki"
+13	37:04	from=2224	artist=CHRIS CLUB	title=La piste etoilee	href="www.dokidoki.fr"	label="Dokidoki"
 14	40:29	from=2429	artist=NICOLE WILLIS	title=Feeling free	href="http://www.timmion.com"	label="Timmion"
 15	43:56	from=2636	artist=LA MONJA ENANA	title=Estrella fugaz	href="http://jscp3.free.fr/LaBulleSonore"	label="La bulle sonore"
 16	45:30	from=2730	artist=TWISTED CHARM	title=Never grow older	href="http://www.because.tv"	label="Because"

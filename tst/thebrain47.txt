@@ -7,7 +7,7 @@
 7	16:49	from=1009	artist=RUTH	title=	href="http://www.thierry-muller.com"	label=""
 8	20:06	from=1206	artist=DAT POLITICS	title=	href="http://www.ski-pp.com"	label=""
 9	24:00	from=1440	artist=L’ENSEMBLE RAYE	title=Banalog	href="http://inpolysons.free.fr"	label="Inpolysons"
-10	26:18	from=1578	artist=FRANCOIS DE ROUBAIX	title=Bénédicte	href="http://www.francoisderoubaix.com"	label="Barclay"
+10	26:18	from=1578	artist=FRANCOIS DE ROUBAIX	title=Benedicte	href="http://www.francoisderoubaix.com"	label="Barclay"
 11	27:46	from=1666	artist=ISNASAKENAI DOUJI	title=Sticklebrick	href="http://www.brainwashed.com/vvm/"	label="VVM"
 12	30:31	from=1831	artist=PFFR	title=Sparse party	href="http://www.invasionplanete.com"	label="Invasion planete"
 13	31:58	from=1918	artist=THREE GUYS FROM HOLLYWOOD	title=Frozen Embryos	href="http://www.otisfodder.com/365days/archive/202.html"	label="Unr."

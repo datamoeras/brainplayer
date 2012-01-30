@@ -2,7 +2,7 @@
 2	02:50	from=170	artist=THE CAPRICORNS	title=New sound	href="http://www.thecapricorns.com%20"	label="Paroxysm records"
 3	05:57	from=357	artist=DABRYE	title=Smoking the edge	href="http://www.ghostly.com"	label="Ghostly international"
 4	08:56	from=536	artist=FELIX KUBIN + ANGIE REED	title=Hit parade Russki Beat	href="http://www.felixkubin.de"	label="Unrealised"
-5	13:24	from=804	artist=ROGER ROGER	title=Adieu Shangaœ	href="http://www.spaceagepop.com/roger.htm"	label="Pacific Stereo"
+5	13:24	from=804	artist=ROGER ROGER	title=Adieu Shangai	href="http://www.spaceagepop.com/roger.htm"	label="Pacific Stereo"
 6	15:48	from=948	artist=FREDERIK SCHIKOWSKI	title=Fouquet	href="http://www.hundertzwei.de/%20"	label="Hundertzwei"
 7	18:49	from=1129	artist=GRETHE AGATZ	title=Ekkoleg	href="http://www.boernemusik.dk/maanedens_kunstner/grete_agatz/grethe_agatz.htm"	label="Barclay"
 8	22:45	from=1365	artist=SAAL 2	title=Angst vorm tanzen	href="http://www.bb.wakwak.com/%7Ebuggle/zickzack.html"	label="Zick Zack"

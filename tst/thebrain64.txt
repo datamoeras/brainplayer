@@ -7,7 +7,7 @@
 7	17:55	from=1075	artist=AAVIKKO	title=Diamond Pyramyd	href="http://www.9pm-records.de"	label="9pm"
 8	22:26	from=1346	artist=MODERN LOVERS	title=She cracked	href=""	label="Line"
 9	25:04	from=1504	artist=DOMI LUCIDE	title=Borealis	href="http://www.domilucide.com"	label="Le domgme"
-10	27:21	from=1641	artist=THE OUTTRIGERS	title=Hawaïan war chant	href=""	label="Warner Bros"
+10	27:21	from=1641	artist=THE OUTTRIGERS	title=Hawaian war chant	href=""	label="Warner Bros"
 11	29:06	from=1746	artist=KISS KISS BANG BANG	title=Every noise could be music	href="http://www.nneon.com"	label="Nneon"
 12	32:35	from=1955	artist=JEAN	title=LUC FERRE	href=""	label="Assez c’est assez"
 13	33:32	from=2012	artist=THE LAVA CHILDREN	title=I am a pony	href="http://www.myspace.com/thelavachildren"	label="Unreleased"

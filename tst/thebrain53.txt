@@ -1,4 +1,4 @@
-1	00:55	from=55	artist=JIMMY SMITH	title=La métamorphose des cloportes	href="http://www.jazzateria.com/roots/jsmith.html"	label="Universal"
+1	00:55	from=55	artist=JIMMY SMITH	title=La metamorphose des cloportes	href="http://www.jazzateria.com/roots/jsmith.html"	label="Universal"
 2	02:55	from=175	artist=DMX KREW	title=Metronome	href="http://www.rephlex.com"	label="Rephlex"
 3	05:33	from=333	artist=SHELLY MANNE	title=Clarence	href="http://www.pas.org/About/HOF/manne.cfm"	label="Atlantic"
 4	07:47	from=467	artist=BINAERPILOT	title=Gesouble (Gesucht)	href="http://underground.sound.no"	label="To be released"
