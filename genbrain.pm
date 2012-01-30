@@ -29,7 +29,7 @@ sub readbrain {
 sub parselist {
 	my $i = shift;
 	my $list = shift;
-	my @data = (['00','00'], { from => '0', title => 'Intro Pascal et Eva', artist => 'The Brain'});
+	my @data = ();
 	$list =~ s/&#39;//g;
 	my $magic1 = chr(146);
 	my $tre = qr![\s\t\n]*\d{2}\D[\s\n\t]*(?:'|"|&#146;|#&148;|$magic1)*?\s*!;

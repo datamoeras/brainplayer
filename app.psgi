@@ -155,7 +155,8 @@ return qq{
 				var data = t[1];
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ij + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</nobr></div>';
+				var ei = parseInt(y) + 1;
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["title"] + '&nbsp;' + data["artist"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 			}
 		}
