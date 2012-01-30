@@ -503,7 +503,7 @@ return qq{
 	</head>
 	<body onLoad="pageLoaded();">
 		<div id='main'>
-		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank"> MUSIQUES INCONGRUES</a></h3><br />
+		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
 		<div id='player' style="position:fixed;left: 100px;width: 400px;top: 36px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
@@ -512,8 +512,8 @@ return qq{
 				</div>
 				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&gt;" ></input>
 				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
-				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&lt;&lt;" ></input>
-				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&gt;&gt;" ></input>
+				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
+				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
 				<!--
 				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
