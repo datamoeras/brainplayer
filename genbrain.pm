@@ -15,7 +15,8 @@ sub basedir {
 	my $pdp = $INC{'genbrain.pm'};
 	my @pd = split /\//, $pdp;
 	pop@pd;
-	my $path = join('/', @pd) . '/';
+	my $path = join('/', @pd);
+	$path .= '/' if $path;
 	return $path;
 }
 sub readbrain {
