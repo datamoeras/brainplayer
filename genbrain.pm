@@ -111,7 +111,7 @@ sub parsesong {
 sub parsebrain {
 	my $i = shift;
 	my $dom = shift;
-	my $data = { title => "thebrain$i", src => 'http://twc.local/dm/thebrain/thebrain' . $i . '.ogg' };
+	my $data = { title => "thebrain$i", src => 'http://doscii.nl/dm/thebrain/thebrain' . $i . '.ogg' };
 	$dom->find('td')->each(sub {
 		my $e = shift;
 		my $html = "$e";
