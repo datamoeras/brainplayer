@@ -2,7 +2,7 @@
 2	03:40	from=220	artist=THE DISCOGHOSTS	title=Straight But Gayish	href="http://www.egotwister.com/wordpress/"	label="Ego Twister Records"
 3	08:14	from=494	artist=AAVIKKO	title=Syntaksis	href="http://www.stupido.fi"	label="Stupido Records"
 4	11:51	from=711	artist=SOLID SPACE	title=Darkness in my soul	href=""	label="In phaze"
-5	15:15	from=915	artist=ECHOKRANK	title=I like it when you #?*$%&amp;	href="http://www.gagarinrecords.com"	label="Gagarin Records"
+5	15:15	from=915	artist=ECHOKRANK	title=I like it when you #?*$%	href="http://www.gagarinrecords.com"	label="Gagarin Records"
 6	18:31	from=1111	artist=RETRIGGER	title=Rotoblues From Outerspace	href="http://www.egotwister.com/wordpress/"	label="Ego Twister Records"
 7	21:37	from=1297	artist=DAT POLITICS	title=Own thing	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
 8	24:50	from=1490	artist=DIE RADIERER	title=Angriff auf schlaraffenland	href=""	label="ZickZack"

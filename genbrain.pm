@@ -37,10 +37,12 @@ sub parselist {
 	# while ($list =~ s/^(?:.*?)($tre$tre)(.*?(?:.\d{4})?.*?)($tre|$)/$3/m) {
 	# while ($list =~ s/^(?:.|\n)*?($tre$tre)(.*?)($tre|$)/$3$4/m) { # generique:
 
-	while ($list =~ s/^(?:.|\n)*?($tre$tre)((?:.*)?(?:\d{4})?(?:\n|.)*?)($tre|$)?/$3/m) { # generique:
+	$list =~ s/([a-z]) *\n/$1 /gmi;
+	while ($list =~ s/^(?:.|\n)*?($tre$tre)((?:.*)?(?:\d{4}|\/)*(?:\n|.)*?)($tre|$)?/$3/m) { # generique:
 
 		my $t0 = $1;
 		my $txt = $2;
+		# print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /LIA/;
 		if ($list =~ s/^(.*)($tre$tre)/$2/m) {
 			$txt .= $1;
 		} else {
@@ -50,10 +52,10 @@ sub parselist {
 		$t0 =~ s/^\s*//g;
 		$t0 =~ s/\s*$//g;
 		$txt =~ s/\n//g;
-		$txt =~ s/^\s*-\s*//;
-		$txt =~ s/\s*$//;
+		$txt =~ s/^\s*-\s*//g;
+		$txt =~ s/\s*$//g;
 		$txt =~ s/\s+/ /g;
-		# print STDERR "($i)[$t0] { $txt }\n";
+		# print STDERR "($i)[$t0] { $txt }\n" if $txt =~ /LIA/;
 		my $song = parsesong($i, $txt);
 		my $tm = parsetime($t0);
 		my $from = ( $tm->[0] * 60 ) + $tm->[1];
@@ -72,27 +74,28 @@ sub parsesong {
 	my $txt = shift;
 	my %data = (
 	);
+	my $orig = $txt;
+	# print STDERR "txt=$txt\n" if $txt =~ /LIA/;
 	$txt =~ s/<br ?\/?>//g;
+	$txt =~ s/<\/?font[^>]*>//g;
 	$txt =~ s/<\/ ?i>//g;
-	while ($txt =~ s/<a href="([^"]*)">//) {
+	$txt =~ s/^\s*-\s*//g;
+	while ($txt =~ s/<a href="([^"]*?)">//) {
 		$data{href} = $1;
 		$txt =~ s{</ ?a ?>}{}g;
 	}
-	if ($txt =~ s/^(.*?)-//) {
-		$data{artist} = $1;
-	}
-	if ($txt =~ s/^(.*?)-//) {
-		$data{title} = $1;
-	}
-	if ($txt =~ s/^(.*?)-//) {
-		$data{label} = $1;
-	}
-	if ($txt =~ s/^(.*?)-//) {
-		$data{year} = $1;
+	my @dat = split /\s*-\s*/, $txt;
+	if (@dat) { $data{artist} = shift@dat }
+	if (@dat) { $data{title} = shift@dat }
+	if (@dat > 1) { $data{label} = shift@dat }
+	if (@dat) { $data{year} = shift@dat }
+	unless ($data{title} || $data{artist}) {
+		# die "geen artist en title voor \n$orig\n$txt\n";
 	}
 	$data{$_} =~ s/^(\s|&nbsp;)*//g for keys %data;
 	$data{$_} =~ s/(\s|&nbsp;)*$//g for keys %data;
 	$data{$_} //= '' for qw/artist title label year/;
+	$data{$_} =~ s/&amp;\s*$//gi for keys %data;
 	$data{rest} = $txt;
 	return \%data;
 }

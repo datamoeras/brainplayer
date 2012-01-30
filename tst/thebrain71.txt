@@ -15,7 +15,7 @@
 15	38:09	from=2289	artist=BAABA	title=12	href="http://www.ladoabc.com"	label="Lado ABC"
 16	40:25	from=2425	artist=ENOCH LIGHT &amp; THE BRASS MENAGERIE	title=California Dreaming	href=""	label="Project"
 17	43:14	from=2594	artist=MASH GORDON	title=Im zentrum	href="http://home.arcor.de/loudd/open.htm"	label="Tipsypoodl records"
-18	47:51	from=2871	artist=<font color="#FFFFFF"><strong>PLANCTON 9</strong></font>	title=Tiny foam	href="http://www.myspace.com/plancton9"	label="Autoproduced"
+18	47:51	from=2871	artist=<strong>PLANCTON 9</strong>	title=Tiny foam	href="http://www.myspace.com/plancton9"	label="Autoproduced"
 19	48:48	from=2928	artist=DAT POLITICS	title=Wow Signal	href="http://www.chicksonspeed-records.com"	label="Chicks on speed records"
 20	51:18	from=3078	artist=CANDIE HANK	title=Kids stay united	href="http://www.sonig.com"	label="Sonig"
 21	53:24	from=3204	artist=ROMAN GODS ORCHESTRA	title=Roman gods	href=""	label="Cosmogol"
