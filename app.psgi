@@ -37,7 +37,7 @@ sub search_cloud {
 	for my $b (@{ $data }) {
 		my $o = 0;
 		for my $t (@{ $b->{list} }) {
-			my $art = $t->[1]{artist};
+			my $art = lc($t->[1]{artist});
 			if ($art) {
 				push @{ $group{$art} }, [$i, $o];
 			}
