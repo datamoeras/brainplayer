@@ -71,12 +71,17 @@ sub parsesong {
 	my $txt = shift;
 	my %data = (
 	);
+	$txt =~ s/<br ?\/?>//g;
+	$txt =~ s/<\/ ??i>//g;
 	if ($txt =~ s/^(.*?)-//) {
 		$data{artist} = $1;
 		$data{artist} =~ s/<br ?\/?>//g;
 	}
-	$txt =~ s/<br ?\/?>//g;
-	$data{title} = $txt;
+	if ($txt =~ s/^(.*?)-//) {
+		$data{title} = $1;
+		$data{title} =~ s/<br ?\/?>//g;
+	}
+	$data{rest} = $txt;
 	return \%data;
 }
 

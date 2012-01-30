@@ -44,7 +44,6 @@ return qq{
 		#content
 		{
 			clear:both;
-			width:80%;
 		}
 		.player_control
 		{
@@ -62,7 +61,6 @@ return qq{
 			height:50px;
 			border: 2px solid #0a0;
 			display:none;
-			position:relative;
 		}
 		#volume_background
 		{
@@ -75,24 +73,19 @@ return qq{
 			width:10px;
 			height:0px;
 			background-color:#aca;
-			position:absolute;	
 		}
 		#duration,#t_duration
 		{
-			width:400px;
+			width:200px;
 			height:15px;
 			border: 2px solid #50b;
 		}
 		#duration_background, #t_duration_background
 		{
-			width:400px;
+			width:200px;
 			height:15px;
 			background-color:#ddd;
 
-		}
-		#t_duration_background
-		{
-			width:550px;
 		}
 		#duration_bar, #t_duration_bar
 		{
@@ -102,9 +95,7 @@ return qq{
 
 		}
     #main{
-
       float:right;
-      width:90%;
     }
     #skyscraper {
       float:left;
@@ -140,7 +131,7 @@ return qq{
 			playClicked();
 			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
-			window.setTimeout(function(){ seekto(os); }, 200);
+			window.setTimeout(function(){ seekto(os); }, 800);
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -178,35 +169,39 @@ return qq{
 			volume_button = document.getElementById('volume_button');
 			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
-			set_volume(0.7);
+			set_volume(1.0);
 			focus_track(66);
 		}
 		function set_volume(new_volume)
 		{
 			audio_player.volume = new_volume;
 			update_volume_bar();
-			volume_button.value = "Volume: "+parseInt(new_volume*100);
+			if (volume_button) 
+				volume_button.value = "Volume: "+parseInt(new_volume*100);
 			var control = document.getElementById('volume_control');
-			var but = document.getElementById('volume_control');
-			control.style.display='none';
-			but.style.display='inline';
+			if (control) 
+				control.style.display='none';
+			if (volume_button) 
+				but.style.display='inline';
 			
 		}
 		function update_volume_bar()
 		{
 
-			new_top = volume_button.offsetHeight  - volume_control.offsetHeight;
-			volume_control.style.top = new_top+"px";
-			volume = audio_player.volume;
-			//change the size of the volume  bar
-			wrapper = document.getElementById("volume_background");
-			wrapper_height = wrapper.offsetHeight;
-			wrapper_top = wrapper.offsetTop;
-			new_height= wrapper_height*volume;
-			volume_bar = document.getElementById("volume_bar");
-			volume_bar.style.height=new_height+"px";
-			new_top =  wrapper_top + (  wrapper_height - new_height  );
-			volume_bar.style.top=new_top+"px";
+			if (volume_button) {
+				new_top = volume_button.offsetHeight  - volume_control.offsetHeight;
+				volume_control.style.top = new_top+"px";
+				volume = audio_player.volume;
+				//change the size of the volume  bar
+				wrapper = document.getElementById("volume_background");
+				wrapper_height = wrapper.offsetHeight;
+				wrapper_top = wrapper.offsetTop;
+				new_height= wrapper_height*volume;
+				volume_bar = document.getElementById("volume_bar");
+				volume_bar.style.height=new_height+"px";
+				new_top =  wrapper_top + (  wrapper_height - new_height  );
+				volume_bar.style.top=new_top+"px";
+			}
 		}
 		
 		function highlight_current(i, curt) {
@@ -231,7 +226,7 @@ return qq{
 			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
 			if (dv != undefined && tdata != undefined) { 
-				document.getElementById("content").innerHTML = tdata["title"];
+				document.getElementById("content").innerHTML = tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["rest"] + "<span>";
 				dv.style.background = "red";
 				dv.style.fontWeight = 900;
 			}
@@ -325,6 +320,7 @@ return qq{
 		{
 			var control = document.getElementById('volume_control');
 			var but = document.getElementById('volume_button');
+			if (control == undefined) return;
 			
 			if(control.style.display!="none")
 			{
@@ -340,13 +336,14 @@ return qq{
 		function volumeChangeClicked(event)
 		{
 			var but = document.getElementById('volume_button');
+			if (but == undefined) return;
 			offset =  event.currentTarget.offsetHeight - event.clientY;
 			// alert("clientY=" + clientY + ",offsetTop=" + event.currentTarget.offsetTop + " => " + offset);
 			volume = offset/event.currentTarget.offsetHeight;
 			// alert("vol=" + volume);
 			set_volume(volume);
 			update_volume_bar();
-			volumeClicked();
+			// volumeClicked();
 		}
 		
 		function t_durationClicked(event)
@@ -414,47 +411,49 @@ return qq{
 				var trn = parseInt(ths[3]) + 1;
 				var ttl = song[1]["artist"] + " " + song[1]["title"];
 				ttl = ttl.replace(txt, '<font style="font-weight:900;color:red">' + txt + '</font>');
-				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + song[1]["from"] + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
+				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
 		</script>
 	</head>
 	<body onLoad="pageLoaded();">
 		<div id='main'>
-		<div id='player' style="position:fixed;left: 100px;width: 550px;top: 36px;">
-			<input id="playButton" class='player_control' type="button" onClick="playClicked(this);" value="&gt;">
-				<div id="duration" class='player_control' >
+		<div id='player' style="position:fixed;left: 100px;width: 400px;top: 36px;">
+				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
 					</div>
 				</div>
-				<div id="volume_control" class='player_control' style="display: top: 36px;" onClick="volumeChangeClicked(event);" style="display:none">
+				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&gt;" ></input>
+				<!--
+				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
 						<div id="volume_bar"></div>
 					</div>
 				</div>
 				<input type="button" class='player_control'  id='volume_button' onClick="volumeClicked();" value="Vol">
+				-->
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
-		<div id='searchframe' style="position:fixed;left: 100px;left: 650px;top: 36px;">
+		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 100px;left: 450px;top: 36px;">
 			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
-			<div id="searchres">
+			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 60px;left: 100px;">
+		<div id="current" style="position: fixed; top: 90px;left: 100px;">
 			<div id="msg" style="font-family: courier;height: 1.2em;" class='output'></div>
 			<br />
-			<div id="cttl" style="font-family: courier;height: 1.2em; width: 550px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;text-align:center;"></div>
+			<div id="cttl" style="font-family: courier;height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 16px;text-align:center;"></div>
 			<div id="t_duration_background"  onClick="t_durationClicked(event);">
 				<div id="t_duration_bar" class="duration_bar"></div>
 			</div>
-			<div id="content" style="font-family: courier;height: 2.4em; width: 550px; color: black; font-decoration: italic;font-weight: 900; font-size: 16px;"></div>
+			<div id="content" style="font-family: courier;height: 3.4em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 16px;"></div>
 			<br />
-			<div id="tracklist" style="width: 700px">
+			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
 		</div>
 	    </div>
-	<div style="position: absolute; font-family: courier;left: 0px;top: 40px;" id="playlist">
+	<div style="position: absolute; font-family: courier;left: 0px;top: 50px;" id="playlist">
 	</div>
 </body>
 </html>
