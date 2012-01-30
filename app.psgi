@@ -170,7 +170,7 @@ return qq{
 			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
 			set_volume(1.0);
-			focus_track(66);
+			focus_track(Math.floor(Math.random()*db.length));
 		}
 		function set_volume(new_volume)
 		{
