@@ -206,11 +206,17 @@ return qq{
 		function highlight_current(i, curt) {
 			document.getElementById("content").innerHTML = "";
 			var dv = document.getElementById("tt" + ctl.length);
-			if (dv != undefined) dv.style.background = "white";
+			if (dv != undefined) {
+				dv.style.background = "white";
+				dv.style.fontWeight = 100;
+			}
 			for (o in ctl) {
 				var dt = ctl[o];
 				var dv = document.getElementById("tt" + (parseInt(dt[1])-1));
-				if (dv != undefined) dv.style.background = "white";
+				if (dv != undefined) {
+					dv.style.background = "white";
+					dv.style.fontWeight = 100;
+				}
 			}
 			var data = db[ci];
 			if (data == undefined) return;
@@ -221,6 +227,7 @@ return qq{
 			if (dv != undefined && tdata != undefined) { 
 				document.getElementById("content").innerHTML = tdata["title"];
 				dv.style.background = "red";
+				dv.style.fontWeight = 900;
 			}
 		}
 		function toffset_current(tm) {
