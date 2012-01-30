@@ -50,9 +50,20 @@ sub tstbrn {
 	}
 	my $i = 0;
 	no warnings;
+	my $last = 0;
 	for my $track (@{ $data->{list}}) {
 		my $tm = $track->[0];
 		my $info = $track->[1];
+		if (! $info->{from}) {
+			warn "geen {from} voor $title/$i\n";
+		} elsif ($info->{from} < $last) {
+			warn "$title/$i gaat terug in de tijd: $last -> $info->{from}\n";
+		} else {
+			$last = $info->{from};
+		}
+		if (! $info->{artist} && !$info->{title}) {
+			warn "geen {artist} en {title} voor $title/$i\n";
+		}
 		$i++;
 		my $str = join("\t", $i, "$tm->[0]:$tm->[1]", qq|from=$info->{from}|, "artist=$info->{artist}", "title=$info->{title}", qq|href="$info->{href}"|, qq|label="$info->{label}"|). "\n";
 		print $fh $str;

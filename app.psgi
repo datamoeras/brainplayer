@@ -226,7 +226,7 @@ return qq{
 			var tdata = track[1];
 			var dv = document.getElementById("tt" + i);
 			if (dv != undefined && tdata != undefined) { 
-				document.getElementById("content").innerHTML = tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["rest"] + "<span>";
+				document.getElementById("content").innerHTML = tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + "<span>";
 				dv.style.background = "red";
 				dv.style.fontWeight = 900;
 			}

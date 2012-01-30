@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 use Mojo::DOM;
-
+use 5.10.0;
 {
 package genbrain;
 
@@ -92,6 +92,7 @@ sub parsesong {
 	}
 	$data{$_} =~ s/^(\s|&nbsp;)*//g for keys %data;
 	$data{$_} =~ s/(\s|&nbsp;)*$//g for keys %data;
+	$data{$_} //= '' for qw/artist title label year/;
 	$data{rest} = $txt;
 	return \%data;
 }
