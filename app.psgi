@@ -389,7 +389,7 @@ return qq{
 				var tri = ths[3];
 				var trn = parseInt(ths[3]) + 1;
 				var ttl = song[1]["artist"] + " " + song[1]["title"];
-				ttl = ttl.replace(txt, '<font color="red">' + txt + '</font>');
+				ttl = ttl.replace(txt, '<font style="font-weight:900;color:red">' + txt + '</font>');
 				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + song[1]["from"] + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
