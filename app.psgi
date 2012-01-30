@@ -5,8 +5,9 @@ use warnings;
 
 use Plack::Builder;
 use CGI::PSGI;
+use Cwd qw/getcwd/;
 use Data::Dumper;
-use lib '.';
+BEGIN { my $path = getcwd() . '/'. $0; $path =~ s{/\./}{/}g; $path =~ s/app\.psgi$//; unshift @INC, $path; };
 use genbrain;
 use JSON;
 use Encode qw/encode decode/;
@@ -443,22 +444,7 @@ return qq{
 </html>
 };
 };
-my $hello = sub {
-	my $env = shift;
-	return [200, ["Content-Type", 'text/html'], [$page->()]],
-};
-#builder { 
-#	enable "Static",
-#		path => qr/^s/,
-#		root => "/home/raoul/jp/s/";
-	#mount qr(/) => $hello;
-#};
 builder {
-    enable "Static", path => sub { s!^/mp3/!! }, root => '/data/music/thebrain/';
-    $hello;
+	# enable "Static", path => sub { s!^/mp3/!! }, root => '/data/music/thebrain/';
+	sub { [200, ["Content-Type", 'text/html'], [$page->()]] }
 }
-#builder {
-#	mount "/cb" => \&cb,
-#	mount "/s" => $static,
-#	mount "/" => 
-#};

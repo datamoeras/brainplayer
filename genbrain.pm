@@ -13,7 +13,11 @@ use Data::Dumper;
 
 sub readbrain {
 	my $i = shift;
-	my $fn = "/home/raoul/jp/brains/$i.html";
+	my $pdp = $INC{'genbrain.pm'};
+	my @pd = split /\//, $pdp;
+	pop@pd;
+	my $path = join('/', @pd);
+	my $fn = $path . "brains/$i.html";
 	open(my $fh, '<', $fn);
 	my $dom = Mojo::DOM->new(join('', <$fh>));
 	return parsebrain($i, $dom);
