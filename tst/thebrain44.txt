@@ -1,0 +1,21 @@
+1	01:02	artist=DAN BAU ViIETNAM 	title= chinese song 
+2	02:50	artist=THE CAPRICORNS 	title= New sound 
+3	05:57	artist=DABRYE 	title= Smoking the edge 
+4	08:56	artist=FELIX KUBIN + ANGIE REED 	title= Hit parade Russki Beat 
+5	13:24	artist=ROGER ROGER 	title= Adieu ShangaÏ 
+6	15:48	artist=FREDERIK SCHIKOWSKI 	title= Fouquet 
+7	18:49	artist=GRETHE AGATZ 	title= Ekkoleg 
+8	22:45	artist=SAAL 2 	title= Angst vorm tanzen 
+9	25:29	artist=AUGUSTO GARINCHA 	title= Delirio 
+10	27:54	artist=CHRISTIANE F. / CHRISTIANA 	title= Wunderbar 
+11	30:58	artist=PALMINGER / KUBIN 	title= Sabàta 
+12	35:42	artist=ROSCAMPZINSKY 	title= Elle nierait où 
+13	38:01	artist=ADI GELBART 	title= Living in magazines 
+14	42:05	artist=MARGARETA PISLARU 	title= Sint osancà bine
+15	43:00	artist=DER TANTE RENATE 	title= Sommer 
+16	46:16	artist=STANLEY BLACK, HIS ORCHESTRA &amp; CHORUS 	title= Temptation 
+17	49:17	artist=YVAN&amp;LENDL 	title= Dance mit Draculina 
+18	52:23	artist=THE REMAINS 	title= Why do I cry 
+19	55:07	artist=ORIGINAL HAMSTER remixing NUMBERS 	title= Human replace 
+20	58:13	artist=MAINPAL INV. 	title= Chupa chups 
+21	59:25	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 

@@ -1,0 +1,22 @@
+1	00:55	artist=<a href="http://www.jazzateria.com/roots/jsmith.html">JIMMY SMITH</a> 	title= La métamorphose des cloportes 
+2	02:55	artist=<a href="http://www.dmxkrew.dircon.co.uk">DMX KREW</a> 	title= Metronome 
+3	05:33	artist=<a href="http://www.pas.org/About/HOF/manne.cfm">SHELLY MANNE</a> 	title= Clarence 
+4	07:47	artist=<a href="http://underground.sound.no">BINAERPILOT</a> 	title= Gesouble (Gesucht) 
+5	11:15	artist=<a href="http://www.aureliofierro.it">AURELIO FERRO</a> 	title= Pulecenella Twist 
+6	14:49	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
+7	17:44	artist=<a href="http://www.teresa	title=teng.org.tw/index
+8	20:47	artist=<a href="http://www.egotwister.com/redken/">AMNESIE</a> 	title= Ult02 
+9	24:07	artist=<a href="http://alainbashung.artistes.universalmusic.fr/">BASHUNG</a> 	title= What’s in a bird ? 
+10	28:41	artist=LES SPACE TRAVELLERS 	title= 93 000 000 miles 
+11	30:59	artist=<a href="http://www.mochipet.com">MOCHIPET</a> 	title= The 
+12	35:38	artist=<a href="http://www.derplan.com">DER PLAN</a> 	title= Milka
+13	37:31	artist=<a href="http://www.elrin.com/galactica">GALACTICA</a> 	title=
+14	41:00	artist=<a href="http://www.imdb.com/name/nm0006022/">HOYT S. CURTIN</a> 	title= La chanson de 7 zark 7 
+15	42:15	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= “Untitled” 
+16	45:22	artist=<a href="http://www.beingabeing.com">ORIGINAL HAMSTER</a> 	title=
+17	48:56	artist=<a href="http://www.vif.com/users/disqcine/Delerue.html">GEORGES DELERUE</a> 	title= Camille 
+18	51:48	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Untitled 
+19	52:15	artist=<a href="http://www.dropthelime.com">DROP THE LIME</a> 6</a> 	title=
+20	54:58	artist=<a href="http://houbi.com/belpop/groups/brasseur.htm">ANDRE BRASSEUR</a> 	title= Early bird 
+21	57:10	artist=WILLIAM KEHAOLA and his orchestra 	title= Hula Aluh 
+22	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

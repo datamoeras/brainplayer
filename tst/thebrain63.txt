@@ -1,0 +1,22 @@
+1	01:17	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Le jardinier fou 
+2	03:17	artist=<a href="http://www.domizil.ch/rendersmama/">BURCH 	title=
+3	07:08	artist=<a href="http://www.phinnweb.org/kompleksi/">KOMPLEKSI</a> Lal Lal</a> 	title=
+4	12:02	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE 
+5	14:04	artist=FLESHHOUSE 	title= Good vibrations 
+6	17:30	artist=	title=
+7	21:30	artist=<a href="http://perso.wanadoo.fr/w.w.">KAP BAMBINO</a> 	title= Enhate 
+8	24:42	artist=LUCKY DRAGONS 	title= Lucky Dragons 
+9	25:17	artist=NINO ROTA 	title= Répétition d’orchestre 
+10	27:36	artist=<a href="http://www.felixkubin.com">ANAEROBIC ROBOTS</a> records</a> 	title=
+11	30:47	artist=DINO MARTINI 	title= C’est ça 
+12	33:50	artist=<a href="http://www.phon	title=o.com">PHON.O</a> 
+13	38:18	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title=
+14	41:58	artist=MICHEL MAGNE 	title= OSS 117 danse le Hully Gully 
+15	45:04	artist=<a href="http://www.egotwister.com/redken">AMNESIE</a> 	title= Attention à tes doigts petit lapin 
+16	48:08	artist=JEAN MICHEL DEFAYE 	title= Quiproquos bresiliens 
+17	50:10	artist=<a href="http://gangpol.free.fr">GANGPOL UND MIT</a> 	title= La mélodie 
+18	52:23	artist=<a href="http://www.helgolandmusic.de">HELGOLAND</a> 	title= US Zorba 
+19	54:17	artist=<a href="http://www.kevyb.com">KEVIN BLECHDOM</a> 	title=
+20	55:55	artist=<a href="http://www.manfromuranus.com">MAN FROM URANUS</a> 	title= Satellite link to Sun Ra 
+21	57:52	artist=MICHEL MAGNE 	title= Tempo danger 
+22	59:36	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

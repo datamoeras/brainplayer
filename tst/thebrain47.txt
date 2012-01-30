@@ -1,0 +1,25 @@
+1	01:14	artist=<a href="http://www.directpopmusic.com/Yma_Sumac_Fuego_del_Ande_B000002TWU.html">YMA SUMAC &amp; MOISES VIVANCO</a> 	title= Cumbe 
+2	04:00	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE HANK</a> 
+3	06:50	artist=<a href="http://www.echokrank.net">ECHOKRANK</a> 	title= Runter Allee 
+4	08:57	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> 	title= #6 
+5	10:32	artist=<a href="http://www.romzrecord.com">COM.A.</a> 	title= Make my day 
+6	15:00	artist=SEBOR 	title= Marseillaise 
+7	16:49	artist=<a href="http://www.thierry	title=muller.com">RUTH</a> 
+8	20:06	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
+9	24:00	artist=<a href="http://www.ensembleraye.ch">L’ENSEMBLE 	title=
+10	26:18	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Bénédicte 
+11	27:46	artist=ISNASAKENAI DOUJI 	title= Sticklebrick 
+12	30:31	artist=<a href="http://www.pffr.net">PFFR</a> 	title= Sparse party 
+13	31:58	artist=<a href="http://www.otisfodder.com/365days/archive/202.html">THREE GUYS FROM HOLLYWOOD</a> 	title= Frozen Embryos 
+14	33:20	artist=<a href="http://www.galerie	title=transition.de/pc/index.html">FLEX 
+15	35:19	artist=<a href="http://www.rotfront.com">ROT FRONT</a> 	title= Roboty 
+16	38:02	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Sofaschleper 
+17	39:13	artist=<a href="http://www.spaceagepop.com/mancini.htm">HENRI MANCINI</a> 	title= Something for cat 
+18	42:18	artist=<a href="http://www.stereototal.de">STEREO TOTAL</a> 	title= Schön von unten (Andreas Dorau remix) 
+19	46:52	artist=CLAUDE DUPRAS 	title= Someyou win, some you loose 
+20	49:22	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= My Yamaha 
+21	52:28	artist=JACK AREL &amp; PIERRE DUTOUR 	title= Following you 
+22	54:44	artist=<a href="http://www.datanom.com/mainpal">MAINPAL INV</a>. 	title=
+23	57:15	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= (Four tracks improvisations) #11 
+24	58:09	artist=<a href="%3Cfont%20color=%22#FFFFFF%22%20face=%22Arial,%20Helvetica,%20sans	title=serif%22%20size=%222%22%3EVLADIMIR%20COSMA%3C/font%3E">VLADIMIR COSMA</a> 
+25	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 

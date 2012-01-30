@@ -1,0 +1,24 @@
+1	01:05	artist=KLAUS WUNDERLICH 	title= Night over Rhodes 
+2	04:22	artist=<a href="http://www.puppetmastaz.com">PUPPETMASTAZ</a> 	title=
+3	07:24	artist=OSWALD D’ANDREA 	title= Samurai dance 
+4	09:34	artist=<a href="http://www.mrpacman.com">MR PACMAN</a> 	title= Papa don’t preach 
+5	12:25	artist=GERARD CALVI 	title= Monsieur Cinema 
+6	14:43	artist=<a href="http://www.cobra	title=killer.org">COBRA KILLER</a> 
+7	17:55	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= Diamond Pyramyd 
+8	22:26	artist=MODERN LOVERS 	title= She cracked 
+9	25:04	artist=<a href="http://www.domilucide.com">DOMI LUCIDE</a> 	title= Borealis 
+10	27:21	artist=THE OUTTRIGERS 	title= Hawaïan war chant 
+11	29:06	artist=<a href="http://www.kisskissbangbang.de">KISS KISS 	title=
+12	32:35	artist=JEAN	title=LUC FERRE 
+13	33:32	artist=<a href="http://www.myspace.com/thelavachildren">THE LAVA CHILDREN</a> 	title= I am a pony 
+14	38:03	artist=MIIKE VICKERS 	title= Getaway car 
+15	40:31	artist=<a href="http://www.myspace.com/kapbambino">KAP BAMBINO</a> 	title= Enhate 
+16	43:13	artist=<a href="http://www.gagarinrecords.com/artists/vernonandburns/">VERNON records</a> 	title=
+17	44:36	artist=<a href="http://www.myspace.com/gayagainstyou">GAY AGAINST YOU</a> 	title= Hairy house 
+18	46:28	artist=THE PETER LOLAND ORCHESTRA 	title= Toodeloo 
+19	48:49	artist=<a href="http://www.seffcheque.com">XAO SEFFCHEQUE</a> 	title= Hinweise zum neue Klang 
+20	51:11	artist=<a href="http://sidabitball.free.fr">SIDABITBALL</a> 	title= Igor mange des patates 
+21	53:52	artist=<a href="http://www.kevyb.com">KEVIN BLECHDOM</a> records</a> 	title=
+22	55:40	artist=REZNICEK 	title= Haus Armgatburg 
+23	56:44	artist=TERRY SNIDER 	title= In a persian market 
+24	59:30	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

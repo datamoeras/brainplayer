@@ -1,0 +1,21 @@
+1	00:33	artist=THE BRAIN 	title= Générique 2010 
+2	01:12	artist=MIKE VICKERS 	title= Break through 
+3	03:15	artist=<a href="http://www.majorlazer.com">MAJOR LAZER</a> 	title= Jump 
+4	06:56	artist=THE SHARADES 	title= Dumb head 
+5	08:52	artist=MARC DROUIN 	title= Autopsychanalyse 
+6	13:16	artist=<a href="http://www.myspace.com/sandietrash">SANDIE TRASH</a> 	title= Fière de ne rien faire 
+7	15:30	artist=<a href="http://www.myspace.com/metronomy">METRONOMY</a> 	title= You could easily have me 
+8	18:35	artist=<a href="http://www.myspace.com/dizzeerascal">DIZEE RASCAL</a> 	title= Donkers 
+9	21:27	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title= Du Bist Gut Zu Vögeln 
+10	27:14	artist=MARECAGE 	title= 7th Street Down 
+11	29:30	artist=GUY SKORNIK 	title= Des arbres de fer 
+12	31:43	artist=<a href="http://www.myspace.com/goldbloodband">GOLD BLOOD</a> 	title= Hair 
+13	35:48	artist=NOT MEAN THEMSELVES 	title= Frozen 
+14	38:56	artist=NICOLET 	title= Ma voiturette 
+15	41:18	artist=<a href="http://www.myspace.com/agglomerat">DEUX</a> 	title= Game and performance 
+16	44:49	artist=UNDER TWO FLAGS 	title= Lest we forget 
+17	47:56	artist=DOG POLICE 	title= Dog police 
+18	50:35	artist=DOMINIQUE WEBB 	title= Hypnose 
+19	54:00	artist=<a href="http://www.bierbeben.de">DAS BIERBEBEN</a> 	title= Behind the green door 
+20	58:08	artist=POP CONCERTO ORCHESTRA 	title= O Kalender 
+21	59:24	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

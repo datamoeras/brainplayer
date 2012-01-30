@@ -1,0 +1,25 @@
+1	00:55	artist=GEORGES AURIC 	title=
+2	02:05	artist=VOSTOK 	title= <i>Airplanes main mix 
+3	05:45	artist=RENALDO &amp; THE LOAF 	title= <i>Tittle unknown 
+4	06:50	artist=LES MASTERS 	title= <i>Mon chameau 
+5	08:43	artist=TWINK 	title= <i>Catnip 
+6	11:07	artist=FREDERIK SCHIKOWSKI 	title=
+7	12:57	artist=NEOANGIN 	title= <i>The misantroph 
+8	15:50	artist=COM.A / DATACH’I 	title= <i>Hijacked kindergarten 
+9	20:23	artist=POUPOUGNE ET CHLOE 	title=
+10	22:28	artist=BUMMTSHACK 	title= <i>Lotek warrior 
+11	26:15	artist=SOVER GROUP 	title= <i>Poso m’agapas 
+12	28:50	artist=UNKNOWN MIDI FILE 	title= <i>Drive my car 
+13	30:01	artist=ROSCAMPZINSKY 	title= <i>Le pied gauche 
+14	32:35	artist=BOOKS ON TAPE 	title= <i>Drumcadet 
+15	35:06	artist=RAOUL OURS 	title= <i>“Something about parrots” 
+16	36:27	artist=KARIN STANEK &amp; KLAUDIUSZ MAGA 	title= <i>Bedziesz tylko w tej piosence 
+17	38:16	artist=DESERT PLANET 	title= <i>Dune buggy 
+18	41:10	artist=GERRY HAYES AND THE DYNAMIC	title=BRASS 
+19	43:39	artist=AMSTRAD 	title= <i>Ride of the Valkyries 
+20	45:25	artist=WALTER WANDERLEY 	title= <i>Batucada 
+21	47:30	artist=PRINTED CIRCUIT 	title= <i>Switch it on 
+22	51:11	artist=GEORGES DELERUE 	title= <i>Antoine et Ursula 
+23	53:52	artist=MONOTRONA 	title= <i>Ah. Enemy 
+24	56:45	artist=BERNARD GERARD 	title= <i>La grande sauterelle 
+25	59:24	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 

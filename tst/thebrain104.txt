@@ -1,0 +1,24 @@
+1	00:10	artist=THE BRAIN 	title= Générique 2010 
+2	00:49	artist=<a href="http://www.bacalao.ch">BACALAO</a> 	title= Cheat codes 
+3	03:07	artist=<a href="http://www.rathergood.com">RATHERGOOD</a> 	title= Agamemnon 
+4	04:22	artist=? 	title= <a href="http://www.casimirland.com/ile_aux_enfants/itw/itw_pinkiepou.php">Pinkie Pou</a> 
+5	05:49	artist=<a href="http://www.chinchillaweb.co.uk/cowtown">COWTOWN</a> 	title= Printed blingers 3 Soaker (<a href="http://printed
+6	08:42	artist=<a href="http://prootrecords.free.fr">BATFINKS</a> 	title= Dakker 
+7	10:49	artist=<a href="http://www.wfmu.org/365/2003/079.shtml">ANNA	title=LISA INGEMANSSON</a> 
+8	12:40	artist=<a href="http://www.valerie	title=lemercier.com/discographie.html">VALERIE LEMERCIER</a> &amp; <a href="http://www.thedivinecomedy.com">NEIL HANON</a> 
+9	15:30	artist=<a href="http://p	title=a
+10	18:29	artist=<a href="http://theremains.com">THE REMAINS</a> 	title= Say youre sorry 
+11	20:19	artist=<a href="http://www.myspace.com/staatseinde">STAATSEINDE</a> 	title= Ruimtevaart Vooruit 
+12	23:26	artist=<a href="http://www.betterbeatles.com">BETTER BEATLES</a> 	title= Lady Madonna 
+13	25:50	artist=<a href="http://www.myspace.com/lestrucs">LES TRUCS</a> 	title= Der singende idiot 
+14	28:22	artist=<a href="http://en.wikipedia.org/wiki/Phil_Wainman">PHIL WAINMAN</a> 	title= Going going gone 
+15	30:50	artist=<a href="http://fr.wikipedia.org/wiki/Le_Manège_enchanté">POLLUX</a> 	title= Cest moi Pollux 
+16	33:50	artist=<a href="http://www.metamatic.com">JOHN FOXX</a> 	title= Touch and go 
+17	36:17	artist=<a href="http://www.dadapogrom.com">DADA POGROM</a> 	title= I am the army 
+18	39:55	artist=<a href="http://www.myspace.com/zachhillmusic">ZACH HILL</a> 	title= Memo to the Man 
+19	43:34	artist=BOHONIANS PLIMQUINS 	title= Gut feeling 
+20	46:20	artist=<a href="http://www.taxigirl.org">TAXI GIRL</a> 	title= La femme écarlate 
+21	49:47	artist=<a href="http://www.berlinpage.com">BERLIN</a> 	title= The metro 
+22	53:45	artist=<a href="http://www.myspace.com/illtill00">XBERG DHIRTY6 CRU</a> 	title= Hippidemie (Maton Rmx) 
+23	56:43	artist=<a href="http://www.myspace.com/logosamphia">LOGOSAMPHIA</a> 	title= La Hars 
+24	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>	title= Indicatif The Brain 1.3 

@@ -1,0 +1,26 @@
+1	00:00	artist=ACTION STEREO 	title= Harbor scene 
+2	01:30	artist=GAS &amp; YUSTEIN 	title= Electrischer generator 
+3	04:31	artist=MARGOO 	title= How to use the bathroom in space 
+4	05:29	artist=SERGE GAINSBOURG 	title= La horse 
+5	09:01	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Lump 
+6	11:04	artist=<a href="http://www.cstrecords.com/html/1sbmain.html">ONE Beats</a> 	title=
+7	12:58	artist=ICH BIN 	title= Danger 
+8	16:28	artist=<a href="http://perso.wanadoo.fr/w.w./khimafranceweb/indexkhimafrance.htm">KHIMA FRANCE</a> 	title= Delicate boy 
+9	19:15	artist=<a href="http://www.crackle.org">MICHEL WAISWISZ</a> 	title= One for the road 
+10	20:02	artist=MARCELLA WAHINI 	title= ? 
+11	22:15	artist=<a href="http://www.umbusiness.co.uk">UM</a> 	title=
+12	24:09	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS 	title=
+13	25:10	artist=<a href="http://www.myspace.com/themechamen">THE MECHAMEN</a> 	title= Go go Mechabot 
+14	27:44	artist=THE FREE DESIGN 	title= My brother Woody 
+15	30:04	artist=<a href="http://www.lutherblissett.net">LUTHER BLISSET</a> 	title=
+16	33:23	artist=UNKNOWN 	title= “Written in chinese” 
+17	35:44	artist=<a href="http://www.skipperrr.com">SKIPERRR</a>/<a href="http://www.bruno	title=and
+18	37:14	artist=<a href="http://driftinginparis.blogspot.com/2005/11/marco	title=tulio
+19	40:13	artist=<a href="http://www.transformerdiroboter.com">TRANSFORMER d’or</a> 	title=
+20	43:37	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS 	title=
+21	46:30	artist=<a href="http://www.sonig.com/main/info/wwworkshop.html">WORKSHOP</a> 	title= Kumar le 
+22	50:37	artist=<a href="http://drexrekker.sytes.net/">DREX REKKER</a> 	title= Bimimbap 
+23	52:59	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Ballet méchanique 
+24	54:44	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Dead end brain 
+25	57:02	artist=THE MAGOGS 	title= The lonely sea 
+26	59:34	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

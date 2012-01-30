@@ -1,0 +1,28 @@
+1	00:00	artist=LITTLE CINDY 	title= Happy birthday Jesus 
+2	01:21	artist=<a href="http://www.metaxu.it">OKAPI</a> 	title=
+3	00:04	artist=43” 	title= <a href="http://www.echokrank.net">ECHOKRANK</a> 
+4	06:21	artist=EDITH NYLON 	title= Etre automatique 
+5	08:37	artist=MR BLOE 	title= Sinful 
+6	11:18	artist=JOHNNY CASH 	title= An empty chair 
+7	12:24	artist=UNKNOWN 	title= I like to move it 
+8	13:59	artist=<a href="http://www.megapeng.net/engindex.html">RÄUBERHÖLE</a> 	title=
+9	16:58	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS 	title=
+10	19:57	artist=<a href="http://perso.wanadoo.fr/w.w.">KHIMA FRANCE</a> 	title= Tkitki 
+11	21:52	artist=<a href="http://www.stora.de">NOVA HUTA</a> 	title= Moch duj moch dom 
+12	23:57	artist=<a href="http://www.archigramophone.com/numbers.htm">NUMBERS</a> 	title=
+13	26:20	artist=PAULINA &amp; SALAMON 	title= Fara 
+14	27:04	artist=<a href="http://www.guillaumelegare.com">LEG</a> 	title= 
+15	29:18	artist=<a href="http://www.galerie	title=transition.de/pc/index.html">PATRIC CATANI</a> 
+16	32:09	artist=Dialogue 	title= Extract of movie “Polar” 
+17	32:44	artist=CHUY REYES &amp; HIS ORCH 	title= Oink oink mambo 
+18	35:50	artist=CHRISTOPHER JUST 	title= Jeans &amp; electronic 
+19	40:13	artist=<a href="http://www.cobra	title=killer.org">GINA V. D’ORIO</a> plover</a> 
+20	42:56	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Dämmerung 
+21	46:15	artist=<a href="http://www.fujiiya.com/the5678s">THE 5.6.7.8’s</a> 	title= Whoo hoo 
+22	48:10	artist=<a href="http://www.hawnaytroof.com">HAWNAYTROOF</a> arm</a> 	title=
+23	48:56	artist=THE BRAIN 	title= This is the C 
+24	49:17	artist=<a href="http://www.egotwister.com">EDMUND PRINZ</a> 	title= Baby I’ll rock you at the supermarket 
+25	51:19	artist=THE FREE CATS 	title= Folk resurection 
+26	54:15	artist=<a href="http://www.artskool.biz/jem/hh.html">HARUOMI HOSONO</a> 	title= Gaplus 
+27	57:17	artist=BURT BACHARACH 	title= Knowing when to leave 
+28	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 

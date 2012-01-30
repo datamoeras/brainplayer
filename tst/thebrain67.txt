@@ -1,0 +1,25 @@
+1	01:01	artist=<a href="http://www.kimandburan.com">KIM &amp; BURAN</a> 	title= 
+2	04:19	artist=<a href="http://www.buttersprites.com">THE BUTTERSPRITES</a> 	title=
+3	06:51	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title=
+4	08:45	artist=ANDRE POPP 	title= La java des bombes atomiques 
+5	11:11	artist=<a href="http://www.mashgordon.com">MASH GORDON</a> records</a> 	title=
+6	14:43	artist=<a href="http://www.yip	title=yip.com">YIP YIP</a> 
+7	17:12	artist=<a href="http://www.officek.jp/rom">ROM CHIAKI</a> 	title= Them 
+8	19:28	artist=<a href="http://ice.ink.free.fr/deb">DEBMASTER</a> 	title=
+9	21:31	artist=CHRISTINE PILZER 	title= Ils pataugent 
+10	23:15	artist=<a href="http://www.vernonlenoir.com">VERNON LENOIR</a> 	title=
+11	24:15	artist=<a href="http://www.vernonlenoir.com">VERNON LENOIR</a> 	title=
+12	26:49	artist=LYS GAUTY 	title= Le chaland qui passe 
+13	29:57	artist=<a href="http://www.purevolume.com/FETUSDEATHSQUAD">FETUS DEATH SQUAD</a> 	title= Television 
+14	32:10	artist=<a href="http://www.electric	title=
+15	05:36	artist=00” 	title= RITA CHAO 
+16	38:07	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title=
+17	39:27	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK 	title=
+18	40:50	artist=ULRICH 	title= Message pirate 
+19	44:08	artist=<a href="http://www.myspace.com/madamepatate">MADAME PATATE</a> 	title= Merlin 
+20	46:23	artist=CLAUDINE LONGET 	title= Happy Talk 
+21	49:33	artist=ALEXANDER VON BORSIG 	title= Hiroshima (tape version) 
+22	51:41	artist=<a href="http://roddroid.free.fr">ROD DROID</a> 	title= Round One 
+23	55:05	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= La mer est grande (version 1) 
+24	57:33	artist=<a href="http://www.fraumuller.spb.ru">MESSER FUR 	title=
+25	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

@@ -1,0 +1,21 @@
+1	00:41	artist=SANDY NELSON 	title= Chop Chop 
+2	02:55	artist=PETER RAP 	title= Behind the mask remix 
+3	06:58	artist=<a href="http://www.stereototal.de">STEREOTOTAL</a> 	title= Ich bin der Stricherjunge 
+4	09:03	artist=<a href="http://www.myspace.com/novahuta">NOVA HUTA</a> 	title= Titohilfe 
+5	11:29	artist=<a href="http://veroniquehubert.free.fr">UTOPIA</a> 	title= Toccupper de tout 
+6	12:10	artist=<a href="http://www.johanagebjorn.info/sally.html">SALLY SHAPIRO</a> 	title= I know 
+7	18:19	artist=<a href="http://www.clubdevo.com/">DEVO</a> 	title= The day my baby gave me a surprise 
+8	20:47	artist=CHAILAI CHAYATA &amp; SAWANEE PATANA 	title= Kwuan Tai Duew Luk Puen 
+9	24:15	artist=VICKY POLLARD 	title= Yeahbutnobutyeahbutno 
+10	26:22	artist=<a href="http://www.felixkubin.com">FELIX KUBIN &amp; PIA BURNETTE</a> 	title= Antitank 
+11	30:52	artist=MOONBEARS 	title= We are bi bi ba ba boumboum 
+12	33:45	artist=<a href="http://www.killforyou.de">KILL FOR YOU</a> 	title= Mr Foukov 
+13	36:39	artist=<a href="http://www.theviolets.co.uk">THE VIOLETS</a> 	title= Descend 
+14	38:14	artist=<a href="http://www.klement.fr">KLEMENT</a> 	title= Check the this is 
+15	42:59	artist=<a href="http://www.barbaramorgenstern.de">BARBARA MORGENSTERN</a> 	title= The operator 
+16	46:20	artist=<a href="http://veroniquehubert.free.fr">SIMSILLY FEAT UTOPIA</a> 	title= Jungle bonus 
+17	49:59	artist=NENA 	title= Nur geträumt 
+18	53:30	artist=<a href="http://www.klement.fr">ALINE FEAT KLEMENT</a> 	title= Soeurette 
+19	55:22	artist=<a href="http://www.coolhaven.nl">COOLHAVEN</a> 	title= Kind von traurigkeit 
+20	56:05	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= Torpedo girls 
+21	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

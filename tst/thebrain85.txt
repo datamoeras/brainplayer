@@ -1,0 +1,18 @@
+1	00:46	artist=quot; 	title= <a href="http://www.stereolab.co.uk/news/">STEREOLAB</a> 
+2	04:51	artist=quot; 	title= <a href="http://www.myspace.com/mesukasumai">MESU KASUMAI</a> 
+3	09:22	artist=quot; 	title= THE ROCK STEADY CREW 
+4	12:56	artist=quot; 	title= <a href="http://www.myspace.com/groupgriserror">GROUPGRIS</a> 
+5	15:50	artist=quot; 	title= <a href="http://www.monsterzoku.com">MONSTER ZOKU ONSOMB</a> 
+6	19:54	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
+7	21:54	artist=quot; 	title= <a href="http://www.myspace.com/leilaarab">LEILA</a> 
+8	25:13	artist=quot; 	title= <a href="http://www.no
+9	29:00	artist=quot; 	title= TEDDYBEARS 
+10	31:56	artist=quot; 	title= <a href="http://www.myspace.com/walterschultz">KARL MARX STADT</a> 
+11	35:20	artist=quot; 	title= <a href="http://www.messerchups.ru">MESSERCHUPS</a> 
+12	38:26	artist=quot; 	title= <a href="http://www.disasteradio.org">DISASTERADIO</a> 
+13	41:24	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
+14	46:19	artist=quot; 	title= <a href="http://www.dmxkrew.com">DMX KREW </a>
+15	49:39	artist=quot; 	title= <a href="http://www.auxraus.com">AUX RAUS</a> 
+16	53:02	artist=quot; 	title= <a href="http://polyphonicsize.free.fr">POLYPHONIC SIZE</a> 
+17	56:60	artist=quot; 	title= <a href="http://www.felixkubin.com">FELIX KUBIN</a> 
+18	59:25	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

@@ -1,0 +1,21 @@
+1	01:07	artist=quot; 	title= ENNIO MORICONE 
+2	05:17	artist=quot; 	title= <a href="http://www.myspace.com/rockfortsolo">ROCKFORT</a> 
+3	06:36	artist=quot; 	title= <a href="http://www.ceephax.co.uk/">CEEPHAX</a> 
+4	07:56	artist=quot; 	title= TOYTONE 
+5	12:48	artist=quot; 	title= <a href="http://www.mausspace.com">JOHN MAUS</a> 
+6	16:15	artist=quot; 	title= TAKESHI TERAUCHI &amp; THE BUNNYS 
+7	18:08	artist=quot; 	title= <a href="http://puyopuyo.lautre.net">PUYO PUYO</a> 
+8	20:11	artist=quot; 	title= <a href="http://www.myspace.com/echokrank">ECHOKRANK</a> 
+9	23:27	artist=quot; 	title= CHROME 
+10	25:44	artist=quot; 	title= <a href="http://tsarpoloz.com">TSAR POLOZ</a> 
+11	29:14	artist=quot; 	title= <a href="http://www.myspace.com/wearethefonts">THE FONTS</a> 
+12	32:24	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>
+13	34:38	artist=quot; 	title= <a href="http://bodenstandig.de/2000/">BIOBERN</a> 
+14	38:25	artist=quot; 	title= <a href="http://www.throttleclark.com/">CLARK</a> 
+15	42:30	artist=quot; 	title= <a href="http://www.myspace.com/kapbambino">KAP BAMBINO </a>
+16	45:19	artist=quot; 	title= <a href="http://www.sidabitball.com/">SIDABITBALL</a> 
+17	47:23	artist=quot; 	title= CHRISTINE DELAROCHE 
+18	50:20	artist=quot; 	title= <a href="http://centrala.lublin.pl/slepcy/">SLEPCY</a> 
+19	53:22	artist=quot; 	title= THE SONICS 
+20	55:25	artist=quot; 	title= MOOG COOK BOOK 
+21	59:16	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

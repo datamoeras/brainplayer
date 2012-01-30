@@ -1,0 +1,21 @@
+1	00:35	artist=<a href="http://www.francoisderoubaix.com">FRANÇOIS DE ROUBAIX</a> 	title= Acrobaties aériennes 
+2	02:27	artist=<a href="http://www.pocketmaster.ch">POCKETMASTER</a> 	title= Dr. Sleepgood 2 
+3	05:31	artist=<a href="http://www.myspace.com/blacksheep">BLACK SHEEP</a> 	title= The choice is yours 
+4	09:29	artist=BEACH BOYS 	title= Girls On The Beach (Black Lights Remix) 
+5	12:02	artist=THE MURMAIDS 	title= Popsicles and Icicles 
+6	14:32	artist=<a href="http://divag.parishq.net">DIVAG</a> 	title= Medieval 
+7	17:48	artist=ELECTRIC LIGHT ORCHESTRA 	title= Yours truly 2095 
+8	20:58	artist=<a href="http://www.metamatic.com">JOHN FOXX</a> 	title= Underpass 
+9	24:31	artist=<a href="http://www.myspace.com/gidropony">GIDROPONY</a> 	title= Group sex of rabbits 
+10	26:18	artist=LES ROCHE MARTIN 	title= Les mains dans les poches 
+11	29:03	artist=SUDENTEN CRECHE 	title= Are Kisses Out of Fashion 
+12	32:18	artist=<a href="http://www.myspace.com/edithnylonfrance">EDITH NYLON</a> 	title= Mariage dernier délai 
+13	36:19	artist=<a href="http://www.myspace.com/hotbip">HOT BIP</a> 	title= 150220102035 
+14	39:00	artist=<a href="http://futurecrayon.blogspot.com">BROADCAST</a> 	title= Come on lets go 
+15	42:06	artist=DOF 	title= Arafat 
+16	45:29	artist=<a href="http://www.myspace.com/doctorscientistband">DOCTOR SCIENTIST</a> 	title= Detonate the Spacebomb 
+17	46:42	artist=<a href="http://www.mediengruppe	title=telekommander.de">MEDIENGRUPPE TELEKOMMANDER</a> 
+18	50:25	artist=<a href="http://www.arno.be">ARNO</a> 	title= Knowing me knowing you 
+19	54:39	artist=<a href="http://www.myspace.com/_frustration">FRUSTRATION </a>	title= Holocaust (Plaid at 45 rpm) 
+20	56:57	artist=THE BRASS RING 	title= The Dis
+21	59:15	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>	title= Indicatif The Brain 1.3 

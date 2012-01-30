@@ -1,0 +1,20 @@
+1	00:51	artist=<a href="http://www.relaxbeat.com/">THE HARDLINER</a> 	title= Zoloft blues 
+2	04:09	artist=ELECTRIC LIGHT ORCHESTRA 	title= Mr Blue Sky 
+3	07:52	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Ich Sacke Hund 
+4	09:45	artist=<a href="http://www.lexrecords.com/Lesacvspip.htm">DAN LE SAC VS SCROOBIUS PIP</a> 	title= Thou shalt allways kill 
+5	14:58	artist=<a href="http://www.starbase109.co.uk/">STARBASE 109</a> 	title= Dialing Tone 
+6	17:29	artist=MAX GOLDT 	title= Bisweilen, nicht immer 
+7	19:31	artist=<a href="http://www.theblow.us">THE BLOW</a> 	title= Bonjour jeune fille 
+8	22:18	artist=THE BUZZCOCKS 	title= Ever fallen in love with someone 
+9	24:52	artist=<a href="http://www.felixkubin.com">FELIX KUBIN &amp; PIA BURNETTE</a> 	title= Boats in the bedroom 
+10	30:32	artist=FRANÇOIS DE ROUBAIX 	title= Le Bosco 
+11	32:17	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Commerce exterieur mondial sentimentale 
+12	33:13	artist=SOUPIR 	title= Les larmes de métal 
+13	38:44	artist=<a href="http://www.myspace.com/cartonpark">CARTON PARK</a> 	title= Cui Cui Dancing 
+14	40:38	artist=LARRY CLINTON &amp; HIS ORCHESTRA 	title= Mr Sandman 
+15	42:42	artist=NINTENDO 	title= Animal crossing 
+16	44:50	artist=<a href="http://www.relaxbeat.com">T&amp;J feat SAAS</a> 	title= Lovely Machine 
+17	47:50	artist=<a href="http://www.myspace.com/ioniiona">IONA</a> 	title= Petite fusée 
+18	51:47	artist=FUMIE HOSOKAWA 	title= Poupée de cire, poupée de son 
+19	55:05	artist=<a href="http://www.negativland.com">NEGATIVLAND</a> 	title= The answer is... 
+20	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

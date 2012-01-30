@@ -1,0 +1,26 @@
+1	00:45	artist=DESI ARNAZ &amp; HIS ORCHESTRA 	title= Tabu 
+2	03:52	artist=<a href="http://www.megapeng.net">RAUBERHÖLLE</a> 	title= Aimnot r2r 
+3	07:17	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Je compte mes amis sur le plâtre de mon bras cassé 
+4	08:06	artist=<a href="http://www.mulatta.org/DaveSoldierHomePage.html">SOLDIER records</a> 	title=
+5	10:02	artist=NASENBLUTEN 	title= Holly Arse 
+6	12:21	artist=<a href="http://www.beingabeing.com">ORIGINAL HAMSTER</a> 	title= Vinnie &amp; the beats 
+7	14:05	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; saucisses 	title= Autoproduced 
+8	14:23	artist=THE THREE FUNKYS 	title= Summer means fun (pitched) 
+9	15:40	artist=<a href="http://www.system	title=online.tk">SYSTEM</a> 
+10	18:54	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= L’idéalisme en question 
+11	22:34	artist=DOLORES VARGAS 	title= Solamente con los oros 
+12	25:08	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= Olpoq 
+13	28:28	artist=<a href="http://hubert.marecaille.free.fr">MONSIEUR HUBERT</a> 	title= L’amour de la vérité 
+14	29:58	artist=<a href="http://www.mulatta.org/DaveSoldierHome">SOLDIER records</a> 	title=
+15	32:17	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; pompe 	title= Autoproduced 
+16	32:44	artist=<a href="http://perso.wanadoo.fr/w.w.">KHIMA FRANCE</a> 	title= Puta Song 
+17	35:00	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= Ah les électrodes ! 
+18	36:56	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Les caïds 
+19	39:05	artist=<a href="http://www.dmxkrew.dircon.co.uk">DMX KREW</a> 	title= Maximillian 
+20	41:45	artist=ALEPH 	title= Tocatta 
+21	44:10	artist=<a href="http://raredmi.free.fr">SIR EDMÜND &amp; LAUTRE</a> 	title= Un en Jesus
+22	45:59	artist=<a href="http://www.lsr1.com">LESSER</a> VS <a href="http://www.vsnares.com">VENETIAN 6</a> 	title=
+23	49:50	artist=NANCY SINATRA 	title= Lies 
+24	52:26	artist=<a href="http://co.mikmusik.org">CO</a> 	title= Corazon 
+25	57:10	artist=<a href="http://www.so	title=healthy
+26	58:41	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

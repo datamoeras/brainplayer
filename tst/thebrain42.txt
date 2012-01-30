@@ -1,0 +1,24 @@
+1	00:53	artist=UNKNOWN (SID FILE) 	title= <i>My Sharona 
+2	02:32	artist=DER PLAN 	title= <i>Junger Mann 
+3	04:56	artist=PIPPILINA 	title= <i>Hlemur 
+4	07:37	artist=ISABELLE 	title= <i>La journée d’Isabelle 
+5	09:55	artist=DAT POLITICS 	title= <i>Bubble queen 
+6	13:22	artist=JOHN WILLIAMS 	title= <i>Lost in space main theme 
+7	14:16	artist=ZONGAMIN 	title= <i>Spiral 
+8	16:37	artist=OLEG KOSTROW 	title= <i>Doo
+9	19:13	artist=PUPETMASTAZ 	title= <i>Stories 
+10	22:44	artist=RAY MARTIN &amp; HIS ORCHESTRA . 	title= <i>Flash !There goes Gordon 
+11	25:24	artist=FREDERIK SCHIKOWSKI 	title= <i>Mein kleines pony #3 
+12	27:01	artist=ROSCAMPZINSKY 	title= <i>Comment tu t’appelles ? 
+13	29:45	artist=FELIX KUBIN 	title= <i>Psychobilly 
+14	33:39	artist=LES ROCHE MARTIN 	title= <i>Tu as peur du bruit 
+15	35:53	artist=UNKNOWN 	title= <i>Sabasu Mansion 
+16	36:07	artist=PLAIN BROWN RAPPER 	title= <i>Mellowd out 
+17	38:55	artist=LALALA 	title= <i>Secret agent 
+18	41:19	artist=CAMBODIAN ROCK 	title= <i>#°9 
+19	44:58	artist=MOONBUGGY 	title= <i>Futur 
+20	47:37	artist=TONY CHRISTIE 	title= <i>Avenues and alleyways 
+21	50:52	artist=LADYTRON 	title= <i>Nu horizons 
+22	54:43	artist=CANDIE HANK 	title= <i>Kimouchi 
+23	58:19	artist=JAILHOUSE 	title= <i>Quilla 
+24	59:58	artist=FREDERIK SCHIKOWSKI 	title= <i>Indicatif The Brain 

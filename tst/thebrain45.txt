@@ -1,0 +1,23 @@
+1	01:07	artist=LAWRENCE WELK 	title= Elephant tango 
+2	04:02	artist=COM.A 	title= Bitches from outer space 
+3	07:10	artist=FELIX KUBIN 	title= Die kulturelle Revolution 
+4	10:42	artist=THE CHEESE BAND 	title= I like cheese 
+5	11:44	artist=WEEN 	title= Cheese 
+6	12:12	artist=METROPAKT 	title= Neuen strassen 
+7	14:51	artist=CHA CHA BOYS 	title= Esmeralda 
+8	17:34	artist=ORIGINAL HAMSTER 	title= Hamsta my dear 
+9	20:26	artist=JEANNETTE 	title= Amanecer 
+10	22:58	artist=VERTICAL CAT 	title= Work
+11	25:09	artist=PRINTED CIRCUIT 	title= Mobira 
+12	28:50	artist=DYNASTY 	title= You got problems 
+13	31:46	artist=GINA X 	title= No GDM 
+14	35:49	artist=OSWALD D’ANDREA 	title= Sprint
+15	38:43	artist=THORAX WACH 	title= Das kleine volk 
+16	40:52	artist=SECRET MOMMY 	title= Drop shadow 
+17	44:07	artist=SPACE ART 	title= Love machine 
+18	47:18	artist=THE PETER LOLAND ORCHESTRA 	title= Hambone 
+19	49:00	artist=PUSHKLICK 	title= Klangtreu 
+20	53:13	artist=THE PRETTY THINGS 	title= Come see me 
+21	55:45	artist=STOCK, HAUSEN &amp; WALKMAN 	title= Fish finger 
+22	57:24	artist=RORICAT 	title= The Dragons Of Probability 
+23	59:24	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 

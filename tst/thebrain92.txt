@@ -1,0 +1,19 @@
+1	01:06	artist=quot; 	title= DOC SEVERINSEN 
+2	03:32	artist=quot; 	title= <a href="http://www.lastfm.fr/music/Das+M">DAS M</a> 
+3	07:00	artist=quot; 	title= OMAR SOULEYMAN 
+4	10:04	artist=quot; 	title= <a href="http://www.niwouinwouin.com">NIWOUINWOUIN</a> 
+5	15:20	artist=quot; 	title= <a href="http://www.myspace.com/lemekla">LEM</a> 
+6	19:30	artist=quot; 	title= <a href="http://www.andreasdorau.com">ANDREAS DORAU</a> 
+7	22:56	artist=quot; 	title= <a href="http://www.osymyso.com">OSYMYSO</a> 
+8	25:45	artist=quot; 	title= <a href="http://www.mireille
+9	28:23	artist=quot; 	title= THE SON OF PM 
+10	31:02	artist=quot; 	title= <a href="http://www.playboysbend.com">PLAYBOYS BEND</a> 
+11	35:46	artist=quot; 	title= THE SINISTER DUCKS 
+12	38:14	artist=quot; 	title= TERRY SNYDER 
+13	40:31	artist=quot; 	title= <a href="http://www.myspace.com/katapulto">KATAPULTO</a> 
+14	44:01	artist=quot; 	title= <a href="http://www.fatterfaction.co.uk">FATTER FACTION</a> 
+15	48:55	artist=quot; 	title= <a href="http://www.myspace.com/schattenuntereis">SCHATTEN UNTER EIS</a> 
+16	50:10	artist=quot; 	title= THE FLOWERS 
+17	52:07	artist=quot; 	title= KUMAR SANU 
+18	56:31	artist=quot; 	title= <a href="http://scarlattigoeselectro.free.fr">SCARLATTI GOES ELECTRO</a> 
+19	59:25	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

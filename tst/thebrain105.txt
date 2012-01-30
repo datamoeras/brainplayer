@@ -1,0 +1,22 @@
+1	00:12	artist=THE BRAIN 	title= Générique 2010 
+2	00:52	artist=DEREK &amp; RAY 	title= Interplay 
+3	03:50	artist=<a href="http://www.myspace.com/cheveu">CHEVEU</a> 	title= Quattro stagioni 
+4	05:48	artist=<a href="http://www.dickeldemasiado.com">DICK DEL DEMASIADO</a> 	title= Marcha Radiotski 
+5	08:06	artist=<a href="http://filsdejoie.e	title=monsite.com/">LES FILS DE JOIE</a> 
+6	11:49	artist=<a href="http://www.poiriersound.com">POIRIER</a> 	title= Wha
+7	15:43	artist=<a href="http://www.myspace.com/06130enforce">COBRA</a> 	title= Des lieux associatifs pour les jeunes 
+8	19:33	artist=<a href="http://www.myspace.com/lestrucs">LES TRUCS</a> 	title= I am the kid 
+9	21:30	artist=GODLEY &amp; CREME 	title= Under Your Thumb 
+10	25:47	artist=<a href="http://www.captain	title=ahab.com">CAPTAIN AHAB</a> 
+11	30:01	artist=<a href="kidbritishmusic">KID BRITISH</a> 	title= Our house is dadless 
+12	32:46	artist=LOS DALTONS 	title= Alto y seco 
+13	35:30	artist=<a href="http://www.myspace.com/edithnylonfrance">EDITH NYLON</a> 	title= Femme fusée 
+14	38:43	artist=MOYEN 	title= Dire 
+15	40:37	artist=<a href="http://www.beck.com">BECK</a> 	title= Death to all hipsters 
+16	41:16	artist=<a href="http://freemusicarchive.org/curator/WFMU/blog/AMANDA_Dont_Mess_With_the_Power_Child">AMANDA</a> 	title= Chaos 
+17	43:08	artist=<a href="http://www.myspace.com/dreamwarriorsrap">DREAM WARRIORS</a> 	title= My Definition Of A Boombastic Jazz Style 
+18	47:24	artist=DOROTHYS MAGIC BAG 	title= The m ystical dream express 
+19	50:53	artist=<a href="http://www.myspace.com/apparatorganquartet">APPARAT ORGAN QUARTET</a> 	title= Cargo
+20	55:51	artist=<a href="http://www.facebook.com/pages/les	title=Fleurs
+21	57:53	artist=<a href="http://www.myspace.com/schleusolz">SCHLEUSOLZ</a> 	title= Polyphobia 
+22	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

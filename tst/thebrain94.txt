@@ -1,0 +1,19 @@
+1	00:57	artist=<a href="http://www.senor	title=coconut.com">SENOR COCONUT</a> 
+2	05:16	artist=ALESIA COSMOS 	title= Patlin dmerde 
+3	08:32	artist=MO	title=DETTES 
+4	12:06	artist=<a href="http://kumisolo.com">KUMISOLO</a> 	title= Confiance absolue 
+5	14:53	artist=<a href="http://schwefelgelb.de">SCHWEFELGELB</a> 	title= Spieglein Spieglein 
+6	18:19	artist=FRANCE GALL 	title= Wassermann Und Fisch 
+7	20:33	artist=<a href="http://www.myspace.com/paulbdavis">PAUL B.DAVIS</a> 	title= Soca Good Vibes 
+8	23:24	artist=THE MOOG COOKBOOK 	title= Twist Barbie (Remix of Shonen Knife song) 
+9	27:33	artist=<a href="http://www.myspace.com/klax80">KLAX</a> 	title= Vot Chelovek Stupil Na Mars 
+10	30:14	artist=<a href="http://www.genevajacuzzi.org">GENEVA JACUZZI </a>	title= Love caboose 
+11	34:22	artist=<a href="http://falseparklocation.free.fr">FALSEPARKLOCATION</a> 	title= Boys kiss girls 
+12	37:29	artist=<a href="http://www.myspace.com/gizmogg">GIZMOG</a> 	title= Tonight 
+13	41:50	artist=MARIE MOOR 	title= Pretty Day 
+14	44:45	artist=MIREILLE DARC 	title= Le Drapeau noir 
+15	47:08	artist=BOLLYWOOD FREAKS 	title= Dont Stop Till You Get To Bollywood 
+16	51:06	artist=<a href="http://www.myspace.com/lazercrystal">LAZER CRYSTAL</a> 	title= Hot pink BMX 
+17	55:24	artist=<a href="http://www.baltazarworks.com">MONOTRONA</a> 	title= I Am The Might Mun A Superbeing 
+18	58:13	artist=JOHN BAKER 	title= Festival time 
+19	59:30	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

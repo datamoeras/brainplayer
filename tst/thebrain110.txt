@@ -1,0 +1,23 @@
+1	00:00	artist=	title=
+2	00:24	artist=The Brain 	title=
+3	01:03	artist=Paul Mauriat 	title= Mon fils, ma bataille 
+4	03:58	artist=Exotica 	title= Désorbitée 
+5	07:15	artist=Gog &amp; Magog 	title= Ours Polaire 
+6	11:22	artist=Ben Butler 	title= Mag Mag 
+7	14:16	artist=Plearn Promdan 	title= Sam Bai (Jolly) 
+8	17:57	artist=Yellow Magic Orchestra 	title= Solid State Survivor  
+9	21:40	artist=Bacalao 	title= Bom poy tsha 
+10	25:22	artist=Barry Mann 	title= Who Put The Bomp 
+11	28:01	artist=Major lazer 	title= Original Don Ft.The Partysquad 
+12	32:11	artist=John Maus 	title= Streetlight 
+13	34:55	artist=Body Electric 	title= Magic Electronic 
+14	38:30	artist=Hott Beat 	title= Mall Song 
+15	40:49	artist=Jamie T and Skream 	title= Jason and The Argonauts 
+16	43:30	artist=Anatopia 	title= Hard Drive 
+17	46:56	artist=Disco Midnights 	title= Cock and Discoball Torture 
+18	49:58	artist=The Clocks 	title= Wake Up (remix) 
+19	54:13	artist=Kania Tieffer 	title= Teppi ho 
+20	56:40	artist=Peggy Lee 	title= The Siamese Cat Song 
+21	58:51	artist=Cosmic Analog Ensemble 	title= Intro (Side A) 
+22	59:27	artist=Frederik Schikowski 	title=
+23	60:00	artist=	title=

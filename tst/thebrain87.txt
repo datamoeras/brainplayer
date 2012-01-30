@@ -1,0 +1,18 @@
+1	00:54	artist=quot; 	title= <a href="http://www.myspace.com/mesukasumai">MESU KASUMAI</a> 
+2	05:15	artist=quot; 	title= THE ANIMALS 
+3	07:34	artist=quot; 	title= <a href="http://benetbene.net">BEN ET BENE</a> 
+4	10:44	artist=quot; 	title= GARY MILLER 
+5	12:49	artist=quot; 	title= <a href="http://ladytron.nettwerk.com">LADYTRON</a> 
+6	15:36	artist=quot; 	title= <a href="http://www.metronomy.co.uk">METRONOMY</a> 
+7	19:23	artist=quot; 	title= <a href="http://www.chicksonspeed.com">CHICKS ON SPEED</a> 
+8	23:02	artist=quot; 	title= <a href="http://www.buggles.co.nr">BUGGLES</a> 
+9	26:52	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
+10	31:44	artist=quot; 	title= LUNA PARKER 
+11	34:57	artist=quot; 	title= <a href="http://www.myspace.com/ffussel">FUSSEL</a> 
+12	37:09	artist=quot; 	title= <a href="http://www.myspace.com/germlin">GERMLIN</a> 
+13	40:33	artist=quot; 	title= <a href="http://www.product01.co.uk">PRODUCT 01</a> 
+14	45:31	artist=quot; 	title= 16 BIT 
+15	48:53	artist=quot; 	title= <a href="http://www.telex
+16	53:02	artist=quot; 	title= KAZERO 
+17	55:52	artist=quot; 	title= LUNA PARKER 
+18	59:12	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>

@@ -1,0 +1,24 @@
+1	01:02	artist=STANLEY BLACK &amp; HIS ORCH. 	title= Adieu tristesse 
+2	04:03	artist=RHIN 	title= R.H.I.N 
+3	07:53	artist=SERGE GAINSBOURG 	title= Cha cha cha du loup 
+4	09:20	artist=<a href="http://www.secretmommy.com">SECRET MOMMY</a> 	title= Dojo 
+5	13:24	artist=<a href="http://www.hawnaytroof.com">HAWNAY TROOF</a> 	title= Anythang that walks 
+6	14:45	artist=<a href="http://www.geocities.com/rstevus/bingo.html">BINGO GAZINGO</a> 	title= Baba Booey 
+7	17:28	artist=<a href="http://www.discogs.com/artist/Cassetteboy">CASSETTEBOY</a> 	title= Sex Club Party 
+8	18:14	artist=<a href="http://www.noiamusic.com">N.O.I.A.</a> 	title= 
+9	20:57	artist=THE PURPLE GANG 	title= Granny takes a trip 
+10	23:46	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
+11	26:11	artist=EDDIE WARNER 	title= Telex 
+12	28:56	artist=<a href="http://www.thenourishment.com">THE NOURISHMENT</a> 	title= Do the food 
+13	30:40	artist=<a href="http://www.22	title=pistepirkko.net">22 PISTEPIRKKO</a> 
+14	33:33	artist=<a href="http://www.mikmusik.org/musik/artists.php?artist_id=2&amp;lang=1">MOER 	title=
+15	37:02	artist=<a href="http://www.stereototal.de/home/solo_brezel.html">BREZEL GOERING</a> 	title= Ich bin so sichtig 
+16	40:07	artist=<a href="http://perso.wanadoo.fr/w.w./">KAP BAMBINO</a> 	title=
+17	43:42	artist=<a href="http://users.skynet.be/kaniatieffer/">KANIA 	title=
+18	46:29	artist=NINO NARDINI 	title= Soft bossa 
+19	46:54	artist=EDITH NYLON 	title= Electroménager 
+20	50:18	artist=LOS MICROWAVES 	title= Home alone 
+21	52:05	artist=JEANETTE 	title= pourquoi tu vis 
+22	55:47	artist=PUPI CAMPO 	title= Joe and Paul 
+23	58:15	artist=WALTER WANDERLEY 	title= Amazonas 
+24	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

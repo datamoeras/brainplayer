@@ -1,0 +1,20 @@
+1	00:36	artist=THE BRAIN 	title= Générique 2010 
+2	01:16	artist=GUY BOYER ET SON ORCHESTRE 	title= La balade de Polly Magoo 
+3	04:32	artist=SILICON TEENS 	title= TV Playtime 
+4	07:09	artist=<a href="http://www.adultperiod.com">ADULT</a> 	title= Contagious 
+5	10:59	artist=<a href="http://www.myspace.com/josephnothing">JOSEPH NOTHING</a> 	title= Disc O Nostalgia 
+6	14:41	artist=<a href="http://www.myspace.com/goodiepal">MAINPAL INV.</a> 	title= Chupa Chups 
+7	15:53	artist=<a href="http://www.myspace.com/kapbambino">KAP BAMBINO</a> 	title= Naz 4 
+8	20:47	artist=JACQUES LOUSSIER 	title= Vidocq 
+9	22:36	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Rinnsal Des Lebens 
+10	26:18	artist=<a href="http://www.letigreworld.com">LE TIGRE</a> 	title= Im so excited 
+11	30:07	artist=USHA UTHUP &amp; CHORUS 	title= One two Cha Cha Cha 
+12	33:34	artist=DIGITAL HASSAN ORCHESTRA 	title= Affairs 
+13	36:56	artist=WHITE NOISE 	title= Firebird 
+14	40:21	artist=<a href="http://www.lektrogirl.com">LEKTROGIRL</a> 	title= No rap No rock 
+15	43:57	artist=<a href="http://www.poiriersound.com/">GHISLAIN POIRIER</a> 	title= 90s backyard 
+16	48:31	artist=<a href="http://www.myspace.com/grabbatize">GRABBA GRABBA TAPE</a> 	title= Jaai Ajja 
+17	50:01	artist=MAX KLEYDERSTORM 	title= Rückwrtz 
+18	53:19	artist=CLOTHILDE 	title= Saperlipopette 
+19	55:55	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= There is a garden 
+20	59:24	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>	title= Indicatif The Brain 1.3 

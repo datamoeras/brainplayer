@@ -1,0 +1,23 @@
+1	00:11	artist=THE BRAIN 	title= Générique 2010 
+2	00:50	artist=<a href="http://fr.wikipedia.org/wiki/Liberace">LIBERACE</a> 	title= Moon river 
+3	04:29	artist=<a href="http://www.youtube.com/watch?v=MGpPgwOgB_U">Unknown 	title= Unknown 
+4	05:45	artist=<a href="http://www.yello.com">YELLO</a> 	title= The Roxy cut 
+5	10:03	artist=<a href="http://www.johnotway.com">OTWAY</a> AND <a href="http://www.musiczoo.co.uk">BARETT</a> 	title= DK 50 80 
+6	12:33	artist=<a href="http://www.barbaramorgenstern.de">BARBARA MORGENSTERN</a> 	title= Fixpunkt 
+7	14:50	artist=<a href="http://amplivesworld.com">AMP LIVE</a> 	title= Gary is a robot 
+8	17:47	artist=<a href="http://www.ymo.org">HARUOMI HOSONO</a> 	title= Cosmic Surfin 
+9	22:46	artist=<a href="http://www.aprilmarch.com/">APRIL MARCH</a> 	title= Mon ange gardien 
+10	24:54	artist=<a href="http://www.dadapogrom.com/">DADA POGROM</a> 	title= Happy happy happy 
+11	28:21	artist=<a href="http://cheveunet.free.fr">CHEVEU</a> 	title= No birds 
+12	31:03	artist=<a href="http://www.retrojeunesse60.com/ria.bartok.html">RIA BARTOK</a> 	title= Tu as perdu La tête 
+13	33:15	artist=<a href="http://www.stereolab.co.uk">STEREOLAB</a> 	title= Sun Demon 
+14	36:28	artist=<a href="http://klaus.nomi.pagesperso	title=orange.fr">KLAUS NOMI</a> 
+15	39:28	artist=<a href="http://knifefightingjesus.com/?p=962">IKE REIKO</a> 	title= Sasurai No Guitar 
+16	42:01	artist=<a href="http://www.francegall.net">FRANCE GALL</a> 	title= Les petits ballons 
+17	43:57	artist=<a href="http://www.richardhaxton.com/funwithanimals.html">FUN WITH ANIMALS</a> 	title= Test of Love and Sex 
+18	46:33	artist=<a href="http://www.myspace.com/dayoneprobablyart">DAY ONE</a> 	title= Im doing fine 
+19	50:54	artist=<a href="http://www.myspace.com/peripheriqueest">PERIPHERIQUE EST</a> 	title= Le rock dici 
+20	53:11	artist=MANUEL FERRERO 	title= Fela 
+21	55:32	artist=<a href="http://www.infinitybells.com">SLEIGH BELLS</a> 	title= Riot Rhythm 
+22	58:09	artist=<a href="http://gbjazz.free.fr/galerie/msolal.html">MARTIAL SOLAL</a> 	title= New york herald tribune 
+23	59:32	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

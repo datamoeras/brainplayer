@@ -1,0 +1,26 @@
+1	00:40	artist=quot; 	title= <a href="http://www.misslebomb.net">MISS LE BOMB</a> 
+2	02:02	artist=quot; 	title= J. MATIUSZKIEWITCZ 
+3	03:12	artist=quot; 	title= DER ANFALL 
+4	06:12	artist=quot; 	title= <a href="http://www.saal2.com">SAAL 2</a> 
+5	09:10	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
+6	12:32	artist=quot; 	title= <a href="http://www.senor
+7	15:52	artist=quot; 	title= MESDAMES TRAUM 
+8	17:29	artist=quot; 	title= <a href="http://www.felixkubin.com">FELIX KUBIN</a> 
+9	19:20	artist=quot; 	title= <a href="http://www.cursorminer.com">CURSOR MINER</a> 
+10	21:29	artist=quot; 	title= ROYAL BLUE 
+11	23:40	artist=quot; 	title= DE LA SOUL 
+12	27:40	artist=quot; 	title= K. KOMEDA 
+13	28:50	artist=quot; 	title= FRANCE GALL 
+14	31:14	artist=quot; 	title= <a href="http://www.egoexpress.com">EGOEXPRESS</a> 
+15	34:20	artist=quot; 	title= <a href="http://www.holgerhiller.net">HOLGER HILLER</a> &amp; THOMAS FEHLMANN 
+16	35:08	artist=quot; 	title= TAXI GIRL 
+17	39:50	artist=quot; 	title= <a href="http://www.tietchens.de">HEMATIC SUNSETS</a> 
+18	41:26	artist=quot; 	title= COLDCUT 
+19	42:40	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
+20	46:10	artist=quot; 	title= HARVEY ANDERSON 
+21	48:24	artist=quot; 	title= PLANINGTOROCK 
+22	51:30	artist=quot; 	title= WRITTEN IN JEWISH 
+23	51:30	artist=quot; 	title= <a href="http://www.saal2.com">SAAL 2</a> 
+24	53:36	artist=quot; 	title= LOUISE KENNEDY 
+25	57:30	artist=quot; 	title= FRANK COMSTOCK 
+26	59:32	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

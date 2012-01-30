@@ -1,0 +1,25 @@
+1	01:15	artist=<a href="http://www.insekte.de/">INOX KAPELL</a> 	title= Keine Uhrzeit 
+2	04:05	artist=F. PETERS 	title= Speedlearn broadcast 
+3	04:41	artist=RODGERS &amp; HAMMERSTEIN 	title= The march of siamese children 
+4	05:52	artist=STOP THE DISCO MAFIA 	title= Washhour 
+5	09:10	artist=<a href="http://www.micromusic.net">TOBIAH</a> 	title= I don’t really exist 
+6	12:29	artist=CHANG LAÏ LAÏ 	title= Nina 
+7	14:35	artist=THE ASTHMA BEAT CLINIC 	title= La 1ère greffe de 
+8	15:39	artist=LOS MICROWAVES 	title= Time to get up 
+9	19:54	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= St Nimmerlein 
+10	23:29	artist=KAS PRODUCT 	title= T.M.T. 
+11	27:31	artist=CHILDREN’S GAMES 	title= Rat
+12	27:48	artist=THE WIRTSCHAFTWUNDER 	title= Junge leute 
+13	30:16	artist=<a href="http://www.beatpunk.com">BOOKS ON TAPE</a> 	title=
+14	33:26	artist=BURT BACHARACH 	title= Pacific coast highway 
+15	37:14	artist=<a href="http://thebrain.lautre.net/team/roscampzinski.html">ROSCAMPZINSKY</a> 	title= Non mais je rêve 
+16	40:00	artist=SY OLIVER &amp; HIS ORCH 	title= Istambul 
+17	42:15	artist=PTOSE 	title= Ecraser la vermine 
+18	44:15	artist=BERNARD HERMANN 	title= Twisted nerve 
+19	45:37	artist=<a href="http://www.transformerdiroboter.com">TRANSFORMER DI ROBOTER</a> 	title= Stranger in Moscow 
+20	49:13	artist=FRANCK CHASFIELD 	title= The good, the bad &amp; the ugly 
+21	51:15	artist=<a href="http://www.derplan.com">DER PLAN</a> 	title= Space Bob 
+22	54:03	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> day 	title= Unreleased 
+23	55:23	artist=PETER LOLAND ORCHESTRA 	title= Heat wave 
+24	57:22	artist=<a href="http://www.forgetyourname.com/onanoceanamp">ON AN OCEAN AMP</a> 	title= Brachio platypus 
+25	59:25	artist=<a href="http://thebrain.lautre.net/index/schikows">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 

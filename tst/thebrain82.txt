@@ -1,0 +1,23 @@
+1	01:38	artist=quot; 	title= <a href="http://www.myspace.com/novahuta">NOVA HUTA</a> 
+2	02:49	artist=quot; 	title= X RAY POP 
+3	05:06	artist=quot; 	title= <a href="http://www.stereolab.co.uk">TIM GANE</a> &amp; <a href="http://www.highllamas.com">SEAN OHAGAN</a> 
+4	06:38	artist=quot; 	title= <a href="http://www.senor
+5	10:17	artist=quot; 	title= <a href="http://www.maroon.dti.ne.jp/denial">DE!NIAL</a> 
+6	12:45	artist=quot; 	title= <a href="http://amis.minimal.be/coeurvert">COEURVERT</a> 
+7	15:06	artist=quot; 	title= <a href="http://www.metronomy.co.uk">METRONOMY</a> 
+8	19:13	artist=quot; 	title= <a href="http://polyphonicsize.free.fr">POLYPHONIC SIZE</a> 
+9	20:05	artist=quot; 	title= OS MUTANTES 
+10	23:42	artist=quot; 	title= <a href="http://www.myspace.com/zomzoms">ZOM ZOMS</a> 
+11	25:55	artist=quot; 	title= <a href="http://www.myspace.com/_frustration">FRUSTRATION</a> 
+12	29:22	artist=quot; 	title= LES CLASSELS 
+13	32:06	artist=quot; 	title= SOLID SPACE 
+14	34:46	artist=quot; 	title= <a href="http://www.myspace.com/agaskodoteliverek">AGASKODO TELIVEREK</a> 
+15	37:07	artist=quot; 	title= BRIGITT 
+16	39:15	artist=quot; 	title= <a href="http://polyphonicsize.free.fr">POLYPHONIC SIZE</a> 
+17	40:51	artist=quot; 	title= MING 
+18	44:45	artist=quot; 	title= ISOLATION WARD 
+19	47:33	artist=quot; 	title= <a href="http://www.myspace.com/logosamphia">LOGOSAMPHIA </a>
+20	51:27	artist=quot; 	title= TRISTA MOTIV 
+21	54:54	artist=quot; 	title= DUDLEY SIMPSON 
+22	56:44	artist=quot; 	title= <a href="http://www.stereolab.co.uk">STEREOLAB</a> 
+23	59:26	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

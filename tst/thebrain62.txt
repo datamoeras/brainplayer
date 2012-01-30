@@ -1,0 +1,25 @@
+1	00:58	artist=PIERRE BACHELET 	title= Coup de tête 
+2	02:59	artist=<a href="http://www.electronicat.com">ELECTRONICAT</a> 	title=
+3	06:32	artist=<a href="http://www.simplesampling.com">MATT WAND</a> 	title= Title unknown 
+4	07:25	artist=<a href="http://www.cockrockdisco.com">JASON FORREST</a> 	title=
+5	09:32	artist=<a href="http://thebrain.lautre.net/index/schikows">FREDERIK records</a> 	title=
+6	13:09	artist=<a href="http://www.ddamage.org">DDAMAGE</a> &amp; <a href="http://www.youknowfundisorder.com/thed.swf">The d</a> 	title=
+7	15:10	artist=<a href="http://www.mitch	title=and
+8	18:12	artist=<a href="http://www.felixkubin.com">ANAEROBIC ROBOTS</a> records</a> 	title=
+9	21:38	artist=MICHEL MAGNE 	title= Compartiment tueurs 
+10	24:06	artist=ETIENNE CHARRY 	title= Plasmocytes Corallins 
+11	27:35	artist=<a href="http://perso.wanadoo.fr/w.w./">GROUPGRIS</a> 	title=
+12	29:43	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= L’Antartique 
+13	32:00	artist=<a href="http://rollerderbysuperstar.com/beatpunk">BOOKS day</a> 	title=
+14	34:58	artist=<a href="http://www.sagorochswing.com">SAGOR &amp; 	title=
+15	39:30	artist=	title=
+16	43:01	artist=<a href="http://www.manfromuranus.com">MAN FROM URANUS</a> 	title= Wild animals ate my mother 
+17	46:09	artist=GEORGES DELERUE 	title= Fantomas 
+18	48:08	artist=<a href="http://www.kevyb.com/">KEVIN BLECHDOM</a> speed records</a> 	title=
+19	49:50	artist=<a href="http://www.mikmusik.org/musik/artists.php?artist_id=31&amp;lang=1">THE 	title=
+20	51:23	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= A vous de jouer Milord 
+21	53:09	artist=<a href="http://www.aavikko.net">AAVIKKO</a> 	title= Salamapallo 
+22	56:10	artist=<a href="http://www.lektrogirl.com">LEKTROGIRL</a> 	title= She 
+23	57:53	artist=<a href="http://www.ammakasie.com">NOKA AMMAKASIE</a> 	title= Friend say 
+24	59:34	artist=<a href="http://thebrain.lautre.net/index/schikows">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
+25	59:59	artist=T. SCOTTO 	title= Les Shadocks 

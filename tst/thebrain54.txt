@@ -1,0 +1,20 @@
+1	01:09	artist=<a href="http://www.secretmommy.com">SECRET MOMMY</a> 	title= If musork</a> 
+2	04:42	artist=<a href="http://www.pas.org/About/HOF/manne.cfm">SHELLY MANNE</a> 	title= Elephantime 
+3	06:59	artist=ORGAN APPARAT QUARTET 	title= Romantika 
+4	11:39	artist=<a href="http://www.vif.com/users/disqcine/Delerue.html">GEORGES DELERUE</a> 	title= Charly 
+5	15:01	artist=<a href="http://www.freezepop.net">FREEZEPOP</a> 	title= record company</a> 
+6	20:16	artist=<a href="http://gangpol.free.fr">GANGPOL</a> 	title= Alf 
+7	21:18	artist=<a href="http://www.dorabetmusiccompany.com/composersbiographies.htm">CAESAR GIOVANNINI</a> 	title= The joy of love 
+8	23:22	artist=<a href="http://enduser.sonicterror.net">ENDUSER</a> 	title=
+9	27:29	artist=<a href="http://www.pluxemburg.com/pluxus.php">PLUXUS</a> 	title=
+10	30:39	artist=<a href="http://www.solnzerecords.com/supersonic	title=family.html">SUPERSONIC records</a> 
+11	34:08	artist=<a href="http://www.bodenstandig.de">BODENSTANDIG the machine</a> 	title=
+12	37:38	artist=LA LUPE 	title= Touch me 
+13	39:56	artist=<a href="http://twink.net">TWINK</a> 	title= Not enough 
+14	42:29	artist=<a href="http://perso.wanadoo.fr/w.w.">MATON</a> 	title= Gaby 
+15	46:15	artist=NORMA TRACY &amp; the CINDERELLA KIDS 	title= Skateboard song 
+16	48:40	artist=<a href="http://www.vacuumboys.com">THE VACUUM BOYS</a> 	title= Funk yo 
+17	50:16	artist=<a href="http://www.19	title=t.com/comb">COW P</a> 
+18	52:32	artist=DJ STEPHANE 	title= Petit bikini 
+19	55:35	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Dernier domicile connu 
+20	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

@@ -1,0 +1,20 @@
+1	00:45	artist=quot; 	title= KLAUS WUNDERLICH 
+2	03:44	artist=quot; 	title= VANILLA / 8 
+3	07:16	artist=quot; 	title= <a href="http://www.myspace.com/peredodudaboum">PERE DODU DABOUM</a> 
+4	10:26	artist=quot; 	title= <a href="http://www.myspace.com/normannorman">NORMAN BAMBI</a> 
+5	14:42	artist=quot; 	title= CONRAD SCHNITZLER 
+6	18:12	artist=quot; 	title= <a href="http://gangpol.free.fr/">GANGPOL &amp; MIT</a> et KHIMA FRANCE 
+7	21:25	artist=quot; 	title= <a href="http://www.kaniatieffer.com/">KANIA TIEFFER</a> 
+8	22:58	artist=quot; 	title= <a href="http://www.trashpalace.net">TRASH PALACE</a> 
+9	25:07	artist=quot; 	title= DOLLY RAMBO 
+10	27:47	artist=quot; 	title= <a href="http://www.metronomy.co.uk">METRONOMY</a> 
+11	32:14	artist=quot; 	title= STANLEY BLACK 
+12	34:30	artist=quot; 	title= DESMOND DEKKER 
+13	37:04	artist=quot; 	title= <a href="http://www.myspace.com/chrisclubclub">CHRIS CLUB </a>
+14	40:29	artist=quot; 	title= <a href="NICOLE WILLIS">NICOLE WILLIS</a> 
+15	43:56	artist=quot; 	title= <a href="http://www.lamonjaenana.com">LA MONJA ENANA</a> 
+16	45:30	artist=quot; 	title= <a href="http://www.twistedcharm.f2s.com/">TWISTED CHARM</a> 
+17	48:39	artist=quot; 	title= CHALERMPON MALAKUM 
+18	51:11	artist=quot; 	title= <a href="http://alonetogether.xxxxxxxx.jp/">ALONE TOGETHER</a> 
+19	57:06	artist=quot; 	title= <a href="http://www.aavikko.net/">AAVIKKO</a> 
+20	59:26	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

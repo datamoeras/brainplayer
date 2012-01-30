@@ -1,0 +1,21 @@
+1	00:46	artist=quot; 	title= ANONYMOUS JAPANESE BAND 
+2	04:02	artist=quot; 	title= <a href="http://www.datpolitics.com">DAT POLITICS</a> 
+3	07:37	artist=quot; 	title= <a href="http://david.chazam.free.fr/">CHAZAM</a> 
+4	11:25	artist=quot; 	title= <a href="http://www.myspace.com/messerfurfraumuller">MESSER FUR FRAU MUELLER</a> 
+5	13:53	artist=quot; 	title= COMIX 
+6	16:58	artist=quot; 	title= <a href="http://www.dandeacon.com">DAN DEACON</a> 
+7	21:06	artist=quot; 	title= <a href="http://www.jessieevans.net">JESSIE EVANS</a> 
+8	24:01	artist=quot; 	title= <a href="http://www.baddudes.net">BAD DUDES</a> 
+9	27:44	artist=quot; 	title= <a href="http://www.myspace.com/benbutlerandmousepad">BEN BUTLER &amp; HIS MOUSEPAD</a> 
+10	30:52	artist=quot; 	title= <a href="http://www.gotainer.com">GOTAINER</a> 
+11	31:11	artist=quot; 	title= <a href="http://www.myspace.com/nerosdayatdisneland">NEROS DAY AT DISNEYLAND</a> 
+12	33:29	artist=quot; 	title= <a href="http://www.myspace.com/totallyradd">TOTALLY RADD</a> 
+13	36:49	artist=quot; 	title= <a href="http://www.okapi.it">OKAPI</a> 
+14	38:12	artist=quot; 	title= <a href="http://www.myspace.com/johnmaus">JOHN MAUS</a> 
+15	40:32	artist=quot; 	title= <a href="http://wearewolves.net/blog/">WE ARE WOLVES</a> 
+16	44:20	artist=quot; 	title= <a href="http://www.myspace.com/monoblockb">MONOBLOCK B</a> 
+17	48:15	artist=quot; 	title= <a href="http://www.myspace.com/solitaireneffekten">SOLITAIREN EFFEKTEN</a> 
+18	50:35	artist=quot; 	title= <a href="http://www.myspace.com/jihadsoundsystem">JIHAD SOUND SYSTEM</a> 
+19	54:10	artist=quot; 	title= <a href="http://www.myspace.com/diegesunden">DIE GESUNDEN</a> 
+20	57:15	artist=quot; 	title= <a href="http://www.okapi.it">OKAPI</a> 
+21	59:15	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

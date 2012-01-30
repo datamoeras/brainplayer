@@ -1,0 +1,23 @@
+1	00:56	artist=<a href="http://www.slap	title=press.com">OKAPI</a> 
+2	04:13	artist=<a href="http://www.scorpioscorpio.com">SCORPIO SCORPIO</a> 	title= Utility (you and me) 
+3	06:58	artist=<a href="http://www.egotwister.com/guyom/index">[guÿôm]</a> 	title= F*********** 
+4	09:14	artist=EPSTEIN &amp; KRAMAN 	title= Turkish delight 
+5	11:02	artist=<a href="http://www.dieraketen.com">DIE RAKETEN</a> 	title= For you 
+6	14:15	artist=<a href="http://gangpol.free.fr">GANGPOL UND MIT</a> 	title=
+7	17:02	artist=<a href="http://www.mrsmillersworld.com">MRS MILLER</a> 	title= The shadow of your smile 
+8	19:33	artist=<a href="http://www.lado.de/artists/index.php?artistID=16">VON d’or</a> 	title=
+9	22:56	artist=SARA LUNDEN 	title= This is not desire 
+10	26:00	artist=<a href="http://www.worldwentdown.com/end">GIORGIO 	title=
+11	29:24	artist=<a href="http://www.diewelttraumforscher.ch">DIE WELTTRAUMFORSCHER</a> 	title= Katakina 
+12	32:04	artist=LALO SCHIFRIN 	title= Les félins 
+13	33:53	artist=HUGH CORNWELL &amp; ROBERT WILLIAMS 	title= Rythmic itch 
+14	35:51	artist=<a href="http://www.galerie	title=transition.de/pc">VERY 
+15	38:05	artist=GEORGES TEPERINO 	title= Cleopatra 
+16	40:18	artist=GENERAL MALICE ? (white label) 	title= ? 
+17	42:46	artist=<a href="http://www.experimentaldental.com">EXPERIMENTAL DENTAL SCHOOL</a> 	title= ? 
+18	45:59	artist=<a href="http://www.appareil.se">APPAREIL</a> 	title=
+19	49:38	artist=<a href="http://www.sanctuaryrecords.de/delasoul">DE “potholes” instrumental 	title= Indisc 
+20	52:56	artist=<a href="http://www.slap	title=press.com">OKAPI</a> 
+21	54:21	artist=MU 	title= Like a little bitch 
+22	57:08	artist=<a href="http://www.jvox.com">JVOX</a> 	title= Sunshine 
+23	59:26	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 1.3 

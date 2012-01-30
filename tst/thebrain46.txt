@@ -1,0 +1,24 @@
+1	00:58	artist=<a href="http://www.spaceagepop.com/mancini.htm">HENRI MANCINI</a> 	title= Moon river cha cha 
+2	03:30	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> 	title=
+3	06:01	artist=ECHOKRANK 	title= Inhuman fly 
+4	08:27	artist=<a href="http://www.crosslink.net/%7Ebigmack9/slimcrk.htm">YODELIN’ SLIM CLARK</a> 	title= Rocky mountain yodeler 
+5	10:11	artist=N.O.I.A. 	title= Atomkraft 
+6	12:34	artist=<a href="http://www.hipsurgerymusic.com/Chipmunks/">CHIPMUNK MANIA</a> 	title= All my loving 
+7	14:49	artist=<a href="http://www.aavikko.net/">AAVIKKO</a> 	title= Samojeden keskuudessa 
+8	17:11	artist=<a href="http://www.panchamonline.com/">RD BURMAN</a> 	title= Tum kya jaano 
+9	21:04	artist=<a href="http://moscowa.mine.nu/triotetris/new.htm">TRIO TETRIS</a> 	title= Bingo worms 
+10	26:03	artist=<a href="../index/schikowski/frederikschikowski.html">FREDERIK Records</a> 	title=
+11	27:46	artist=<a href="http://www.evolution	title=control.com">EVOLUTION 
+12	31:31	artist=THE BRAIN 	title= White is black, black is white 
+13	31:51	artist=<a href="http://www.smpj.tk">SISTA MANNEN PA JORDEN</a> 	title= Hur lång tid kan det ta 
+14	36:07	artist=ROSCAMPZINSKI 	title= Eros dans la lune 
+15	38:22	artist=<a href="http://www.gagarinrecords.com">FELIX KUBIN</a> 	title=
+16	41:56	artist=<a href="http://www.spaceagepop.com/light.htm">ENOCH LIGHT</a> 	title= The jerk 
+17	44:48	artist=<a href="http://www.pffr.net">PFFR</a> 	title= Our concern 
+18	45:41	artist=TOPOLINOS 	title= Mustafa 
+19	48:43	artist=<a href="http://www.retrojeunesse60.com/revoltes.html">LES REVOLTES</a> 	title= Elle va pleurer 
+20	50:21	artist=KORO OSANAGO 	title= Original 84 Mini click mix 
+21	52:33	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE records</a> 
+22	55:42	artist=<a href="http://www.angelfire.com/super/neonhunk/">NEON HUNK</a> 	title= Good tooblies 
+23	56:54	artist=<a href="http://personal.inet.fi/taide/junttila/desert/engani/index.htm">DESERT 	title=
+24	59:24	artist=<a href="../index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 

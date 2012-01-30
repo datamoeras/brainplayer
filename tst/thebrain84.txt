@@ -1,0 +1,21 @@
+1	00:00	artist=ALEXANDRE DUVAL 	title= (Rires) 
+2	01:32	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= Loneliness of the LD Kosmonaut 
+3	03:27	artist=<a href="http://www.auxraus.com">AUX RAUS</a> 	title= Snails 
+4	05:50	artist=<a href="http://www.messerchups.ru">MESSERCHUPS</a> 	title= Prokatumskaia na Karusselu 
+5	08:32	artist=<a href="http://www.myspace.com/agaskodoteliverek">MIKLOS THE ACCOUNTANT KEMECSI</a> 	title= Squirrel staring at a beetle 
+6	11:17	artist=<a href="http://fr.wikipedia.org/wiki/Philippe_Lanners">BOULI LANNERS</a> 	title= Sunny 
+7	13:43	artist=<a href="http://tobiah.se">TOBIAH</a> 	title= Do the Robot 
+8	17:19	artist=<a href="http://www.stereolab.co.uk">STEREOLAB</a> 	title= Valley hi ! 
+9	19:23	artist=<a href="http://www.umbusiness.co.uk">UM</a> 	title= Holly Fire (Candie Hank Remix) 
+10	23:08	artist=<a href="http://www.brianbennettmusic.co.uk">BRIAN BENETT</a> 	title= Ergon 
+11	24:36	artist=<a href="http://www.puppetmastaz.com">PUPPETMASTAZ</a> 	title= Spellbound room 18 
+12	28:25	artist=BLACK OUT CREW 	title= Put a donk on it 
+13	31:58	artist=<a href="http://www.okapi.it">OKAPI</a> 	title= Indigest dinner music 
+14	36:39	artist=<a href="http://www.myspace.com/raeuberhoehle">RAUBERHOHLE</a> 	title= Achtung 
+15	41:01	artist=PETER SCHILLING 	title= Major Tom 
+16	45:59	artist=<a href="http://www.myspace.com/echokrank">ECHOKRANK</a> 	title= Abwaerts 
+17	48:09	artist=<a href="http://www.myspace.com/lucyandthepopsonics">LUCY &amp; THE POPSONICS</a> 	title= Coracçao empacotado 
+18	50:50	artist=SECTION 25 	title= Sprinkling petals into Hell 
+19	55:08	artist=JEANNE ROBET 	title= Violent Femmes 
+20	57:09	artist=NINO NARDINI 	title= Top Mambo 
+21	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

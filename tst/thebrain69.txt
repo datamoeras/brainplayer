@@ -1,0 +1,24 @@
+1	00:57	artist=FRANCIS LAY 	title= Vivre pour vivre 
+2	03:22	artist=<a href="http://www.babydayliner.com">BABY DAYLINER</a> 	title=
+3	04:24	artist=<a href="http://www.ergophizmiz.com">ERGO PHIZMIZ</a> my foot</a> 	title=
+4	08:20	artist=	title=
+5	11:47	artist=<a href="http://www.gunter	title=adler.de">GUNTER ADLER</a> 
+6	15:07	artist=<a href="http://www.manfromuranus.com">MAN FROM URANUS</a> Records</a> 	title=
+7	18:15	artist=<a href="http://www.kevyb.com">KEVIN BLECHDOM</a> 	title=
+8	20:07	artist=KLAUS WUNDERLICH 	title= Swing Again 
+9	22:33	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
+10	25:40	artist=EDMUNDO ROS 	title= Tropical Merengue 
+11	28:10	artist=<a href="http://www.rostronrecords.net">PLANINGTOROCK</a> 	title=
+12	31:44	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Un mot de notre président 
+13	32:17	artist=<a href="http://www.puppetmastaz.com">PUPPETMASTAZ</a> 	title= El paso remix 
+14	35:27	artist=DENIS FARNONS 	title= In a chinese bar 
+15	36:54	artist=<a href="http://www.killrockstars.com/bands/factsheets/deerhoof/">DEERHOOF</a> Rock Stars</a> 	title=
+16	40:24	artist=TOY 	title= Rabbit pushing mower 
+17	43:46	artist=VMW 	title= Suck it and see 
+18	48:18	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Des terrains 
+19	48:51	artist=JEANETTE (PIC NIC) 	title= Me olvidaras 
+20	50:55	artist=NAUGHTYBOY 	title= TR 7 
+21	53:46	artist=JEAN CLAUDE PELLETIER 	title= Bourbon connection 
+22	56:03	artist=<a href="http://www.myspace.com/florencisalesas">FLORENCI Olla Express</a> 	title=
+23	57:25	artist=TONY HILLER ORCHESTRA 	title= Where the rainbow ends 
+24	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

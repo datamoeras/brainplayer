@@ -1,0 +1,22 @@
+1	00:00	artist=<a href="http://www.dragibus.org">DRAGIBUS</a> 	title= Remettez la gomme 
+2	00:57	artist=<a href="http://www.senor	title=coconut.com">SENOR COCONUT</a> 
+3	04:14	artist=<a href="http://www.myspace.com/normannorman">NORMAN BAMBI</a> 	title= West of space 
+4	07:19	artist=SESAME STREET 	title= 1, 2, 3 
+5	09:38	artist=HONEYBUS 	title= Cant let Maggie go 
+6	12:30	artist=<a href="http://www.myspace.com/suetterlin">SUTTERLIN</a> 	title= Achtung 
+7	15:27	artist=<a href="http://www.chicksonspeed.com">CHICKS ON SPEED</a> 	title= Love Life 
+8	19:39	artist=kENNY HOLLYWOOD 	title= Magic Star
+9	21:54	artist=<a href="http://www.myspace.com/novahuta">NOVA HUTA</a> 	title= Taïshou 
+10	24:32	artist=quot; 	title= NORMA TRACY &amp; THE CINDERELLA KIDS 
+11	26:58	artist=<a href="http://www.sonidolasserdrakar.com">SONIDO LASSER DRAKAR</a> 	title= The Center of the earth 
+12	30:58	artist=<a href="http://www.dragibus.org">DRAGIBUS</a> 	title= Remettez la gomme 
+13	31:16	artist=<a href="http://www.myspace.com/titmachine">TITMACHINE</a> 	title= Left 
+14	33:56	artist=<a href="http://www.harrymerry.com">HARRY MERRY</a> 	title= Sharky Super Machine 
+15	39:01	artist=<a href="http://www.myspace.com/glowstyxxx">GLOWSTYX</a> 	title= Aethema Remix 
+16	42:19	artist=<a href="http://www.myspace.com/bormuth">SUPERDOME 80</a> 	title= Auto gegen Pfütze 
+17	44:59	artist=<a href="http://www.myspace.com/rockstarwannnabe">ROCKSTAR WANNABE</a> 	title= Od ride 
+18	47:34	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Slides From Yesterday 
+19	51:52	artist=<a href="http://www.myspace.com/lemekla">LEM</a> 	title= Notre héros 
+20	54:51	artist=<a href="http://www.nosnetrom.net">HEIDI MORTENSON</a> 	title= Tiger 
+21	58:40	artist=THE GEORGE OF THE JUNGLE SHOW 	title= Super Chicken 
+22	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

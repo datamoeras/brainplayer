@@ -1,0 +1,20 @@
+1	01:16	artist=quot; 	title= <a href="http://tipsy.org">TIPSY</a> 
+2	04:28	artist=quot; 	title= SOLID SPACE 
+3	07:73	artist=quot; 	title= <a href="http://www.syndromewpw.net">SYNDROME WPW</a> 
+4	10:25	artist=quot; 	title= BRUNO LEYS 
+5	13:15	artist=quot; 	title= <a href="http://www.lastfm.fr/music/katapulto">KATAPULTO</a> 
+6	18:04	artist=quot; 	title= MODERNE 
+7	21:07	artist=quot; 	title= <a href="www.myspace.com/thecubasediva">THE CUBASE DIVA</a> 
+8	24:08	artist=quot; 	title= <a href="http://www.monsterzoku.com">MONSTER ZOKU ONSOMB</a> 
+9	27:04	artist=quot; 	title= WHITE NOISE 
+10	30:03	artist=quot; 	title= <a href="http://www.cockrockdisco.com/DS
+11	33:53	artist=quot; 	title= <a href="http://www.lossuperelegantes.com">LOS SUPER ELEGANTES</a> 
+12	37:30	artist=quot; 	title= <a href="http://www.etiennecharry.com">ETIENNE CHARRY</a> 
+13	38:03	artist=quot; 	title= THE NAMES 
+14	41:04	artist=quot; 	title= <a href="http://www.myspace.com/robotronkicksass">ROBOTRON</a> 
+15	43:16	artist=quot; 	title= GORILLA AKTIV 
+16	45:12	artist=quot; 	title= <a href="http://www.benetbene.net">BEN ET BENE</a> 
+17	48:33	artist=quot; 	title= <a href="http://www.etiennecharry.com">ETIENNE CHARRY</a> 
+18	49:53	artist=quot; 	title= MOOD MOSAIC 
+19	53:01	artist=quot; 	title= <a href="http://www.pankow.co.uk">PANKOW</a> 
+20	59:12	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

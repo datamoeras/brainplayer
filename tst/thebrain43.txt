@@ -1,0 +1,20 @@
+1	00:56	artist=RAYMOND LEFEVRE 	title= Diamant 
+2	02:57	artist=MINIPLI 550 	title= You preach the teaches of peaches 
+3	06:26	artist=RETRO*SEX*GALAXY 	title= How does a microscope magnify 
+4	09:19	artist=ANDRE BRASSEUR 	title= Studio 17 
+5	11:12	artist=MOON BUGGY 	title= Tropica 
+6	13:36	artist=HENRY SALVADOR 	title= Le martien 
+7	18:41	artist=LEONARD DE LEONARD 	title= Crack it 
+8	22:25	artist=THE NIRVANA SITAR &amp; STRING GROUP 	title= The letter 
+9	23:06	artist=KAP BAMBINO 	title= Interbootslipstick 
+10	28:41	artist=ORCHESTER FRANK VALDOR 	title= Black market 
+11	31:24	artist=MERRICKS 	title= Dumm sein gar nicht dumm 
+12	35:00	artist=ROSCAMPZINSKY 	title= La raie à gauche 
+13	37:24	artist=PRINTED CIRCUIT 	title= Binary jockeys 
+14	40:59	artist=EDDIE DRIVER 	title= Pop music 
+15	43:23	artist=WEVIE DE CREPON 	title= Ton wah 
+16	46:14	artist=JACK AREL &amp; PIERRE DUTOUR 	title= Follow me 
+17	48:30	artist=FIGURINE 	title= IMpossible 
+18	52:33	artist=ADULT 	title= Glue your eye lids together 
+19	56:24	artist=MIKI MIKRON 	title= Hey konsumisten 
+20	59:28	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 

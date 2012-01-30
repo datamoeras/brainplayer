@@ -1,0 +1,19 @@
+1	00:53	artist=MICHAELA MELIAN 	title= Brautlied 
+2	03:58	artist=<a href="http://gangpol.free.fr">GANGPOL UND MIT</a> 	title= Ou wa ou 
+3	07:55	artist=CHRIS MONTEZ 	title= Sunny 
+4	10:32	artist=<a href="http://www.motormark.net">MOTORMARK</a> 	title= Hardcore Recordings</a> 
+5	13:37	artist=ANDRE POP 	title= Bloody Serenade 
+6	16:49	artist=KARSTEN PFLUM 	title= BLFONK 2 
+7	20:57	artist=DIONNE WARWICK 	title= Mr Kiss Kiss Bang Bang 
+8	24:58	artist=<a href="http://www.co.mikmusik.org">CO</a> 	title= Corazon 
+9	28:21	artist=BERT KAEMPFERT 	title= Tahitian Sunset 
+10	30:59	artist=<a href="http://www.dmb.candymind.com">DOROTHY’S 	title=
+11	34:01	artist=JEANETTE 	title= Un dia es un dia 
+12	37:44	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Ich komme aus der Jazz
+13	39:47	artist=<a href="http://www.komorizone.com">KOMORI</a> 	title= Game Bup 
+14	45:42	artist=<a href="http://www.printed	title=circuit.net">PRINTED CIRCUIT</a> 
+15	48:46	artist=ESQUIVEL 	title= Sentimental journey 
+16	51:19	artist=<a href="http://www.hundertzwei.de">TILL STELLMACHER</a> 	title= Eintagsmaüse 
+17	54:06	artist=<a href="http://www.odd	title=music.de/index2.html">ODD</a> 
+18	56:25	artist=<a href="http://www.ripoffartist.net">THE RIPP OFF Air</a> 	title=
+19	59:21	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

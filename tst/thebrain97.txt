@@ -1,0 +1,22 @@
+1	00:42	artist=FRANÇOIS DE ROUBAIX 	title= LEnvol 
+2	03:45	artist=DIE PARTEI 	title= Rote Schuhe 
+3	05:51	artist=GEORGE WATTS 	title= Electric Man (DJs version) 
+4	11:05	artist=<a href="http://www.myspace.com/jontzor">NYHLIN</a> 	title= You Killed My Robot Friend 
+5	12:54	artist=ISABELLE 	title= Amstramgram 
+6	14:56	artist=MODERNE 	title= Indicatif 
+7	18:31	artist=<a href="http://david.chazam.free.fr">CHAZAM</a> 	title= Vivre Polonaise 
+8	21:04	artist=LIDIJA RUSLANOVA 	title= Utushka lugovaja 
+9	22:37	artist=LEON LAI 	title= Sugar in the marmelade 
+10	26:29	artist=HAPPY MONSTERS 	title= Clap your tentacles 
+11	29:10	artist=<a href="http://www.myspace.com/omarsouleyman">OMAR SOULEYMAN</a> 	title= Arabic Dabke 
+12	32:16	artist=<a href="http://www.ma	title=numminen.net/_fi/">M.A. NUMMINEM</a> 
+13	36:03	artist=<a href="http://stayali.dafydd.se">STAY ALI </a>	title= Dywt 
+14	39:03	artist=<a href="http://www.paperrad.org/rotflol/">ROTFLOL</a> 	title= Dannys revenge 
+15	42:15	artist=BAKERSFIELD BOOGIE BOYS 	title= Okie from Muskogee 
+16	44:13	artist=<a href="http://www.behappyordie.com">THE TOILET</a> 	title= Euro Guglagland 
+17	46:26	artist=<a href="http://www.martylog.com">MARTIN WHITE</a> 	title= Dont you want me 
+18	49:32	artist=<a href="http://www.myspace.com/alonetogether2030">ALONE TOGETHER</a> 	title= Tokyo 2030 
+19	54:01	artist=WESLEY WILLIS 	title= Time to rock 
+20	56:20	artist=? 	title= ? 
+21	57:16	artist=VLADIMIR COSMA 	title= Le Distrait 
+22	59:25	artist=<a href="http://www.google.fr/url?sa=t&amp;source=web&amp;ct=res&amp;cd=1&amp;ved=0CAgQFjAA&amp;url=http%3A//thebrain.lautre.net/index/schikowski/frederikschikowski.html&amp;ei=uuigS4K	title=BsfKjAeO5pnwDQ&amp;usg=AFQjCNFeJwxc4UiUi0b23rbFEhs9vb6B_w&amp;sig2=FRXaAa4UESHtX0C4ndUIew">FREDERIK SCHIKOWSKI</a> 

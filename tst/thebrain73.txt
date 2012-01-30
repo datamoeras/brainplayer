@@ -1,0 +1,21 @@
+1	00:41	artist=quot; 	title= <a href="http://www.splogman.com/">JAN TURKENBURG</a> 
+2	05:30	artist=quot; 	title= <a href="http://www.felixkubin.com">FELIX KUBIN</a> &amp; <a href="http://www.coolhaven.com/">COOLHAVEN</a> 
+3	09:07	artist=quot; 	title= <a href="http://www.mitch
+4	13:24	artist=quot; 	title= <a href="http://www.catani
+5	16:18	artist=quot; 	title= J. MATUSZKIEWICZ 
+6	19:16	artist=quot; 	title= <a href="http://www.monsterzoku.com">MONSTER ZOKU ONSOMB</a> 
+7	22:30	artist=quot; 	title= BUGGLES 
+8	27:12	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
+9	29:54	artist=quot; 	title= XAVIER CUGAT 
+10	32:35	artist=quot; 	title= <a href="http://www.wickens.net/ceramichello">CERAMIC HELLO</a> 
+11	35:27	artist=quot; 	title= MAX KEYDERSTORM 
+12	37:12	artist=quot; 	title= HERB ALPERT 
+13	39:41	artist=quot; 	title= GEZA X &amp; THE MOMMYMEN 
+14	42:55	artist=quot; 	title= <a href="http://www.magasnews.com">MAGAS</a> 
+15	46:52	artist=quot; 	title= <a href="http://www.freewebs.com/lollyandbrains">LOLLY AND BRAINS</a> 
+16	50:15	artist=quot; 	title= ASTRUD GILBERTO 
+17	52:46	artist=quot; 	title= CZ. NIEMEN 
+18	55:04	artist=quot; 	title= <a href="http://www.myspace.com/fraukraushaar">FRAU KRAUSHAAR</a> 
+19	56:46	artist=quot; 	title= <a href="http://hyprasouch.free.fr">2LASOOCHAV</a> 
+20	57:44	artist=quot; 	title= HENRI MANCINI 
+21	59:25	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

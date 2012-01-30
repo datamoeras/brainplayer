@@ -1,0 +1,23 @@
+1	01:20	artist=<a href="http://www.waikiki	title=islanders.pwp.blueyonder.co.uk">BASIL ENRIQUES</a> 
+2	03:14	artist=<a href="http://www.dmxkrew.dircon.co.uk">EDMX &amp; record</a>s 	title=
+3	06:03	artist=<a href="http://perso.wanadoo.fr/doowop">JUICY PANIC</a> 	title=
+4	09:48	artist=VICNET 	title= 01102002 
+5	13:26	artist=<a href="http://www.monopause.net">MONO PAUSE</a> 	title= Tui tui tui 
+6	17:15	artist=<a href="http://www.nunulaxnulan.biz">SATANICPORNOCULTSHOP</a> 	title= Dred mosque 
+7	21:16	artist=LEM 	title= Mehr licht 
+8	25:14	artist=BASSHOLES feat APRIL MARCH 	title= Moody 
+9	27:19	artist=GASMAN 	title= Fantasia 
+10	28:36	artist=PERFORMANCE 	title= Pilotes 
+11	30:48	artist=<a href="http://www.panatomic.de/panatomicf.html">CLOTHILDE</a> 	title= La queue du chat 
+12	33:59	artist=<a href="http://www.rapbitches.com">GRAVY TRAIN</a> 	title=
+13	36:11	artist=<a href="http://www.schlammpeitziger.com">SCHLAMMPEITZIGER</a> 	title= Starter für argwöhnische Anhangsel <a href="http://www.a
+14	39:27	artist=LES MUPPETS 	title= C’est bizarre 
+15	40:22	artist=<a href="http://www.jonnimogul.com">JONNI MOGUL</a> 	title=
+16	42:52	artist=PARIJUMPPA 	title= Pidä Kii 
+17	44:31	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Papa 
+18	46:45	artist=MINIMAL COMPACT 	title= When I go 
+19	49:55	artist=TULIP 	title= Chevalier 
+20	52:32	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Zufriedensein 
+21	54:47	artist=LALALA 	title= Il neige 
+22	56:53	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> Records</a> 	title=
+23	59:24	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 

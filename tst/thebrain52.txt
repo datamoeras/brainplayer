@@ -1,0 +1,24 @@
+1	01:00	artist=JEAN LANJEAN 	title= les 5 dernières minutes 
+2	02:31	artist=	title=
+3	05:09	artist=? 	title= Astroboy theme 
+4	06:18	artist=<a href="http://www.gagarinrecords.com">FELIX KUBIN</a> 	title= This is no dream 
+5	08:28	artist=RON GRANIER &amp; THE GIRLS 	title= Something’s going off tonight 
+6	10:20	artist=<a href="http://www.novahuta.de">NOVA HUTA</a> 	title= Bambij Robot 
+7	13:23	artist=<a href="http://deerhoof.killrockstars.com/">DEERHOOF</a> rock stars</a> 	title=
+8	16:31	artist=<a href="http://www.kostrow.com">OLEG KOSTROW</a> 	title=
+9	18:43	artist=NO MORE 	title= Suicide Commando 
+10	21:55	artist=<a href="http://www.romzrecord.com">WORLD’s END BOYFRIEND</a> 	title= Miss piggy 
+11	24:13	artist=<a href="http://home.earthlink.net/%7Eelbroome/longet">CLAUDINE LONGET</a> 	title= I Love How You Love Me 
+12	26:16	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Architecture and morality 
+13	29:39	artist=NINO ROTA 	title= Arrivederci Roma 
+14	31:29	artist=<a href="http://www.secretmommy.com">SECRET MOMMY</a>	title= 
+15	35:37	artist=THICK PIGEON 	title= Riding 
+16	38:53	artist=<a href="http://www.spaceagepop.com/riddle.htm">NELSON RIDDLE</a> 	title= Lolita Ya Ya 
+17	42:10	artist=<a href="http://www.kidwhatever.com">KID WHATEVER</a> 	title=
+18	45:18	artist=<a href="http://www.atatak.com/Epyrolator.htm">PYROLATOR</a> 	title= Vati, es brennt 
+19	48:29	artist=<a href="http://www.gelbartmusic.com">GELBART</a> 	title= Junk # 14 
+20	51:40	artist=HAKAN LIDBO 	title= Clockwise (HL punkslut mx) 
+21	53:35	artist=<a href="http://ak	title=duck.com/slat_play.htm">ROCKSTAR Duck Records</a> 
+22	56:39	artist=<a href="http://oomiak.oomiaq.free.fr">OOMIAQ</a> 	title= Je...2 
+23	57:39	artist=MICHEL COLOMBIER 	title= Fin des programmes 
+24	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

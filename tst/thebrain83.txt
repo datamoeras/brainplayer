@@ -1,0 +1,23 @@
+1	01:23	artist=quot; 	title= TULLIO GALLO 
+2	03:25	artist=quot; 	title= <a href="http://www.myspace.com/agaskodoteliverek">AGASKODO TELIVEREK</a> 
+3	05:02	artist=quot; 	title= SERGE GAINSBOURG 
+4	07:05	artist=quot; 	title= <a href="http://www.metronomy.co.uk">METRONOMY</a> 
+5	10:27	artist=quot; 	title= JEANETTE UND DAS LAND Z 
+6	12:31	artist=quot; 	title= EDITH NYLON 
+7	15:09	artist=quot; 	title= <a href="http://www.gsshgssh.com/GGTweb">GRABBA GRABBA TAPE</a> 
+8	16:31	artist=quot; 	title= <a href="http://www.ratatatmusic.com">RATATAT</a> 
+9	20:15	artist=quot; 	title= <a href="http://www.stinanordenstam.com">STINA NORDENSTAM</a> 
+10	24:13	artist=quot; 	title= LES CLASSELS 
+11	27:06	artist=quot; 	title= KARL BISCUIT 
+12	29:37	artist=quot; 	title= SONS OF ILSA 
+13	33:04	artist=quot; 	title= SUKI SUKI SWITCH 
+14	34:25	artist=quot; 	title= <a href="http://www.brainwashed.com/matmos/">MATMOS</a> 
+15	37:28	artist=quot; 	title= BETON CRISE 
+16	39:30	artist=quot; 	title= JOHNNY LOCATION 
+17	41:52	artist=quot; 	title= <a href="http://www.myspace.com/peredodudaboum">PERE DODUDABOUM</a> 
+18	46:18	artist=quot; 	title= LINDY LANE 
+19	48:18	artist=quot; 	title= <a href="http://www.buffalodaughter.com">BUFFALO DAUGHTER</a> 
+20	51:47	artist=quot; 	title= VOICE FARM 
+21	55:26	artist=quot; 	title= LEMIGRANTE 
+22	55:54	artist=quot; 	title= ARMANDO TROVAIOLI 
+23	59:26	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

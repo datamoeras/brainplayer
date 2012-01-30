@@ -1,0 +1,21 @@
+1	00:43	artist=quot; 	title= <a href="http://www.stereolab.co.uk">TIM GANE</a> &amp; <a href="http://www.highllamas.com">SEAN OHAGAN</a> 
+2	03:31	artist=quot; 	title= <a href="http://www.cobra
+3	06:09	artist=quot; 	title= <a href="http://www.eatstapes.com">EAT TAPES</a> 
+4	10:24	artist=quot; 	title= <a href="http://www.myspace.com/echokrank">ECHOKRANK</a> 
+5	11:49	artist=quot; 	title= WALL OF VOODOO 
+6	15:46	artist=quot; 	title= <a href="http://www.hundertzwei.de">TILL STELMACHER</a> 
+7	18:22	artist=quot; 	title= <a href="http://www.myspace.com/_frustration">FRUSTRATION</a> 
+8	21:59	artist=quot; 	title= <a href="http://www.noiamusic.com">N.O.I.A.</a> 
+9	24:32	artist=quot; 	title= <a href="http://www.myspace.com/cartonpark">CARTON PARK</a> 
+10	27:44	artist=quot; 	title= <a href="http://scarlattigoeselectro.free.fr">FISA BROTHAS</a> 
+11	29:18	artist=quot; 	title= TAUHITI 
+12	31:39	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 
+13	33:43	artist=quot; 	title= RACHEL RACHEL 
+14	37:03	artist=quot; 	title= <a href="http://www.myspace.com/chipshopboyz">CHIP SHOP BOYZ</a> 
+15	39:15	artist=quot; 	title= <a href="http://alcalica.org">ALCALICA</a> 
+16	44:31	artist=quot; 	title= DAVE BALL 
+17	49:36	artist=quot; 	title= YANN TOMITA 
+18	53:13	artist=quot; 	title= <a href="http://istari.sozialistischer
+19	54:46	artist=quot; 	title= <a href="http://www.disasteradio.org">DISASTERADIO</a> 
+20	58:02	artist=quot; 	title= TOMITA 
+21	59:25	artist=quot; 	title= <a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 

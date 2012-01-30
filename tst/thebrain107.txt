@@ -1,0 +1,20 @@
+1	00:20	artist=THE BRAIN 	title= Générique 2010 
+2	00:59	artist=MICHELE RICHARD 	title= Dou Da Dou 
+3	02:47	artist=BEN BUTLER &amp; MOUSE PAD	title= Teenage Portal 
+4	07:11	artist=LA FEMME 	title= Sur la planche 
+5	10:48	artist=HIKASHU 	title= Yochu No Kiki 
+6	15:22	artist=BARBARA MORGENSTERN 	title= Das Wort 
+7	18:39	artist=RYAN ELDER 	title= Planet unicorn theme with intro 
+8	19:09	artist=GAY ROBOT LOVERS 	title= Words 
+9	22:09	artist=IN NAMEN DES VOLKES 	title= Raumkrank 
+10	24:46	artist=CHARLES DE GOAL 	title= Modem 
+11	29:06	artist=PIXIES 	title= Alec Eiffel 
+12	31:45	artist=FELIX KUBIN 	title= Bandits one five 
+13	34:50	artist=ZOMS ZOMS 	title= Nightmare Stampede 
+14	38:05	artist=KLATEN 	title= Kloink street 
+15	41:44	artist=SPARKS 	title= All you ever think about is sex 
+16	45:12	artist=STEREOLAB 	title= everybodys weird except me 
+17	48:40	artist=DISZ/PLAY 	title= Jean
+18	52:05	artist=SOPHIE MAKHNO &amp; COLIN VERDIER 	title= Obsessions 68 
+19	54:52	artist=STAATSEINDE 	title= Ruimtevaart vooruit (remix by Rude 66) 
+20	59:45	artist=FREDERIK SCHIKOWSKI 	title= Indicatif The Brain 1.3 

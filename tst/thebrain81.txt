@@ -1,0 +1,21 @@
+1	01:10	artist=quot; 	title= PEPE JARAMILLO 
+2	03:13	artist=quot; 	title= <a href="http://www.polysics.com">POLYSICS</a> 
+3	06:28	artist=quot; 	title= <a href="http://scarlattigoeselectro.free.fr">DELASOUCHAVE</a> 
+4	10:50	artist=quot; 	title= <a href="http://www.myspace.com/agaskodoteliverek">AGASKODO TELIVEREK</a> 
+5	13:13	artist=quot; 	title= VANILLA / 8 
+6	16:22	artist=quot; 	title= POP TARTS 
+7	18:22	artist=quot; 	title= <a href="http://kumisolo.com">KUMI SOLO</a> 
+8	20:52	artist=quot; 	title= <a href="http://www.myspace.com/tijuanasoundmachine">BOSTICH &amp; FUSSIBLE</a> 
+9	23:28	artist=quot; 	title= <a href="http://www.twistedcharm.f2s.com">TWISTED CHARM</a> 
+10	27:04	artist=quot; 	title= THE BRASS CHOIR 
+11	29:28	artist=quot; 	title= <a href="http://www.pixiesmusic.com">THE PIXIES</a> 
+12	32:54	artist=quot; 	title= <a href="http://www.myspace.com/virginmegawhore">VMW</a> 
+13	35:37	artist=quot; 	title= <a href="http://www.stereototal.de">STEREOTOTAL</a> 
+14	38:49	artist=quot; 	title= <a href="http://magnetix.club.fr">MAGNETIX</a> 
+15	41:18	artist=quot; 	title= <a href="http://www.markallencam.com/theflyinglizards.html">FLYING LIZZARDS</a> 
+16	43:14	artist=quot; 	title= <a href="http://www.myspace.com/_frustration">FRUSTRATION</a> 
+17	44:52	artist=quot; 	title= <a href="http://www.mashgordon.com">MASH GORDON</a> 
+18	47:05	artist=quot; 	title= BERA MAOR 
+19	52:23	artist=quot; 	title= ONO WITH BLOW UP 
+20	56:20	artist=quot; 	title= <a href="http://clubdevo.com">DEVO</a> 
+21	59:26	artist=quot; 	title= <a href="FREDERIK SCHIKOWSKI">FREDERIK SCHIKOWSKI </a>

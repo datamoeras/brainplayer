@@ -1,0 +1,19 @@
+1	01:05	artist=<a href="http://www.projectpimento.com">PROJECT: PIMENTO</a> 	title= You only live twice 
+2	04:23	artist=<a href="http://www.myspace.com/xenoandoaklander">XENO &amp; OAKLANDER</a> 	title= Sentinelle 
+3	07:34	artist=<a href="http://mausspace.com">JOHN MAUS</a> 	title= Bennington 
+4	10:24	artist=THE EXPLORER 	title= Mr Bach meets Batman 
+5	13:30	artist=<a href="http://www.myspace.com/playsoundz">PLAYSOUNDZ</a> 	title= Mr Hyde and seek 
+6	15:13	artist=GEORGES VAN DUSEN 	title= The yodelling Chinaman 
+7	18:05	artist=EXPERIMENTAL PRODUCTS 	title= Modern living 
+8	23:44	artist=<a href="http://www.myspace.com/finesserunway">FINESSE &amp; RUNWAY</a> 	title= Disco rash 
+9	26:26	artist=CHRIS 	title= Crazy crazy 
+10	29:07	artist=<a href="http://www.stereototal.de/home/solo_brezel.html">BREZEL GOERING</a> 	title= Chez le dentiste 
+11	31:26	artist=<a href="http://www.humppa.com">ELAKELAISET</a> 	title= Das model 
+12	34:42	artist=KURUKI 	title= A crocodile tears 
+13	37:53	artist=<a href="http://www.niwouinwouin.com">NIWOUIWOUIN</a> 	title= Catastrophe 
+14	42:10	artist=ATARI 	title= Missil command 
+15	45:57	artist=<a href="http://www.vic	title=net.com">VICNET</a> 
+16	50:01	artist=SUGALO 	title= Leben ins Plastikleben 
+17	52:01	artist=<a href="http://www.myspace.com/eatrabbit">EAT RABBIT</a> 	title= Bouncing tale 
+18	55:36	artist=THE SPACE LADY 	title= Major Tom 
+19	59:25	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

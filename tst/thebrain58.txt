@@ -1,0 +1,25 @@
+1	00:50	artist=<a href="http://www.secretmommy.com">SECRET MOMMY</a> 	title= The beach 
+2	04:46	artist=<a href="http://www.motormark.net">MOTORMARK</a> 	title= Hardcore Recordings</a> 
+3	08:28	artist=<a href="http://www.osymyso.com">OSYMYSO</a> 	title=
+4	10:17	artist=SERGIO MENDES &amp; BRASIL 66 	title= Constant rain 
+5	13:02	artist=<a href="http://www.galerie	title=transition.de/candiehank/index.html">CANDIE 
+6	14:49	artist=<a href="http://www.krivda.net">DJ GAN</a> 	title= Apocaliptyca ?
+7	15:45	artist=<a href="http://www.ski	title=pp.com">DAT POLITICS</a> 
+8	18:41	artist=<a href="http://www.plasticbertrand.com">PLASTIC BERTRAND</a> 	title= Major Tom 
+9	22:25	artist=<a href="http://www.mochipet.com">MOCHIPET</a> 	title= Polka 
+10	25:12	artist=<a href="http://www.soundofzzz.nl">ZZZ</a> 	title= XTC 
+11	28:22	artist=THE LONDON RECORDER ENSEMBLE 	title= Sycnchropulse 
+12	30:29	artist=<a href="http://www.myrobotfriend.com">MY ROBOT FRIEND</a> 	title=
+13	32:34	artist=<a href="http://www.xotic.de">CINCHILLER</a> 	title= House 
+14	35:52	artist=A. F. LAVAGNINO &amp; ORCHESTRA 	title= Hong
+15	36:31	artist=<a href="http://www.liaisonsdangereuses.de">LIAISONS thing</a> 	title=
+16	39:51	artist=<a href="http://www.printed	title=circuit.net">PRINTED CIRCUIT</a> 
+17	42:55	artist=THE MC GUIRE SISTERS 	title= Moonglow 
+18	45:41	artist=THE SPEED FREAK 	title= The Way it Should Be 
+19	48:21	artist=THE STUDIO ENSEMBLE 	title= Norwegian Dance 
+20	49:50	artist=HEMORROY ROGERS 	title= Captain John’s secret diary 
+21	50:43	artist=<a href="http://www.hundertzwei.de">TILL STELLMACHER</a> 	title= Knopf 
+22	53:21	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Russian Dance 
+23	56:08	artist=<a href="http://www.francoisderoubaix.com">FRANCOIS DE ROUBAIX</a> 	title= Lhomme orchestre (génerique) 
+24	58:21	artist=PIERRE BACHELET 	title= Chez les Kiops (in Gwendoline) 
+25	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

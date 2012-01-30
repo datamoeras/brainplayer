@@ -1,0 +1,25 @@
+1	00:56	artist=<a href="http://www.laollaexpress.org/cat/motorcombo.html">MOTOR COMBO</a> 	title= Elis Elis 
+2	02:16	artist=<a href="http://www.tigerbeat6.com">KID 606</a> VS 6</a> 	title=
+3	04:20	artist=AUGUSTO GARINCHA 	title= Agua del mar 
+4	06:29	artist=	title=
+5	08:33	artist=<a href="http://jacnohimself.ifrance.com/jacnohimself/">ELLI &amp; JACNO</a> 	title= L’age atomique 
+6	12:15	artist=<a href="http://www.ripoffartist.net">THE RIP OFF labl</a> 	title=
+7	15:28	artist=<a href="http://www.laollaexpress.org/cat/motorc">MOTOR COMBO</a> 	title= La Comba 
+8	18:05	artist=<a href="http://www.claude	title=bolling.com">CLAUDE BOLLING</a> 
+9	20:24	artist=<a href="http://www.neoangin.com">NEOANGIN</a> 	title= BCN Insane 
+10	21:40	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Il joue le chat (avec les enfants) 
+11	25:10	artist=<a href="http://hubert.marecaille.free.fr">MONSIEUR HUBERT</a> 	title= Le sens de l’abnégation 
+12	26:16	artist=	title=
+13	29:12	artist=<a href="http://www.mrpacman.com">MR PACMAN</a> 	title= Paxcersize 
+14	32:36	artist=DIREKTJIVE 	title= Fuckrave 
+15	34:17	artist=KOKEE BAND 	title= More 
+16	36:39	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Too technical 
+17	39:00	artist=QUEENS HALL LIGHT ORCHESTRA 	title= China 
+18	41:20	artist=<a href="http://personal.inet.fi/taide/junttila/desert/engani/index.htm">DESERT Records</a> 	title=
+19	44:21	artist=THE BRAIN 	title= Tout pour les bisoux 
+20	45:20	artist=GLEITZEIT 	title= Ich komme aus der DDR 
+21	50:14	artist=<a href="http://perso.wanadoo.fr/w.w.">GROUPGRIS</a> 	title= Drugs n’roses 
+22	52:42	artist=CLOTHILDE 	title= La chanson bête et méchante 
+23	55:08	artist=HEMMOROY ROGERS 	title= I’m retarded 
+24	56:50	artist=SAVOY ORPHEANS 	title= Five foot two, eyes of blue 
+25	59:35	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 2.0 

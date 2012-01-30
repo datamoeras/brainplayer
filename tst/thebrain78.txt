@@ -1,0 +1,21 @@
+1	00:40	artist=BLUTSIPHON 	title= Dorf In Schweden 
+2	04:07	artist=<a href="http://hometown.aol.de/infrenuk/index.html">SUTTERLIN</a> 	title= Leichtes Herz 
+3	06:22	artist=<a href="http://www.alasdairwillis.com">VITAMIN B12</a> 	title= Voice Mechanics 
+4	06:46	artist=<a href="http://www.alasdairwillis.com,">VITAMIN B12</a> 	title= IBurn The Wheenies 
+5	09:02	artist=<a href="http://www.myspace.com/rockstarwannnabe">ROCKSTAR WANNABE</a> 	title= Feel alive 
+6	10:43	artist=<a href="http://www.a	title=i
+7	13:57	artist=<a href="http://trig.com/ekss">KINDER AUS ASBEST</a> 	title= Hey Engel
+8	15:48	artist=MAX TURNER 	title= Awa With The Birds 
+9	21:20	artist=MARTIN DENNY 	title= Off shore 
+10	23:18	artist=<a href="http://www.myspace.com/nicoteensillypoo">NICO TEEN</a> 	title= Run and hide 
+11	24:44	artist=<a href="http://www.shinto.at">SHINTO</a> 	title= Leopaldon Kikuzakari Enka Remix 
+12	30:30	artist=<a href="http://www.nicolewillis.com">NICOLLE WILLIS</a> 	title= If This Aint Love 
+13	33:56	artist=<a href="http://www.lamonjaenana.com">LA MONJA ENANA</a> 	title= Numeros 
+14	37:49	artist=<a href="http://www.felixkubin.com">FELIX KUBIN with GLORIA BRILLOWSKA</a> 	title= Lola La 
+15	42:28	artist=<a href="http://www.kaniatieffer.com">KANIA TIEFFER</a> 	title= Snoop Dog 
+16	46:20	artist=<a href="http://www.myspace.com/casiocommanders">CASIO COMANDERS</a> 	title= No somos rock 
+17	48:10	artist=FRED WEINBERG 	title= Aum Mau Mau 
+18	50:34	artist=KLAX 	title= Magnetar 
+19	54:32	artist=<a href="http://www.psilodump.se">PSILODUMPUTER</a> 	title= Im so full of you 
+20	57:46	artist=PUPI CAMPO 	title= Mambo Rhapsody 
+21	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI </a>	title= Indicatif The Brain 1.3 

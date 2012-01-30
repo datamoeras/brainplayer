@@ -1,0 +1,23 @@
+1	00:58	artist=MICHEL MAGNE 	title= Hymne à l argent 
+2	02:18	artist=<a href="http://perso.orange.fr/w.w.">KAP BAMBINO</a> 	title= Hey ! 
+3	04:23	artist=<a href="http://www.boingo.org">OINGO BOINGO</a> 	title= Journey through the intestines 
+4	05:11	artist=<a href="http://amigo	title=records.com/artists/turkish_delight/turkish_delight.htm">TURKISH DELIGHT</a> 
+5	07:34	artist=<a href="http://www.yvanlendl.ch">YVAN&amp;LENDL</a> 	title= Cavité buccale 
+6	08:15	artist=SHUNSUKE KIKUCHI 	title= &quot;Kure Kure Takora&quot; 
+7	11:18	artist=<a href="http://roddroid.free.fr">ROD DROïD</a> 	title= Le Père Noël vampire 
+8	15:13	artist=<a href="http://www.jimavignon.com">NEOANGIN</a> 	title= Hello Juke Box 
+9	17:31	artist=<a href="http://computertruck.parishq.net/">COMPUTER TRUCK</a> 	title= Euritmix sux my dix 
+10	20:25	artist=<a href="http://www.tetsuo.no">TETSUO &amp; MISS REBEL</a> 	title= Lowest of the lofi 
+11	23:01	artist=THE REMAINS 	title= Say youre sorry 
+12	24:52	artist=<a href="http://www.hawnaytroof.com">HAWNAY TROOF</a> 	title= Bad news from the stars 
+13	27:02	artist=<a href="http://www.client	title=online.net">CLIENT</a> 
+14	30:01	artist=<a href="http://www.harrymerry.com">HARRY MERRY</a> 	title= St. Benedictus school 
+15	34:43	artist=MICHEL MAGNE 	title= Pékin
+16	37:26	artist=<a href="http://www.catani	title=music.de/CANDIEHANK/CandieHank_Home.html">CANDIE HANK</a> 
+17	41:08	artist=<a href="http://www.mitch	title=and
+18	44:52	artist=PUSHCLICK 	title= Anreizfaktor 
+19	48:28	artist=<a href="http://www.mashgordon.com+">MASH GORDON</a> 	title= Brain explode 
+20	51:42	artist=NICOLLE MEYER 	title= Nowhere by mir 
+21	55:07	artist=<a href="http://www.stereototal.de">FRANCOISE CACTUS</a> 	title= You cant put your arms around a memory 
+22	56:59	artist=EDDIE VARTAN 	title= Le cri du cormoran le soir au dessus des jonques 
+23	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

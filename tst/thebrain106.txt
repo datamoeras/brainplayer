@@ -1,0 +1,21 @@
+1	00:38	artist=THE BRAIN 	title= Générique 2010 
+2	01:17	artist=<a href="http://www.myspace.com/titantitan">TITAN</a> 	title= 1, 2, 3, 4 
+3	03:15	artist=<a href="http://scarlattigoeselectro.blogspot.com">ANTOINE SOUCHAVE</a> feat ROYAN 	title= Holiday EurodanceRMX 
+4	07:32	artist=<a href="http://www.myspace.com/apparatorganquartet">ORGAN APPARAT QUARTET</a> 	title= Polynesia 
+5	11:56	artist=GIANA 	title= La Cocaina 
+6	13:53	artist=SILVIA 	title= Ich Bin Nicht Die 
+7	17:33	artist=<a href="http://www.myspace.com/girltalk">GIRL TALK</a> 	title= Triple Double 
+8	24:00	artist=<a href="http://www.katapulto.blogspot.com">KATAPULTO</a> 	title= Adventures in modern bathrooms 
+9	27:25	artist=<a href="http://cheveu.tk">CHEVEU</a> 	title= Charlie Sheen 
+10	30:09	artist=ANNI	title=FRID LYNGSTAD 
+11	32:28	artist=<a href="http://www.myspace.com/viudmoth">VIUDMOTH </a>	title= Red lights 
+12	36:46	artist=<a href="http://www.myspace.com/nicefacetheband">NICE FACE</a> 	title= I Want Your Damage 
+13	39:18	artist=<a href="http://www.weviestonder.com">WEVIE STONDER</a> 	title= Shut the gate 
+14	42:20	artist=<a href="http://www.electrocute.de">ELECTROCUTE</a> 	title= Tiger Toy 
+15	45:43	artist=BANYA 	title= Beethoven Virus con banda 
+16	47:23	artist=<a href="http://www.myspace.com/lestrucs">LES TRUCS</a> 	title= We Came To Destroy R&amp;R 
+17	49:42	artist=DARA PUSPITA 	title= A Go Go 
+18	51:49	artist=THE WONDERS OF SCIENCE 	title= Lets start a rumour 
+19	54:09	artist=SLICED TOMATOES 	title= Just brothers 
+20	56:27	artist=CHRIS GRANNER 	title= Funhouse5 
+21	59:40	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 

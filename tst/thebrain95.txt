@@ -1,0 +1,21 @@
+1	00:00	artist=DYLAN 	title= Cora Noël 
+2	00:38	artist=THE BRAIN 	title= Générique The Brain 2009 
+3	01:11	artist=<a href="http://www.korlapandit.com/">KORLA PANDIT</a> 	title= The way you look tonight 
+4	03:11	artist=STARTER 	title= Part of you 
+5	06:51	artist=<a href="http://www.thebirdandthebee.com">BIRD &amp; THE BEE</a> 	title= Again and again 
+6	09:27	artist=<a href="http://www.youtube.com/user/fashionpdg">FASHION PDG</a> [Schikowski karaokilled] 	title= 14 oder 18 
+7	11:30	artist=<a href="http://www.comateens.com">COMATEENS</a> 	title= Ghosts 
+8	15:18	artist=BERNIE SIZZEY 	title= Girlfriend song 
+9	18:27	artist=<a href="http://www.google.fr/url?sa=t&amp;source=web&amp;ct=res&amp;cd=1&amp;ved=0CAcQFjAA&amp;url=http%3A//www.myspace.com/pupajimthedubcreator&amp;ei=fu1NS_zvPOaQjAfz2oi9DQ&amp;usg=AFQjCNGIuBnTzWjpE9C5QqIx8e5n9Y7BMg&amp;sig2=7eGwPD7c	title=xiOf6jpOKCzYw">PUPAJIM</a> 
+10	21:26	artist=<a href="http://scarlattigoeselectro.free.fr">SCARLATTI GOES ELECTRO</a> 	title= MSP105 
+11	23:34	artist=KEIN MENSCH 	title= Kein Mensch 
+12	26:46	artist=<a href="http://pagesperso	title=orange.fr/claudine.tauziede/">CLAUDINE TAUZIEDE</a> 
+13	30:38	artist=<a href="http://www.lastfm.fr/music/Das+M">DAS M</a> 	title= Sturzflug Durch Das Weltbild 
+14	33:44	artist=<a href="http://www.myspace.com/fizzydinopop">FIZZY DINO POP</a> 	title= Wind up bird 
+15	35:13	artist=<a href="http://www.myspace.com/rainbowdragoneyes">RAINBOW DRAGON EYES</a> 	title= Blue Sky 
+16	39:23	artist=MIKADO 	title= La fille du soleil 
+17	43:14	artist=<a href="http://www.felixkubin.com">FELIX KUBIN</a> 	title= Lightning Strikes 
+18	46:20	artist=<a href="http://www.catani	title=music.de/candiehank/index.html">CANDIE HANK</a> 
+19	52:14	artist=<a href="http://www.vokskabinet.com">VOKS</a> 	title= Krat 
+20	55:11	artist=RATIONAL YOUTH 	title= Saturday in Silesia 
+21	59:26	artist=<a href="http://thebrain.lautre.net/index/schikowski/frederikschikowski.html">FREDERIK SCHIKOWSKI</a> 	title= Indicatif The Brain 1.3 
