@@ -124,20 +124,20 @@ return qq{
 		{
 			width:200px;
 			height:15px;
-			border: 2px solid #50b;
+			border: 1px solid #ccc;
 		}
 		#duration_background, #t_duration_background
 		{
 			width:200px;
 			height:15px;
-			background-color:#ddd;
+			background-color:#yellow;
 
 		}
 		#duration_bar, #t_duration_bar
 		{
 			width:0px;
 			height:15px;
-			background-color:#bbd;
+			background-color:#f0f;
 
 		}
 	    #main{
@@ -537,8 +537,10 @@ return qq{
 			<div id="msg" style="height: 1.2em;" class='output'></div>
 			<br />
 			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
-			<div id="t_duration_background"  onClick="t_durationClicked(event);">
-				<div id="t_duration_bar" class="duration_bar"></div>
+			<div id="t_duration" class"'player_control" >
+				<div id="t_duration_background"  onClick="t_durationClicked(event);">
+					<div id="t_duration_bar" class="duration_bar"></div>
+				</div>
 			</div>
 			<div id="content" style="height: 4.8em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
 			<br />
