@@ -39,7 +39,19 @@ return qq{
 		<style type="text/css">
 		*,span,div,i,center,strong {
 			font-size: 11px;
-			font-family: verdana;
+			font-family: Arial, sans-serif;
+		}
+		input { 
+			border: 1px solid #ccc;
+			color: #f09;
+		}
+		a {
+			color: #f0f;
+			text-decoration: none;
+		}
+		a:hover {
+			background: yellow;
+			color: #f0f;
 		}
 		#content
 		{
@@ -223,6 +235,7 @@ return qq{
 				var dv = document.getElementById("tt" + (parseInt(dt[1])-1));
 				if (dv != undefined) {
 					dv.style.background = "white";
+					dv.style.color = "black";
 					dv.style.fontWeight = 100;
 				}
 			}
@@ -236,7 +249,8 @@ return qq{
 				var bt = '';
 				bt += '<span style="float:right">[love][share]</span>';
 				document.getElementById("content").innerHTML = bt + tdata["artist"]+"<br/>"+tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + "</span>";
-				dv.style.background = "red";
+				dv.style.background = "yellow";
+				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
 			}
 		}
