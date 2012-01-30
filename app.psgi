@@ -374,10 +374,10 @@ return qq{
 				return;
 			}
 			if(audio_player.paused || element.value == ">") {
-				audio_player.play();
+				try { audio_player.play(); } catch (e) { };
 				newdisplay = "||";
 			}else{
-				audio_player.pause();
+				try { audio_player.pause(); } catch (e) { };
 				newdisplay = ">";
 			}
 			element.value=newdisplay;
