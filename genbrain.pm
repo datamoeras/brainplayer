@@ -11,12 +11,16 @@ use Mojo::DOM;
 
 use Data::Dumper;
 
-sub readbrain {
-	my $i = shift;
+sub basedir {
 	my $pdp = $INC{'genbrain.pm'};
 	my @pd = split /\//, $pdp;
 	pop@pd;
-	my $path = join('/', @pd);
+	my $path = join('/', @pd) . '/';
+	return $path;
+}
+sub readbrain {
+	my $i = shift;
+	my $path = basedir();
 	my $fn = $path . "brains/$i.html";
 	open(my $fh, '<', $fn);
 	my $dom = Mojo::DOM->new(join('', <$fh>));
@@ -108,7 +112,8 @@ sub kgi {
 	return $s;
 }
 sub readall {
-	my $bdr = "/home/raoul/jp/brains";
+	my $path = basedir();
+	my $bdr = "${path}brains";
 	opendir(my $dh, $bdr);
 	my @ls;
 	for my $f (grep -f "$bdr/$_" => readdir($dh)) {
