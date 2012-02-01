@@ -44,7 +44,9 @@ sub parse_page {
 	my $nom = pop@pd;
 	$nom =~ s/\.mp3$//g;
 	$data{title} = $nom;
+	$data{src} = 'http://doscii.nl/dm/thebrain/' . $nom;
 	$data{img} = $image;
+	# print STDERR "title=$nom\n";
 
 	$dom->find('span.metadataShortCut')->each(sub {
 		my $e = shift;

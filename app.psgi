@@ -166,10 +166,15 @@ return qq{
 			if (msg != undefined) 
 				msg.innerHTML = data["title"];
 			var src = data["src"];
+			if (src == undefined) src = '';
 			if (navigator.userAgent.indexOf("Firefox")==-1 || ( navigator.platform.indexOf("Mac")!=-1 || /Safari/.test(navigator.userAgent))) {
 				src = src.replace(new RegExp('ogg\$', 'i'), 'mp3');
 			}
+			if (src.match(/thebrain\\d+.mp3/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://thebrainradio.com/mp3/');
+			if (src.match(/thisisradioclash.*mp3\\\$/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://www.thisisradioclash.org/mp3/');
+
 			aplayer.setAttribute("src", src);
+			document.getElementById("save_as").setAttribute("href", src);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
 			draw_tracklist(tracklist, i, data["list"]);
@@ -514,7 +519,7 @@ return qq{
 	<body onLoad="pageLoaded();">
 	<div id='main' style="z-index: 19">
 		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
-		<div id='player' style="position:fixed;left: 200px;width: 400px;top: 36px;">
+		<div id='player' style="position:fixed;left: 200px;width: 400px;top: 4px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
@@ -524,6 +529,7 @@ return qq{
 				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
+				<a href="#" target="_blank" title="Right click" id="save_as">save as</a>
 				<!--
 				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
@@ -532,15 +538,15 @@ return qq{
 				</div>
 				<input type="button" class='player_control'  id='volume_button' onClick="volumeClicked();" value="Vol">
 				-->
-			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
+			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
-		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 36px;">
+		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 4px;">
 			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 90px;left: 200px">
-			<div id="msg" style="height: 1.2em;" class='output'></div>
+		<div id="current" style="position: fixed; top: 40px;left: 200px">
+			<div id="msg" style="height: 1.2em;display: none;" class='output'></div>
 			<br />
 			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
 			<div id="t_duration" class"'player_control" >
