@@ -44,7 +44,7 @@ sub parse_page {
 	my $nom = pop@pd;
 	$nom =~ s/\.mp3$//g;
 	$data{title} = $nom;
-	$data{src} = 'http://doscii.nl/dm/thebrain/' . $nom;
+	$data{src} = 'http://doscii.nl/dm/thebrain/' . $nom . '.ogg';
 	$data{img} = $image;
 	# print STDERR "title=$nom\n";
 
