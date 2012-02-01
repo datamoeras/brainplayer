@@ -33,8 +33,32 @@ sub readbrain {
 	$input =~ s/&#146;/-/gi;
 	$input =~ s/&#148;/-/gi;
 	my $dom = Mojo::DOM->new($input);
-	return parsebrain($i, $dom);
+	return $input =~ /metadataShortCut/ ? parse_page($dom) : parsebrain($i, $dom);
 }
+sub parse_page {
+	my $dom = shift;
+	my %data = ( list => [] );
+	my $image = $dom->find('meta[property="og:image"]')->first->attrs('content');
+	my $mp3 = $dom->find('meta[property="og:audio"]')->first->attrs('content');
+	my @pd = split /\//, $mp3;
+	my $nom = pop@pd;
+	$nom =~ s/\.mp3$//g;
+	$data{title} = $nom;
+	$data{img} = $image;
+
+	$dom->find('span.metadataShortCut')->each(sub {
+		my $e = shift;
+		my $text = $e->text;
+		$text =~ s/^(\d{1,2}):(\d{1,2}) //;
+		my $tm = [$1, $2];
+		my $from = ( $tm->[0] * 60 ) + $tm->[1];
+		my ($artist, $title) = split / ?- ?/, $text, 2;
+		my %extra;
+		push @{ $data{ list } }, [ $tm, { artist => $artist, title => $title, from => $from, %extra }];
+	});
+	return \%data;
+}
+
 sub parselist {
 	my $i = shift;
 	my $list = shift;
@@ -153,7 +177,7 @@ sub readall {
 		push @ls, $fn;
 	}
 	no warnings;
-	return [ sort { kgi($a) <=> kgi($b) } grep { $_ && $_->{list} && @{$_->{list}} > 6 } map eval{readbrain($_)} => @ls ];
+	return [ sort { $a->{title} cmp $b->{title} } grep { $_ && $_->{list} && @{$_->{list}} > 6 } map eval{readbrain($_)} => @ls ];
 }
 
 }
