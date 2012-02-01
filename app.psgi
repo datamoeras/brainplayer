@@ -155,7 +155,7 @@ return qq{
 		var volume_button; 
 		var volume_control;
 		function focus_track(i, os) {
-			if (os == undefined) os = 120;
+			if (os == undefined) os = 0;
 			var div = document.getElementById("track" + i);
 			var msg = document.getElementById("cttl");
 			var aplayer = document.getElementById("aplayer");
@@ -176,7 +176,9 @@ return qq{
 			playClicked();
 			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
-			window.setTimeout(function(){ seekto(os); }, 200);
+			if (os > 0)
+				window.setTimeout(function(){ seekto(os); }, 200);
+
 			document.getElementById("pochette").src = data["img"];
 		}
 		function seekto(s) {
@@ -387,6 +389,7 @@ return qq{
 		{
 			document.getElementById("playButton").value=">";
 			var nxt = parseInt(ci)+1;
+			if (db[nxt] == undefined) nxt = 0;
 			// alert("eind van " + ci + ", skip naar " + nxt);
 			focus_track(nxt);
 		}
@@ -552,7 +555,7 @@ return qq{
 	</div>
 	<div style="position: absolute; left: 0px;top: 70px;" id="playlist">
 	</div>
-	<img style="position: absolute; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
+	<img style="position: fixed; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
 </body>
 </html>
 };
