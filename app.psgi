@@ -177,6 +177,7 @@ return qq{
 			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
 			window.setTimeout(function(){ seekto(os); }, 200);
+			document.getElementById("pochette").src = data["img"];
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -506,9 +507,9 @@ return qq{
 		<base target="_blank">
 	</head>
 	<body onLoad="pageLoaded();">
-		<div id='main'>
+	<div id='main' style="z-index: 19">
 		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
-		<div id='player' style="position:fixed;left: 100px;width: 400px;top: 36px;">
+		<div id='player' style="position:fixed;left: 160px;width: 400px;top: 36px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
@@ -528,12 +529,12 @@ return qq{
 				-->
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
-		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 100px;left: 450px;top: 36px;">
+		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 160px;left: 450px;top: 36px;">
 			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 90px;left: 100px;">
+		<div id="current" style="position: fixed; top: 90px;left: 160px">
 			<div id="msg" style="height: 1.2em;" class='output'></div>
 			<br />
 			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
@@ -546,11 +547,12 @@ return qq{
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
-			<div id="scloud" style="width: 450px; overflow: auto;z-index: 0;">$cloud</div>
+			<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>
 		</div>
-	    </div>
+	</div>
 	<div style="position: absolute; left: 0px;top: 70px;" id="playlist">
 	</div>
+	<img style="position: absolute; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
 </body>
 </html>
 };
