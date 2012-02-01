@@ -179,7 +179,9 @@ return qq{
 			if (os > 0)
 				window.setTimeout(function(){ seekto(os); }, 200);
 
-			document.getElementById("pochette").src = data["img"];
+			document.getElementById("pochette").src = "data:image/gif;base64,R0lGODlhHwA0ALMAAP//////AP8A//8AAAD//wD/AAAA/wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAgALAAAAAAfADQAAAT/EMkpj704081r+WBYHF1JHSCKfqR5Zlaawm23huqoi3V5yyzRyDX5BY1DYlGI7CkRSJ6SdsuxaDYmcIczNXXWrusblE61zaeHx1RDA/DAIA6fx50+u3xf58vxGwd9enOEfIAVdHp9inSAB4aRcYWTToJ7koOTh0WNnpufASSQm5mYpZWClJqsp5oWjHSyi7KMsKt1pgOLlBaGcru4hcGxA7CNwbS5u35wvqDAy8zRxbfNs9O1p8e0vNnXdtaZyXbCe8+t5rrH0NratOiu8uqp8u7325fhVPz6zqqH+sF4RcoWhjIZql0CdUHICG6y4q0SmE5cu3uSIIYCN+vfPD/0Kl69SQeypJ4aC7t1/GTpo65zNlCRPOnlokpnRAC+nIMokEx5PTkIxFAiAgA7";
+			if (data["img"] != '')
+				document.getElementById("pochette").src = data["img"];
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -230,7 +232,7 @@ return qq{
 			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
 			set_volume(1.0);
-			focus_track(Math.floor(Math.random()*db.length));
+			focus_track(Math.floor(Math.random()*(db.length/3)));
 		}
 		function set_volume(new_volume)
 		{
@@ -512,7 +514,7 @@ return qq{
 	<body onLoad="pageLoaded();">
 	<div id='main' style="z-index: 19">
 		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
-		<div id='player' style="position:fixed;left: 160px;width: 400px;top: 36px;">
+		<div id='player' style="position:fixed;left: 200px;width: 400px;top: 36px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
@@ -532,12 +534,12 @@ return qq{
 				-->
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="auto" autobuffer="yes"></audio>
 		</div>
-		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 160px;left: 450px;top: 36px;">
+		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 36px;">
 			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 90px;left: 160px">
+		<div id="current" style="position: fixed; top: 90px;left: 200px">
 			<div id="msg" style="height: 1.2em;" class='output'></div>
 			<br />
 			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
@@ -553,7 +555,7 @@ return qq{
 			<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>
 		</div>
 	</div>
-	<div style="position: absolute; left: 0px;top: 70px;" id="playlist">
+	<div style="position: absolute; left: 0px;top: 00px;z-index: 1; width: 220px; overflow: none;" id="playlist">
 	</div>
 	<img style="position: fixed; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
 </body>
