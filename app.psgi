@@ -166,7 +166,7 @@ return qq{
 			if (msg != undefined) 
 				msg.innerHTML = data["title"];
 			var src = data["src"];
-			if (navigator.userAgent.indexOf("Firefox")==-1 || navigator.platform.indexOf("Mac")!=-1) {
+			if (navigator.userAgent.indexOf("Firefox")==-1 || ( navigator.platform.indexOf("Mac")!=-1 || /Safari/.test(navigator.userAgent))) {
 				src = src.replace(new RegExp('ogg\$', 'i'), 'mp3');
 			}
 			aplayer.setAttribute("src", src);
@@ -197,7 +197,7 @@ return qq{
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + ' ' + data["title"] + '</nobr></div>';
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + ' ' + data["title"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 				/*
 				div.innerHTML += '<div style="" froms="' + data["from"] + '" id="tt' + ij + '" onclick="seekto(' + data["from"] + ')">';
