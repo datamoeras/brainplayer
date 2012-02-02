@@ -525,7 +525,7 @@ return qq{
 	</head>
 	<body onLoad="pageLoaded();">
 	<div id='main' style="z-index: 19">
-		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
+		<h3 style="text-align: left; color:#f0f"><a href="http://github.com/datamoeras/brainplayer">GPL</a>&nbsp;<a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
 		<div id='player' style="position:fixed;left: 200px;width: 400px;top: 4px;">
 				<div id="duration" class"'player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
