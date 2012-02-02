@@ -170,6 +170,14 @@ sub kgi {
 }
 sub readall {
 	my $path = basedir();
+	my $sf = $path . '/data.pd';
+	my $VAR1;
+	my $data = do $sf;
+	# unless ($data) { return readall_raw(); }
+	return $data;
+}
+sub readall_raw {
+	my $path = basedir();
 	my $bdr = "${path}brains";
 	opendir(my $dh, $bdr);
 	my @ls;

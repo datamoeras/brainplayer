@@ -17,12 +17,30 @@ if ($ARGV[0] && $ARGV[0] =~ /^-j$/) {
 	shift;
 	$opt{json}++;
 }
+if ($ARGV[0] && $ARGV[0] =~ /^-s$/) {
+	shift;
+	$opt{save}++;
+}
+if ($ARGV[0] && $ARGV[0] =~ /^-r$/) {
+	shift;
+	$opt{read}++;
+}
 if ($ARGV[0]) {
 	my $b = genbrain::readbrain($ARGV[0]);
 	tstbrn($b, 1);
 } else {
 	my $data = genbrain::readall();
-	if ($opt{json}) {
+	if ($opt{save}) {
+		my $sf = $path . 'data.pd';
+		open(my $fh, '>', $sf);
+		print $fh Dumper($data);
+		close($fh);
+	} elsif ($opt{read}) {
+		my $sf = $path . 'data.pd';
+		my $VAR1;
+		my $data = do $sf;
+		print Dumper($data);
+	} elsif ($opt{json}) {
 		print JSON->new->encode($data);
 	} else {
 		#print Dumper($data);
