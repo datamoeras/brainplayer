@@ -174,8 +174,8 @@ return qq{
 			if (navigator.userAgent.indexOf("Firefox")==-1 || ( navigator.platform.indexOf("Mac")!=-1 || /Safari/.test(navigator.userAgent))) {
 				src = src.replace(new RegExp('ogg\$', 'i'), 'mp3');
 			}
-			if (src.match(/thebrain\\d+.mp3/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://thebrainradio.com/mp3/');
-			if (src.match(/thisisradioclash.*mp3\\\$/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://www.thisisradioclash.org/mp3/');
+			// if (src.match(/thebrain\\d+.mp3/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://thebrainradio.com/mp3/');
+			// if (src.match(/thisisradioclash.*mp3\\\$/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://www.thisisradioclash.org/mp3/');
 
 			aplayer.setAttribute("src", src);
 			document.getElementById("save_as").setAttribute("href", src);
