@@ -163,8 +163,12 @@ return qq{
 			var data = db[i];
 			if (data == undefined) return;
 			if (aplayer == undefined) return;
-			if (msg != undefined) 
-				msg.innerHTML = data["title"];
+			if (msg != undefined) {
+				var tit = data["title"];
+				if (tit == undefined) tit = '';
+				if (tit.match(/thisisrad/)) tit = "<nobr>" + tit + "<nobr>"
+				msg.innerHTML = tit;
+			}
 			var src = data["src"];
 			if (src == undefined) src = '';
 			if (navigator.userAgent.indexOf("Firefox")==-1 || ( navigator.platform.indexOf("Mac")!=-1 || /Safari/.test(navigator.userAgent))) {
@@ -308,7 +312,9 @@ return qq{
 					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
 					tdata["artist"]+"<br/>"+
 					'<input id="button_love" class="player_control" type="button" onClick="click_love();" style="" value="&hearts;" ></input>'+ 
-					tdata["title"] + '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
+					tdata["title"];
+				if (tdata["year"] == undefined) tdata["year"] = '';
+				if (tdata["label"] != undefined) document.getElementById("content").innerHTML += '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
 				dv.style.background = "yellow";
 				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
