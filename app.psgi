@@ -434,7 +434,7 @@ return qq{
 		{
 			//get the position of the event
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 100;
+			left = event.currentTarget.offsetLeft + 200;
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
 			// alert("track_duration=" + track_duration);
@@ -450,7 +450,7 @@ return qq{
 		{
 			//get the position of the event
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 100;
+			left = event.currentTarget.offsetLeft + 200;
 			clickoffset = clientX - left;
 			// alert("clientX=" + clientX + " - offsetLeft=" + left + " => " + clickoffset);
 			percent = clickoffset/event.currentTarget.offsetWidth;
