@@ -70,6 +70,7 @@ return qq{
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="shortcut icon" type="image/png" href="http://www.musiques-incongrues.net/forum/themes/vanilla/styles/scene/favicon.png"/>
 		<title>brain prayer</title>
 		<style type="text/css">
 		*,span,div,i,center,strong {
