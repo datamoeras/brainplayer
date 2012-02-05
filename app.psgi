@@ -55,6 +55,8 @@ sub search_cloud {
 		$c *= 10;
 		if ($c  > 20) { $c /= 4 }
 		if ($c  > 10) { $c /= 2 }
+		if (rand() > .85) { $c *=2; 
+		} elsif (rand() > .92) { $c *=3; }
 		if ($art =~ /ogosam/i) { $c *= 2 }
 		$art =~ s/['"]//g;
 		$h .= qq|<a href="#" style="font-size: ${c}px;" onclick="search_txt('$art');return false;">$art</a>&nbsp;|;
@@ -532,7 +534,7 @@ return qq{
 						<div id="duration_bar" class="duration_bar"></div>
 					</div>
 				</div>
-				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&gt;" ></input>
+				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&nbsp;&nbsp;&gt;&nbsp;&nbsp;" ></input>
 				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>

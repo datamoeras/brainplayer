@@ -23358,6 +23358,305 @@ $VAR1 = [
                       ]
           },
           {
+            'src' => 'http://doscii.nl/dm/thebrain/thebrain90.ogg',
+            'img' => 'http://thebrain.lautre.net/playlists/../gifs/horsepsyche.gif',
+            'title' => 'thebrain90',
+            'list' => [
+                        [
+                          [
+                            '04',
+                            34
+                          ],
+                          {
+                            'artist' => 'COF COF',
+                            'rest' => 'COF COF - Dirty Tricks - Online release - 2008',
+                            'from' => 274,
+                            'href' => 'http://www.cofcof.es',
+                            'label' => 'Online release',
+                            'title' => 'Dirty Tricks',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            '07',
+                            35
+                          ],
+                          {
+                            'artist' => 'INFORMATICS',
+                            'rest' => 'INFORMATICS - What a world - Au Go Go - 1982',
+                            'from' => 455,
+                            'label' => 'Au Go Go',
+                            'title' => 'What a world',
+                            'year' => '1982'
+                          }
+                        ],
+                        [
+                          [
+                            '09',
+                            49
+                          ],
+                          {
+                            'artist' => 'STOP DISCO MAFIA',
+                            'rest' => 'STOP DISCO MAFIA - Eastern Parkway - Proptronix - 2006',
+                            'from' => 589,
+                            'href' => 'http://www.proptronix.net',
+                            'label' => 'Proptronix',
+                            'title' => 'Eastern Parkway',
+                            'year' => '2006'
+                          }
+                        ],
+                        [
+                          [
+                            13,
+                            33
+                          ],
+                          {
+                            'artist' => 'CHRISTINE DELAROCHE',
+                            'rest' => 'CHRISTINE DELAROCHE - La porte a côte - Vogue - 1966',
+                            'from' => 813,
+                            'label' => 'Vogue',
+                            'title' => 'La porte a côte',
+                            'year' => '1966'
+                          }
+                        ],
+                        [
+                          [
+                            16,
+                            '02'
+                          ],
+                          {
+                            'artist' => 'DAT POLITICS',
+                            'rest' => 'DAT POLITICS - M.A.D.K.I.T. - Chicks on speed records - 2009',
+                            'from' => 962,
+                            'href' => 'http://www.chicksonspeed-records.com',
+                            'label' => 'Chicks on speed records',
+                            'title' => 'M.A.D.K.I.T.',
+                            'year' => '2009'
+                          }
+                        ],
+                        [
+                          [
+                            20,
+                            40
+                          ],
+                          {
+                            'artist' => 'GORILLA AKTIV',
+                            'rest' => 'GORILLA AKTIV - Maedchen in weiss - SSR - 1980/1998',
+                            'from' => 1240,
+                            'label' => 'SSR',
+                            'title' => 'Maedchen in weiss',
+                            'year' => '1980/1998'
+                          }
+                        ],
+                        [
+                          [
+                            23,
+                            29
+                          ],
+                          {
+                            'artist' => 'FRANCE GALL',
+                            'rest' => 'FRANCE GALL - Frankenstein - EMI - 1972',
+                            'from' => 1409,
+                            'label' => 'EMI',
+                            'title' => 'Frankenstein',
+                            'year' => '1972'
+                          }
+                        ],
+                        [
+                          [
+                            25,
+                            50
+                          ],
+                          {
+                            'artist' => 'SYNDROME WPW',
+                            'rest' => 'SYNDROME WPW - Kein sex mit nazis - Midinette records - 2008',
+                            'from' => 1550,
+                            'href' => 'http://www.midinetterecords.net',
+                            'label' => 'Midinette records',
+                            'title' => 'Kein sex mit nazis',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            29,
+                            20
+                          ],
+                          {
+                            'artist' => 'COIL',
+                            'rest' => 'COIL - Ubu Noir - Force and form - 1984',
+                            'from' => 1760,
+                            'label' => 'Force and form',
+                            'title' => 'Ubu Noir',
+                            'year' => '1984'
+                          }
+                        ],
+                        [
+                          [
+                            30,
+                            22
+                          ],
+                          {
+                            'artist' => 'BAL PARE',
+                            'rest' => 'BAL PARE - Rien ne va plus - Tatra Productions - 1994',
+                            'from' => 1822,
+                            'href' => 'http://www.myspace.com/balpare',
+                            'label' => 'Tatra Productions',
+                            'title' => 'Rien ne va plus',
+                            'year' => '1994'
+                          }
+                        ],
+                        [
+                          [
+                            33,
+                            52
+                          ],
+                          {
+                            'artist' => 'FUSSEL',
+                            'rest' => 'FUSSEL - Frosch - Zoik Musik - 2008',
+                            'from' => 2032,
+                            'href' => 'http://www.zoikmusic.de',
+                            'label' => 'Zoik Musik',
+                            'title' => 'Frosch',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            37,
+                            30
+                          ],
+                          {
+                            'artist' => 'JOHANA SHIMKUS',
+                            'rest' => 'JOHANA SHIMKUS - Les aventuriers - Ducretet - 1967 ',
+                            'from' => 2250,
+                            'label' => 'Ducretet',
+                            'title' => 'Les aventuriers',
+                            'year' => '1967'
+                          }
+                        ],
+                        [
+                          [
+                            39,
+                            21
+                          ],
+                          {
+                            'artist' => 'MONSTER ZOKU ONSOMB',
+                            'rest' => 'MONSTER ZOKU ONSOMB - Xylophobia - Solnze records - 2008',
+                            'from' => 2361,
+                            'href' => 'http://www.solnzerecords.com',
+                            'label' => 'Solnze records',
+                            'title' => 'Xylophobia',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            42,
+                            16
+                          ],
+                          {
+                            'artist' => 'KIKIFRUIT',
+                            'rest' => 'KIKIFRUIT - Pandoras lips - Unreleased - 2008',
+                            'from' => 2536,
+                            'href' => 'http://www.myspace.com/kikifruitfromboulorod',
+                            'label' => 'Unreleased',
+                            'title' => 'Pandoras lips',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            44,
+                            22
+                          ],
+                          {
+                            'artist' => 'CLOTHILDE',
+                            'rest' => 'CLOTHILDE - Saperlipopette - Vogue - 1967',
+                            'from' => 2662,
+                            'label' => 'Vogue',
+                            'title' => 'Saperlipopette',
+                            'year' => '1967'
+                          }
+                        ],
+                        [
+                          [
+                            46,
+                            57
+                          ],
+                          {
+                            'artist' => 'LOGOSAMPHIA',
+                            'rest' => 'LOGOSAMPHIA - Anti jacket rain from bulgary - Unreleased - 2008 ',
+                            'from' => 2817,
+                            'href' => 'http://www.myspace.com/logosamphia',
+                            'label' => 'Unreleased',
+                            'title' => 'Anti jacket rain from bulgary',
+                            'year' => '2008'
+                          }
+                        ],
+                        [
+                          [
+                            50,
+                            54
+                          ],
+                          {
+                            'artist' => 'JANY L',
+                            'rest' => 'JANY L - Le restaurant chinois - Germinal - 1969',
+                            'from' => 3054,
+                            'label' => 'Germinal',
+                            'title' => 'Le restaurant chinois',
+                            'year' => '1969'
+                          }
+                        ],
+                        [
+                          [
+                            53,
+                            12
+                          ],
+                          {
+                            'artist' => 'BREZEL GOERING',
+                            'rest' => 'BREZEL GOERING - Version nummer zwei - The Brain Records - 2009',
+                            'from' => 3192,
+                            'href' => 'http://thebrain.lautre.net',
+                            'label' => 'The Brain Records',
+                            'title' => 'Version nummer zwei',
+                            'year' => '2009'
+                          }
+                        ],
+                        [
+                          [
+                            56,
+                            32
+                          ],
+                          {
+                            'artist' => 'AAAVIKKO',
+                            'rest' => 'AAAVIKKO - Specto supernus - Stupido - 2009',
+                            'from' => 3392,
+                            'href' => 'http://www.stupido.fi',
+                            'label' => 'Stupido',
+                            'title' => 'Specto supernus',
+                            'year' => '2009'
+                          }
+                        ],
+                        [
+                          [
+                            59,
+                            26
+                          ],
+                          {
+                            'artist' => 'FREDERIK SCHIKOWSKI',
+                            'rest' => 'FREDERIK SCHIKOWSKI - Indicatif The Brain 1.3 - Unreleased - 2004</p> </td>',
+                            'from' => 3566,
+                            'href' => 'http://thebrain.lautre.net/index/schikowski/frederikschikowski.html',
+                            'label' => 'Unreleased',
+                            'title' => 'Indicatif The Brain 1.3',
+                            'year' => '2004</p> </td>'
+                          }
+                        ]
+                      ]
+          },
+          {
             'src' => 'http://doscii.nl/dm/thebrain/thebrain91.ogg',
             'img' => 'http://thebrain.lautre.net/playlists/../gifs/ghost-tennis.gif',
             'title' => 'thebrain91',

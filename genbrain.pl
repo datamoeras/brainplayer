@@ -29,7 +29,7 @@ if ($ARGV[0]) {
 	my $b = genbrain::readbrain($ARGV[0]);
 	tstbrn($b, 1);
 } else {
-	my $data = genbrain::readall();
+	my $data = genbrain::readall_raw();
 	if ($opt{save}) {
 		my $sf = $path . 'data.pd';
 		open(my $fh, '>', $sf);
