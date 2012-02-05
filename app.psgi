@@ -84,7 +84,7 @@ my $page = sub {
 	my $data = genbrain::readall();
 	my $json = encode('latin1', JSON->new->encode($data));
 	my $cloud = encode('latin1', search_cloud($data));
-	my $onload = qq{focus_track(Math.floor(Math.random()*(db.length/3)))};
+	my $onload = qq{random_brain()};
 	my $cgi = CGI::PSGI->new($env);
 	my $l = $cgi->param('l');
 	if ($l) {
@@ -280,7 +280,6 @@ return qq{
 			volume_control = document.getElementById('volume_control');
 			set_volume(1.0);
 			$onload;
-			random_brain();
 		}
 		function random_brain() {
 			var brain_offset = 6;
