@@ -209,7 +209,7 @@ return qq{
 			}
 			var src = data["src"];
 			if (src == undefined) src = '';
-			if (navigator.userAgent.indexOf("Firefox")==-1 || ( navigator.platform.indexOf("Mac")!=-1 || /Safari/.test(navigator.userAgent))) {
+			if (navigator.userAgent.indexOf("Firefox")==-1 || ( /Safari/.test(navigator.userAgent))) {
 				src = src.replace(new RegExp('ogg\$', 'i'), 'mp3');
 			}
 			// if (src.match(/thebrain\\d+.mp3/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://thebrainradio.com/mp3/');
