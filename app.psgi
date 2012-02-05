@@ -13,6 +13,7 @@ use genbrain;
 use JSON;
 use Encode qw/encode decode/;
 use HTML::Entities qw/encode_entities/;
+use Data::Dumper;
 
 my $cb = sub {
 	my $env = shift;
@@ -61,10 +62,45 @@ sub search_cloud {
 	return $h;
 }
 
+sub si {
+	my $t = shift;
+	my $data = shift;
+	my $i = 0;
+	no warnings;
+	if ($t =~ /^\d+$/) {
+		$t = "thebrain$t";
+	}
+	for (@{ $data }) {
+		if ($t eq $_->{title}) {
+			return $i;
+		}
+		$i++;
+	}
+}
 my $page = sub {
+	my $env = shift;
 	my $data = genbrain::readall();
 	my $json = encode('latin1', JSON->new->encode($data));
 	my $cloud = encode('latin1', search_cloud($data));
+	my $onload = qq{focus_track(Math.floor(Math.random()*(db.length/3)))};
+	my $cgi = CGI::PSGI->new($env);
+	my $l = $cgi->param('l');
+	if ($l) {
+		my $li = si($l, $data);
+		if ($li) {
+			$onload = qq{focus_track($li)};
+		} else {
+			$onload = '';
+		}
+	} elsif ($env->{REQUEST_URI} =~ /\?(\d+)$/) {
+		my $li = si($1, $data);
+		if ($li) {
+			$onload = qq{focus_track($li)};
+		} else {
+			$onload = '';
+		}
+	}
+	
 return qq{
 <!DOCTYPE html>
 <html>
@@ -241,7 +277,7 @@ return qq{
 			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
 			set_volume(1.0);
-			focus_track(Math.floor(Math.random()*(db.length/3)));
+			$onload;
 		}
 		function set_volume(new_volume)
 		{
@@ -585,5 +621,5 @@ return qq{
 };
 builder {
 	# enable "Static", path => sub { s!^/mp3/!! }, root => '/data/music/thebrain/';
-	sub { [200, ["Content-Type", 'text/html'], [$page->()]] }
+	sub { [200, ["Content-Type", 'text/html'], [$page->(@_)]] }
 }
