@@ -245,7 +245,7 @@ return qq{
 		}
 		function random_brain() {
 			var brain_offset = 6;
-			focus_track(Math.floor(Math.random()*( enable_radioclash ? db.length - brain_offset : 83)) + ( enable_radioclash ? 0 : 6 ));
+			focus_track(Math.floor(Math.random()*( enable_radioclash ? ( db.length - brain_offset) : 33)) + ( enable_radioclash ? 0 : 6 ));
 		}
 		function set_volume(new_volume)
 		{
@@ -515,9 +515,6 @@ return qq{
 				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
 			}
 		}	
-		function click_random() {
-			focus_track(Math.floor(Math.random()*db.length));
-		}
 		function click_prev() {
 			focus_track(ci-1);
 		}
@@ -543,7 +540,7 @@ return qq{
 					</div>
 				</div>
 				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="play" ></input>
-				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
+				<input id="button_rand" class="player_control" type="button" onClick="random_brain();" value="rnd" ></input>
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
 				<a style="background: #ccc" href="#" target="_blank" title="Right click" id="href_as">save</a>

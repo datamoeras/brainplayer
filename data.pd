@@ -4064,11 +4064,11 @@ $VAR1 = [
                           ],
                           {
                             'artist' => 'LES FLEURS DE BACH',
-                            'rest' => 'LES FLEURS DE BACH - Ce garçon - Close up - 2010',
+                            'rest' => 'LES FLEURS DE BACH - Ce garcon - Close up - 2010',
                             'from' => 3351,
                             'href' => 'http://www.closeupprod.fr',
                             'label' => 'Close up',
-                            'title' => 'Ce garçon',
+                            'title' => 'Ce garcon',
                             'year' => '2010'
                           }
                         ],
@@ -14618,10 +14618,10 @@ $VAR1 = [
                           ],
                           {
                             'artist' => 'DINO MARTINI',
-                            'rest' => 'DINO MARTINI - C-est ça - WSDP - 2005',
+                            'rest' => 'DINO MARTINI - C-est ca - WSDP - 2005',
                             'from' => 1847,
                             'href' => 'http://www.wsdp.de',
-                            'label' => 'est ça',
+                            'label' => 'est ca',
                             'title' => 'C',
                             'year' => 'WSDP'
                           }
@@ -19160,8 +19160,8 @@ $VAR1 = [
                             32
                           ],
                           {
-                            'artist' => 'FRANÇOIS DE ROUBAIX',
-                            'rest' => 'FRANÇOIS DE ROUBAIX - Le Bosco - Philips - 1968',
+                            'artist' => 'FRANCOIS DE ROUBAIX',
+                            'rest' => 'FRANCOIS DE ROUBAIX - Le Bosco - Philips - 1968',
                             'from' => 1832,
                             'label' => 'Philips',
                             'title' => 'Le Bosco',
@@ -25475,8 +25475,8 @@ $VAR1 = [
                             42
                           ],
                           {
-                            'artist' => 'FRANÇOIS DE ROUBAIX',
-                            'rest' => 'FRANÇOIS DE ROUBAIX - LEnvol - Emarcy - 2006',
+                            'artist' => 'FRANCOIS DE ROUBAIX',
+                            'rest' => 'FRANCOIS DE ROUBAIX - LEnvol - Emarcy - 2006',
                             'from' => 42,
                             'label' => 'Emarcy',
                             'title' => 'LEnvol',
@@ -26115,8 +26115,8 @@ $VAR1 = [
                             35
                           ],
                           {
-                            'artist' => 'FRANÇOIS DE ROUBAIX',
-                            'rest' => 'FRANÇOIS DE ROUBAIX - Acrobaties aeriennes - Universal - 1967/2005',
+                            'artist' => 'FRANCOIS DE ROUBAIX',
+                            'rest' => 'FRANCOIS DE ROUBAIX - Acrobaties aeriennes - Universal - 1967/2005',
                             'from' => 35,
                             'href' => 'http://www.francoisderoubaix.com',
                             'label' => 'Universal',
