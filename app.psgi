@@ -582,7 +582,7 @@ return qq{
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
 				<a style="background: #ccc" href="#" target="_blank" title="Right click" id="href_as">save</a>
-				<span class="asy player_control"><a href="#" target="_blank" title="Right click" id="href_ut">ut</a></span>
+				<span class="asy player_control"><a href="#" target="_blank" title="Youtube" id="href_ut">ut</a></span>
 				<!--
 				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
