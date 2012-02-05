@@ -241,7 +241,11 @@ return qq{
 			audio_player = document.getElementById("aplayer");
 			volume_control = document.getElementById('volume_control');
 			set_volume(1.0);
-			focus_track(Math.floor(Math.random()*(db.length/3)));
+			random_brain();
+		}
+		function random_brain() {
+			var brain_offset = 6;
+			focus_track(Math.floor(Math.random()*( enable_radioclash ? db.length - brain_offset : 83)) + ( enable_radioclash ? 0 : 6 ));
 		}
 		function set_volume(new_volume)
 		{

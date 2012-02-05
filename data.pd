@@ -12826,12 +12826,12 @@ $VAR1 = [
                           ],
                           {
                             'artist' => 'DJ GAN',
-                            'rest' => 'DJ GAN - Apocaliptyca vs “Aeiie ióó- - Unreleased ?- 2000 ?',
+                            'rest' => 'DJ GAN - Apocaliptyca vs Aeiie ioo - Unreleased ?- 2000 ?',
                             'from' => 889,
                             'href' => 'http://www.krivda.net',
-                            'label' => '',
-                            'title' => 'Apocaliptyca vs “Aeiie ióó',
-                            'year' => 'Unreleased ?'
+                            'label' => 'Unreleased ?',
+                            'title' => 'Apocaliptyca vs Aeiie ioo',
+                            'year' => '2000 ?'
                           }
                         ],
                         [
