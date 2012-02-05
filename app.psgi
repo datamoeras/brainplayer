@@ -52,10 +52,9 @@ sub search_cloud {
 	my $h = '';
 	for my $art (shuffle keys %group) {
 		my $c = scalar @{ $group{ $art } };
-		$c *= 10;
-		if ($c  > 20) { $c /= 4 }
-		if ($c  > 10) { $c /= 2 }
-		if ($art =~ /ogosam/i) { $c *= 2 }
+		if ($art =~ /ogosam/i) { $c *= 2 } elsif (rand() > .85) { $c *=2 } elsif (rand() > .92) { $c *=3; }
+		if ($c  > 30) { $c = 30 }
+		elsif ($c  > 20) { $c /= 2 }
 		$art =~ s/['"]//g;
 		$h .= qq|<a href="#" style="font-size: ${c}px;" onclick="search_txt('$art');return false;">$art</a>&nbsp;|;
 	}
@@ -77,7 +76,7 @@ return qq{
 			font-size: 11px;
 			font-family: Arial, sans-serif;
 		}
-		input { 
+		input, .asi { 
 			border: 1px solid #ccc;
 			color: #f09;
 		}
@@ -127,12 +126,10 @@ return qq{
 			height:15px;
 			border: 1px solid #ccc;
 		}
-		#duration_background, #t_duration_background
-		{
+		#duration_background, #t_duration_background {
 			width:200px;
 			height:15px;
 			background-color:#yellow;
-
 		}
 		#duration_bar, #t_duration_bar
 		{
@@ -155,6 +152,8 @@ return qq{
 		var audio_player; 
 		var volume_button; 
 		var volume_control;
+		var pb_1 = 'play';
+		var pb_0 = 'pause';
 		function focus_track(i, os) {
 			if (os == undefined) os = 0;
 			var div = document.getElementById("track" + i);
@@ -179,7 +178,7 @@ return qq{
 			// if (src.match(/thisisradioclash.*mp3\\\$/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://www.thisisradioclash.org/mp3/');
 
 			aplayer.setAttribute("src", src);
-			document.getElementById("save_as").setAttribute("href", src);
+			document.getElementById("href_as").setAttribute("href", src);
 			if (tracklist == undefined) return;
 			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
 			draw_tracklist(tracklist, i, data["list"]);
@@ -309,6 +308,7 @@ return qq{
 				var art = tdata["artist"];
 				art = art.replace("'", 'g');
 				art = art.replace('"', 'g');
+				document.getElementById("href_ut").innerHTML = '<a style="background:#ccc;" href="http://www.youtube.com/results?search_query=' + tdata["artist"] + '"> ut </a>';
 				document.getElementById("content").innerHTML = bt +
 					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
 					tdata["artist"]+"<br/>"+
@@ -390,18 +390,18 @@ return qq{
 			if (element == undefined) {
 				return;
 			}
-			if(audio_player.paused || element.value == ">") {
+			if(audio_player.paused || element.value == pb_1) {
 				try { audio_player.play(); } catch (e) { };
-				newdisplay = "||";
+				newdisplay = pb_0;
 			}else{
 				try { audio_player.pause(); } catch (e) { };
-				newdisplay = ">";
+				newdisplay = pb_1;
 			}
 			element.value=newdisplay;
 		}
 		function trackEnded()
 		{
-			document.getElementById("playButton").value=">";
+			document.getElementById("playButton").value=pb_1;
 			var nxt = parseInt(ci)+1;
 			if (db[nxt] == undefined) nxt = 0;
 			// alert("eind van " + ci + ", skip naar " + nxt);
@@ -468,10 +468,16 @@ return qq{
 				audio_player.currentTime=duration_seek; 
 			}
 		}
+		function enable_radioclash() {
+			var el = document.getElementById("enable_radioclash");
+			return el.checked;
+		}
 		function search_db(txt) {
 			var res = [];
 			var re = new RegExp(txt, 'i');
 			var cnt = 0;
+			var clash = enable_radioclash();
+			// alert(clash);
 			for (dbi in db) {
 				var brain = db[dbi];
 				for (tri in brain["list"]) {
@@ -479,7 +485,7 @@ return qq{
 					if (song != undefined && song[1] != undefined) {
 						var str = song[1]["artist"];
 						str += " " + song[1]["title"];
-						if (str.match(re)) {
+						if (str.match(re) && (clash || brain["title"].match(/thebrain/))) {
 							res.push([brain, song, dbi, tri]);
 							cnt++;
 							if (cnt > 50) return res;
@@ -525,18 +531,19 @@ return qq{
 	</head>
 	<body onLoad="pageLoaded();">
 	<div id='main' style="z-index: 19">
-		<h3 style="text-align: left; color:#f0f"><a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
+		<h3 style="text-align: left; color:#f0f"><a href="http://github.com/datamoeras/brainplayer">GPL</a>&nbsp;<a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
 		<div id='player' style="position:fixed;left: 200px;width: 400px;top: 4px;">
-				<div id="duration" class"'player_control" >
+				<div id="duration" class"player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
 					</div>
 				</div>
-				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="&gt;" ></input>
+				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="play" ></input>
 				<input id="button_rand" class="player_control" type="button" onClick="click_random();" value="rnd" ></input>
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
-				<a href="#" target="_blank" title="Right click" id="save_as">save as</a>
+				<a style="background: #ccc" href="#" target="_blank" title="Right click" id="href_as">save</a>
+				<span class="asy player_control"><a href="#" target="_blank" title="Right click" id="href_ut">ut</a></span>
 				<!--
 				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
 					<div id="volume_background"  >
@@ -548,14 +555,15 @@ return qq{
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
 		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 4px;">
-			<input id="searchfld" value="" onchange="search_txt(this.value)"/><br />
+			<input type="checkbox" id="enable_radioclash" />radioclash<br />
+			<input id="searchfld" value="" onkeyup="if(event.keyCode==13){search_txt(this.value)};return false" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 40px;left: 200px">
+		<div id="current" style="position: fixed; top: 40px;left: 220px">
 			<div id="msg" style="height: 1.2em;display: none;" class='output'></div>
 			<br />
-			<div id="cttl" style="height: 1.2em; width: 200px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
+			<div id="cttl" style="height: 1.2em; width: 220px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
 			<div id="t_duration" class"'player_control" >
 				<div id="t_duration_background"  onClick="t_durationClicked(event);">
 					<div id="t_duration_bar" class="duration_bar"></div>
