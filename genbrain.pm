@@ -188,8 +188,72 @@ sub readall_raw {
 		push @ls, $fn;
 	}
 	no warnings;
-	return [ sort { $a->{title} cmp $b->{title} } grep { $_ && $_->{list} && @{$_->{list}} > 6 } map eval{readbrain($_)} => @ls ];
+	my @extra = ikz();
+	return [ @extra, sort { $a->{title} cmp $b->{title} } grep { $_ && $_->{list} && @{$_->{list}} > 6 } map eval{readbrain($_)} => @ls ];
 }
 
+sub ikz {
+my @ik = (
+{ title => 'ibrahimkazoo4', src => 'http://doscii.nl/dm/thebrain/ibrahimkazoo4.ogg', list => 
+[
+[qw[00:01 sadra...your being called
+]],[qq[00:04 Logosamphia - Kazoo intro
+]],[qq[00:29 Barbapapa dutch version
+]],[qq[00:53 Gregaldur - Mayotte choupi
+]],[qq[03:27 Unknown artist - unknown title
+]],[qq[06:10 Mziuri - unknown title
+]],[qq[08:14 Ronny Bhikharie - Ja re ja re panchi
+]],[qq[11:33 Capacocha - That aint my revolution
+]],[qq[15:34 Khristianity - Fresh tank engine of Bel-air
+]],[qq[16:22 Passenger of shit - Stapletapewurmsonmypenis
+]],[qq[19:43 FFF - War is in the dance
+]],[qq[23:34 Unknown artist - Sat tee touy
+]],[qq[25:50 Kans hasan baba - Pesare shoja
+]],[qq[30:23 Milligram retreat - Neue stadt (live @ Disko Resistencia)
+]],[qq[34:04 N.Sokolov - Safari
+]],[qq[36:39 Harry Thuman - Sphinx
+]],[qq[41:45 Visitors - V-I-S-I-T-O-R-S
+]],[qq[46:10 Zuiikin English - How dare you say such a thing to me...
+]],[qq[49:56 Positive Noise - Hypnosis
+]],[qq[53:42 Logosamphia - Les mongole c'est geniale
+]],[qq[58:55 Artificial Organs - This & that
+]],[qq[62:42 Flash System - Sadhu
+]],[qq[67:35 They must be russians - Dont try to cure yourself
+]],[qq[70:23 Bottroper Hammerchor - Jup Putta
+]],[qq[73:20 Bakterielle Infektion - Chem
+]],[qq[76:06 Knifehandchop - Hooked on Ebonics
+]],[qq[80:14 VOCODER - Radio
+]],[qq[85:10 Les Snuls Frap Parade - Alexandrie Ah!
+]],[qq[86:00 Holger Czukay - Lets get hot
+]],[qq[90:52 Chantana - Changwah Disco
+]],[qq[93:07 Dara Puspita - Mari Mari
+]],[qq[96:22 Logic System - Plan
+]],[qq[99:20 Mekanik kommando - Crow
+]],[qq[103:08 Lunapark Ensemble - Flim (aphex twin cover)
+]],[qq[105:55 Wha-ha-ha - Nojari
+]
+]
+]
+}
+);
+for my $k (@ik) {
+	for (@{ $k->{list} }) {
+		next unless $_->[0] =~ s/^(\d+:\d+) //;
+		my $t0 = $1;
+		my $tt = $_->[0];
+		$tt =~ s/\n//g;
+		$tt =~ s/^(.*?)\s*-\s*//;
+		my $at = $1;
+		my $tm = parsetime($t0);
+		my $from = ( $tm->[0] * 60 ) + $tm->[1];
+		my $song = { from => $from, title => $tt, artist => $at };
+		unshift @{$_}, $song;
+		unshift @{$_}, $tm;
+		pop@{$_};
+	}
+}
+# die Dumper(@ik);
+return @ik;
+}
 }
 1;

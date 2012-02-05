@@ -1,5 +1,391 @@
 $VAR1 = [
           {
+            'src' => 'http://doscii.nl/dm/thebrain/ibrahimkazoo4.ogg',
+            'title' => 'ibrahimkazoo4',
+            'list' => [
+                        [
+                          '00:01',
+                          'sadra...your',
+                          'being',
+                          'called'
+                        ],
+                        [
+                          [
+                            '00',
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Logosamphia',
+                            'from' => 4,
+                            'title' => 'Kazoo intro'
+                          }
+                        ],
+                        [
+                          [
+                            '00',
+                            29
+                          ],
+                          {
+                            'artist' => undef,
+                            'from' => 29,
+                            'title' => 'Barbapapa dutch version'
+                          }
+                        ],
+                        [
+                          [
+                            '00',
+                            53
+                          ],
+                          {
+                            'artist' => 'Gregaldur',
+                            'from' => 53,
+                            'title' => 'Mayotte choupi'
+                          }
+                        ],
+                        [
+                          [
+                            '03',
+                            27
+                          ],
+                          {
+                            'artist' => 'Unknown artist',
+                            'from' => 207,
+                            'title' => 'unknown title'
+                          }
+                        ],
+                        [
+                          [
+                            '06',
+                            10
+                          ],
+                          {
+                            'artist' => 'Mziuri',
+                            'from' => 370,
+                            'title' => 'unknown title'
+                          }
+                        ],
+                        [
+                          [
+                            '08',
+                            14
+                          ],
+                          {
+                            'artist' => 'Ronny Bhikharie',
+                            'from' => 494,
+                            'title' => 'Ja re ja re panchi'
+                          }
+                        ],
+                        [
+                          [
+                            11,
+                            33
+                          ],
+                          {
+                            'artist' => 'Capacocha',
+                            'from' => 693,
+                            'title' => 'That aint my revolution'
+                          }
+                        ],
+                        [
+                          [
+                            15,
+                            34
+                          ],
+                          {
+                            'artist' => 'Khristianity',
+                            'from' => 934,
+                            'title' => 'Fresh tank engine of Bel-air'
+                          }
+                        ],
+                        [
+                          [
+                            16,
+                            22
+                          ],
+                          {
+                            'artist' => 'Passenger of shit',
+                            'from' => 982,
+                            'title' => 'Stapletapewurmsonmypenis'
+                          }
+                        ],
+                        [
+                          [
+                            19,
+                            43
+                          ],
+                          {
+                            'artist' => 'FFF',
+                            'from' => 1183,
+                            'title' => 'War is in the dance'
+                          }
+                        ],
+                        [
+                          [
+                            23,
+                            34
+                          ],
+                          {
+                            'artist' => 'Unknown artist',
+                            'from' => 1414,
+                            'title' => 'Sat tee touy'
+                          }
+                        ],
+                        [
+                          [
+                            25,
+                            50
+                          ],
+                          {
+                            'artist' => 'Kans hasan baba',
+                            'from' => 1550,
+                            'title' => 'Pesare shoja'
+                          }
+                        ],
+                        [
+                          [
+                            30,
+                            23
+                          ],
+                          {
+                            'artist' => 'Milligram retreat',
+                            'from' => 1823,
+                            'title' => 'Neue stadt (live @ Disko Resistencia)'
+                          }
+                        ],
+                        [
+                          [
+                            34,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'N.Sokolov',
+                            'from' => 2044,
+                            'title' => 'Safari'
+                          }
+                        ],
+                        [
+                          [
+                            36,
+                            39
+                          ],
+                          {
+                            'artist' => 'Harry Thuman',
+                            'from' => 2199,
+                            'title' => 'Sphinx'
+                          }
+                        ],
+                        [
+                          [
+                            41,
+                            45
+                          ],
+                          {
+                            'artist' => 'Visitors',
+                            'from' => 2505,
+                            'title' => 'V-I-S-I-T-O-R-S'
+                          }
+                        ],
+                        [
+                          [
+                            46,
+                            10
+                          ],
+                          {
+                            'artist' => 'Zuiikin English',
+                            'from' => 2770,
+                            'title' => 'How dare you say such a thing to me...'
+                          }
+                        ],
+                        [
+                          [
+                            49,
+                            56
+                          ],
+                          {
+                            'artist' => 'Positive Noise',
+                            'from' => 2996,
+                            'title' => 'Hypnosis'
+                          }
+                        ],
+                        [
+                          [
+                            53,
+                            42
+                          ],
+                          {
+                            'artist' => 'Logosamphia',
+                            'from' => 3222,
+                            'title' => 'Les mongole c\'est geniale'
+                          }
+                        ],
+                        [
+                          [
+                            58,
+                            55
+                          ],
+                          {
+                            'artist' => 'Artificial Organs',
+                            'from' => 3535,
+                            'title' => 'This & that'
+                          }
+                        ],
+                        [
+                          [
+                            62,
+                            42
+                          ],
+                          {
+                            'artist' => 'Flash System',
+                            'from' => 3762,
+                            'title' => 'Sadhu'
+                          }
+                        ],
+                        [
+                          [
+                            67,
+                            35
+                          ],
+                          {
+                            'artist' => 'They must be russians',
+                            'from' => 4055,
+                            'title' => 'Dont try to cure yourself'
+                          }
+                        ],
+                        [
+                          [
+                            70,
+                            23
+                          ],
+                          {
+                            'artist' => 'Bottroper Hammerchor',
+                            'from' => 4223,
+                            'title' => 'Jup Putta'
+                          }
+                        ],
+                        [
+                          [
+                            73,
+                            20
+                          ],
+                          {
+                            'artist' => 'Bakterielle Infektion',
+                            'from' => 4400,
+                            'title' => 'Chem'
+                          }
+                        ],
+                        [
+                          [
+                            76,
+                            '06'
+                          ],
+                          {
+                            'artist' => 'Knifehandchop',
+                            'from' => 4566,
+                            'title' => 'Hooked on Ebonics'
+                          }
+                        ],
+                        [
+                          [
+                            80,
+                            14
+                          ],
+                          {
+                            'artist' => 'VOCODER',
+                            'from' => 4814,
+                            'title' => 'Radio'
+                          }
+                        ],
+                        [
+                          [
+                            85,
+                            10
+                          ],
+                          {
+                            'artist' => 'Les Snuls Frap Parade',
+                            'from' => 5110,
+                            'title' => 'Alexandrie Ah!'
+                          }
+                        ],
+                        [
+                          [
+                            86,
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Holger Czukay',
+                            'from' => 5160,
+                            'title' => 'Lets get hot'
+                          }
+                        ],
+                        [
+                          [
+                            90,
+                            52
+                          ],
+                          {
+                            'artist' => 'Chantana',
+                            'from' => 5452,
+                            'title' => 'Changwah Disco'
+                          }
+                        ],
+                        [
+                          [
+                            93,
+                            '07'
+                          ],
+                          {
+                            'artist' => 'Dara Puspita',
+                            'from' => 5587,
+                            'title' => 'Mari Mari'
+                          }
+                        ],
+                        [
+                          [
+                            96,
+                            22
+                          ],
+                          {
+                            'artist' => 'Logic System',
+                            'from' => 5782,
+                            'title' => 'Plan'
+                          }
+                        ],
+                        [
+                          [
+                            99,
+                            20
+                          ],
+                          {
+                            'artist' => 'Mekanik kommando',
+                            'from' => 5960,
+                            'title' => 'Crow'
+                          }
+                        ],
+                        [
+                          [
+                            103,
+                            '08'
+                          ],
+                          {
+                            'artist' => 'Lunapark Ensemble',
+                            'from' => 6188,
+                            'title' => 'Flim (aphex twin cover)'
+                          }
+                        ],
+                        [
+                          [
+                            105,
+                            55
+                          ],
+                          {
+                            'artist' => 'Wha',
+                            'from' => 6355,
+                            'title' => 'ha-ha - Nojari'
+                          }
+                        ]
+                      ]
+          },
+          {
             'src' => 'http://doscii.nl/dm/thebrain/prototop1.ogg',
             'title' => 'prototop1',
             'list' => [

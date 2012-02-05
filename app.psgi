@@ -35,9 +35,11 @@ sub search_cloud {
 	my $data = shift;
 	my %group;
 	my $i = 0;
+	no warnings;
 	for my $b (@{ $data }) {
 		my $o = 0;
 		for my $t (@{ $b->{list} }) {
+			next unless ref($t->[1]);
 			my $art = lc($t->[1]{artist});
 			if ($art) {
 				push @{ $group{$art} }, [$i, $o];
@@ -87,14 +89,14 @@ my $page = sub {
 	my $l = $cgi->param('l');
 	if ($l) {
 		my $li = si($l, $data);
-		if ($li) {
+		if (defined $li) {
 			$onload = qq{focus_track($li)};
 		} else {
 			$onload = '';
 		}
-	} elsif ($env->{REQUEST_URI} =~ /\?(\d+)$/) {
+	} elsif ($env->{REQUEST_URI} =~ /\?([a-z]+\d+)$/) {
 		my $li = si($1, $data);
-		if ($li) {
+		if (defined $li) {
 			$onload = qq{focus_track($li)};
 		} else {
 			$onload = '';
