@@ -28,6 +28,9 @@ sub readbrain {
 	$input =~ s/&iuml;/i/gi;
 	$input =~ s/&euml;/e/gi;
 	$input =~ s/&uuml;/u/gi;
+	$input =~ s/&ccedil;/c/g;
+	$input =~ s/&Ccedil;/C/g;
+	$input =~ s/&(ograve|ouml|oacute);/o/gi;
 	$input =~ s/&(agrave|auml);/a/gi;
 	$input =~ s/&ouml;/o/gi;
 	$input =~ s/&(ecirc|egrave|eacute);/e/gi;
