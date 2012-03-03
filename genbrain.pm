@@ -59,8 +59,10 @@ sub parse_page {
 		my $tm = [$1, $2];
 		my $from = ( $tm->[0] * 60 ) + $tm->[1];
 		my ($artist, $title) = split / ?- ?/, $text, 2;
+		my ($tiet, $rest) = split / ?- ?/, $title, 2;
+		# print STDERR "text=$text\n";
 		my %extra;
-		push @{ $data{ list } }, [ $tm, { artist => $artist, title => $title, from => $from, %extra }];
+		push @{ $data{ list } }, [ $tm, { artist => $artist, title => $tiet, from => $from, %extra }];
 	});
 	return \%data;
 }
@@ -197,7 +199,40 @@ sub readall_raw {
 
 sub ikz {
 my @ik = (
-{ title => 'ibrahimkazoo4', src => 'http://doscii.nl/dm/thebrain/ibrahimkazoo4.ogg', list => 
+{ title => 'ibrahimkazoo3', img => 'http://a2.ec-images.myspacecdn.com/images02/130/fa44da7c324e481e91bf2d0345d282d5/l.jpg', src => 'http://doscii.nl/dm/thebrain/ibrahimkazoo3.ogg', list => 
+[
+[qq[00:00 Monica M. and the swing rioters - Going up the country
+]],[qq[03:34 the George King organ sounds (J.jaenner) - Caramba
+]],[qq[06:00 Circle versus square - BFG
+]],[qq[13:25 Frank Zappa - Drafted again
+]],[qq[16:27 Hassan K. - Surfin santoor
+]],[qq[18:34 Felix Kubin - Hissi hissi
+]],[qq[26:04 Frederik schikowski - Ich meine nein
+]],[qq[26:55 Lady data - Cheri separartion biere
+]],[qq[31:32 Logosamphia - (bonus track 'Les sonates du neopolka')
+]],[qq[34:28 Holger Czukay - Good morning story
+]],[qq[38:18 Micachu & the shapes - Sweetheart
+]],[qq[39:06 The residents - What have my chickens done now
+]],[qq[43:26 Radio Myanmar (Burma) - Commercial for "american vision"
+]],[qq[44:04 Vladimir Bozar n ze sherif orkestar - Le grand rabbi (la revanche d'un juif japonaise)
+]],[qq[46:04 Glafouk - Violet (Trou)
+]],[qq[49:18 Leonard nimoy vs monty python - Music to consume spam by (ibrahim kazoo mix)
+]],[qq[51:49 Logosamphia - Chip monk
+]],[qq[55:36 Irrlicht project - Savague
+]],[qq[58:17 ADSR - Bit nation (Interlude)
+]],[qq[61:26 Candie hank - Do you need love
+]],[qq[64:14 Anita tijoux - 1977
+]],[qq[67:00 Anklepants aka Reecard farche - Speak your little facehead
+]],[qq[71:56 Cheveu - Superhero
+]],[qq[75:15 Monica M and the swing rioters - La montagne
+]],[qq[78:04 Cachicamoconcaspa - Thriller
+]],[qq[81:54 50 Hertz - Svlt din son till lydnad
+]],[qq[86:56 Wong chi wa - unknown
+]
+]
+],
+},
+{ title => 'ibrahimkazoo4', img => 'http://a4.ec-images.myspacecdn.com/images02/145/27ac70d0b0e341fa9504536fb30326d0/l.png', src => 'http://doscii.nl/dm/thebrain/ibrahimkazoo4.ogg', list => 
 [
 [qw[00:01 sadra...your being called
 ]],[qq[00:04 Logosamphia - Kazoo intro
@@ -237,7 +272,58 @@ my @ik = (
 ]
 ]
 ]
-}
+},
+{ title => 'ibrahimkazoo5', src => 'http://doscii.nl/dm/thebrain/ibrahimkazoo5.ogg', img => 'http://a2.ec-images.myspacecdn.com/images02/146/3091f6e0b1f44879afdb85a3c6b239ef/l.png', list => 
+[
+[qq[00:00 Ibrahim Kazoo intro
+]],[qq[00:27 Girls at our best - Warm girls
+]],[qq[04:24 Cassandra Complex - Moscow Idaho
+]],[qq[07:32 Boris Tihomirov - Electronic alarmclock
+]],[qq[09:36 Astral Sounds - Spectra
+]],[qq[12:09 Free the robots - Clocks and daggers
+]],[qq[15:21 DAF - Ich und die wirklichkeit
+]],[qq[19:08 Birth control - Tell me
+]],[qq[22:51 Gershon Kingsley - Rebirth
+]],[qq[25:31 Andi Arroganti - Alle leute fallen um
+]],[qq[29:04 Co.fee - Asante
+]],[qq[31:48 The Glaslamp killer - Turk Mex
+]],[qq[34:30 Jean jacques-Perrey - Chicken on the rocks
+]],[qq[36:34 Andi Arroganti - Benzin in Berlin
+]],[qq[39:35 BISS - Robot with a rose
+]],[qq[44:05 Graig Sibley - You see art, I see clay
+]],[qq[47:49 Janko Nilovic - La geurre des bouffons
+]],[qq[50:00 Keine ahnung - Plastik
+]],[qq[54:24 Klapto - Mister Game
+]],[qq[60:50 La Femme - Anti taxi
+]],[qq[64:48 Igor Ivanov - Kto tebe skazal
+]],[qq[66:10 Zodiac - Rock on ice
+]],[qq[68:37 The gaslamp killer - Shattering inner journeys
+]],[qq[74:41 Plexiglas - Tanz!
+]],[qq[77:28 Mathematiques Modernes - Disco rough
+]],[qq[81:55 Soviet electro-exotica band - Unknown title
+]],[qq[83:15 La Femme - La femme resort
+]],[qq[87:42 Mekanik Kommando - Stop and play
+]],[qq[91:29 Nanacy Nova - The force
+]],[qq[95:46 Modele mechanique - Dark of the moon
+]],[qq[98:41 Nemb - The middle room
+]],[qq[102:44 Oppenheimer Analysis - Martyr
+]],[qq[107:39 The 11th Hour - Mr. Death
+]],[qq[109:29 The Moog Cookbook - Buddy Holly
+]],[qq[113:39 Polyphonic Size - Nagasaki mon amour
+]],[qq[117:38 Unknown artist - unknown title
+]],[qq[118:10 Unknown artist - Weird soviet psych-folk
+]],[qq[118:51 Proxyon Laserdance - Shotgun Warriors (Fan cover)
+]],[qq[123:04 The Moog Cookbook - Come out and play
+]],[qq[127:49 Space - Running in the city
+]],[qq[131:24 Rockets - Future game
+]],[qq[135:53 Daily Fauli - Out of sync
+]],[qq[138:41 Partrizia Pelligrino - Automaticamore
+]],[qq[142:10 Transvolta - Disco Computer
+]],[qq[145:15 The red army choir - From the virgin earth
+]
+]
+]
+},
 );
 for my $k (@ik) {
 	for (@{ $k->{list} }) {
