@@ -1,6 +1,311 @@
 $VAR1 = [
           {
+            'src' => 'http://doscii.nl/dm/thebrain/ibrahimkazoo3.ogg',
+            'img' => 'http://a2.ec-images.myspacecdn.com/images02/130/fa44da7c324e481e91bf2d0345d282d5/l.jpg',
+            'title' => 'ibrahimkazoo3',
+            'list' => [
+                        [
+                          [
+                            '00',
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Monica M. and the swing rioters',
+                            'from' => 0,
+                            'title' => 'Going up the country'
+                          }
+                        ],
+                        [
+                          [
+                            '03',
+                            34
+                          ],
+                          {
+                            'artist' => 'the George King organ sounds (J.jaenner)',
+                            'from' => 214,
+                            'title' => 'Caramba'
+                          }
+                        ],
+                        [
+                          [
+                            '06',
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Circle versus square',
+                            'from' => 360,
+                            'title' => 'BFG'
+                          }
+                        ],
+                        [
+                          [
+                            13,
+                            25
+                          ],
+                          {
+                            'artist' => 'Frank Zappa',
+                            'from' => 805,
+                            'title' => 'Drafted again'
+                          }
+                        ],
+                        [
+                          [
+                            16,
+                            27
+                          ],
+                          {
+                            'artist' => 'Hassan K.',
+                            'from' => 987,
+                            'title' => 'Surfin santoor'
+                          }
+                        ],
+                        [
+                          [
+                            18,
+                            34
+                          ],
+                          {
+                            'artist' => 'Felix Kubin',
+                            'from' => 1114,
+                            'title' => 'Hissi hissi'
+                          }
+                        ],
+                        [
+                          [
+                            26,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Frederik schikowski',
+                            'from' => 1564,
+                            'title' => 'Ich meine nein'
+                          }
+                        ],
+                        [
+                          [
+                            26,
+                            55
+                          ],
+                          {
+                            'artist' => 'Lady data',
+                            'from' => 1615,
+                            'title' => 'Cheri separartion biere'
+                          }
+                        ],
+                        [
+                          [
+                            31,
+                            32
+                          ],
+                          {
+                            'artist' => 'Logosamphia',
+                            'from' => 1892,
+                            'title' => '(bonus track \'Les sonates du neopolka\')'
+                          }
+                        ],
+                        [
+                          [
+                            34,
+                            28
+                          ],
+                          {
+                            'artist' => 'Holger Czukay',
+                            'from' => 2068,
+                            'title' => 'Good morning story'
+                          }
+                        ],
+                        [
+                          [
+                            38,
+                            18
+                          ],
+                          {
+                            'artist' => 'Micachu & the shapes',
+                            'from' => 2298,
+                            'title' => 'Sweetheart'
+                          }
+                        ],
+                        [
+                          [
+                            39,
+                            '06'
+                          ],
+                          {
+                            'artist' => 'The residents',
+                            'from' => 2346,
+                            'title' => 'What have my chickens done now'
+                          }
+                        ],
+                        [
+                          [
+                            43,
+                            26
+                          ],
+                          {
+                            'artist' => 'Radio Myanmar (Burma)',
+                            'from' => 2606,
+                            'title' => 'Commercial for "american vision"'
+                          }
+                        ],
+                        [
+                          [
+                            44,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Vladimir Bozar n ze sherif orkestar',
+                            'from' => 2644,
+                            'title' => 'Le grand rabbi (la revanche d\'un juif japonaise)'
+                          }
+                        ],
+                        [
+                          [
+                            46,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Glafouk',
+                            'from' => 2764,
+                            'title' => 'Violet (Trou)'
+                          }
+                        ],
+                        [
+                          [
+                            49,
+                            18
+                          ],
+                          {
+                            'artist' => 'Leonard nimoy vs monty python',
+                            'from' => 2958,
+                            'title' => 'Music to consume spam by (ibrahim kazoo mix)'
+                          }
+                        ],
+                        [
+                          [
+                            51,
+                            49
+                          ],
+                          {
+                            'artist' => 'Logosamphia',
+                            'from' => 3109,
+                            'title' => 'Chip monk'
+                          }
+                        ],
+                        [
+                          [
+                            55,
+                            36
+                          ],
+                          {
+                            'artist' => 'Irrlicht project',
+                            'from' => 3336,
+                            'title' => 'Savague'
+                          }
+                        ],
+                        [
+                          [
+                            58,
+                            17
+                          ],
+                          {
+                            'artist' => 'ADSR',
+                            'from' => 3497,
+                            'title' => 'Bit nation (Interlude)'
+                          }
+                        ],
+                        [
+                          [
+                            61,
+                            26
+                          ],
+                          {
+                            'artist' => 'Candie hank',
+                            'from' => 3686,
+                            'title' => 'Do you need love'
+                          }
+                        ],
+                        [
+                          [
+                            64,
+                            14
+                          ],
+                          {
+                            'artist' => 'Anita tijoux',
+                            'from' => 3854,
+                            'title' => '1977'
+                          }
+                        ],
+                        [
+                          [
+                            67,
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Anklepants aka Reecard farche',
+                            'from' => 4020,
+                            'title' => 'Speak your little facehead'
+                          }
+                        ],
+                        [
+                          [
+                            71,
+                            56
+                          ],
+                          {
+                            'artist' => 'Cheveu',
+                            'from' => 4316,
+                            'title' => 'Superhero'
+                          }
+                        ],
+                        [
+                          [
+                            75,
+                            15
+                          ],
+                          {
+                            'artist' => 'Monica M and the swing rioters',
+                            'from' => 4515,
+                            'title' => 'La montagne'
+                          }
+                        ],
+                        [
+                          [
+                            78,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Cachicamoconcaspa',
+                            'from' => 4684,
+                            'title' => 'Thriller'
+                          }
+                        ],
+                        [
+                          [
+                            81,
+                            54
+                          ],
+                          {
+                            'artist' => '50 Hertz',
+                            'from' => 4914,
+                            'title' => 'Svlt din son till lydnad'
+                          }
+                        ],
+                        [
+                          [
+                            86,
+                            56
+                          ],
+                          {
+                            'artist' => 'Wong chi wa',
+                            'from' => 5216,
+                            'title' => 'unknown'
+                          }
+                        ]
+                      ]
+          },
+          {
             'src' => 'http://doscii.nl/dm/thebrain/ibrahimkazoo4.ogg',
+            'img' => 'http://a4.ec-images.myspacecdn.com/images02/145/27ac70d0b0e341fa9504536fb30326d0/l.png',
             'title' => 'ibrahimkazoo4',
             'list' => [
                         [
@@ -381,6 +686,508 @@ $VAR1 = [
                             'artist' => 'Wha',
                             'from' => 6355,
                             'title' => 'ha-ha - Nojari'
+                          }
+                        ]
+                      ]
+          },
+          {
+            'src' => 'http://doscii.nl/dm/thebrain/ibrahimkazoo5.ogg',
+            'img' => 'http://a2.ec-images.myspacecdn.com/images02/146/3091f6e0b1f44879afdb85a3c6b239ef/l.png',
+            'title' => 'ibrahimkazoo5',
+            'list' => [
+                        [
+                          [
+                            '00',
+                            '00'
+                          ],
+                          {
+                            'artist' => undef,
+                            'from' => 0,
+                            'title' => 'Ibrahim Kazoo intro'
+                          }
+                        ],
+                        [
+                          [
+                            '00',
+                            27
+                          ],
+                          {
+                            'artist' => 'Girls at our best',
+                            'from' => 27,
+                            'title' => 'Warm girls'
+                          }
+                        ],
+                        [
+                          [
+                            '04',
+                            24
+                          ],
+                          {
+                            'artist' => 'Cassandra Complex',
+                            'from' => 264,
+                            'title' => 'Moscow Idaho'
+                          }
+                        ],
+                        [
+                          [
+                            '07',
+                            32
+                          ],
+                          {
+                            'artist' => 'Boris Tihomirov',
+                            'from' => 452,
+                            'title' => 'Electronic alarmclock'
+                          }
+                        ],
+                        [
+                          [
+                            '09',
+                            36
+                          ],
+                          {
+                            'artist' => 'Astral Sounds',
+                            'from' => 576,
+                            'title' => 'Spectra'
+                          }
+                        ],
+                        [
+                          [
+                            12,
+                            '09'
+                          ],
+                          {
+                            'artist' => 'Free the robots',
+                            'from' => 729,
+                            'title' => 'Clocks and daggers'
+                          }
+                        ],
+                        [
+                          [
+                            15,
+                            21
+                          ],
+                          {
+                            'artist' => 'DAF',
+                            'from' => 921,
+                            'title' => 'Ich und die wirklichkeit'
+                          }
+                        ],
+                        [
+                          [
+                            19,
+                            '08'
+                          ],
+                          {
+                            'artist' => 'Birth control',
+                            'from' => 1148,
+                            'title' => 'Tell me'
+                          }
+                        ],
+                        [
+                          [
+                            22,
+                            51
+                          ],
+                          {
+                            'artist' => 'Gershon Kingsley',
+                            'from' => 1371,
+                            'title' => 'Rebirth'
+                          }
+                        ],
+                        [
+                          [
+                            25,
+                            31
+                          ],
+                          {
+                            'artist' => 'Andi Arroganti',
+                            'from' => 1531,
+                            'title' => 'Alle leute fallen um'
+                          }
+                        ],
+                        [
+                          [
+                            29,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'Co.fee',
+                            'from' => 1744,
+                            'title' => 'Asante'
+                          }
+                        ],
+                        [
+                          [
+                            31,
+                            48
+                          ],
+                          {
+                            'artist' => 'The Glaslamp killer',
+                            'from' => 1908,
+                            'title' => 'Turk Mex'
+                          }
+                        ],
+                        [
+                          [
+                            34,
+                            30
+                          ],
+                          {
+                            'artist' => 'Jean jacques',
+                            'from' => 2070,
+                            'title' => 'Perrey - Chicken on the rocks'
+                          }
+                        ],
+                        [
+                          [
+                            36,
+                            34
+                          ],
+                          {
+                            'artist' => 'Andi Arroganti',
+                            'from' => 2194,
+                            'title' => 'Benzin in Berlin'
+                          }
+                        ],
+                        [
+                          [
+                            39,
+                            35
+                          ],
+                          {
+                            'artist' => 'BISS',
+                            'from' => 2375,
+                            'title' => 'Robot with a rose'
+                          }
+                        ],
+                        [
+                          [
+                            44,
+                            '05'
+                          ],
+                          {
+                            'artist' => 'Graig Sibley',
+                            'from' => 2645,
+                            'title' => 'You see art, I see clay'
+                          }
+                        ],
+                        [
+                          [
+                            47,
+                            49
+                          ],
+                          {
+                            'artist' => 'Janko Nilovic',
+                            'from' => 2869,
+                            'title' => 'La geurre des bouffons'
+                          }
+                        ],
+                        [
+                          [
+                            50,
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Keine ahnung',
+                            'from' => 3000,
+                            'title' => 'Plastik'
+                          }
+                        ],
+                        [
+                          [
+                            54,
+                            24
+                          ],
+                          {
+                            'artist' => 'Klapto',
+                            'from' => 3264,
+                            'title' => 'Mister Game'
+                          }
+                        ],
+                        [
+                          [
+                            60,
+                            50
+                          ],
+                          {
+                            'artist' => 'La Femme',
+                            'from' => 3650,
+                            'title' => 'Anti taxi'
+                          }
+                        ],
+                        [
+                          [
+                            64,
+                            48
+                          ],
+                          {
+                            'artist' => 'Igor Ivanov',
+                            'from' => 3888,
+                            'title' => 'Kto tebe skazal'
+                          }
+                        ],
+                        [
+                          [
+                            66,
+                            10
+                          ],
+                          {
+                            'artist' => 'Zodiac',
+                            'from' => 3970,
+                            'title' => 'Rock on ice'
+                          }
+                        ],
+                        [
+                          [
+                            68,
+                            37
+                          ],
+                          {
+                            'artist' => 'The gaslamp killer',
+                            'from' => 4117,
+                            'title' => 'Shattering inner journeys'
+                          }
+                        ],
+                        [
+                          [
+                            74,
+                            41
+                          ],
+                          {
+                            'artist' => 'Plexiglas',
+                            'from' => 4481,
+                            'title' => 'Tanz!'
+                          }
+                        ],
+                        [
+                          [
+                            77,
+                            28
+                          ],
+                          {
+                            'artist' => 'Mathematiques Modernes',
+                            'from' => 4648,
+                            'title' => 'Disco rough'
+                          }
+                        ],
+                        [
+                          [
+                            81,
+                            55
+                          ],
+                          {
+                            'artist' => 'Soviet electro',
+                            'from' => 4915,
+                            'title' => 'exotica band - Unknown title'
+                          }
+                        ],
+                        [
+                          [
+                            83,
+                            15
+                          ],
+                          {
+                            'artist' => 'La Femme',
+                            'from' => 4995,
+                            'title' => 'La femme resort'
+                          }
+                        ],
+                        [
+                          [
+                            87,
+                            42
+                          ],
+                          {
+                            'artist' => 'Mekanik Kommando',
+                            'from' => 5262,
+                            'title' => 'Stop and play'
+                          }
+                        ],
+                        [
+                          [
+                            91,
+                            29
+                          ],
+                          {
+                            'artist' => 'Nanacy Nova',
+                            'from' => 5489,
+                            'title' => 'The force'
+                          }
+                        ],
+                        [
+                          [
+                            95,
+                            46
+                          ],
+                          {
+                            'artist' => 'Modele mechanique',
+                            'from' => 5746,
+                            'title' => 'Dark of the moon'
+                          }
+                        ],
+                        [
+                          [
+                            98,
+                            41
+                          ],
+                          {
+                            'artist' => 'Nemb',
+                            'from' => 5921,
+                            'title' => 'The middle room'
+                          }
+                        ],
+                        [
+                          [
+                            102,
+                            44
+                          ],
+                          {
+                            'artist' => 'Oppenheimer Analysis',
+                            'from' => 6164,
+                            'title' => 'Martyr'
+                          }
+                        ],
+                        [
+                          [
+                            107,
+                            39
+                          ],
+                          {
+                            'artist' => 'The 11th Hour',
+                            'from' => 6459,
+                            'title' => 'Mr. Death'
+                          }
+                        ],
+                        [
+                          [
+                            109,
+                            29
+                          ],
+                          {
+                            'artist' => 'The Moog Cookbook',
+                            'from' => 6569,
+                            'title' => 'Buddy Holly'
+                          }
+                        ],
+                        [
+                          [
+                            113,
+                            39
+                          ],
+                          {
+                            'artist' => 'Polyphonic Size',
+                            'from' => 6819,
+                            'title' => 'Nagasaki mon amour'
+                          }
+                        ],
+                        [
+                          [
+                            117,
+                            38
+                          ],
+                          {
+                            'artist' => 'Unknown artist',
+                            'from' => 7058,
+                            'title' => 'unknown title'
+                          }
+                        ],
+                        [
+                          [
+                            118,
+                            10
+                          ],
+                          {
+                            'artist' => 'Unknown artist',
+                            'from' => 7090,
+                            'title' => 'Weird soviet psych-folk'
+                          }
+                        ],
+                        [
+                          [
+                            118,
+                            51
+                          ],
+                          {
+                            'artist' => 'Proxyon Laserdance',
+                            'from' => 7131,
+                            'title' => 'Shotgun Warriors (Fan cover)'
+                          }
+                        ],
+                        [
+                          [
+                            123,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'The Moog Cookbook',
+                            'from' => 7384,
+                            'title' => 'Come out and play'
+                          }
+                        ],
+                        [
+                          [
+                            127,
+                            49
+                          ],
+                          {
+                            'artist' => 'Space',
+                            'from' => 7669,
+                            'title' => 'Running in the city'
+                          }
+                        ],
+                        [
+                          [
+                            131,
+                            24
+                          ],
+                          {
+                            'artist' => 'Rockets',
+                            'from' => 7884,
+                            'title' => 'Future game'
+                          }
+                        ],
+                        [
+                          [
+                            135,
+                            53
+                          ],
+                          {
+                            'artist' => 'Daily Fauli',
+                            'from' => 8153,
+                            'title' => 'Out of sync'
+                          }
+                        ],
+                        [
+                          [
+                            138,
+                            41
+                          ],
+                          {
+                            'artist' => 'Partrizia Pelligrino',
+                            'from' => 8321,
+                            'title' => 'Automaticamore'
+                          }
+                        ],
+                        [
+                          [
+                            142,
+                            10
+                          ],
+                          {
+                            'artist' => 'Transvolta',
+                            'from' => 8530,
+                            'title' => 'Disco Computer'
+                          }
+                        ],
+                        [
+                          [
+                            145,
+                            15
+                          ],
+                          {
+                            'artist' => 'The red army choir',
+                            'from' => 8715,
+                            'title' => 'From the virgin earth'
                           }
                         ]
                       ]
@@ -6403,6 +7210,244 @@ $VAR1 = [
                             'label' => '',
                             'title' => '',
                             'year' => 'Générique The Brain 1.3 </ul> </td>'
+                          }
+                        ]
+                      ]
+          },
+          {
+            'src' => 'http://doscii.nl/dm/thebrain/thebrain112.ogg',
+            'img' => 'http://www.thebrainradio.com/pochettes/thebrain112.jpg',
+            'title' => 'thebrain112',
+            'list' => [
+                        [
+                          [
+                            '00',
+                            '00'
+                          ],
+                          {
+                            'artist' => 'Introduction',
+                            'from' => 0,
+                            'title' => 'The Brain'
+                          }
+                        ],
+                        [
+                          [
+                            '00',
+                            11
+                          ],
+                          {
+                            'artist' => 'THE BRAIN',
+                            'from' => 11,
+                            'title' => 'Generique 2010'
+                          }
+                        ],
+                        [
+                          [
+                            '00',
+                            45
+                          ],
+                          {
+                            'artist' => 'CMYK',
+                            'from' => 45,
+                            'title' => 'Maniac'
+                          }
+                        ],
+                        [
+                          [
+                            '05',
+                            15
+                          ],
+                          {
+                            'artist' => ' FLOPPY',
+                            'from' => 315,
+                            'title' => 'Helter Skelter'
+                          }
+                        ],
+                        [
+                          [
+                            '08',
+                            48
+                          ],
+                          {
+                            'artist' => ' MARCELLO GIOMBINI',
+                            'from' => 528,
+                            'title' => 'Seli Main Theme'
+                          }
+                        ],
+                        [
+                          [
+                            11,
+                            20
+                          ],
+                          {
+                            'artist' => ' B. TIKHOMIROV',
+                            'from' => 680,
+                            'title' => 'Marathon'
+                          }
+                        ],
+                        [
+                          [
+                            14,
+                            '05'
+                          ],
+                          {
+                            'artist' => ' KARAOCAKE',
+                            'from' => 845,
+                            'title' => 'It Doesn\'t Take a Whole Week'
+                          }
+                        ],
+                        [
+                          [
+                            17,
+                            37
+                          ],
+                          {
+                            'artist' => ' FOOD AND SHELTER',
+                            'from' => 1057,
+                            'title' => 'Changing My Mind'
+                          }
+                        ],
+                        [
+                          [
+                            21,
+                            12
+                          ],
+                          {
+                            'artist' => ' DAT POLITICS',
+                            'from' => 1272,
+                            'title' => 'Slastic Girl'
+                          }
+                        ],
+                        [
+                          [
+                            25,
+                            '05'
+                          ],
+                          {
+                            'artist' => ' ERNIE K. DOE',
+                            'from' => 1505,
+                            'title' => 'Here come the girls'
+                          }
+                        ],
+                        [
+                          [
+                            28,
+                            '02'
+                          ],
+                          {
+                            'artist' => 'KARMAN',
+                            'from' => 1682,
+                            'title' => 'Chess'
+                          }
+                        ],
+                        [
+                          [
+                            31,
+                            36
+                          ],
+                          {
+                            'artist' => 'SIRIUSMO',
+                            'from' => 1896,
+                            'title' => 'The Plasterer of Love'
+                          }
+                        ],
+                        [
+                          [
+                            34,
+                            45
+                          ],
+                          {
+                            'artist' => 'SOPHIE DAREL',
+                            'from' => 2085,
+                            'title' => 'Un ange passe'
+                          }
+                        ],
+                        [
+                          [
+                            36,
+                            46
+                          ],
+                          {
+                            'artist' => 'DOROTHY\'S MAGIC BAG',
+                            'from' => 2206,
+                            'title' => 'Linji'
+                          }
+                        ],
+                        [
+                          [
+                            39,
+                            52
+                          ],
+                          {
+                            'artist' => 'THE SONICS',
+                            'from' => 2392,
+                            'title' => 'Have love will Travel'
+                          }
+                        ],
+                        [
+                          [
+                            42,
+                            27
+                          ],
+                          {
+                            'artist' => 'KATE BUSH',
+                            'from' => 2547,
+                            'title' => 'Suspended in Gaffa'
+                          }
+                        ],
+                        [
+                          [
+                            46,
+                            14
+                          ],
+                          {
+                            'artist' => 'MY DISCO JACKET',
+                            'from' => 2774,
+                            'title' => 'This is not hardcore'
+                          }
+                        ],
+                        [
+                          [
+                            50,
+                            '04'
+                          ],
+                          {
+                            'artist' => 'AKSAK MABOUL / VERONIQUE VINCENT',
+                            'from' => 3004,
+                            'title' => 'Chez les aborigenes'
+                          }
+                        ],
+                        [
+                          [
+                            54,
+                            '07'
+                          ],
+                          {
+                            'artist' => 'MONICA M AND THE SWEET RIOTERS',
+                            'from' => 3247,
+                            'title' => 'KeepOnTruckin'
+                          }
+                        ],
+                        [
+                          [
+                            57,
+                            19
+                          ],
+                          {
+                            'artist' => 'CHRISTOPHER SCOTT',
+                            'from' => 3439,
+                            'title' => ' What\'s New Pussycat'
+                          }
+                        ],
+                        [
+                          [
+                            59,
+                            18
+                          ],
+                          {
+                            'artist' => 'FREDERIK SCHIKOWSKI ',
+                            'from' => 3558,
+                            'title' => 'Generique The Brain 1.3'
                           }
                         ]
                       ]
@@ -27364,7 +28409,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 2342,
-                            'title' => 'Jacques Perrey - One Zéro Zéro'
+                            'title' => 'Jacques Perrey'
                           }
                         ],
                         [
@@ -27785,7 +28830,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wu',
                             'from' => 109,
-                            'title' => 'Tang Clan - Triumph'
+                            'title' => 'Tang Clan'
                           }
                         ],
                         [
@@ -27807,7 +28852,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 199,
-                            'title' => 'Luc Godard - France, Tour, Detour, Deux Enfants'
+                            'title' => 'Luc Godard'
                           }
                         ],
                         [
@@ -27961,7 +29006,7 @@ $VAR1 = [
                           {
                             'artist' => 'Stereo Total',
                             'from' => 1653,
-                            'title' => 'Wir Tanzen Im 4-Eck (Felix Kubin Remix)'
+                            'title' => 'Wir Tanzen Im 4'
                           }
                         ],
                         [
@@ -27994,7 +29039,7 @@ $VAR1 = [
                           {
                             'artist' => 'Dmitri Tymoczko',
                             'from' => 1910,
-                            'title' => 'The agony of modern music - Movement 1 : Polemic'
+                            'title' => 'The agony of modern music'
                           }
                         ],
                         [
@@ -28049,7 +29094,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jega',
                             'from' => 3005,
-                            'title' => 'Geometry (ù-Zik Remix)'
+                            'title' => 'Geometry (ù'
                           }
                         ],
                         [
@@ -28093,7 +29138,7 @@ $VAR1 = [
                           {
                             'artist' => 'Yourteacher.com',
                             'from' => 3657,
-                            'title' => 'Watch Video on 30-60-90 Triangles - Geometry Help'
+                            'title' => 'Watch Video on 30'
                           }
                         ],
                         [
@@ -28386,7 +29431,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 3188,
-                            'title' => 'Jacques Perrey - Umbrellas of Cherbourg'
+                            'title' => 'Jacques Perrey'
                           }
                         ],
                         [
@@ -28426,7 +29471,7 @@ $VAR1 = [
                           {
                             'artist' => '8bit',
                             'from' => 78,
-                            'title' => 'rockers - Russian cowboy'
+                            'title' => 'rockers'
                           }
                         ],
                         [
@@ -28437,7 +29482,7 @@ $VAR1 = [
                           {
                             'artist' => 'Messer chups',
                             'from' => 187,
-                            'title' => 'Swamp - Cowboy'
+                            'title' => 'Swamp'
                           }
                         ],
                         [
@@ -28668,7 +29713,7 @@ $VAR1 = [
                           {
                             'artist' => 'Maurice Wautelet',
                             'from' => 2556,
-                            'title' => 'El cow-boy di charlerwè'
+                            'title' => 'El cow'
                           }
                         ],
                         [
@@ -28829,7 +29874,7 @@ $VAR1 = [
                           {
                             'artist' => 'Les Shériff',
                             'from' => 390,
-                            'title' => 'Quand est-ce-qu\'on mange ?'
+                            'title' => 'Quand est'
                           }
                         ],
                         [
@@ -29287,7 +30332,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 1014,
-                            'title' => 'Jacques Perrey - In First Orbit'
+                            'title' => 'Jacques Perrey'
                           }
                         ],
                         [
@@ -29529,7 +30574,7 @@ $VAR1 = [
                           {
                             'artist' => 'Minizza',
                             'from' => 3868,
-                            'title' => 'Y a-til de l\'eau sur mars ?'
+                            'title' => 'Y a'
                           }
                         ],
                         [
@@ -29540,7 +30585,7 @@ $VAR1 = [
                           {
                             'artist' => 'Stereototal',
                             'from' => 3952,
-                            'title' => 'mars rendez-vous (we love jacno mix)'
+                            'title' => 'mars rendez'
                           }
                         ],
                         [
@@ -29624,7 +30669,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 623,
-                            'title' => 'Jacques Perrey - L\'horloge hantÈe'
+                            'title' => 'Jacques Perrey'
                           }
                         ],
                         [
@@ -29679,7 +30724,7 @@ $VAR1 = [
                           {
                             'artist' => 'Die Gesunden',
                             'from' => 1421,
-                            'title' => 'Sometimes-manchmal'
+                            'title' => 'Sometimes'
                           }
                         ],
                         [
@@ -30408,7 +31453,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wolf eyes',
                             'from' => 951,
-                            'title' => 'black vomit / MF Doom - Vomit / Fille qui mousse - Esplanade'
+                            'title' => 'black vomit / MF Doom'
                           }
                         ],
                         [
@@ -30419,7 +31464,7 @@ $VAR1 = [
                           {
                             'artist' => 'Venetian Snares   Speedranch',
                             'from' => 1257,
-                            'title' => 'Making Orange Things - Halfway Up the Stairway of Mucus'
+                            'title' => 'Making Orange Things'
                           }
                         ],
                         [
@@ -30723,7 +31768,7 @@ $VAR1 = [
                           {
                             'artist' => 'Coil',
                             'from' => 280,
-                            'title' => 'All the pretty little horses + Isabelle Aubret - Qui peut croire au père Noel ?'
+                            'title' => 'All the pretty little horses + Isabelle Aubret'
                           }
                         ],
                         [
@@ -30778,7 +31823,7 @@ $VAR1 = [
                           {
                             'artist' => 'Cha',
                             'from' => 448,
-                            'title' => 'bashira - Live'
+                            'title' => 'bashira'
                           }
                         ],
                         [
@@ -30866,7 +31911,7 @@ $VAR1 = [
                           {
                             'artist' => 'Nino Rota',
                             'from' => 852,
-                            'title' => 'Il Casanova Di Federico Fellini - L\'Uccello Magico'
+                            'title' => 'Il Casanova Di Federico Fellini'
                           }
                         ],
                         [
@@ -30921,7 +31966,7 @@ $VAR1 = [
                           {
                             'artist' => 'Black moth super rainbow',
                             'from' => 1073,
-                            'title' => 'Lollipopsichord + Salome - le monstre qui dechire les enfants'
+                            'title' => 'Lollipopsichord + Salome'
                           }
                         ],
                         [
@@ -31086,7 +32131,7 @@ $VAR1 = [
                           {
                             'artist' => 'Heiner Goebbels & Alfred 23 Harth',
                             'from' => 2976,
-                            'title' => 'Kein Krigsspielzeug Fuer Jonathan + Beedesh Hotel Troubadours - Telephone'
+                            'title' => 'Kein Krigsspielzeug Fuer Jonathan + Beedesh Hotel Troubadours'
                           }
                         ],
                         [
@@ -31130,7 +32175,7 @@ $VAR1 = [
                           {
                             'artist' => 'Un Drame Musical Instantané',
                             'from' => 3289,
-                            'title' => 'Jalousie + Vincent Barras & Jacques Demierre - Homard'
+                            'title' => 'Jalousie + Vincent Barras & Jacques Demierre'
                           }
                         ],
                         [
@@ -31152,7 +32197,7 @@ $VAR1 = [
                           {
                             'artist' => 'TITO',
                             'from' => 3437,
-                            'title' => 'Casibu (minimal version) + Alice Walker - All the Toys'
+                            'title' => 'Casibu (minimal version) + Alice Walker'
                           }
                         ],
                         [
@@ -31192,7 +32237,7 @@ $VAR1 = [
                           {
                             'artist' => 'Ristar The Shooting Star GST',
                             'from' => 20,
-                            'title' => '2-1 Splash Down!!'
+                            'title' => '2'
                           }
                         ],
                         [
@@ -31214,7 +32259,7 @@ $VAR1 = [
                           {
                             'artist' => 'Tiny Toons Adventures',
                             'from' => 210,
-                            'title' => 'Busters Hidden Treasure - Water World'
+                            'title' => 'Busters Hidden Treasure'
                           }
                         ],
                         [
@@ -31694,7 +32739,7 @@ $VAR1 = [
                           {
                             'artist' => 'Kik',
                             'from' => 1279,
-                            'title' => 'Mash-up glitché de Little house on the prairie/Thunderbirds/Star Trek'
+                            'title' => 'Mash'
                           }
                         ],
                         [
@@ -31771,7 +32816,7 @@ $VAR1 = [
                           {
                             'artist' => 'François de roubaix',
                             'from' => 1908,
-                            'title' => 'indicatif télé-zaïre'
+                            'title' => 'indicatif télé'
                           }
                         ],
                         [
@@ -31826,7 +32871,7 @@ $VAR1 = [
                           {
                             'artist' => 'Datronics',
                             'from' => 2518,
-                            'title' => 'TV-chaos'
+                            'title' => 'TV'
                           }
                         ],
                         [
@@ -32053,7 +33098,7 @@ $VAR1 = [
                           {
                             'artist' => 'i',
                             'from' => 2000,
-                            'title' => 'f - space invaders are smoking grass'
+                            'title' => 'f'
                           }
                         ],
                         [
@@ -32412,7 +33457,7 @@ $VAR1 = [
                           {
                             'artist' => 'X',
                             'from' => 2486,
-                            'title' => 'AM - Feel The Love Generation 2'
+                            'title' => 'AM'
                           }
                         ],
                         [
@@ -32489,7 +33534,7 @@ $VAR1 = [
                           {
                             'artist' => 'NTM',
                             'from' => 2951,
-                            'title' => 'Mais qu\'est-ce qu\'on attend?'
+                            'title' => 'Mais qu\'est'
                           }
                         ],
                         [
@@ -32511,7 +33556,7 @@ $VAR1 = [
                           {
                             'artist' => 'NTM',
                             'from' => 3122,
-                            'title' => 'Mais qu\'est-ce qu\'on attend?'
+                            'title' => 'Mais qu\'est'
                           }
                         ],
                         [
@@ -32577,7 +33622,7 @@ $VAR1 = [
                           {
                             'artist' => 'Maximum The Hormone',
                             'from' => 3460,
-                            'title' => 'What\'s Up People! (Auto-Destruction Needed Remix)'
+                            'title' => 'What\'s Up People! (Auto'
                           }
                         ],
                         [
@@ -33042,7 +34087,7 @@ $VAR1 = [
                           {
                             'artist' => 'Michel Polnareff',
                             'from' => 980,
-                            'title' => 'Sous quelle étoile suis-je né ?'
+                            'title' => 'Sous quelle étoile suis'
                           }
                         ],
                         [
@@ -33108,7 +34153,7 @@ $VAR1 = [
                           {
                             'artist' => 'Marie José',
                             'from' => 1657,
-                            'title' => 'Parle-moi Tzigane'
+                            'title' => 'Parle'
                           }
                         ],
                         [
@@ -33163,7 +34208,7 @@ $VAR1 = [
                           {
                             'artist' => 'Zodiac',
                             'from' => 2189,
-                            'title' => 'Zodiac  VS Jean-Yves Lafesse - L\'Horoscope'
+                            'title' => 'Zodiac  VS Jean'
                           }
                         ],
                         [
@@ -33295,7 +34340,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 3421,
-                            'title' => 'jacques perrey - Music of the planets'
+                            'title' => 'jacques perrey'
                           }
                         ],
                         [
@@ -33346,7 +34391,7 @@ $VAR1 = [
                           {
                             'artist' => 'The User',
                             'from' => 70,
-                            'title' => 'dotmatrix 1 - control to efficiency'
+                            'title' => 'dotmatrix 1'
                           }
                         ],
                         [
@@ -33357,7 +34402,7 @@ $VAR1 = [
                           {
                             'artist' => 'The User',
                             'from' => 72,
-                            'title' => 'dotmatrix 2 - efficiency'
+                            'title' => 'dotmatrix 2'
                           }
                         ],
                         [
@@ -34273,7 +35318,7 @@ $VAR1 = [
                           {
                             'artist' => ' ',
                             'from' => 811,
-                            'title' => 'Jean Yanne et Michel Magne - Moi y\'en a vouloir des sous (édit)'
+                            'title' => 'Jean Yanne et Michel Magne'
                           }
                         ],
                         [
@@ -34284,7 +35329,7 @@ $VAR1 = [
                           {
                             'artist' => ' ',
                             'from' => 852,
-                            'title' => 'Dr Snuggle & MC Jacqueline - Richard, 53 ans'
+                            'title' => 'Dr Snuggle & MC Jacqueline'
                           }
                         ],
                         [
@@ -34936,7 +35981,7 @@ $VAR1 = [
                           {
                             'artist' => 'Le multi exerciseur K',
                             'from' => 55,
-                            'title' => 'Tel - side 1 (extrait)'
+                            'title' => 'Tel'
                           }
                         ],
                         [
@@ -35057,7 +36102,7 @@ $VAR1 = [
                           {
                             'artist' => '(Véronique et Davina',
                             'from' => 960,
-                            'title' => 'Gym Tonic   Nicolas Canteloup-Sports de tapette   Jérôme P - diverses mauvaises imitations) - Gym Comic Megamix'
+                            'title' => 'Gym Tonic   Nicolas Canteloup'
                           }
                         ],
                         [
@@ -35383,7 +36428,7 @@ $VAR1 = [
                           {
                             'artist' => '  Maldek',
                             'from' => 1145,
-                            'title' => 'Agnostic robots VS Sun plexus - Simon'
+                            'title' => 'Agnostic robots VS Sun plexus'
                           }
                         ],
                         [
@@ -35504,7 +36549,7 @@ $VAR1 = [
                           {
                             'artist' => ' Eva',
                             'from' => 2030,
-                            'title' => 'Johanna Reichstag - Cantate'
+                            'title' => 'Johanna Reichstag'
                           }
                         ],
                         [
@@ -35537,7 +36582,7 @@ $VAR1 = [
                           {
                             'artist' => ' Renaldo and the Loaf',
                             'from' => 2361,
-                            'title' => 'Extracting the re-re (a ritual call to prayer)'
+                            'title' => 'Extracting the re'
                           }
                         ],
                         [
@@ -35775,7 +36820,7 @@ $VAR1 = [
                           {
                             'artist' => 'Arnaud Lazlaud',
                             'from' => 1234,
-                            'title' => 'Le Malade-Roi'
+                            'title' => 'Le Malade'
                           }
                         ],
                         [
@@ -36698,7 +37743,7 @@ $VAR1 = [
                           {
                             'artist' => 'Marie',
                             'from' => 1886,
-                            'title' => 'Claire Courcel - Un petit bigoudi'
+                            'title' => 'Claire Courcel'
                           }
                         ],
                         [
@@ -36764,7 +37809,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 2728,
-                            'title' => 'Claude Pierric - Tresse en colère'
+                            'title' => 'Claude Pierric'
                           }
                         ],
                         [
@@ -37321,7 +38366,7 @@ $VAR1 = [
                           {
                             'artist' => 'Serge Gainsbourg',
                             'from' => 3320,
-                            'title' => 'Coco & Coe (achevée au coupe-ongle)'
+                            'title' => 'Coco & Coe (achevée au coupe'
                           }
                         ],
                         [
@@ -37354,7 +38399,7 @@ $VAR1 = [
                           {
                             'artist' => 'The Chemical Bros',
                             'from' => 3510,
-                            'title' => 'Lost in the K-hole (compacté en sautant à pieds joints dessus)'
+                            'title' => 'Lost in the K'
                           }
                         ],
                         [
@@ -38134,7 +39179,7 @@ $VAR1 = [
                           {
                             'artist' => 'Les sans papier',
                             'from' => 375,
-                            'title' => 'Le rap des sans-papiers'
+                            'title' => 'Le rap des sans'
                           }
                         ],
                         [
@@ -38486,7 +39531,7 @@ $VAR1 = [
                           {
                             'artist' => 'Malika Dom',
                             'from' => 3013,
-                            'title' => 'Ran - Assarou'
+                            'title' => 'Ran'
                           }
                         ],
                         [
@@ -38867,7 +39912,7 @@ $VAR1 = [
                           {
                             'artist' => 'Margranger',
                             'from' => 2689,
-                            'title' => 'La Zermi -'
+                            'title' => 'La Zermi'
                           }
                         ],
                         [
@@ -38911,7 +39956,7 @@ $VAR1 = [
                           {
                             'artist' => 'Kap Bambino',
                             'from' => 3156,
-                            'title' => 'Warriors -'
+                            'title' => 'Warriors'
                           }
                         ],
                         [
@@ -39006,7 +40051,7 @@ $VAR1 = [
                           {
                             'artist' => 'Mi',
                             'from' => 193,
-                            'title' => 'Sex - Computer Games'
+                            'title' => 'Sex'
                           }
                         ],
                         [
@@ -39149,7 +40194,7 @@ $VAR1 = [
                           {
                             'artist' => 'Kick & Punch',
                             'from' => 2495,
-                            'title' => 'Space Space Shooter (D-Warp Speed Run 2007)'
+                            'title' => 'Space Space Shooter (D'
                           }
                         ],
                         [
@@ -39171,7 +40216,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wizi',
                             'from' => 2991,
-                            'title' => 'P feat. BKR & Lil\'2004 - On a la Wii'
+                            'title' => 'P feat. BKR & Lil\'2004'
                           }
                         ],
                         [
@@ -39310,7 +40355,7 @@ $VAR1 = [
                           {
                             'artist' => 'France Gall',
                             'from' => 831,
-                            'title' => 'Allo Monsieur La-haut'
+                            'title' => 'Allo Monsieur La'
                           }
                         ],
                         [
@@ -39343,7 +40388,7 @@ $VAR1 = [
                           {
                             'artist' => 'Mixed by Deehowyou',
                             'from' => 1000,
-                            'title' => 'Guilty Téléphone (accapella ripped from an unknown guy from myspace   Eminem feat. Dr Dre - Guilty Conscience MIDI file)'
+                            'title' => 'Guilty Téléphone (accapella ripped from an unknown guy from myspace   Eminem feat. Dr Dre'
                           }
                         ],
                         [
@@ -39486,7 +40531,7 @@ $VAR1 = [
                           {
                             'artist' => 'Deehowyou',
                             'from' => 1854,
-                            'title' => 'Suicidez-vous, Démissionnez (France Télécom Remix)'
+                            'title' => 'Suicidez'
                           }
                         ],
                         [
@@ -39552,7 +40597,7 @@ $VAR1 = [
                           {
                             'artist' => 'Godzuki',
                             'from' => 2464,
-                            'title' => 'Tele-Fone'
+                            'title' => 'Tele'
                           }
                         ],
                         [
@@ -39607,7 +40652,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wazmo Nariz',
                             'from' => 2930,
-                            'title' => 'Tele-Tele-Telephone'
+                            'title' => 'Tele'
                           }
                         ],
                         [
@@ -39618,7 +40663,7 @@ $VAR1 = [
                           {
                             'artist' => 'A Finely',
                             'from' => 3042,
-                            'title' => 'tailored Jitbag - It Smells Of Curry Without You'
+                            'title' => 'tailored Jitbag'
                           }
                         ],
                         [
@@ -39629,7 +40674,7 @@ $VAR1 = [
                           {
                             'artist' => 'paintXnumbers',
                             'from' => 3063,
-                            'title' => 'The Cut-Ups'
+                            'title' => 'The Cut'
                           }
                         ],
                         [
@@ -39673,7 +40718,7 @@ $VAR1 = [
                           {
                             'artist' => 'Goodiepal',
                             'from' => 3200,
-                            'title' => 'Big-beat-phone'
+                            'title' => 'Big'
                           }
                         ],
                         [
@@ -39856,7 +40901,7 @@ $VAR1 = [
                           {
                             'artist' => 'People Like Us',
                             'from' => 1008,
-                            'title' => 'Calling - The Telefon Call'
+                            'title' => 'Calling'
                           }
                         ],
                         [
@@ -39944,7 +40989,7 @@ $VAR1 = [
                           {
                             'artist' => 'The Kills',
                             'from' => 1657,
-                            'title' => 'No Wow (Telephone Radio Germany) VS. TTC - Téléphone'
+                            'title' => 'No Wow (Telephone Radio Germany) VS. TTC'
                           }
                         ],
                         [
@@ -40065,7 +41110,7 @@ $VAR1 = [
                           {
                             'artist' => 'Le chevalier de Rynchy',
                             'from' => 2712,
-                            'title' => 'pourquoi m\'a t-elle laisse son numero de telephone ?'
+                            'title' => 'pourquoi m\'a t'
                           }
                         ],
                         [
@@ -40098,7 +41143,7 @@ $VAR1 = [
                           {
                             'artist' => 'Beastie Boys',
                             'from' => 2758,
-                            'title' => 'B-Boys Makin\' With The Freak Freak( extrait)'
+                            'title' => 'B'
                           }
                         ],
                         [
@@ -40153,7 +41198,7 @@ $VAR1 = [
                           {
                             'artist' => 'Caspa',
                             'from' => 3336,
-                            'title' => 'Wheres My Money (L-Vis 1990 Dubble Step Edit)'
+                            'title' => 'Wheres My Money (L'
                           }
                         ],
                         [
@@ -40684,7 +41729,7 @@ $VAR1 = [
                           {
                             'artist' => 'La Salamandre',
                             'from' => 78,
-                            'title' => 'Alain Tanner - 1971'
+                            'title' => 'Alain Tanner'
                           }
                         ],
                         [
@@ -40706,7 +41751,7 @@ $VAR1 = [
                           {
                             'artist' => 'La Salamandre',
                             'from' => 245,
-                            'title' => 'Alain Tanner - 1971'
+                            'title' => 'Alain Tanner'
                           }
                         ],
                         [
@@ -40717,7 +41762,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wu',
                             'from' => 276,
-                            'title' => 'Tang Clan - Wu-Revolution'
+                            'title' => 'Tang Clan'
                           }
                         ],
                         [
@@ -40750,7 +41795,7 @@ $VAR1 = [
                           {
                             'artist' => 'Ennio Morricone',
                             'from' => 834,
-                            'title' => 'Giu la testa - Il était une fois la Révolution - Sergio Leone - 1971'
+                            'title' => 'Giu la testa'
                           }
                         ],
                         [
@@ -40761,7 +41806,7 @@ $VAR1 = [
                           {
                             'artist' => 'La Salamandre',
                             'from' => 964,
-                            'title' => 'Alain Tanner - 1971'
+                            'title' => 'Alain Tanner'
                           }
                         ],
                         [
@@ -40772,7 +41817,7 @@ $VAR1 = [
                           {
                             'artist' => 'La chinoise',
                             'from' => 980,
-                            'title' => 'Jean-Luc Godard 1967'
+                            'title' => 'Jean'
                           }
                         ],
                         [
@@ -40805,7 +41850,7 @@ $VAR1 = [
                           {
                             'artist' => 'Giu la testa',
                             'from' => 1143,
-                            'title' => 'Il était une fois la Révolution - Sergio Leone - 1971'
+                            'title' => 'Il était une fois la Révolution'
                           }
                         ],
                         [
@@ -40827,7 +41872,7 @@ $VAR1 = [
                           {
                             'artist' => 'La chinoise',
                             'from' => 1350,
-                            'title' => 'Jean-Luc Godard 1967'
+                            'title' => 'Jean'
                           }
                         ],
                         [
@@ -40860,7 +41905,7 @@ $VAR1 = [
                           {
                             'artist' => 'Giu la testa',
                             'from' => 1544,
-                            'title' => 'Il était une fois la Révolution - Sergio Leone - 1971'
+                            'title' => 'Il était une fois la Révolution'
                           }
                         ],
                         [
@@ -40871,7 +41916,7 @@ $VAR1 = [
                           {
                             'artist' => 'Eric Cantona',
                             'from' => 1552,
-                            'title' => 'Revolution et banques - Youtube video'
+                            'title' => 'Revolution et banques'
                           }
                         ],
                         [
@@ -40882,7 +41927,7 @@ $VAR1 = [
                           {
                             'artist' => 'Paul Kalkbrenner',
                             'from' => 1576,
-                            'title' => 'Revolte Original Mix feat Voix des Anonymous - Révolution - Lettre ouverte au monde'
+                            'title' => 'Revolte Original Mix feat Voix des Anonymous'
                           }
                         ],
                         [
@@ -40893,7 +41938,7 @@ $VAR1 = [
                           {
                             'artist' => 'La chinoise',
                             'from' => 1623,
-                            'title' => 'Jean-Luc Godard 1967'
+                            'title' => 'Jean'
                           }
                         ],
                         [
@@ -40915,7 +41960,7 @@ $VAR1 = [
                           {
                             'artist' => 'Giu la testa',
                             'from' => 1842,
-                            'title' => 'Il était une fois la Révolution - Sergio Leone - 1971'
+                            'title' => 'Il était une fois la Révolution'
                           }
                         ],
                         [
@@ -40926,7 +41971,7 @@ $VAR1 = [
                           {
                             'artist' => 'Claude Channes',
                             'from' => 1850,
-                            'title' => 'Mao Mao - BO La chinoise / Jean-Luc Godard 1967'
+                            'title' => 'Mao Mao'
                           }
                         ],
                         [
@@ -40992,7 +42037,7 @@ $VAR1 = [
                           {
                             'artist' => 'La planete des singes',
                             'from' => 2895,
-                            'title' => 'Franklin J. Schaffner - 1968'
+                            'title' => 'Franklin J. Schaffner'
                           }
                         ],
                         [
@@ -41091,7 +42136,7 @@ $VAR1 = [
                           {
                             'artist' => 'Docteur Bolloks',
                             'from' => 3600,
-                            'title' => ' La Telu Nalfi  - Gorges profondes 1993'
+                            'title' => ' La Telu Nalfi '
                           }
                         ]
                       ]
@@ -41120,7 +42165,7 @@ $VAR1 = [
                           {
                             'artist' => 'Intro',
                             'from' => 89,
-                            'title' => 'l\'électro-encéphalogramme'
+                            'title' => 'l\'électro'
                           }
                         ],
                         [
@@ -41153,7 +42198,7 @@ $VAR1 = [
                           {
                             'artist' => 'Telex',
                             'from' => 400,
-                            'title' => 'Dream-O-Mat'
+                            'title' => 'Dream'
                           }
                         ],
                         [
@@ -41446,7 +42491,7 @@ $VAR1 = [
                           {
                             'artist' => 'Wermut avec Chopin',
                             'from' => 97,
-                            'title' => 'Quand la nuit tombe - Marche funèbre'
+                            'title' => 'Quand la nuit tombe'
                           }
                         ],
                         [
@@ -41981,7 +43026,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 1215,
-                            'title' => 'Felix Lalanne - Magie Rouge (B.O. du film "36-15 Code Père Noël")'
+                            'title' => 'Felix Lalanne'
                           }
                         ],
                         [
@@ -42113,7 +43158,7 @@ $VAR1 = [
                           {
                             'artist' => 'Céline Dion',
                             'from' => 1889,
-                            'title' => 'Céline et pinotte/Jam City - shut the lights off (devil refix)'
+                            'title' => 'Céline et pinotte/Jam City'
                           }
                         ],
                         [
@@ -42124,7 +43169,7 @@ $VAR1 = [
                           {
                             'artist' => 'Sweet Tee',
                             'from' => 2003,
-                            'title' => 'Let the jingle bells rock ( osti qu\'j\'va avoir l\'air fou  re-edit)'
+                            'title' => 'Let the jingle bells rock ( osti qu\'j\'va avoir l\'air fou  re'
                           }
                         ],
                         [
@@ -42135,7 +43180,7 @@ $VAR1 = [
                           {
                             'artist' => 'Paul White',
                             'from' => 2046,
-                            'title' => 'we three kings / ?- Mr T Xmas .avi'
+                            'title' => 'we three kings / ?'
                           }
                         ],
                         [
@@ -42908,7 +43953,7 @@ $VAR1 = [
                           {
                             'artist' => '20 Fingers',
                             'from' => 1535,
-                            'title' => 'Short dick man (avec Jean Marie Le Pen - Live at Mantes-la-Jolie)'
+                            'title' => 'Short dick man (avec Jean Marie Le Pen'
                           }
                         ],
                         [
@@ -42963,7 +44008,7 @@ $VAR1 = [
                           {
                             'artist' => 'Puss',
                             'from' => 1982,
-                            'title' => 'Master and slave (avec Les Nuls - La vie quotidienne des Super Héros)'
+                            'title' => 'Master and slave (avec Les Nuls'
                           }
                         ],
                         [
@@ -43007,7 +44052,7 @@ $VAR1 = [
                           {
                             'artist' => 'Lalo Schifrin',
                             'from' => 2408,
-                            'title' => 'Dirty Harry\'s creed (avec Les Nuls - Clint is wood)'
+                            'title' => 'Dirty Harry\'s creed (avec Les Nuls'
                           }
                         ],
                         [
@@ -43062,7 +44107,7 @@ $VAR1 = [
                           {
                             'artist' => 'France culture',
                             'from' => 2986,
-                            'title' => 'A voix nue Serge Gainsbourg - Aux Armes Dub (tapis sonore)'
+                            'title' => 'A voix nue Serge Gainsbourg'
                           }
                         ],
                         [
@@ -43571,7 +44616,7 @@ $VAR1 = [
                           {
                             'artist' => 'Alain de Filipis',
                             'from' => 304,
-                            'title' => 'Petites Musiques de Bruits VS Misiaczek - Washing machine'
+                            'title' => 'Petites Musiques de Bruits VS Misiaczek'
                           }
                         ],
                         [
@@ -43593,7 +44638,7 @@ $VAR1 = [
                           {
                             'artist' => 'Ligues des utopistes non alignés',
                             'from' => 553,
-                            'title' => 'Machine à remonter les bretelles VS Dick Higgins - Storm riders'
+                            'title' => 'Machine à remonter les bretelles VS Dick Higgins'
                           }
                         ],
                         [
@@ -44205,7 +45250,7 @@ $VAR1 = [
                           {
                             'artist' => 'Karo',
                             'from' => 2196,
-                            'title' => 'Un garçon en mini-jupe'
+                            'title' => 'Un garçon en mini'
                           }
                         ],
                         [
@@ -44260,7 +45305,7 @@ $VAR1 = [
                           {
                             'artist' => 'Air & Jean',
                             'from' => 2574,
-                            'title' => 'Jacques Perrey - Cosmic Bird'
+                            'title' => 'Jacques Perrey'
                           }
                         ],
                         [
@@ -44293,7 +45338,7 @@ $VAR1 = [
                           {
                             'artist' => 'Fabien Mellin',
                             'from' => 2753,
-                            'title' => 'Grieg - Au Matin'
+                            'title' => 'Grieg'
                           }
                         ],
                         [
@@ -44326,7 +45371,7 @@ $VAR1 = [
                           {
                             'artist' => 'Pierre Desproges',
                             'from' => 3021,
-                            'title' => 'Chroniques de la haine ordinaire - Le printemps'
+                            'title' => 'Chroniques de la haine ordinaire'
                           }
                         ],
                         [
@@ -44370,7 +45415,7 @@ $VAR1 = [
                           {
                             'artist' => 'Pierre Desproges',
                             'from' => 3376,
-                            'title' => 'Chroniques de la haine ordinaire - Le printemps'
+                            'title' => 'Chroniques de la haine ordinaire'
                           }
                         ],
                         [
@@ -44454,7 +45499,7 @@ $VAR1 = [
                           {
                             'artist' => 'Stereonerds',
                             'from' => 397,
-                            'title' => 'Transhuman Melody vs. Alison Brown - Spiderman Theme'
+                            'title' => 'Transhuman Melody vs. Alison Brown'
                           }
                         ],
                         [
@@ -44542,7 +45587,7 @@ $VAR1 = [
                           {
                             'artist' => 'Stu Phillips',
                             'from' => 772,
-                            'title' => 'Knight Ryder aka K-2000 Theme'
+                            'title' => 'Knight Ryder aka K'
                           }
                         ],
                         [
@@ -44696,7 +45741,7 @@ $VAR1 = [
                           {
                             'artist' => 'Busdriver',
                             'from' => 1713,
-                            'title' => 'She-Hulk Dehorning The Illusionist'
+                            'title' => 'She'
                           }
                         ],
                         [
@@ -44872,7 +45917,7 @@ $VAR1 = [
                           {
                             'artist' => 'Shunsuke',
                             'from' => 3284,
-                            'title' => 'Kikuchi-Grendizer'
+                            'title' => 'Kikuchi'
                           }
                         ],
                         [
@@ -45359,7 +46404,7 @@ $VAR1 = [
                           {
                             'artist' => 'Pre Dodudaboum',
                             'from' => 310,
-                            'title' => 'Country-flavor'
+                            'title' => 'Country'
                           }
                         ],
                         [
@@ -46224,7 +47269,7 @@ $VAR1 = [
                           {
                             'artist' => 'HEARING SOLAR WINDS',
                             'from' => 2851,
-                            'title' => 'THE HARMONIC CHOIR VALERE NOVARINA-LE DISCOURS AUX ANIMAUX PIERRE SCHAFFER-SYMPLHONIE POUR UN HOMME SEUL TWIN PEAKS SOUNDTRACK'
+                            'title' => 'THE HARMONIC CHOIR VALERE NOVARINA'
                           }
                         ],
                         [
@@ -46297,7 +47342,7 @@ $VAR1 = [
                           {
                             'artist' => 'Le chevalier Derinchy',
                             'from' => 110,
-                            'title' => 'Jingle n°3 le Moyen-Âge'
+                            'title' => 'Jingle n°3 le Moyen'
                           }
                         ],
                         [
@@ -46330,7 +47375,7 @@ $VAR1 = [
                           {
                             'artist' => 'Keygenmusic',
                             'from' => 366,
-                            'title' => 'SnD - AnyDVD'
+                            'title' => 'SnD'
                           }
                         ],
                         [
@@ -46363,7 +47408,7 @@ $VAR1 = [
                           {
                             'artist' => 'Catherine Ferroyer',
                             'from' => 530,
-                            'title' => 'Blanchard - Chanson d’amour (Satanicpornocultshop remix)'
+                            'title' => 'Blanchard'
                           }
                         ],
                         [
@@ -46843,7 +47888,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 2672,
-                            'title' => 'Sébastien Bach - Toccata et fugue en ré mineur (premières  mesures)'
+                            'title' => 'Sébastien Bach'
                           }
                         ],
                         [
@@ -46887,7 +47932,7 @@ $VAR1 = [
                           {
                             'artist' => 'Maïsman',
                             'from' => 3104,
-                            'title' => 'Qui a peur de Méchant-man ? (un petit bout)'
+                            'title' => 'Qui a peur de Méchant'
                           }
                         ],
                         [
@@ -47103,7 +48148,7 @@ $VAR1 = [
                           {
                             'artist' => 'Arthur Rubinstein',
                             'from' => 1170,
-                            'title' => 'Chopin - Nocturne Op. 15 n°2 in F Sharp'
+                            'title' => 'Chopin'
                           }
                         ],
                         [
@@ -47202,7 +48247,7 @@ $VAR1 = [
                           {
                             'artist' => 'Frederick Galiay Miss O',
                             'from' => 1913,
-                            'title' => 'Tais-toi VS. Soupauchou Le silence daizagno'
+                            'title' => 'Tais'
                           }
                         ],
                         [
@@ -47224,7 +48269,7 @@ $VAR1 = [
                           {
                             'artist' => 'Marco Prince',
                             'from' => 2125,
-                            'title' => 'B.O. du film "Tais-toi" (Générique de fin)'
+                            'title' => 'B.O. du film "Tais'
                           }
                         ],
                         [
@@ -47378,7 +48423,7 @@ $VAR1 = [
                           {
                             'artist' => 'extrait film  Le Silence de la Mer ',
                             'from' => 3135,
-                            'title' => 'Jean-Pierre Melville'
+                            'title' => 'Jean'
                           }
                         ],
                         [
@@ -47510,7 +48555,7 @@ $VAR1 = [
                           {
                             'artist' => 'extrait film Le Silence de la Mer',
                             'from' => 3580,
-                            'title' => 'Jean-Pierre Melville'
+                            'title' => 'Jean'
                           }
                         ]
                       ]
@@ -47616,7 +48661,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 765,
-                            'title' => 'Luc le Tenia - Le monstre du Loch Ness'
+                            'title' => 'Luc le Tenia'
                           }
                         ],
                         [
@@ -47964,7 +49009,7 @@ $VAR1 = [
                           {
                             'artist' => '?????',
                             'from' => 898,
-                            'title' => 'Entendez-vous dans le feu'
+                            'title' => 'Entendez'
                           }
                         ],
                         [
@@ -48257,7 +49302,7 @@ $VAR1 = [
                           {
                             'artist' => 'CFUN/CHQM',
                             'from' => 189,
-                            'title' => 'FM Radio - C64 Radio Commercial French'
+                            'title' => 'FM Radio'
                           }
                         ],
                         [
@@ -48990,7 +50035,7 @@ $VAR1 = [
                           {
                             'artist' => 'DANSE MACABRE',
                             'from' => 3109,
-                            'title' => '6-6-6 1/2'
+                            'title' => '6'
                           }
                         ],
                         [
@@ -49250,7 +50295,7 @@ $VAR1 = [
                           {
                             'artist' => 'Sir Mix',
                             'from' => 1567,
-                            'title' => 'a-Lot - Baby Got Back'
+                            'title' => 'a'
                           }
                         ],
                         [
@@ -49565,7 +50610,7 @@ $VAR1 = [
                           {
                             'artist' => 'Lucie Dolene',
                             'from' => 440,
-                            'title' => 'Quel temps fait-il à Paris ?'
+                            'title' => 'Quel temps fait'
                           }
                         ],
                         [
@@ -49642,7 +50687,7 @@ $VAR1 = [
                           {
                             'artist' => 'Le Perche Oreille',
                             'from' => 1115,
-                            'title' => 'Pluie (ex-tension_torsion)'
+                            'title' => 'Pluie (ex'
                           }
                         ],
                         [
@@ -49774,7 +50819,7 @@ $VAR1 = [
                           {
                             'artist' => 'P',
                             'from' => 2147,
-                            'title' => 'model - Sunshine city'
+                            'title' => 'model'
                           }
                         ],
                         [
@@ -49862,7 +50907,7 @@ $VAR1 = [
                           {
                             'artist' => 'Alain Gillot',
                             'from' => 2816,
-                            'title' => 'Pétré - Fréquence météo'
+                            'title' => 'Pétré'
                           }
                         ],
                         [
@@ -49895,7 +50940,7 @@ $VAR1 = [
                           {
                             'artist' => 'Sim',
                             'from' => 3101,
-                            'title' => 'Fais-moi un bisou sous la pluie'
+                            'title' => 'Fais'
                           }
                         ],
                         [
@@ -49906,7 +50951,7 @@ $VAR1 = [
                           {
                             'artist' => 'L\'augmentation',
                             'from' => 3182,
-                            'title' => 'Soleil VS Alain Gillot-Pétré'
+                            'title' => 'Soleil VS Alain Gillot'
                           }
                         ],
                         [
@@ -50331,7 +51376,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 2317,
-                            'title' => 'Luc le Tenia - Fabriquer du lapin'
+                            'title' => 'Luc le Tenia'
                           }
                         ],
                         [
@@ -50448,7 +51493,7 @@ $VAR1 = [
                           {
                             'artist' => 'La Compagnie Créole',
                             'from' => 64,
-                            'title' => 'Donne-moi un baiser'
+                            'title' => 'Donne'
                           }
                         ],
                         [
@@ -50602,7 +51647,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jacques Salvail',
                             'from' => 1774,
-                            'title' => 'Embrasse-moi'
+                            'title' => 'Embrasse'
                           }
                         ],
                         [
@@ -50734,7 +51779,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean',
                             'from' => 3008,
-                            'title' => 'Luc Le Ténia - Je t\'embrasse'
+                            'title' => 'Luc Le Ténia'
                           }
                         ],
                         [
@@ -50961,7 +52006,7 @@ $VAR1 = [
                           {
                             'artist' => 'Deerhoof',
                             'from' => 1186,
-                            'title' => 'Strawberry Bananas   Synthèse Vocale - L\'Histoire De Paula Ross'
+                            'title' => 'Strawberry Bananas   Synthèse Vocale'
                           }
                         ],
                         [
@@ -51027,7 +52072,7 @@ $VAR1 = [
                           {
                             'artist' => 'Zomby',
                             'from' => 1617,
-                            'title' => 'Strange Fruits   Bouge Ton Cul - Faut-il Réellement manger 5 Fruits et Légumes Par Jour ?'
+                            'title' => 'Strange Fruits   Bouge Ton Cul'
                           }
                         ],
                         [
@@ -51342,7 +52387,7 @@ $VAR1 = [
                           {
                             'artist' => '8',
                             'from' => 654,
-                            'title' => 'bit Rockers - Riding with my Snowscooter'
+                            'title' => 'bit Rockers'
                           }
                         ],
                         [
@@ -51540,7 +52585,7 @@ $VAR1 = [
                           {
                             'artist' => 'Suzy Andrews',
                             'from' => 2050,
-                            'title' => 'Teenage Iceage (avec une pub Imossel puis Bruno Carette et Jean-Guy Ruff)'
+                            'title' => 'Teenage Iceage (avec une pub Imossel puis Bruno Carette et Jean'
                           }
                         ],
                         [
@@ -51562,7 +52607,7 @@ $VAR1 = [
                           {
                             'artist' => 'Bernard Gerard & Jacques Datin',
                             'from' => 2258,
-                            'title' => 'Fait Chaud (avec Jean-Guy Ruff)'
+                            'title' => 'Fait Chaud (avec Jean'
                           }
                         ],
                         [
@@ -51756,7 +52801,7 @@ $VAR1 = [
                           {
                             'artist' => 'Aldo Ciccolini',
                             'from' => 576,
-                            'title' => 'Massenet - Année Passée II - Deux Novembre VS Le con à champignons'
+                            'title' => 'Massenet'
                           }
                         ],
                         [
@@ -51789,7 +52834,7 @@ $VAR1 = [
                           {
                             'artist' => 'Antonio Vivaldi',
                             'from' => 933,
-                            'title' => 'Automne - Allegro'
+                            'title' => 'Automne'
                           }
                         ],
                         [
@@ -52650,7 +53695,7 @@ $VAR1 = [
                           {
                             'artist' => 'The Shoppings',
                             'from' => 671,
-                            'title' => 'Tu fais quoi dans la vie vs Roman Salzger - Lollipop Machine'
+                            'title' => 'Tu fais quoi dans la vie vs Roman Salzger'
                           }
                         ],
                         [
@@ -52771,7 +53816,7 @@ $VAR1 = [
                           {
                             'artist' => 'Raymond Scott',
                             'from' => 1861,
-                            'title' => 'The Secret Seven (  micro-trottoir universel)'
+                            'title' => 'The Secret Seven (  micro'
                           }
                         ],
                         [
@@ -52782,7 +53827,7 @@ $VAR1 = [
                           {
                             'artist' => 'The Forsaken Odes Conglomerates',
                             'from' => 1913,
-                            'title' => 'Vicious Yellingz (Asking For It)   Abécédaire de Deleuze - Q comme Questions'
+                            'title' => 'Vicious Yellingz (Asking For It)   Abécédaire de Deleuze'
                           }
                         ],
                         [
@@ -52793,7 +53838,7 @@ $VAR1 = [
                           {
                             'artist' => 'Todd A. Morrisson',
                             'from' => 1984,
-                            'title' => 'Qu\'est-ce que c\'est ?'
+                            'title' => 'Qu\'est'
                           }
                         ],
                         [
@@ -52837,7 +53882,7 @@ $VAR1 = [
                           {
                             'artist' => 'Claudish, Heindrich, Schmidt & Schnoon',
                             'from' => 2332,
-                            'title' => 'Mais qu\'est-ce que c\'est ?'
+                            'title' => 'Mais qu\'est'
                           }
                         ],
                         [
@@ -52859,7 +53904,7 @@ $VAR1 = [
                           {
                             'artist' => 'Jean Rouch',
                             'from' => 2570,
-                            'title' => 'un sultan - Jean Cocteau'
+                            'title' => 'un sultan'
                           }
                         ],
                         [
