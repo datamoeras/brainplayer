@@ -87,17 +87,19 @@ my $page = sub {
 	my $onload = qq{random_brain()};
 	my $cgi = CGI::PSGI->new($env);
 	my $l = $cgi->param('l');
+	my $s = $cgi->param('s');
+	my $extra = $s ? ", '$s'" : "";
 	if ($l) {
 		my $li = si($l, $data);
 		if (defined $li) {
-			$onload = qq{focus_track($li)};
+			$onload = qq{focus_track($li$extra)};
 		} else {
 			$onload = '';
 		}
 	} elsif ($env->{REQUEST_URI} =~ /\?([a-z]+\d+)$/) {
 		my $li = si($1, $data);
 		if (defined $li) {
-			$onload = qq{focus_track($li)};
+			$onload = qq{focus_track($li$extra)};
 		} else {
 			$onload = '';
 		}
@@ -249,7 +251,7 @@ return qq{
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + ' ' + data["title"] + '</nobr></div>';
+				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 				/*
 				div.innerHTML += '<div style="" froms="' + data["from"] + '" id="tt' + ij + '" onclick="seekto(' + data["from"] + ')">';
@@ -618,6 +620,19 @@ return qq{
 	<div style="position: absolute; left: 0px;top: 00px;z-index: 1; width: 220px; overflow: none;" id="playlist">
 	</div>
 	<img style="position: fixed; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29478248-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 </body>
 </html>
 };
