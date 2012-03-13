@@ -15671,12 +15671,12 @@ $VAR1 = [
                           ],
                           {
                             'artist' => 'GROUPGRIS',
-                            'rest' => 'GROUPGRIS - 2005',
+                            'rest' => 'GROUPGRIS - D_Duck - The d - 2005',
                             'from' => 1655,
-                            'href' => 'http://perso.wanadoo.fr/w.w./',
-                            'label' => '',
-                            'title' => '2005',
-                            'year' => ''
+                            'href' => 'http://www.youknowfundisorder.com/thed.swf',
+                            'label' => 'The d',
+                            'title' => 'D_Duck',
+                            'year' => '2005'
                           }
                         ],
                         [
@@ -15715,13 +15715,13 @@ $VAR1 = [
                             58
                           ],
                           {
-                            'artist' => 'SAGOR ',
-                            'rest' => 'SAGOR &amp; - 2004',
+                            'artist' => 'SAGOR &amp; SWING',
+                            'rest' => 'SAGOR &amp; SWING - Henriks fodelsedagsmelodi - Hapna - 2004',
                             'from' => 2098,
-                            'href' => 'http://www.sagorochswing.com',
-                            'label' => '',
-                            'title' => '2004',
-                            'year' => ''
+                            'href' => 'http://www.hapna.com',
+                            'label' => 'Hapna',
+                            'title' => 'Henriks fodelsedagsmelodi',
+                            'year' => '2004'
                           }
                         ],
                         [
@@ -15730,13 +15730,13 @@ $VAR1 = [
                             30
                           ],
                           {
-                            'artist' => 'DEBMASTER 2005',
-                            'rest' => 'DEBMASTER 2005',
+                            'artist' => 'DEBMASTER',
+                            'rest' => 'DEBMASTER - Auto tampon - Ego Twister - 2005',
                             'from' => 2370,
-                            'href' => 'http://ice.ink.free.fr/deb',
-                            'label' => '',
-                            'title' => '',
-                            'year' => ''
+                            'href' => 'http://www.egotwister.com',
+                            'label' => 'Ego Twister',
+                            'title' => 'Auto tampon',
+                            'year' => '2005'
                           }
                         ],
                         [
