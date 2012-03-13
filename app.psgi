@@ -363,6 +363,24 @@ return qq{
 				dv.style.background = "yellow";
 				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
+				update_wiki(art, tdata["title"]);
+			}
+		}
+		var lastwiki;
+		function wikiname(str) {
+			str = str.replace(/ /g, '_');
+			str = str.replace(/\\&(amp;)?/g, '%26');
+			str = str.toLowerCase();
+			str = str.replace(/^(.)/g, function(\$1){return \$1.toUpperCase()});
+			str = str.replace(/(\\s[a-z])/g, function(\$1){return \$1.toUpperCase()});
+			return str;
+		}
+		function update_wiki(artist, title) {
+			var art = wikiname(artist);
+			var wikisrc = 'http://en.wikipedia.org/wiki/Special:Search/' + art;
+			if (lastwiki != wikisrc) {
+				document.getElementById("wiki").src = wikisrc;
+				lastwiki = wikisrc;
 			}
 		}
 		function toffset_current(tm) {
@@ -614,11 +632,11 @@ return qq{
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
-			<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>
+			<!--<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>-->
+			<iframe id="wiki" width="900" height="400" frameborder="0" /></iframe>
 		</div>
 	</div>
-	<div style="position: absolute; left: 0px;top: 00px;z-index: 1; width: 220px; overflow: none;" id="playlist">
-	</div>
+	<div style="position: absolute; left: 0px;top: 00px;z-index: 1; width: 220px; overflow: none;" id="playlist"></div>
 	<img style="position: fixed; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
 <script type="text/javascript">
 
