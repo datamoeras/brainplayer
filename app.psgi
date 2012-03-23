@@ -589,7 +589,7 @@ return qq{
 		<base target="_blank">
 	</head>
 	<body onLoad="pageLoaded();">
-	<div id='main' style="z-index: 19">
+	<div id='main' style="z-index: 19;height: 100%;">
 		<h3 style="text-align: left; color:#f0f"><a href="http://github.com/datamoeras/brainplayer">GPL</a>&nbsp;<a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
 		<div id='player' style="position:fixed;left: 220px;width: 400px;top: 4px;">
 				<div id="duration" class"player_control" >
@@ -619,7 +619,7 @@ return qq{
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 40px;left: 220px">
+		<div id="current" style="position: fixed; top: 40px;left: 220px; bottom: 0px;">
 			<div id="msg" style="height: 1.2em;display: none;" class='output'></div>
 			<br />
 			<div id="cttl" style="height: 1.2em; width: 220px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
@@ -628,16 +628,16 @@ return qq{
 					<div id="t_duration_bar" class="duration_bar"></div>
 				</div>
 			</div>
-			<div id="content" style="height: 4.8em; width: 400px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
+			<div id="content" style="height: 4.8em; width: 600px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
 			<br />
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
 			<!--<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>-->
-			<iframe id="wiki" width="900" height="400" frameborder="0" /></iframe>
+			<iframe id="wiki" style="width: 100%; height: 60%;" frameborder="0" /></iframe>
 		</div>
 	</div>
-	<div style="position: absolute; left: 0px;top: 00px;z-index: 1; width: 220px; overflow: none;" id="playlist"></div>
-	<img style="position: fixed; z-index: 1; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
+	<div style="position: absolute; left: 0px;top: 0px;z-index: 1; width: 220px; overflow: none;" id="playlist"></div>
+	<img style="position: fixed; z-index: 1; opacity: .7; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
