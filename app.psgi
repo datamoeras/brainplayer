@@ -418,10 +418,12 @@ return qq{
 			var nf = n[0];
 			return nf - cf;
 		}
+		var ati = 0;
 		function update() {
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
+			if (cti != cur && cti != ati) { einde_track(); }
 			cti = cur;
 			track_duration = ctrack_dur(cur+1);
 			var min = (time - ( time % 60 ) ) / 60;
@@ -446,6 +448,18 @@ return qq{
 			document.getElementById("duration_bar").style.width=new_width+"px";
 			document.getElementById("t_duration_bar").style.width=tnew_width+"px";
 
+		}
+		var searchres = [];
+		var searchplayi = 0;
+		function einde_track() {
+			if (! searchmode_enabled()) return;
+			if (searchres == null || searchres.length == 0) return;
+			if ((new Date).getTime() < ati + 10000) return;
+			// alert("ati=" + ati + ", nu=" + (new Date).getTime());
+			searchplayi++;
+			ati = (new Date).getTime();
+			if (searchres[searchplayi] == null) searchplayi=0;
+			focus_track(searchres[searchplayi][0], searchres[searchplayi][1]);
 		}
 		function playClicked() {
 			element = document.getElementById("playButton");
@@ -557,10 +571,14 @@ return qq{
 			}
 			return res;
 		}
+
 		function search_txt(txt) {
 			var div = document.getElementById("searchres");
 			div.innerHTML = "<b>search(" + txt + ")</b><br/><br/>";
 			var res = search_db(txt);
+			searchplayi=0;
+			ati = (new Date).getTime();
+			searchres = [];
 			for (i in res) {
 				var ths = res[i];
 				var brain = ths[0];
@@ -568,11 +586,17 @@ return qq{
 				var bri = ths[2];
 				var tri = ths[3];
 				var trn = parseInt(ths[3]) + 1;
+				var offset = parseInt(song[1]["from"])+2;
 				var ttl = song[1]["artist"] + " " + song[1]["title"];
 				ttl = ttl.replace(txt, '<font style="font-weight:900;color:#f0f">' + txt + '</font>');
-				div.innerHTML += '<span onclick="focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
+				div.innerHTML += '<span onclick="ati = (new Date).getTime();searchplayi=' + i + ';focus_track(' + bri + ', ' + (parseInt(song[1]["from"])+2) + ')">' + brain["title"] + "&nbsp;" + "#" + trn + "&nbsp;" + ttl + "</span><br/>";
+				searchres[i]=[ths[2],offset];
 			}
-		}	
+		}
+		function searchmode_enabled() {
+			var e = document.getElementById("searchmode");
+			return e.checked;
+		}
 		function click_prev() {
 			focus_track(ci-1);
 		}
@@ -615,6 +639,7 @@ return qq{
 		</div>
 		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 4px;">
 			<input type="checkbox" id="enable_radioclash" />radioclash<br />
+			<input type="checkbox" id="searchmode" />searchmodeplaylist<br />
 			<input id="searchfld" value="" onkeyup="if(event.keyCode==13){search_txt(this.value)};return false" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
