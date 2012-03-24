@@ -106,10 +106,14 @@
 		#player select {
 			width: 96px;
 			text-align:left;
+			background-opacity: .4;
+			opacity: .8;
 		}
 		#player option {
 			font-size: 14px;
+			opacity: .8;
 			text-align:left;
+			background-opacity: .4;
 		}
 		input#playButton { width: 48px; }
 		#current {

@@ -22,8 +22,9 @@
 			var data = db[i];
 			if (data == undefined || tracklist == undefined) return;
 			$("#status_current_mix").html(data["title"]);
-			// update_stat("radio_title", data["title"]);
 			$("#stat_radio_title").html(data["title"]);
+			if (! $("#plst").is(":focus") && $("#plst").val() != 'random')
+				$("#plst").val(i);
 			$("title").html(data["title"] + '@doscii');
 			var src = data["src"];
 			if (src == undefined) src = '';
@@ -328,6 +329,6 @@
 			// alert("love it");
 		}
 		function click_next() {
-			focus_track(ci+1);
+			focus_track(parseInt(ci)+1);
 		}
 
