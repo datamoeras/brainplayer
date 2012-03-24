@@ -193,7 +193,6 @@
 			var sec = parseInt(time - (min*60));
 			var ssec = sec;
 			if (ssec < 10) { ssec = "0" + ssec; }
-			document.getElementById("msg").innerHTML = min + ':' + ssec + "=&gt;#" + (cur+2);
 			highlight_current(cur, time);
 			var toff = toffset_current(time);
 			var tmin = (toff - ( toff % 60 ) ) / 60;
@@ -202,7 +201,6 @@
 			if (tssec < 10) { tssec = "0" + tssec; }
 			$("#stat_radio_ms").html(min + ":" + ssec);
 			$("#stat_track_ms").html(tmin + ":" + tssec);
-			$("#msg").append(" " + tmin + ":" + tssec);
 			$("#duration_bar").css({width:(duration_width*(time/dur)) + 'px'});
 			$("#t_duration_bar").css({width:(duration_width*(toff/track_duration)) + 'px'});
 		}
