@@ -40,9 +40,10 @@
 			if (os > 0)
 				window.setTimeout(function(){ seekto(os); }, 200);
 
-			document.getElementById("pochette").src = "data:image/gif;base64,R0lGODlhHwA0ALMAAP//////AP8A//8AAAD//wD/AAAA/wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAgALAAAAAAfADQAAAT/EMkpj704081r+WBYHF1JHSCKfqR5Zlaawm23huqoi3V5yyzRyDX5BY1DYlGI7CkRSJ6SdsuxaDYmcIczNXXWrusblE61zaeHx1RDA/DAIA6fx50+u3xf58vxGwd9enOEfIAVdHp9inSAB4aRcYWTToJ7koOTh0WNnpufASSQm5mYpZWClJqsp5oWjHSyi7KMsKt1pgOLlBaGcru4hcGxA7CNwbS5u35wvqDAy8zRxbfNs9O1p8e0vNnXdtaZyXbCe8+t5rrH0NratOiu8uqp8u7325fhVPz6zqqH+sF4RcoWhjIZql0CdUHICG6y4q0SmE5cu3uSIIYCN+vfPD/0Kl69SQeypJ4aC7t1/GTpo65zNlCRPOnlokpnRAC+nIMokEx5PTkIxFAiAgA7";
-			if (data["img"] != '')
-				document.getElementById("pochette").src = data["img"];
+			// document.getElementById("pochette").src = "data:image/gif;base64,R0lGODlhHwA0ALMAAP//////AP8A//8AAAD//wD/AAAA/wAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAAgALAAAAAAfADQAAAT/EMkpj704081r+WBYHF1JHSCKfqR5Zlaawm23huqoi3V5yyzRyDX5BY1DYlGI7CkRSJ6SdsuxaDYmcIczNXXWrusblE61zaeHx1RDA/DAIA6fx50+u3xf58vxGwd9enOEfIAVdHp9inSAB4aRcYWTToJ7koOTh0WNnpufASSQm5mYpZWClJqsp5oWjHSyi7KMsKt1pgOLlBaGcru4hcGxA7CNwbS5u35wvqDAy8zRxbfNs9O1p8e0vNnXdtaZyXbCe8+t5rrH0NratOiu8uqp8u7325fhVPz6zqqH+sF4RcoWhjIZql0CdUHICG6y4q0SmE5cu3uSIIYCN+vfPD/0Kl69SQeypJ4aC7t1/GTpo65zNlCRPOnlokpnRAC+nIMokEx5PTkIxFAiAgA7";
+			if (data["img"] != '') 
+				$("#tracklist").css({'background-image': "url('" + data["img"] + "')"});
+				// document.getElementById("pochette").src = data["img"];
 		}
 		function seekto(s) {
 			var pl = document.getElementById("aplayer");
@@ -107,16 +108,12 @@
 					lnk = '<br /><a href="' + tdata["href"] + '">' + hr + '</a>';
 				}
 				var art = tdata["artist"];
-				art = art.replace("'", 'g');
-				art = art.replace('"', 'g');
-				$("#href_ut").href = 'http://www.youtube.com/results?search_query=' + tdata["artist"];
-				$("#content").html(bt +
-					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
-					tdata["artist"]+"<br/>"+
-					'<input id="button_love" class="player_control" type="button" onClick="click_love();" style="" value="&hearts;" ></input>'+ 
-					tdata["title"]);
-				if (tdata["year"] == undefined) tdata["year"] = '';
-				if (tdata["label"] != undefined) $("#content").append('<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>");
+				if (art == null) art = '';
+				art = art.replace(/[\'\"]/, '', 'g');
+				$("#href_ut").href = 'http://www.youtube.com/results?search_query=' + art;
+				// $("#content").html(bt + '<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' + tdata["artist"]+"<br/>"+ '<input id="button_love" class="player_control" type="button" onClick="click_love();" style="" value="&hearts;" ></input>'+ tdata["title"]);
+				// if (tdata["year"] == undefined) tdata["year"] = '';
+				// if (tdata["label"] != undefined) $("#content").append('<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>");
 				$("#tt"+i).removeClass("track").addClass("track_current");
 				update_stat("track_artist", tdata["artist"]);
 				update_stat("track_title", tdata["title"]);
