@@ -121,10 +121,11 @@
 			for (var y in list) {
 				if (list[y][1] == null) continue;
 				var t = list[y];
-				if (t[1]["artist"] == null) t[1]["artist"]='';
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				$("#tracklistfill").append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"].substr(0, 40) + '&nbsp;-&nbsp;' + t[1]["title"].substr(0, 40) + '</div>');
+				var art = t[1]["artist"] ? t[1]["artist"].substr(0, 40) : '';
+				var tit = t[1]["title"] ? t[1]["title"].substr(0, 40) : '';
+				$("#tracklistfill").append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + art + '&nbsp;-&nbsp;' + tit + '</div>');
 				ctl.push([t[1]["from"], y]);
 				u++;
 			}
@@ -136,10 +137,11 @@
 			var lines = tti+1;
 			var over = win - $("#tracklist").offset().top - 60;
 			var ppl = Math.floor( (over / lines)  -4);
-			$("#tracklist").css({height:over});
+			$("#tracklist").css({height:over,padding: 0});
+			$("#tracklistfill").css({height:over,padding: 0});
 			$(".track, .track span,.track_current, .track_current span").css({'font-size':ppl});
 			// $("#tracklist").append("<br />foo bar baz: ppl=" + ppl + "/" + win);
-			console.log("fontsize: " + ppl + " voor " + lines + " regels");
+			// console.log("fontsize: " + ppl + " voor " + lines + " regels");
 		}
 		function plst_change() {
 			focus_track($('option:selected', $("#plst")).val());

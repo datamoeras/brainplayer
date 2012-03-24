@@ -7,9 +7,9 @@
 		}
 		span.tracknum { margin-right: 4px; width: 2em; float: left; text-align: right;}
 		div#tracklist {
-			padding-top: 0px;
-			padding-bottom: 0px;
-			padding: 10px;
+			padding: 0px;
+			margin: 10px;
+			margin-left: 20px;
 			width: 100%;
 			border: solid 2px #f09;
 			border-opacity: .8;
@@ -22,7 +22,6 @@
 			-webkit-border-radius: 10px;
 			overflow: none;
 		}
-		nobr { font-size: inherit; }
 		div.track, div.track_current {
 			color:#000;
 			white-space: no-break;
@@ -31,6 +30,8 @@
 			font-weight: 900;
 			font-family: verdana, arial;
 			overflow:none;
+			padding-top: 0px;
+			padding-bottom: 0px;
 		}
 		div.track_current {
 			color:#f0f;
@@ -149,10 +150,6 @@
 			height: 100%;
 	    }
 		#player {
-			padding: 10px;
-			margin: 10px;
-		}
-		#player {
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
 			border: 2px solid #f09;
@@ -160,9 +157,15 @@
 
 			width: 100%;
 			height: 120px;
+			padding: 10px;
+			margin: 10px;
+			margin-bottom: 0px;
 		}
 		#player a {
 			background: yellow;
+		}
+		#status input[type="text"] {
+			margin: 10px;
 		}
 		#player input[type="button"], #player a, #player select {
 			margin: 2px;
@@ -197,7 +200,6 @@
 		#current {
 			margin-top: 0px;
 			width: 100%;
-			padding: 10px;
 		}
 		div#status {
 		}
@@ -227,4 +229,6 @@
 		#searchframe {
 
 		}
-
+		#tracklist {
+			padding: 0px;
+		}
