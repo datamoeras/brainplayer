@@ -65,7 +65,7 @@
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				div.innerHTML += '<div froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>';
+				div.innerHTML += '<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>';
 				ctl.push([data["from"], y]);
 				/*
 				div.innerHTML += '<div style="" froms="' + data["from"] + '" id="tt' + ij + '" onclick="seekto(' + data["from"] + ')">';
@@ -129,15 +129,7 @@
 				dv.style.background = "white";
 				dv.style.fontWeight = 100;
 			}
-			for (o in ctl) {
-				var dt = ctl[o];
-				var dv = document.getElementById("tt" + (parseInt(dt[1])-1));
-				if (dv != undefined) {
-					dv.style.background = "white";
-					dv.style.color = "black";
-					dv.style.fontWeight = 100;
-				}
-			}
+			for (o in ctl) $("#tt"+(parseInt(ctl[o][1])-1)).removeClass("track_current").addClass("track");
 			var data = db[ci];
 			if (data == undefined) return;
 			var track = data["list"][i+1];
@@ -163,9 +155,11 @@
 					tdata["title"];
 				if (tdata["year"] == undefined) tdata["year"] = '';
 				if (tdata["label"] != undefined) document.getElementById("content").innerHTML += '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
-				dv.style.background = "yellow";
-				dv.style.color = "#f0f";
-				dv.style.fontWeight = 900;
+				$("#tt"+i).removeClass("track").addClass("track_current");
+				// dv.style.background = "yellow";
+				// dv.style.color = "#f0f";
+				// dv.style.fontWeight = 900;
+
 				//update_wiki(art, tdata["title"]);
 			}
 		}

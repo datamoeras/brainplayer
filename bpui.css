@@ -2,6 +2,12 @@
 			font-size: 11px;
 			font-family: Arial, sans-serif;
 		}
+		div.track {
+			background:#fff;color:#000;font-weight:100;
+		}
+		div.track_current {
+			background:yellow;color:#f0f;font-weight:900;
+		}
 		input, .asi { 
 			border: 1px solid #ccc;
 			color: #f09;
@@ -55,7 +61,7 @@
 		#duration_background, #t_duration_background {
 			width:200px;
 			height:15px;
-			background-color:#yellow;
+			background-color:yellow;
 		}
 		#duration_bar, #t_duration_bar
 		{
