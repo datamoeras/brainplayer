@@ -66,6 +66,10 @@
 			height:36px;
 			background-color:yellow;
 		}
+		#duration_background:hover, #t_duration_background:hover {
+			cursor:pointer;
+			cursor:hand;
+		}
 		#duration_bar, #t_duration_bar
 		{
 			width:0px;

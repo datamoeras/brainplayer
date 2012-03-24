@@ -2,6 +2,19 @@
 		})(db);
 		$(document).ready(function(){
 			$("#main").animate({opacity: 1}, 4000, function(){});
+			$("#duration_background, #t_duration_background").click(function(e) {
+				var x=e.pageX-$(this).offset().left
+				   ,w=$(this).width();
+				var d=x/w;
+				var duration_seek = d*audio_player.duration;
+				if ($(this).attr('id') == "t_duration_background") {
+					var coff = ctrack_off(cti);
+					duration_seek = d*track_duration;
+					duration_seek += coff;
+				}
+				if (duration_seek > 0 && duration_seek < audio_player.duration)
+					audio_player.currentTime=duration_seek;
+			});
 		});
 		var ctl = [];
 		var db;
@@ -173,7 +186,6 @@
 			return nf - cf;
 		}
 		var ati = 0;
-		var duration_width = 400;
 		function update_stat(n, v) {
 			$("#stat_" + n).val(v);
 		}
@@ -196,6 +208,9 @@
 			var tsec = parseInt(toff - (tmin*60));
 			var tssec = tsec;
 			if (tssec < 10) { tssec = "0" + tssec; }
+
+			duration_width = $("#duration").outerWidth();
+
 			$("#stat_radio_ms").html(min + ":" + ssec);
 			$("#stat_track_ms").html(tmin + ":" + tssec);
 			$("#duration_bar").css({width:(duration_width*(time/dur)) + 'px'});
@@ -233,33 +248,6 @@
 			if (db[nxt] == undefined) nxt = 0;
 			// alert("eind van " + ci + ", skip naar " + nxt);
 			focus_track(nxt);
-		}
-		function t_durationClicked(event) {
-			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 130;
-			clickoffset = clientX - left;
-			percent = clickoffset/event.currentTarget.offsetWidth;
-			// alert("track_duration=" + track_duration);
-			var coff = ctrack_off(cti);
-			duration_seek = percent*track_duration;
-			var tot = coff + duration_seek;
-			// alert(" seek to " + coff + " + ( " + percent + " * " + track_duration + " ) => " + tot);
-			if (tot > 0 && tot < dur) {
-				document.getElementById("aplayer").currentTime=tot;
-			}
-		}
-		function durationClicked(event) {
-			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 130;
-			clickoffset = clientX - left;
-			// alert("clientX=" + clientX + " - offsetLeft=" + left + " => " + clickoffset);
-			percent = clickoffset/event.currentTarget.offsetWidth;
-			dur = audio_player.duration;
-			duration_seek = percent*dur;
-			// alert("percent=" + percent + " * dur=" + dur + " => " + duration_seek);
-			if (duration_seek > 0 && duration_seek < dur) {
-				audio_player.currentTime=duration_seek; 
-			}
 		}
 		function enable_radioclash() {
 			var el = document.getElementById("enable_radioclash");
