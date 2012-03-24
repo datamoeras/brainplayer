@@ -1,5 +1,8 @@
 		(function(db){
 		})(db);
+		$(document).ready(function(){
+			$("#main").animate({opacity: 1}, 10000, function(){});
+		});
 		var ctl = [];
 		var db;
 		var ci;
@@ -19,6 +22,8 @@
 			var data = db[i];
 			if (data == undefined || tracklist == undefined) return;
 			$("#status_current_mix").html(data["title"]);
+			// update_stat("radio_title", data["title"]);
+			$("#stat_radio_title").html(data["title"]);
 			$("title").html(data["title"] + '@doscii');
 			var src = data["src"];
 			if (src == undefined) src = '';
@@ -105,6 +110,8 @@
 				if (tdata["year"] == undefined) tdata["year"] = '';
 				if (tdata["label"] != undefined) $("#content").append('<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>");
 				$("#tt"+i).removeClass("track").addClass("track_current");
+				update_stat("track_artist", tdata["artist"]);
+				update_stat("track_title", tdata["title"]);
 				//update_wiki(art, tdata["title"]);
 			}
 		}
@@ -162,10 +169,14 @@
 		}
 		var ati = 0;
 		var duration_width = 200;
+		function update_stat(n, v) {
+			$("#stat_" + n).val(v);
+		}
 		function update() {
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
+			$("#stat_track_nr").html(cur);
 			if (cti != cur && cti != ati) { einde_track(); }
 			cti = cur;
 			track_duration = ctrack_dur(cur+1);
@@ -180,6 +191,8 @@
 			var tsec = parseInt(toff - (tmin*60));
 			var tssec = tsec;
 			if (tssec < 10) { tssec = "0" + tssec; }
+			$("#stat_radio_ms").html(min + ":" + ssec);
+			$("#stat_track_ms").html(tmin + ":" + tssec);
 			$("#msg").append(" " + tmin + ":" + tssec);
 			$("#duration_bar").css({width:(duration_width*(time/dur)) + 'px'});
 			$("#t_duration_bar").css({width:(duration_width*(toff/track_duration)) + 'px'});
@@ -190,7 +203,6 @@
 			if (! searchmode_enabled()) return;
 			if (searchres == null || searchres.length == 0) return;
 			if ((new Date).getTime() < ati + 10000) return;
-			// alert("ati=" + ati + ", nu=" + (new Date).getTime());
 			searchplayi++;
 			ati = (new Date).getTime();
 			if (searchres[searchplayi] == null) searchplayi=0;
@@ -218,9 +230,7 @@
 			// alert("eind van " + ci + ", skip naar " + nxt);
 			focus_track(nxt);
 		}
-		function t_durationClicked(event)
-		{
-			//get the position of the event
+		function t_durationClicked(event) {
 			clientX = event.clientX;
 			left = event.currentTarget.offsetLeft + 220;
 			clickoffset = clientX - left;
@@ -234,9 +244,7 @@
 				document.getElementById("aplayer").currentTime=tot;
 			}
 		}
-		function durationClicked(event)
-		{
-			//get the position of the event
+		function durationClicked(event) {
 			clientX = event.clientX;
 			left = event.currentTarget.offsetLeft + 220;
 			clickoffset = clientX - left;
@@ -277,7 +285,7 @@
 
 		function search_txt(txt) {
 			var div = document.getElementById("searchres");
-			div.innerHTML = "<b>search(" + txt + ")</b><br/><br/>";
+			div.innerHTML = "<b>search /" + txt + "/</b><br/><br/>";
 			var res = search_db(txt);
 			searchplayi=0;
 			ati = (new Date).getTime();

@@ -22,6 +22,13 @@
 				<div id="duration" class"player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
+						<div id="duration_bar_txt"><span id="stat_radio_ms"></span><span>&nbsp;</span><span id="stat_radio_title" /></span></div>
+					</div>
+				</div>
+				<div id="t_duration" class"player_control" >
+					<div id="t_duration_background"  onClick="t_durationClicked(event);">
+						<div id="t_duration_bar" class="duration_bar"></div>
+						<div id="t_duration_bar_txt"><span id="stat_track_ms"></span><span>&nbsp;#</span><span id="stat_track_nr" /></span></div>
 					</div>
 				</div>
 				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="play" ></input>
@@ -42,14 +49,13 @@
 		<div id="current" style="position: fixed; top: 40px;left: 220px; bottom: 0px;">
 			<div id="msg" style="height: 1.2em;display: none;" class='output'></div>
 			<br />
-			<div id="status_current_mix" style="height: 1.2em; width: 220px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
-			<div id="t_duration" class"player_control" >
-				<div id="t_duration_background"  onClick="t_durationClicked(event);">
-					<div id="t_duration_bar" class="duration_bar"></div>
-				</div>
-			</div>
-			<div id="content" style="height: 4.8em; width: 600px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
+			<div id="status_current_mix" style="display:none;height: 1.2em; width: 220px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>
+			<div id="content" style="display:none;height: 4.8em; width: 600px; color: black; font-decoration: italic;font-weight: 900; font-size: 14px;"></div>
 			<br />
+			<div id="status">
+				<input id="stat_track_artist" type="text" style="width: 24em;" /><br />
+				<input id="stat_track_title" type="text" style="width: 23em;" /><br />
+			</div>
 			<div id="tracklist" style="width: 450px; overflow: auto;">
 			</div>
 			<!--<div id="scloud" style="width: 450px; overflow: auto;z-index: 8;">$cloud</div>-->

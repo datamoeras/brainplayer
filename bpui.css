@@ -68,11 +68,25 @@
 			width:0px;
 			height:15px;
 			background-color:#f0f;
-
+		}
+		#duration_bar_txt, #t_duration_bar_txt {
+			position:relative; top: -15px;
+			width: 100%;
+			text-align:center;
 		}
 	    #main{
+			opacity: 0.0;
 			float:right;
 			z-index: 19;
 			height: 100%;
 	    }
+		#player {
+			background: yellow;
+		}
+		div.status {
+			border: solid #f0f 1px;
+		}
+		div.status input {
+			width: 6em;
+		}
 
