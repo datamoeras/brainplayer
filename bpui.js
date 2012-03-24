@@ -48,6 +48,7 @@
 			}
 			for (var i=0;i<lcnt;i++) t0=plog[i];
 			var kbps = (plog[0] - t0) / 500;
+			if (blog.length > 100) blog.pop();
 			blog.unshift(kbps);
 			var h = kbps > 1024 ? (Math.floor( kbps / 1024 * 10 )/10) + "MB/s" : Math.floor(kbps) + "KB/s";
 			draw_chart(h);
