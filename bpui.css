@@ -46,14 +46,10 @@
 			height:50px;
 			background-color:#ddd;
 		}
-		#volume_bar
-		{
-			width:10px;
-			height:0px;
-			background-color:#aca;
+		#duration {
+			margin-bottom: 10px;
 		}
-		#duration,#t_duration
-		{
+		#duration,#t_duration {
 			width:400px;
 			height:36px;
 		}
@@ -68,8 +64,8 @@
 			height:36px;
 			background-color:#f0f;
 			background-opacity: .4;
-			-moz-border-radius: 5px;
-			-webkit-border-radius: 5px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
 		}
 		#duration_bar_txt span, #t_duration_bar_txt  span{
 			font-size: 32px;
@@ -99,8 +95,8 @@
 	    }
 		#player {
 			padding: 10px;
-			-moz-border-radius: 5px;
-			-webkit-border-radius: 5px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
 			border: 2px solid #f09;
 			background: yellow;
 
@@ -111,10 +107,22 @@
 			top: 4px;
 			position: fixed;
 		}
-		div.status {
-			border: solid #f0f 1px;
+		#current {
+			position: fixed; 
+			top: 136px;
+			left: 130px; 
+			bottom: 0px;
 		}
-		div.status input {
-			width: 6em;
+		div.status {
+		}
+		div#status input {
+			border: solid #f09 1px;
+			font-size: 14px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			padding: 4px;
+			width: 426px;
+			background: yellow;
+			margin-bottom: 4px;
 		}
 
