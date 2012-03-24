@@ -31,12 +31,13 @@
 						<div id="t_duration_bar_txt"><span id="stat_track_ms"></span><span>&nbsp;#</span><span id="stat_track_nr" /></span></div>
 					</div>
 				</div>
-				<input id="playButton" class="player_control" type="button" onClick="playClicked(this);" value="play" ></input>
+				<input id="playButton" class="player_control" type="button" style="width: 48px;" onClick="playClicked(this);" value="play" ></input>
 				<input id="button_rand" class="player_control" type="button" onClick="random_brain();" value="rnd" ></input>
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
-				<a style="background: #ccc" href="#" target="_blank" title="Right click" id="href_as">save</a>
-				<span class="asy player_control"><a href="#" target="_blank" title="Youtube" id="href_ut">ut</a></span>
+				<a href="#" target="_blank" title="Right click" id="href_as">mp3</a>
+				<a href="#" target="_blank" title="Youtube" id="href_ut">tube</a></span>
+				<a href="#" title="Link Current" id="href_cur">link</a></span>
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
 		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 650px;top: 4px;">
@@ -62,8 +63,8 @@
 			<iframe id="wiki" style="width: 100%; height: 60%;" frameborder="0" /></iframe>
 		</div>
 	</div>
-	<div style="position: absolute; left: 0px;top: 0px;z-index: 1; width: 220px; overflow: none;" id="playlist"></div>
-	<img style="position: fixed; z-index: 1; opacity: .4; bottom: 0px;right: 0px;" id="pochette" src="" onClick="this.src=''">
+	<div style="position: absolute; left: 0px;top: 0px;z-index: 1; width: 120px; overflow: none;font-size: 7px;" id="playlist"></div>
+	<img style="position: fixed; z-index: 1; opacity: .4; bottom: 0px;right: 0px;" id="pochette" src="" onClick="$(this).fadeOut()">
 <script type="text/javascript">
 
   var _gaq = _gaq || [];

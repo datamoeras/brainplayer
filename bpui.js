@@ -31,7 +31,7 @@
 				src = src.replace(new RegExp('ogg$', 'i'), 'mp3');
 			}
 			audio_player.setAttribute("src", src);
-			document.getElementById("href_as").setAttribute("href", src);
+			$("#href_as").href = src.replace(/\.ogg$/, '.mp3');;
 			tracklist.html("hier de tracklist dan" + data["list"]);
 			draw_tracklist(tracklist, i, data["list"]);
 			playClicked();
@@ -101,7 +101,7 @@
 				var art = tdata["artist"];
 				art = art.replace("'", 'g');
 				art = art.replace('"', 'g');
-				$("#href_ut").html('<a style="background:#ccc;" href="http://www.youtube.com/results?search_query=' + tdata["artist"] + '"> ut </a>');
+				$("#href_ut").href = 'http://www.youtube.com/results?search_query=' + tdata["artist"];
 				$("#content").html(bt +
 					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
 					tdata["artist"]+"<br/>"+
@@ -175,6 +175,7 @@
 		function update() {
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
+			$("#href_cur").href = "/player?l=" + $("#stat_radio_title").html() + "&s=" + time;
 			var cur = now_playing(time);
 			$("#stat_track_nr").html(cur+2);
 			if (cti != cur && cti != ati) { einde_track(); }
