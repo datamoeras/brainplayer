@@ -1,10 +1,9 @@
 		(function(db){
-		})();
+		})(db);
 		var ctl = [];
 		var db;
 		var ci;
 		var cti;
-		var audio_duration;
 		var track_duration;
 		var audio_player; 
 		var pb_1 = 'play';
@@ -16,34 +15,21 @@
 		}
 		function focus_track(i, os) {
 			if (os == undefined) os = 0;
-			var div = document.getElementById("track" + i);
-			var msg = document.getElementById("cttl");
-			var aplayer = document.getElementById("aplayer");
-			var tracklist = document.getElementById("tracklist");
+			var tracklist = $("#tracklist");
 			var data = db[i];
-			if (data == undefined) return;
-			if (aplayer == undefined) return;
-			if (msg != undefined) {
-				var tit = data["title"];
-				if (tit == undefined) tit = '';
-				if (tit.match(/thisisrad/)) tit = "<nobr>" + tit + "<nobr>"
-				msg.innerHTML = tit;
-			}
+			if (data == undefined || tracklist == undefined) return;
+			$("#status_current_mix").html(data["title"]);
+			$("title").html(data["title"] + '@doscii');
 			var src = data["src"];
 			if (src == undefined) src = '';
 			if (navigator.userAgent.indexOf("Firefox")==-1 || ( /Safari/.test(navigator.userAgent))) {
 				src = src.replace(new RegExp('ogg$', 'i'), 'mp3');
 			}
-			// if (src.match(/thebrain\d+.mp3/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://thebrainradio.com/mp3/');
-			// if (src.match(/thisisradioclash.*mp3\$/)) src = src.replace('http://doscii.nl/dm/thebrain/','http://www.thisisradioclash.org/mp3/');
-
-			aplayer.setAttribute("src", src);
+			audio_player.setAttribute("src", src);
 			document.getElementById("href_as").setAttribute("href", src);
-			if (tracklist == undefined) return;
-			tracklist.innerHTML = "hier de tracklist dan" + data["list"];
+			tracklist.html("hier de tracklist dan" + data["list"]);
 			draw_tracklist(tracklist, i, data["list"]);
 			playClicked();
-			audio_duration = document.getElementById("aplayer").duration;
 			ci = i;
 			if (os > 0)
 				window.setTimeout(function(){ seekto(os); }, 200);
