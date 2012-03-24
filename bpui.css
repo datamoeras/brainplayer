@@ -71,6 +71,8 @@
 
 		}
 	    #main{
-	      float:right;
+			float:right;
+			z-index: 19;
+			height: 100%;
 	    }
 
