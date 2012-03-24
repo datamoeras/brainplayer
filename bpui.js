@@ -75,7 +75,7 @@
 				var t = list[y];
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				$(div).append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span><nobr>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"] + '&nbsp;-&nbsp;' + t[1]["title"] + '</nobr></div>');
+				$(div).append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span><nobr>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"] + '&nbsp;-&nbsp;' + t[1]["title"].substr(0, 50) + '</nobr></div>');
 				ctl.push([t[1]["from"], y]);
 			}
 		}

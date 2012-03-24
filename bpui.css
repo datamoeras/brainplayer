@@ -8,9 +8,9 @@
 		span.tracknum { width: 3em; float: left; }
 		div#tracklist {
 			margin-top: 4px;
-			padding: 4px;
-			width: 420px;
-			border: solid 1px #f09;
+			padding: 10px;
+			width: 408px;
+			border: solid 2px #f09;
 			border-opacity: .8;
 			background-repeat: no-repeat;
 			background-position: center center;
@@ -64,7 +64,8 @@
 		#duration_background, #t_duration_background {
 			width:400px;
 			height:36px;
-			background-color:yellow;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
 		}
 		#duration_background:hover, #t_duration_background:hover {
 			cursor:pointer;
@@ -76,8 +77,14 @@
 			height:36px;
 			background-color:#f0f;
 			background-opacity: .4;
-			-moz-border-radius: 10px;
-			-webkit-border-radius: 10px;
+			-moz-border-radius: 12px;
+			-webkit-border-radius: 12px;
+			background-color:yellow;
+			background-image: url('/git/jpe/stripe.png');
+			background-opacity: .7;
+			background-size: auto 100%;
+			background-repeat: repeat-x repeat-y;
+
 		}
 		#duration_bar_txt span, #t_duration_bar_txt  span{
 			font-size: 32px;
@@ -101,7 +108,12 @@
 
 	    #main{
 			opacity: 0.0;
-			float:right;
+			width: 420px;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
+			width: 420px;
+			left: 25%;
 			z-index: 19;
 			height: 100%;
 	    }
@@ -115,9 +127,6 @@
 			width: 406px;
 			height: 120px;
 			margin: 10px;
-			left: 120px;
-			top: 4px;
-			position: fixed;
 		}
 		#player a {
 			background: yellow;
@@ -150,10 +159,8 @@
 		}
 		input#playButton { width: 48px; }
 		#current {
-			position: fixed; 
-			top: 136px;
-			left: 130px; 
-			bottom: 0px;
+			margin: 10px;
+			margin-top: 0px;
 		}
 		div.status {
 		}
