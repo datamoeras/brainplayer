@@ -81,35 +81,36 @@ sub si {
 }
 my $page = sub {
 	my $env = shift;
-	my $data = genbrain::readall();
-	my $json = encode('latin1', JSON->new->encode($data));
-	my $cloud = encode('latin1', search_cloud($data));
 	my $onload = qq{random_brain()};
 	my $cgi = CGI::PSGI->new($env);
 	my $l = $cgi->param('l');
-	my $s = $cgi->param('s');
-	my $extra = $s ? ", '$s'" : "";
-	if ($l) {
-		my $li = si($l, $data);
-		if (defined $li) {
-			$onload = qq{focus_track($li$extra)};
-		} else {
-			$onload = '';
-		}
-	} elsif ($env->{REQUEST_URI} =~ /\?([a-z]+\d+)$/) {
-		my $li = si($1, $data);
-		if (defined $li) {
-			$onload = qq{focus_track($li$extra)};
-		} else {
-			$onload = '';
+	if ($l || $env->{REQUEST_URI} =~ /\?/) {
+		my $data = genbrain::readall();
+		my $s = $cgi->param('s');
+		my $extra = $s ? ", '$s'" : "";
+		if ($l) {
+			my $li = si($l, $data);
+			if (defined $li) {
+				$onload = qq{focus_track($li$extra)};
+			} else {
+				$onload = '';
+			}
+		} elsif ($env->{REQUEST_URI} =~ /\?([a-z]+\d+)$/) {
+			my $li = si($1, $data);
+			if (defined $li) {
+				$onload = qq{focus_track($li$extra)};
+			} else {
+				$onload = '';
+			}
 		}
 	}
 	open(my $fh, '<', '/home/raoul/git/jpe/bp.html');
 	local $/;
 	my $h = <$fh>;
-	$h =~ s{\$onload}{$onload};
-	$h =~ s{\$json}{$json};
-	$h =~ s{\$onload}{$onload};
+	my $time = time();
+	$h =~ s{\$onload\b}{$onload};
+	# $h =~ s{\$json\b}{$json};
+	$h =~ s{\$time\b}{$time};
 	return $h;
 };
 builder {
