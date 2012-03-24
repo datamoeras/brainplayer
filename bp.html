@@ -18,7 +18,7 @@
 	<body onLoad="pageLoaded();">
 	<div id='main'>
 		<h3 style="text-align: left; color:#f0f"><a href="http://github.com/datamoeras/brainplayer">GPL</a>&nbsp;<a href="http://www.musiques-incongrues.net/forum/discussions/" target="_blank">&#8734;&nbsp;MUSIQUES&nbsp;INCONGRUES</a></h3><br />
-		<div id='player' style="position:fixed;left: 220px;width: 400px;top: 4px;">
+		<div id="player" >
 				<div id="duration" class"player_control" >
 					<div id="duration_background"  onClick="durationClicked(event);">
 						<div id="duration_bar" class="duration_bar"></div>
@@ -39,14 +39,14 @@
 				<span class="asy player_control"><a href="#" target="_blank" title="Youtube" id="href_ut">ut</a></span>
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
-		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 4px;">
+		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 650px;top: 4px;">
 			<input type="checkbox" id="enable_radioclash" />radioclash<br />
 			<input type="checkbox" id="searchmode" />searchmodeplaylist<br />
 			<input id="searchfld" value="" onkeyup="if(event.keyCode==13){search_txt(this.value)};return false" onchange="search_txt(this.value)"/><br />
 			<div id="searchres" width="300px; overflow:none">
 			</div>
 		</div>
-		<div id="current" style="position: fixed; top: 40px;left: 220px; bottom: 0px;">
+		<div id="current" style="position: fixed; top: 130px;left: 120px; bottom: 0px;">
 			<div id="msg" style="height: 1.2em;display: none;" class='output'></div>
 			<br />
 			<div id="status_current_mix" style="display:none;height: 1.2em; width: 220px; color: black; font-decoration: italic; font-weight: 900; font-size: 14px;text-align:center;"></div>

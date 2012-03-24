@@ -54,26 +54,43 @@
 		}
 		#duration,#t_duration
 		{
-			width:200px;
-			height:15px;
-			border: 1px solid #ccc;
+			width:400px;
+			height:36px;
 		}
 		#duration_background, #t_duration_background {
-			width:200px;
-			height:15px;
+			width:400px;
+			height:36px;
 			background-color:yellow;
 		}
 		#duration_bar, #t_duration_bar
 		{
 			width:0px;
-			height:15px;
+			height:36px;
 			background-color:#f0f;
+			background-opacity: .4;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+		}
+		#duration_bar_txt span, #t_duration_bar_txt  span{
+			font-size: 32px;
+			font-weight: 900;
+			overflow:none;
+			text-shadow:
+				-1px -1px 0 #000,
+				1px -1px 0 #000,
+				-1px 1px 0 #000,
+				1px 1px 0 #000;
+			-webkit-text-stroke: 1px black;
+			color: yellow;
 		}
 		#duration_bar_txt, #t_duration_bar_txt {
-			position:relative; top: -15px;
+			position:relative; top: -36px;
 			width: 100%;
+			overflow:none;
 			text-align:center;
+			vertical-align:middle;
 		}
+
 	    #main{
 			opacity: 0.0;
 			float:right;
@@ -81,7 +98,18 @@
 			height: 100%;
 	    }
 		#player {
+			padding: 10px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border: 2px solid #f09;
 			background: yellow;
+
+			width: 406px;
+			height: 120px;
+			margin: 10px;
+			left: 120px;
+			top: 4px;
+			position: fixed;
 		}
 		div.status {
 			border: solid #f0f 1px;

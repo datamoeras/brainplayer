@@ -1,7 +1,7 @@
 		(function(db){
 		})(db);
 		$(document).ready(function(){
-			$("#main").animate({opacity: 1}, 10000, function(){});
+			$("#main").animate({opacity: 1}, 4000, function(){});
 		});
 		var ctl = [];
 		var db;
@@ -168,7 +168,7 @@
 			return nf - cf;
 		}
 		var ati = 0;
-		var duration_width = 200;
+		var duration_width = 400;
 		function update_stat(n, v) {
 			$("#stat_" + n).val(v);
 		}
@@ -176,7 +176,7 @@
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
 			var cur = now_playing(time);
-			$("#stat_track_nr").html(cur);
+			$("#stat_track_nr").html(cur+2);
 			if (cti != cur && cti != ati) { einde_track(); }
 			cti = cur;
 			track_duration = ctrack_dur(cur+1);
@@ -232,7 +232,7 @@
 		}
 		function t_durationClicked(event) {
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 220;
+			left = event.currentTarget.offsetLeft + 130;
 			clickoffset = clientX - left;
 			percent = clickoffset/event.currentTarget.offsetWidth;
 			// alert("track_duration=" + track_duration);
@@ -246,7 +246,7 @@
 		}
 		function durationClicked(event) {
 			clientX = event.clientX;
-			left = event.currentTarget.offsetLeft + 220;
+			left = event.currentTarget.offsetLeft + 130;
 			clickoffset = clientX - left;
 			// alert("clientX=" + clientX + " - offsetLeft=" + left + " => " + clickoffset);
 			percent = clickoffset/event.currentTarget.offsetWidth;
