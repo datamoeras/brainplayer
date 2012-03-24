@@ -123,7 +123,7 @@
 		}
 		
 		function highlight_current(i, curt) {
-			document.getElementById("content").innerHTML = "";
+			$("#content").html('');
 			var dv = document.getElementById("tt" + ctl.length);
 			if (dv != undefined) {
 				dv.style.background = "white";
@@ -166,7 +166,7 @@
 				dv.style.background = "yellow";
 				dv.style.color = "#f0f";
 				dv.style.fontWeight = 900;
-				update_wiki(art, tdata["title"]);
+				//update_wiki(art, tdata["title"]);
 			}
 		}
 		var lastwiki;
