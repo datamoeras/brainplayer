@@ -111,77 +111,7 @@ return qq{
 	<head>
 		<link rel="shortcut icon" type="image/png" href="http://www.musiques-incongrues.net/forum/themes/vanilla/styles/scene/favicon.png"/>
 		<title>brain prayer</title>
-		<style type="text/css">
-		*,span,div,i,center,strong {
-			font-size: 11px;
-			font-family: Arial, sans-serif;
-		}
-		input, .asi { 
-			border: 1px solid #ccc;
-			color: #f09;
-		}
-		a {
-			color: #f0f;
-			text-decoration: none;
-		}
-		a:hover {
-			background: yellow;
-			color: #f0f;
-		}
-		#content
-		{
-			clear:both;
-		}
-		.player_control
-		{
-			// float:left;
-			margin-right:5px;
-		}
-		#player
-		{
-			height:60px;
-		}
-		#volume_control
-		{
-			width:10px;
-			height:50px;
-			border: 2px solid #0a0;
-			display:none;
-		}
-		#volume_background
-		{
-			width:10px;
-			height:50px;
-			background-color:#ddd;
-		}
-		#volume_bar
-		{
-			width:10px;
-			height:0px;
-			background-color:#aca;
-		}
-		#duration,#t_duration
-		{
-			width:200px;
-			height:15px;
-			border: 1px solid #ccc;
-		}
-		#duration_background, #t_duration_background {
-			width:200px;
-			height:15px;
-			background-color:#yellow;
-		}
-		#duration_bar, #t_duration_bar
-		{
-			width:0px;
-			height:15px;
-			background-color:#f0f;
-
-		}
-	    #main{
-	      float:right;
-	    }
-	</style>
+		<link rel="stylesheet" type="text/css" href="/git/jpe/bpui.css" >
 		<script type="text/javascript">
 		var db = $json;
 		var ctl = [];
