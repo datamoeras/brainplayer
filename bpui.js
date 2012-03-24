@@ -124,11 +124,7 @@
 		
 		function highlight_current(i, curt) {
 			$("#content").html('');
-			var dv = document.getElementById("tt" + ctl.length);
-			if (dv != undefined) {
-				dv.style.background = "white";
-				dv.style.fontWeight = 100;
-			}
+			$("#tt" + ctl.length).removeClass("track_current");
 			for (o in ctl) $("#tt"+(parseInt(ctl[o][1])-1)).removeClass("track_current").addClass("track");
 			var data = db[ci];
 			if (data == undefined) return;
@@ -147,19 +143,15 @@
 				var art = tdata["artist"];
 				art = art.replace("'", 'g');
 				art = art.replace('"', 'g');
-				document.getElementById("href_ut").innerHTML = '<a style="background:#ccc;" href="http://www.youtube.com/results?search_query=' + tdata["artist"] + '"> ut </a>';
-				document.getElementById("content").innerHTML = bt +
+				$("#href_ut").html('<a style="background:#ccc;" href="http://www.youtube.com/results?search_query=' + tdata["artist"] + '"> ut </a>');
+				$("#content").html(bt +
 					'<input id="button_love" class="player_control" type="button" onClick="search_txt('+ "'" + art + "'" + ')");" style="" value="+" ></input>' +
 					tdata["artist"]+"<br/>"+
 					'<input id="button_love" class="player_control" type="button" onClick="click_love();" style="" value="&hearts;" ></input>'+ 
-					tdata["title"];
+					tdata["title"]);
 				if (tdata["year"] == undefined) tdata["year"] = '';
-				if (tdata["label"] != undefined) document.getElementById("content").innerHTML += '<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>";
+				if (tdata["label"] != undefined) $("#content").append('<br /><span style="font-size:12px;">' + tdata["label"]+" "+tdata["year"] + lnk + "</span>");
 				$("#tt"+i).removeClass("track").addClass("track_current");
-				// dv.style.background = "yellow";
-				// dv.style.color = "#f0f";
-				// dv.style.fontWeight = 900;
-
 				//update_wiki(art, tdata["title"]);
 			}
 		}
