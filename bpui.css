@@ -174,4 +174,13 @@
 			background: yellow;
 			margin-bottom: 4px;
 		}
+		#searchframe {
+			z-index: 3;
+			background: rgba(255, 255, 255, 0.5);
+			position:fixed;
+			right: 20px;top: 34px;
+		}
+		#searchframe {
+
+		}
 
