@@ -11,12 +11,9 @@
 		var pb_0 = 'pause';
 		function bp_loaded()
 		{
-			volume_button = document.getElementById('volume_button');
 			audio_player = document.getElementById("aplayer");
-			volume_control = document.getElementById('volume_control');
 			show_db_listing();
 		}
-
 		function focus_track(i, os) {
 			if (os == undefined) os = 0;
 			var div = document.getElementById("track" + i);

@@ -4,10 +4,10 @@
 		<link rel="shortcut icon" type="image/png" href="http://www.musiques-incongrues.net/forum/themes/vanilla/styles/scene/favicon.png"/>
 		<title>brain prayer</title>
 		<link rel="stylesheet" type="text/css" href="/git/jpe/bpui.css?$time" >
-		<script type="text/javascript" src="/git/jpe/bpui.js"></script>
 		<script type="text/javascript" src="/git/jts/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="/git/jpe/bpui.js"></script>
+		<script type="text/javascript" src="/git/jpe/data.js"></script>
 		<script type="text/javascript">
-		db = $json;
 		function pageLoaded() {
 			bp_loaded();
 			$onload;
@@ -30,14 +30,6 @@
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
 				<a style="background: #ccc" href="#" target="_blank" title="Right click" id="href_as">save</a>
 				<span class="asy player_control"><a href="#" target="_blank" title="Youtube" id="href_ut">ut</a></span>
-				<!--
-				<div id="volume_control" class='player_control' onClick="volumeChangeClicked(event);" style="display:none">
-					<div id="volume_background"  >
-						<div id="volume_bar"></div>
-					</div>
-				</div>
-				<input type="button" class='player_control'  id='volume_button' onClick="volumeClicked();" value="Vol">
-				-->
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
 		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 200px;left: 450px;top: 4px;">
