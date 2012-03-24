@@ -89,7 +89,7 @@
 		#player a {
 			background: yellow;
 		}
-		#player input[type="button"], #player a {
+		#player input[type="button"], #player a, #player select {
 			margin: 2px;
 			padding: 4px;
 			font-size: 14px;
@@ -102,6 +102,14 @@
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
 			width: 32px;
+		}
+		#player select {
+			width: 96px;
+			text-align:left;
+		}
+		#player option {
+			font-size: 14px;
+			text-align:left;
 		}
 		input#playButton { width: 48px; }
 		#current {

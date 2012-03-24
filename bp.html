@@ -36,8 +36,13 @@
 				<input id="button_prev" class="player_control" type="button" onClick="click_prev();" value="&laquo;" ></input>
 				<input id="button_next" class="player_control" type="button" onClick="click_next();" value="&raquo;" ></input>
 				<a href="#" target="_blank" title="Right click" id="href_as">mp3</a>
-				<a href="#" target="_blank" title="Youtube" id="href_ut">tube</a></span>
-				<a href="#" title="Link Current" id="href_cur">link</a></span>
+				<a href="#" target="_blank" title="Youtube" id="href_ut">tube</a>
+				<a href="#" title="Link Current" id="href_cur">link</a>
+				<select id="plst">
+					<option value="">random</option>
+					<option value="12">thebrain42</option>
+					<option value="13">thebrain43</option>
+				</select>
 			<audio id='aplayer' src="" onTimeUpdate="update();" onEnded="trackEnded();" preload="metadata" autobuffer="yes"></audio>
 		</div>
 		<div id="searchframe" style="z-index: 3;background: #fff; position:fixed;left: 650px;top: 4px;">

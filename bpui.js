@@ -66,7 +66,16 @@
 				ctl.push([data["from"], y]);
 			}
 		}
+		function plst_change() {
+			focus_track($('option:selected', $("#plst")).val());
+		}
 		function show_db_listing() {
+			var sel = $("#plst").html('').change(plst_change).append('<option value="random"><i>random</i></option>');
+			for (track in db) {
+				sel.append('<option value="'+track+'">' + db[track]["title"] + '</option>');
+			}
+		}
+		function Xshow_db_listing() {
 			var div = document.getElementById("playlist");
 			div.innerHTML = "";
 			var i = 0;
