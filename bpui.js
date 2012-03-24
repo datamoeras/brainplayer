@@ -355,8 +355,6 @@
 			var res = [];
 			var re = new RegExp(txt, 'i');
 			var cnt = 0;
-			var clash = enable_radioclash();
-			// alert(clash);
 			for (dbi in db) {
 				var brain = db[dbi];
 				for (tri in brain["list"]) {
@@ -364,7 +362,7 @@
 					if (song != undefined && song[1] != undefined) {
 						var str = song[1]["artist"];
 						str += " " + song[1]["title"];
-						if (str.match(re) && (clash || brain["title"].match(/thebrain/))) {
+						if (str.match(re) && (enable_radioclash() || brain["title"].match(/thebrain/))) {
 							res.push([brain, song, dbi, tri]);
 							cnt++;
 							if (cnt > 50) return res;
