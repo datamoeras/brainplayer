@@ -24,9 +24,56 @@
 		var audio_player; 
 		var pb_1 = 'play';
 		var pb_0 = 'pause';
-		function bp_loaded()
-		{
+		var plog = [];
+		var blog = [];
+		var lcnt = 5;
+		function log_progress(e) {
+			if (plog.length > 100) plog.pop();
+			plog.unshift(e.timeStamp);
+		}
+		function calc_speed() {
+			window.setTimeout(calc_speed, 1000);
+			var min = 0;
+			if (plog.length < lcnt) return;
+			var t0=0;
+			var tn = (new Date).getTime() * 1000;
+			var td = (tn - plog[0]) / 1000000;
+			console.log("tnu=" + tn);
+			console.log("t00=" + plog[0]);
+			console.log("t--=" + td);
+			if (plog[0] > 0 && td > 5) {
+				$("#chart").fadeOut();
+			} else {
+				$("#chart").fadeIn();
+			}
+			for (var i=0;i<lcnt;i++) t0=plog[i];
+			var kbps = (plog[0] - t0) / 500;
+			blog.unshift(kbps);
+			var h = kbps > 1024 ? (Math.floor( kbps / 1024 * 10 )/10) + "MB/s" : Math.floor(kbps) + "KB/s";
+			draw_chart(h);
+		}
+		function draw_chart(t) {
+			$("#chart").html('');
+			var max = 0;
+			for (var i=0;i<lcnt*4;i++) {
+				if (blog[i] == null) break;
+				if (blog[i] > max) max = blog[i];
+			}
+			var scal = $("#chart").height() / max;
+			for (var i=0;i<lcnt*4;i++) {
+				if (blog[i] == null) break;
+				var px = Math.floor(blog[i]*scal);
+				$("#chart").append('<div class="chartline" style="height: ' + px + 'px;"></div>');
+			}
+			$("#chart").append('<div style="position:relative;width: 40px; height: 16px;left: 40px;top:-16px;" id="charttxt">' + t + '</div>');
+		}
+		calc_speed();
+		function bp_loaded() {
 			audio_player = document.getElementById("aplayer");
+			$(audio_player)
+				.bind('stalled', function(){})
+				.bind('waiting', function(){})
+				.bind('progress', function(e){log_progress(e.originalEvent)});
 			show_db_listing();
 		}
 		function focus_track(i, os) {
