@@ -9,7 +9,7 @@
 		div#tracklist {
 			margin-top: 4px;
 			padding: 10px;
-			width: 408px;
+			width: 100%;
 			border: solid 2px #f09;
 			border-opacity: .8;
 			background-repeat: no-repeat;
@@ -85,12 +85,12 @@
 			margin-bottom: 10px;
 		}
 		#duration,#t_duration {
-			width:400px;
+			width:90%;
 			height:36px;
 			margin-bottom: 6px;
 		}
 		#duration_background, #t_duration_background {
-			width:400px;
+			width:100%;
 			height:36px;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
@@ -136,25 +136,26 @@
 
 	    #main{
 			opacity: 0.0;
-			width: 420px;
+			width: 80%;
 			position: absolute;
 			top: 0px;
 			bottom: 0px;
-			width: 420px;
-			left: 25%;
+			left: 10%;
 			z-index: 19;
 			height: 100%;
 	    }
 		#player {
 			padding: 10px;
+			margin: 10px;
+		}
+		#player {
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
 			border: 2px solid #f09;
 			background: yellow;
 
-			width: 406px;
+			width: 100%;
 			height: 120px;
-			margin: 10px;
 		}
 		#player a {
 			background: yellow;
@@ -186,18 +187,22 @@
 			background-opacity: .4;
 		}
 		input#playButton { width: 48px; }
-		#current {
-			margin: 10px;
-			margin-top: 0px;
+		#buttons {
+			left: auto;
 		}
-		div.status {
+		#current {
+			margin-top: 0px;
+			width: 100%;
+			padding: 10px;
+		}
+		div#status {
 		}
 		div#status input {
 			border: solid #f09 2px;
 			font-size: 14px;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
-			padding: 4px;
+			padding: 10px;
 			width: 420px;
 			background: yellow;
 			margin-bottom: 4px;
