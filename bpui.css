@@ -3,10 +3,28 @@
 			font-family: Arial, sans-serif;
 		}
 		div.track {
-			background:#fff;color:#000;font-weight:100;
+			background:yellow;color:#000;font-weight:100;
+			cursor: hand;
+			cursor: pointer;
+			white-space: no-break;
+		}
+		div#tracklist span {
+			overflow:none;
+		}
+		span.tracknum { width: 3em; float: left; }
+		div#tracklist {
+			background: yellow;
+			margin-top: 4px;
+			padding: 4px;
+			width: 420px;
+			border: solid 1px #f09;
+			border-opacity: .8;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			overflow: none;
 		}
 		div.track_current {
-			background:yellow;color:#f0f;font-weight:900;
+			color:#f0f;font-weight:900;
 		}
 		input, .asi { 
 			border: 1px solid #ccc;

@@ -57,14 +57,12 @@
 			$(div).html('');
 			ctl = [];
 			for (y in list) {
+				if (list[y][1] == null) continue;
 				var t = list[y];
-				var tm = t[0];
-				var data = t[1];
-				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				$(div).append('<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" styleniet="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>');
-				ctl.push([data["from"], y]);
+				$(div).append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span><nobr>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"] + '&nbsp;-&nbsp;' + t[1]["title"] + '</nobr></div>');
+				ctl.push([t[1]["from"], y]);
 			}
 		}
 		function plst_change() {
