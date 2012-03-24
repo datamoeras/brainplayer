@@ -16,7 +16,7 @@
 			background-position: center center;
 			background-color: yellow;
 			background-size: 96% auto;
-			background-opacity: .8;
+			background-opacity: 0.0;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
 			overflow: none;
@@ -24,12 +24,13 @@
 		div.track, div.track_current {
 			color:#000;
 			white-space: no-break;
-			background: rgba(255, 255, 0, .6);
+			background: rgba(255, 255, 0, .45);
+			font-size: 14px;
 			overflow:none;
 		}
 		div.track:hover, div.track_current:hover {
 			background: yellow;
-			background-opacity: 1;
+			background-opacity: .6;
 			cursor: hand;
 			cursor: pointer;
 		}
@@ -68,8 +69,8 @@
 			-webkit-border-radius: 10px;
 		}
 		#duration_background:hover, #t_duration_background:hover {
-			cursor:pointer;
 			cursor:hand;
+			cursor:pointer;
 		}
 		#duration_bar, #t_duration_bar
 		{
