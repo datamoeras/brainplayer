@@ -1,4 +1,7 @@
+		(function(db){
+		})();
 		var ctl = [];
+		var db;
 		var ci;
 		var cti;
 		var audio_duration;
@@ -6,6 +9,14 @@
 		var audio_player; 
 		var pb_1 = 'play';
 		var pb_0 = 'pause';
+		function bp_loaded()
+		{
+			volume_button = document.getElementById('volume_button');
+			audio_player = document.getElementById("aplayer");
+			volume_control = document.getElementById('volume_control');
+			show_db_listing();
+		}
+
 		function focus_track(i, os) {
 			if (os == undefined) os = 0;
 			var div = document.getElementById("track" + i);
@@ -63,7 +74,7 @@
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				$(div).append('<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>');
+				$(div).append('<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" styleniet="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>');
 				ctl.push([data["from"], y]);
 			}
 		}
@@ -167,6 +178,7 @@
 			return nf - cf;
 		}
 		var ati = 0;
+		var duration_width = 200;
 		function update() {
 			dur = audio_player.duration;
 			time = audio_player.currentTime;
@@ -185,17 +197,9 @@
 			var tsec = parseInt(toff - (tmin*60));
 			var tssec = tsec;
 			if (tssec < 10) { tssec = "0" + tssec; }
-			document.getElementById("msg").innerHTML += " " + tmin + ":" + tssec;
-			tdur = track_duration;
-			var fraction = time/dur;
-			var tfraction = toff/tdur;
-			var wrapper = document.getElementById("duration_background");
-			var twrapper = document.getElementById("t_duration_background");
-			var new_width = wrapper.offsetWidth*fraction;
-			var tnew_width = twrapper.offsetWidth*tfraction;
-			document.getElementById("duration_bar").style.width=new_width+"px";
-			document.getElementById("t_duration_bar").style.width=tnew_width+"px";
-
+			$("#msg").append(" " + tmin + ":" + tssec);
+			$("#duration_bar").css({width:(duration_width*(time/dur)) + 'px'});
+			$("#t_duration_bar").css({width:(duration_width*(toff/track_duration)) + 'px'});
 		}
 		var searchres = [];
 		var searchplayi = 0;

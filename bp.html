@@ -4,19 +4,12 @@
 		<link rel="shortcut icon" type="image/png" href="http://www.musiques-incongrues.net/forum/themes/vanilla/styles/scene/favicon.png"/>
 		<title>brain prayer</title>
 		<link rel="stylesheet" type="text/css" href="/git/jpe/bpui.css?$time" >
-		<script type="text/javascript">
-		var db = $json;
-		</script>
 		<script type="text/javascript" src="/git/jpe/bpui.js"></script>
 		<script type="text/javascript" src="/git/jts/jquery-1.7.1.min.js"></script>
 		<script type="text/javascript">
-		function pageLoaded()
-		{
-			show_db_listing();
-			volume_button = document.getElementById('volume_button');
-			audio_player = document.getElementById("aplayer");
-			volume_control = document.getElementById('volume_control');
-			set_volume(1.0);
+		db = $json;
+		function pageLoaded() {
+			bp_loaded();
 			$onload;
 		}
 		</script>
