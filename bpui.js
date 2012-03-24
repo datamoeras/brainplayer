@@ -4,8 +4,6 @@
 		var audio_duration;
 		var track_duration;
 		var audio_player; 
-		var volume_button; 
-		var volume_control;
 		var pb_1 = 'play';
 		var pb_0 = 'pause';
 		function focus_track(i, os) {
@@ -56,7 +54,7 @@
 			};
 		}
 		function draw_tracklist(div, i, list) {
-			div.innerHTML = "";
+			$(div).html('');
 			ctl = [];
 			for (y in list) {
 				var t = list[y];
@@ -65,15 +63,8 @@
 				if (data == undefined) continue;
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				div.innerHTML += '<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>';
+				$(div).append('<div class="track" froms="' + data["from"] + '" id="tt' + ij + '" style="cursor:pointer;cursor:hand"><nobr onclick="seekto(' + data["from"] + ')">' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;-&nbsp;' + data["artist"] + '&nbsp;-&nbsp;' + data["title"] + '</nobr></div>');
 				ctl.push([data["from"], y]);
-				/*
-				div.innerHTML += '<div style="" froms="' + data["from"] + '" id="tt' + ij + '" onclick="seekto(' + data["from"] + ')">';
-				div.innerHTML +=     '' + ei + '&nbsp;' + tm[0] + ":" + tm[1] + '&nbsp;';
-				div.innerHTML +=     '' + data["artist"] + '&nbsp;';
-				div.innerHTML +=     '' + data["title"] + '';
-				div.innerHTML += '</div>';
-				*/
 			}
 		}
 		function show_db_listing() {
@@ -90,38 +81,6 @@
 			var brain_offset = 6;
 			focus_track(Math.floor(Math.random()*( enable_radioclash ? ( db.length - brain_offset) : 33)) + ( enable_radioclash ? 0 : 6 ));
 		}
-		function set_volume(new_volume)
-		{
-			audio_player.volume = new_volume;
-			update_volume_bar();
-			if (volume_button) 
-				volume_button.value = "Volume: "+parseInt(new_volume*100);
-			var control = document.getElementById('volume_control');
-			if (control) 
-				control.style.display='none';
-			if (volume_button) 
-				but.style.display='inline';
-			
-		}
-		function update_volume_bar()
-		{
-
-			if (volume_button) {
-				new_top = volume_button.offsetHeight  - volume_control.offsetHeight;
-				volume_control.style.top = new_top+"px";
-				volume = audio_player.volume;
-				//change the size of the volume  bar
-				wrapper = document.getElementById("volume_background");
-				wrapper_height = wrapper.offsetHeight;
-				wrapper_top = wrapper.offsetTop;
-				new_height= wrapper_height*volume;
-				volume_bar = document.getElementById("volume_bar");
-				volume_bar.style.height=new_height+"px";
-				new_top =  wrapper_top + (  wrapper_height - new_height  );
-				volume_bar.style.top=new_top+"px";
-			}
-		}
-		
 		function highlight_current(i, curt) {
 			$("#content").html('');
 			$("#tt" + ctl.length).removeClass("track_current");
@@ -272,36 +231,6 @@
 			// alert("eind van " + ci + ", skip naar " + nxt);
 			focus_track(nxt);
 		}
-		function volumeClicked(event)
-		{
-			var control = document.getElementById('volume_control');
-			var but = document.getElementById('volume_button');
-			if (control == undefined) return;
-			
-			if(control.style.display!="none")
-			{
-				control.style.display="None";
-				but.style.display='';
-			}else{
-				control.style.display="Block";
-				but.style.display='none';
-				update_volume_bar();
-			}
-		}
-		
-		function volumeChangeClicked(event)
-		{
-			var but = document.getElementById('volume_button');
-			if (but == undefined) return;
-			offset =  event.currentTarget.offsetHeight - event.clientY;
-			// alert("clientY=" + clientY + ",offsetTop=" + event.currentTarget.offsetTop + " => " + offset);
-			volume = offset/event.currentTarget.offsetHeight;
-			// alert("vol=" + volume);
-			set_volume(volume);
-			update_volume_bar();
-			// volumeClicked();
-		}
-		
 		function t_durationClicked(event)
 		{
 			//get the position of the event
