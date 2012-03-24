@@ -24,7 +24,7 @@
 		div.track, div.track_current {
 			color:#000;
 			white-space: no-break;
-			background: rgba(255, 255, 0, .7);
+			background: rgba(255, 255, 0, .6);
 			overflow:none;
 		}
 		div.track:hover, div.track_current:hover {
