@@ -2,6 +2,7 @@
 		})(db);
 		$(document).ready(function(){
 			$("#main").animate({opacity: 1}, 4000, function(){});
+			$(window).bind('resize', resize_tracklist);
 			$("#duration_background, #t_duration_background").click(function(e) {
 				var x=e.pageX-$(this).offset().left
 				   ,w=$(this).width();
@@ -38,9 +39,6 @@
 			var t0=0;
 			var tn = (new Date).getTime() * 1000;
 			var td = (tn - plog[0]) / 1000000;
-			console.log("tnu=" + tn);
-			console.log("t00=" + plog[0]);
-			console.log("t--=" + td);
 			if (plog[0] > 0 && td > 5) {
 				$("#chart").fadeOut();
 			} else {
@@ -115,17 +113,33 @@
 				window.setTimeout(function(){ seekto(s); }, 300);
 			};
 		}
+		var tti = 10;
 		function draw_tracklist(div, i, list) {
-			$(div).html('');
+			$(div).html('<div id="tracklistfill"></div>');
 			ctl = [];
-			for (y in list) {
+			var u = 0;
+			for (var y in list) {
 				if (list[y][1] == null) continue;
 				var t = list[y];
+				if (t[1]["artist"] == null) t[1]["artist"]='';
 				var ij = parseInt(y) - 1;
 				var ei = parseInt(y) + 1;
-				$(div).append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span><nobr>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"].substr(0, 40) + '&nbsp;-&nbsp;' + t[1]["title"].substr(0, 40) + '</nobr></div>');
+				$("#tracklistfill").append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + t[1]["artist"].substr(0, 40) + '&nbsp;-&nbsp;' + t[1]["title"].substr(0, 40) + '</div>');
 				ctl.push([t[1]["from"], y]);
+				u++;
 			}
+			tti = u;
+			resize_tracklist();
+		}
+		function resize_tracklist() {
+			var win = $(window).innerHeight();
+			var lines = tti+1;
+			var over = win - $("#tracklist").offset().top - 60;
+			var ppl = Math.floor( (over / lines)  -4);
+			$("#tracklist").css({height:over});
+			$(".track, .track span,.track_current, .track_current span").css({'font-size':ppl});
+			// $("#tracklist").append("<br />foo bar baz: ppl=" + ppl + "/" + win);
+			console.log("fontsize: " + ppl + " voor " + lines + " regels");
 		}
 		function plst_change() {
 			focus_track($('option:selected', $("#plst")).val());
