@@ -118,6 +118,7 @@
 			$(div).html('<div id="tracklistfill"></div>');
 			ctl = [];
 			var u = 0;
+			$("#tracklistfill").append('<div class="track" ><span>&nbsp;</span></div>');
 			for (var y in list) {
 				if (list[y][1] == null) continue;
 				var t = list[y];
@@ -125,18 +126,21 @@
 				var ei = parseInt(y) + 1;
 				var art = t[1]["artist"] ? t[1]["artist"].substr(0, 40) : '';
 				var tit = t[1]["title"] ? t[1]["title"].substr(0, 40) : '';
-				$("#tracklistfill").append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + art + '&nbsp;-&nbsp;' + tit + '</div>');
+				$("#tracklistfill").append('<div class="track" froms="' + t[1]["from"] + '" id="tt' + ij + '" onclick="seekto(' + t[1]["from"] + ')"><span class="tracknum">' + ei + '</span><span>&nbsp;' + t[0][0] + ":" + t[0][1] + '&nbsp;-&nbsp;' + art + '&nbsp;-&nbsp;' + tit + '</span></div>');
 				ctl.push([t[1]["from"], y]);
 				u++;
 			}
+			for (var o=0;o<=10;o++)
+				$("#tracklistfill").append('<div class="track" ><span>&nbsp;</span></div>');
 			tti = u;
 			resize_tracklist();
 		}
 		function resize_tracklist() {
 			var win = $(window).innerHeight();
 			var lines = tti+1;
-			var over = win - $("#tracklist").offset().top - 60;
-			var ppl = Math.floor( (over / lines)  -4);
+			var over = win - $("#tracklist").offset().top - 30;
+			var ppl = Math.floor( (over / lines) -2);
+			if (ppl >18) ppl = 18;
 			$("#tracklist").css({height:over,padding: 0});
 			$("#tracklistfill").css({height:over,padding: 0});
 			$(".track, .track span,.track_current, .track_current span").css({'font-size':ppl});

@@ -16,7 +16,7 @@
 			background-repeat: no-repeat;
 			background-position: center center;
 			background-color: yellow;
-			background-size: 100% auto;
+			background-size: 120% auto;
 			background-opacity: 0.0;
 			-moz-border-radius: 10px;
 			-webkit-border-radius: 10px;
@@ -32,6 +32,8 @@
 			overflow:none;
 			padding-top: 0px;
 			padding-bottom: 0px;
+			line-height: 1.0em;
+			margin: 0px;
 		}
 		div.track_current {
 			color:#f0f;
@@ -216,9 +218,8 @@
 		div#tracklistfill {
 			margin-top: 0px;
 			padding-top: 0px;
-			height: 100%;
 			background: rgba(255, 255, 255, 0.3);
-			width: 100%;
+			overflow:hidden;
 		}
 		#searchframe {
 			z-index: 3;
